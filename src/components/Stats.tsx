@@ -27,7 +27,6 @@ function Stats({
   return (
     <>
       <section className={`${ui.panel} ${ui.introPanel}`}>
-        <p className={ui.kicker}>{t(uiLanguage, 'levelProgress')}</p>
         <h1>{t(uiLanguage, 'statsTitle')}</h1>
       </section>
 

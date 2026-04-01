@@ -42,6 +42,7 @@ export function createDefaultProgress(): UserProgress {
     settings: {
       currentLevel: 'A1',
       nativeLanguage: 'en',
+      hasCompletedOnboarding: false,
     },
     levels: {
       A1: createEmptyLevelProgress(),
@@ -62,6 +63,7 @@ export function mergeProgress(rawValue: Partial<UserProgress> | null | undefined
     settings: {
       currentLevel: rawValue.settings?.currentLevel ?? base.settings.currentLevel,
       nativeLanguage: rawValue.settings?.nativeLanguage ?? base.settings.nativeLanguage,
+      hasCompletedOnboarding: rawValue.settings?.hasCompletedOnboarding ?? true,
     },
     levels: {
       A1: {

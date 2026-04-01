@@ -1,12 +1,11 @@
 import { t } from '../lib/i18n';
-import { LEVELS } from '../lib/progress';
-import type { Level, NativeLanguage, UserProgress } from '../types';
+import type { Level, NativeLanguage } from '../types';
 import styles from './Home.module.css';
 import ui from '../styles/ui.module.css';
 
 type HomeProps = {
   uiLanguage: NativeLanguage;
-  settings: UserProgress['settings'];
+  currentLevel: Level;
   learnedWords: number;
   weakWords: number;
   totalWords: number;
@@ -14,15 +13,13 @@ type HomeProps = {
   reviewPercent: number;
   canStartLesson: boolean;
   hasMistakesToReview: boolean;
-  hasRussianTranslations: boolean;
-  onUpdateSettings: (nextSettings: Partial<UserProgress['settings']>) => void | Promise<void>;
   onStartLesson: () => void;
   onStartReview: () => void;
 };
 
 function Home({
   uiLanguage,
-  settings,
+  currentLevel,
   learnedWords,
   weakWords,
   totalWords,
@@ -30,8 +27,6 @@ function Home({
   reviewPercent,
   canStartLesson,
   hasMistakesToReview,
-  hasRussianTranslations,
-  onUpdateSettings,
   onStartLesson,
   onStartReview,
 }: HomeProps) {
@@ -42,34 +37,8 @@ function Home({
       </section>
 
       <section className={`${ui.panel} ${styles.settingsPanel}`}>
-        <label className={styles.fieldLabel}>
-          <span>{t(uiLanguage, 'level')}</span>
-          <select
-            className={styles.selectControl}
-            value={settings.currentLevel}
-            onChange={(event) => onUpdateSettings({ currentLevel: event.target.value as Level })}
-          >
-            {LEVELS.map((level) => (
-              <option key={level} value={level}>
-                {level}
-              </option>
-            ))}
-          </select>
-        </label>
-
-        <label className={styles.fieldLabel}>
-          <span>{t(uiLanguage, 'nativeLanguage')}</span>
-          <select
-            className={styles.selectControl}
-            value={settings.nativeLanguage}
-            onChange={(event) => onUpdateSettings({ nativeLanguage: event.target.value as NativeLanguage })}
-          >
-            <option value="en">{t(uiLanguage, 'english')}</option>
-            <option value="ru">{t(uiLanguage, 'russian')}</option>
-          </select>
-        </label>
-
         <section className={styles.levelProgressCard} aria-label={t(uiLanguage, 'levelProgress')}>
+          <h2 className={styles.currentLevel}>{t(uiLanguage, 'level')}: {currentLevel}</h2>
           <div className={styles.progressCopy}>
             <span className={styles.progressMeta}>
               {learnedWords} / {totalWords} {t(uiLanguage, 'learnedWords').toLowerCase()}
@@ -90,8 +59,6 @@ function Home({
             </span>
           </div>
         </section>
-
-        {settings.nativeLanguage === 'ru' && !hasRussianTranslations && <p className={ui.notice}>{t(uiLanguage, 'noRussianData')}</p>}
 
         {!canStartLesson && <p className={ui.notice}>{t(uiLanguage, 'insufficientWords')}</p>}
 

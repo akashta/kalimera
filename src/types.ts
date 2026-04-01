@@ -33,6 +33,7 @@ export interface LevelProgress {
 export interface UserSettings {
   currentLevel: Level;
   nativeLanguage: NativeLanguage;
+  hasCompletedOnboarding: boolean;
 }
 
 export interface UserProgress {

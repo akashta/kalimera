@@ -3,9 +3,9 @@ import type { NativeLanguage } from '../types';
 import styles from './BottomNav.module.css';
 
 type BottomNavProps = {
-  screen: 'home' | 'stats';
+  screen: 'home' | 'stats' | 'settings';
   uiLanguage: NativeLanguage;
-  onChangeScreen: (screen: 'home' | 'stats') => void;
+  onChangeScreen: (screen: 'home' | 'stats' | 'settings') => void;
 };
 
 function BottomNav({ screen, uiLanguage, onChangeScreen }: BottomNavProps) {
@@ -24,6 +24,13 @@ function BottomNav({ screen, uiLanguage, onChangeScreen }: BottomNavProps) {
         onClick={() => onChangeScreen('stats')}
       >
         {t(uiLanguage, 'statsTab')}
+      </button>
+      <button
+        type="button"
+        className={screen === 'settings' ? `${styles.tabButton} ${styles.active}` : styles.tabButton}
+        onClick={() => onChangeScreen('settings')}
+      >
+        {t(uiLanguage, 'settingsTab')}
       </button>
     </nav>
   );

@@ -2,7 +2,9 @@ import { useEffect, useMemo, useRef, useState } from 'react';
 import BottomNav from './components/BottomNav';
 import Home from './components/Home';
 import Lesson from './components/Lesson';
+import Onboarding from './components/Onboarding';
 import Results from './components/Results';
+import Settings from './components/Settings';
 import Stats from './components/Stats';
 import styles from './App.module.css';
 import { playCorrectSound, playLessonFinishedSound, playWrongSound, speakGreek } from './lib/audio';
@@ -13,7 +15,7 @@ import { getStorageAdapter } from './lib/storage';
 import { hasCompleteNativeTranslations, wordsByLevel } from './lib/words';
 import type { LessonAnswer, LessonSession, UserProgress } from './types';
 
-type Screen = 'home' | 'stats' | 'lesson' | 'results';
+type Screen = 'home' | 'stats' | 'settings' | 'lesson' | 'results';
 
 const storage = getStorageAdapter();
 
@@ -92,6 +94,19 @@ function App() {
       },
     };
     await persistProgress(nextProgress);
+  }
+
+  async function completeOnboarding(nextSettings: Pick<UserProgress['settings'], 'currentLevel' | 'nativeLanguage'>) {
+    const nextProgress = {
+      ...progress,
+      settings: {
+        ...progress.settings,
+        ...nextSettings,
+        hasCompletedOnboarding: true,
+      },
+    };
+    await persistProgress(nextProgress);
+    setScreen('home');
   }
 
   function openLesson(lesson: LessonSession) {
@@ -241,6 +256,7 @@ function App() {
   const weakWords = getWeakWordIds(currentLevelProgress).length;
   const learnedWords = getMasteredWordCount(currentLevelProgress);
   const totalWords = currentWords.length;
+  const needsOnboarding = !progress.settings.hasCompletedOnboarding;
   const learnedPercent = totalWords === 0 ? 0 : Math.min(100, (learnedWords / totalWords) * 100);
   const reviewPercent = totalWords === 0 ? 0 : Math.min(100 - learnedPercent, (weakWords / totalWords) * 100);
   const totalAttempts = currentLevelProgress.totalCorrect + currentLevelProgress.totalWrong;
@@ -267,10 +283,11 @@ function App() {
           : styles.appShell
       }
     >
-      {screen === 'home' && (
+      {needsOnboarding && <Onboarding onComplete={completeOnboarding} />}
+      {!needsOnboarding && screen === 'home' && (
         <Home
           uiLanguage={uiLanguage}
-          settings={progress.settings}
+          currentLevel={currentLevel}
           learnedWords={learnedWords}
           weakWords={weakWords}
           totalWords={totalWords}
@@ -278,13 +295,11 @@ function App() {
           reviewPercent={reviewPercent}
           canStartLesson={canStartLesson}
           hasMistakesToReview={hasMistakesToReview}
-          hasRussianTranslations={hasRussianTranslations}
-          onUpdateSettings={updateSettings}
           onStartLesson={startLesson}
           onStartReview={() => startReview()}
         />
       )}
-      {screen === 'stats' && (
+      {!needsOnboarding && screen === 'stats' && (
         <Stats
           uiLanguage={uiLanguage}
           currentLevel={currentLevel}
@@ -295,7 +310,15 @@ function App() {
           accuracy={accuracy}
         />
       )}
-      {screen === 'lesson' && question && activeLesson && (
+      {!needsOnboarding && screen === 'settings' && (
+        <Settings
+          uiLanguage={uiLanguage}
+          settings={progress.settings}
+          hasRussianTranslations={hasRussianTranslations}
+          onUpdateSettings={updateSettings}
+        />
+      )}
+      {!needsOnboarding && screen === 'lesson' && question && activeLesson && (
         <Lesson
           uiLanguage={uiLanguage}
           activeLesson={activeLesson}
@@ -309,7 +332,7 @@ function App() {
           onMarkKnown={markKnown}
         />
       )}
-      {screen === 'results' && (
+      {!needsOnboarding && screen === 'results' && (
         <Results
           uiLanguage={uiLanguage}
           correctAnswers={correctAnswers}
@@ -322,7 +345,7 @@ function App() {
         />
       )}
 
-      {(screen === 'home' || screen === 'stats') && (
+      {!needsOnboarding && (screen === 'home' || screen === 'stats' || screen === 'settings') && (
         <BottomNav screen={screen} uiLanguage={uiLanguage} onChangeScreen={setScreen} />
       )}
     </main>

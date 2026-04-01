@@ -4,6 +4,12 @@
   margin-bottom: 14px;
 }
 
+.currentLevel {
+  margin: 2px 0 0;
+  color: #516258;
+  font-size: 0.95rem;
+}
+
 .fieldLabel {
   display: grid;
   gap: 8px;
@@ -75,6 +81,8 @@
   gap: 8px;
   color: #405147;
   font-size: 0.9rem;
+  min-width: 0;
+  line-height: 1.35;
 }
 
 .legendDot {
@@ -90,4 +98,11 @@
 
 .reviewDot {
   background: #ef9c3d;
+}
+
+@media (max-width: 380px) {
+  .progressLegend {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
 }
