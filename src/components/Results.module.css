@@ -1,0 +1,66 @@
+.resultsPanel {
+  display: grid;
+  gap: 16px;
+}
+
+.resultsScreen {
+  min-height: calc(100vh - 24px);
+}
+
+.resultsBlock {
+  display: grid;
+  gap: 10px;
+}
+
+.resultsHeading {
+  font-size: 0.92rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  color: #56675e;
+}
+
+.resultsList {
+  display: grid;
+  gap: 10px;
+}
+
+.compactResultsList {
+  gap: 8px;
+}
+
+.resultsRow {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  background: rgba(246, 241, 223, 0.72);
+  border: 1px solid rgba(17, 32, 25, 0.06);
+  border-radius: 12px;
+}
+
+.resultsPrompt,
+.resultsAnswer {
+  font-size: 0.95rem;
+  line-height: 1.25;
+}
+
+.resultsPrompt {
+  font-weight: 600;
+}
+
+.resultsAnswer {
+  color: #405147;
+}
+
+.resultsArrow {
+  color: #87988f;
+  font-weight: 700;
+}
+
+.emptyMessage {
+  color: #405147;
+  background: #f7f2e3;
+  border-radius: 14px;
+  padding: 14px 16px;
+}

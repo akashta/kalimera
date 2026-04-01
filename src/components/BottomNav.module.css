@@ -1,0 +1,46 @@
+.tabBar {
+  position: fixed;
+  left: 50%;
+  bottom: 12px;
+  transform: translateX(-50%);
+  width: min(calc(100% - 24px), 31rem);
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 6px;
+  padding: 8px;
+  background: rgba(255, 253, 247, 0.96);
+  border: 1px solid rgba(17, 32, 25, 0.08);
+  border-radius: 24px;
+  box-shadow: 0 14px 45px rgba(75, 78, 62, 0.14);
+  backdrop-filter: blur(14px);
+}
+
+.tabButton {
+  min-height: 54px;
+  background: transparent;
+  color: #516258;
+  border-radius: 18px;
+  display: grid;
+  place-items: center;
+  font-size: 0.88rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  position: relative;
+}
+
+.active {
+  background: rgba(30, 122, 90, 0.14);
+  color: #145942;
+}
+
+.active::before {
+  content: '';
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1.9rem;
+  height: 0.24rem;
+  border-radius: 999px;
+  background: #1e7a5a;
+}

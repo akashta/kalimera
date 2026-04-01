@@ -1,0 +1,60 @@
+.heroPanel {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 14px;
+}
+
+.heroStats {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.heroCard {
+  background: #f6f1df;
+  border-radius: 16px;
+  padding: 14px;
+}
+
+.heroLabel {
+  color: #516258;
+}
+
+.heroValue {
+  display: block;
+  margin-top: 4px;
+  font-size: 1.45rem;
+}
+
+.levelPanel {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 14px;
+}
+
+.levelCard {
+  display: grid;
+  gap: 10px;
+  background: #f6f1df;
+  border-radius: 16px;
+  padding: 14px;
+}
+
+.selected {
+  outline: 2px solid rgba(30, 122, 90, 0.22);
+}
+
+.levelHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.levelMeta {
+  color: #516258;
+}
+
+.levelCopy {
+  color: #516258;
+}

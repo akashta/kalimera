@@ -1,0 +1,136 @@
+.lessonPanel {
+  display: grid;
+  gap: 16px;
+}
+
+.lessonScreen {
+  min-height: calc(100vh - 24px);
+}
+
+.lessonHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.progressTrack {
+  width: 100%;
+  height: 10px;
+  background: #ebe6d4;
+  border-radius: 999px;
+  overflow: hidden;
+}
+
+.progressFill {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg, #1e7a5a, #f4ae46);
+  border-radius: inherit;
+}
+
+.badgeRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 7px 12px;
+  font-size: 0.85rem;
+}
+
+.reviewBadge {
+  background: #d8efe1;
+  color: #145942;
+}
+
+.freshBadge {
+  background: #faefd3;
+  color: #92571b;
+}
+
+.audioButton {
+  width: 2.75rem;
+  min-width: 2.75rem;
+  min-height: 2.75rem;
+  padding: 0;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 999px;
+  background: #e8ecd7;
+  color: #1d2a22;
+}
+
+.speakerIcon {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.promptLabel {
+  color: #4e6156;
+}
+
+.promptCard {
+  background: linear-gradient(135deg, #fffdf7, #f4ecdb);
+  border-radius: 24px;
+  padding: 24px 18px;
+  text-align: center;
+  font-size: clamp(1.9rem, 11vw, 3rem);
+  font-weight: 700;
+  min-height: 128px;
+  display: grid;
+  place-items: center;
+}
+
+.choiceGrid {
+  display: grid;
+  gap: 12px;
+}
+
+.choiceButton {
+  width: 100%;
+  min-height: 60px;
+  padding: 16px;
+  text-align: left;
+  background: white;
+  border: 1px solid rgba(17, 32, 25, 0.08);
+}
+
+.correct {
+  background: #dbf2e4;
+}
+
+.wrong {
+  background: #fde1da;
+}
+
+.muted {
+  opacity: 0.6;
+}
+
+.lessonActions {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.dangerButton {
+  min-height: 50px;
+  padding: 12px 16px;
+  background: #fde1da;
+  color: #992f1a;
+}
+
+.successButton {
+  min-height: 50px;
+  padding: 12px 16px;
+  background: #dbf2e4;
+  color: #145942;
+}

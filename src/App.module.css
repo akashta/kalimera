@@ -1,0 +1,14 @@
+.appShell {
+  width: min(100%, 31rem);
+  margin: 0 auto;
+  padding: 12px 12px 96px;
+}
+
+.appShellFocused {
+  padding-bottom: 24px;
+}
+
+.loadingState {
+  display: grid;
+  place-items: center;
+}

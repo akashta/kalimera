@@ -1,0 +1,68 @@
+.panel {
+  background: rgba(255, 253, 247, 0.9);
+  border: 1px solid rgba(17, 32, 25, 0.08);
+  border-radius: 24px;
+  padding: 18px;
+  box-shadow: 0 14px 45px rgba(75, 78, 62, 0.08);
+  backdrop-filter: blur(14px);
+}
+
+.introPanel {
+  display: grid;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+.subtitle {
+  margin-top: 8px;
+  color: #405147;
+}
+
+.kicker {
+  margin: 0 0 8px;
+  color: #476254;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.primaryButton {
+  width: 100%;
+  min-height: 54px;
+  padding: 14px 18px;
+  background: #1e7a5a;
+  color: white;
+}
+
+.secondaryButton {
+  width: 100%;
+  min-height: 50px;
+  padding: 12px 16px;
+  background: #e8ecd7;
+  color: #1d2a22;
+}
+
+.ghostButton {
+  width: 100%;
+  min-height: 50px;
+  padding: 12px 16px;
+  background: #e8ecd7;
+  color: #1d2a22;
+}
+
+.compactButton {
+  width: auto;
+}
+
+.notice {
+  color: #8f3d21;
+  background: #fff1d9;
+  border-radius: 14px;
+  padding: 12px 14px;
+}
