@@ -5,8 +5,8 @@
 4,αγαπημένος,favorite,любимый,A2,feelings
 5,αγαπητός,"dear, darling","дорогой, милый",A2,feelings
 6,αγγελία,"advertisement, ad","реклама, объявление",A2,communication
-7,Αγγελική,Angelica,Анжелика,A2,general
-8,Άγγελος,Angelo,Анджело,A2,general
+7,Αγγελική,Angelica,Анжелика,A2,names
+8,Άγγελος,Angelo,Анджело,A2,names
 9,Αγγλία,England,Англия,A2,countries
 10,άγγλος,English person,"англичанин, англичанка",A2,people
 11,αγγούρι,cucumber,огурец,A2,food
@@ -31,9 +31,9 @@
 30,αέριο,gas,газ,A2,weather
 31,αεροδρόμιο,airport,аэропорт,A2,city
 32,αεροπλάνο,airplane,самолет,A2,general
-33,Αθανασία,Athanassia,Афанасия,A2,general
-34,Αθηνά,Athina,Атина,A2,general
-35,αθλητής,athlete,спортсмен,A2,general
+33,Αθανασία,Athanassia,Афанасия,A2,names
+34,Αθηνά,Athina,Атина,A2,names
+35,αθλητής,athlete,спортсмен,A2,sports
 36,αθλητισμός,sports,спорт,A2,leisure
 37,Αιγαίο πέλαγος,the Aegean Sea,эгейское море,A2,weather
 38,Αίγινα,Aegina,Эгина,A2,countries
@@ -42,7 +42,7 @@
 41,αιγυπτιακός,Egyptian,египетский,A2,countries
 42,Αιθιοπία,Ethiopia,Эфиопия,A2,countries
 43,αίμα,blood,кровь,A2,body
-44,Αιμιλία,Emilia,Эмилия,A2,general
+44,Αιμιλία,Emilia,Эмилия,A2,names
 45,αισθάνομαι,to feel,чувствовать,A2,verbs
 46,Αϊτή,Haiti,Гаити,A2,countries
 47,αίτηση,"application, application form","заявление, анкета",A2,general
@@ -50,7 +50,7 @@
 49,Άιφελ Πύργος,Eiffel Τower,Эйфелева башня,A2,general
 50,ακολουθώ,to follow,следовать,A2,verbs
 51,ακόμη,"even, more","даже, больше",A2,basics
-52,ακορντεόν,accordion,аккордеон,A2,general
+52,ακορντεόν,accordion,аккордеон,A2,music
 53,ακούω,"to hear, to listen","слышать, слушать",A2,verbs
 54,ακριβός,"expensive, costly","дорогой, дорогостоящий",A2,clothes
 55,ακριβώς,"exactly, precisely","точно, именно",A2,general
@@ -61,14 +61,14 @@
 60,αλβανικά,Albanian language,албанский язык,A2,language
 61,αλβανικός,Albanian,албанский,A2,countries
 62,αλβανός,Albanian person,албанец,A2,countries
-63,Αλεξάνδρα,Alexandra,Александра,A2,general
+63,Αλεξάνδρα,Alexandra,Александра,A2,names
 64,Αλεξάνδρεια,Alexandria,Александрия,A2,countries
 65,Αλεξανδρούπολη,Alexandroupoli,Александруполи,A2,countries
-66,Αλέξης,Alex,Алекс,A2,general
-67,Αλεξία,Alexia,Алексия,A2,general
+66,Αλέξης,Alex,Алекс,A2,names
+67,Αλεξία,Alexia,Алексия,A2,names
 68,αλεύρι,flour,мука,A2,general
 69,αλήθεια,truth,правда,A2,feelings
-70,Αλίκη,Alice,Алиса,A2,general
+70,Αλίκη,Alice,Алиса,A2,names
 71,αλλά,but,но,A2,basics
 72,αλλαγή,change,изменение,A2,general
 73,αλλάζω,to change,меняться,A2,verbs
@@ -80,7 +80,7 @@
 79,αμερικανός,American,американец,A2,countries
 80,Αμερική (ΗΠΑ),United States of America,Соединённые Штаты Америки,A2,countries
 81,αμέσως,"immediately, right away",немедленно,A2,general
-82,αμπέλι,vineyard,виноградник,A2,general
+82,αμπέλι,vineyard,виноградник,A2,nature
 83,Άμστερνταμ,Amsterdam,Амстердам,A2,countries
 84,αν,if,если,A2,basics
 85,ανάβω,"to light, ignite","зажигать, поджигать",A2,verbs
@@ -93,22 +93,22 @@
 92,αναπνέω,to breathe,дышать,A2,verbs
 93,αναπτήρας,lighter,зажигалка,A2,general
 94,ανάσα,breath,дыхание,A2,general
-95,Αναστασία,Anastasia,Анастасия,A2,general
+95,Αναστασία,Anastasia,Анастасия,A2,names
 96,αναφέρω,"to refer, to mention","ссылаться, упоминать",A2,verbs
 97,Ανδριανούπολη,Andrianoupoli,Андриануполи,A2,general
 98,ανεβαίνω,"to climb, to get on","подниматься, садиться",A2,verbs
 99,ανεξάρτητος,independent,независимый,A2,general
 100,άνεργος,unemployed,безработный,A2,society
-101,Ανέστης,Anestis,Анестис,A2,general
+101,Ανέστης,Anestis,Анестис,A2,names
 102,άνθος,"flower, blossom","цветок, цветение",A2,weather
 103,άνθρωπος,"man, human being",человек,A2,people
 104,ανθρώπινος,human,человеческий,A2,people
-105,Άννα,Anna,Анна,A2,general
+105,Άννα,Anna,Анна,A2,names
 106,ανοίγω,to open,открывать,A2,verbs
 107,άνοιξη,spring,весна,A2,weather
 108,ανοιχτά,open,открытый,A2,general
 109,ανταγωνισμός,"contest, competition","конкурс, конкуренция",A2,general
-110,Αντιγόνη,Antigone,Антигона,A2,general
+110,Αντιγόνη,Antigone,Антигона,A2,names
 111,αντίθετος,opposite,противоположный,A2,general
 112,αντικαθιστώ,to replace,заменять,A2,verbs
 113,αντικείμενο,object,объект,A2,general
@@ -117,9 +117,9 @@
 116,αντίστοιχος,"corresponding, equivalent","соответствующий, эквивалентный",A2,general
 117,αντίτυπο,copy,копия,A2,general
 118,άντρας,man,мужчина,A2,people
-119,Αντρέας,Andrew,Эндрю,A2,general
+119,Αντρέας,Andrew,Эндрю,A2,names
 120,αντρικός,"male, man's","мужчина, мужской",A2,people
-121,Αντώνης,Anthony,Энтони,A2,general
+121,Αντώνης,Anthony,Энтони,A2,names
 122,αόριστος,past tense,прошлое время,A2,time
 123,απάντηση,"answer, response",ответ,A2,communication
 124,απαντώ,"to answer, to respond",отвечать,A2,verbs
@@ -167,8 +167,8 @@
 166,ασθενής,patient,пациент,A2,general
 167,Ασία,Asia,Азия,A2,countries
 168,άσκηση,"task, exercise","задача, упражнение",A2,general
-169,ασπιρίνη,aspirin,аспирин,A2,general
-170,άσπρος,white,белый,A2,general
+169,ασπιρίνη,aspirin,аспирин,A2,health
+170,άσπρος,white,белый,A2,colors
 171,αστυνομία,police,полиция,A2,society
 172,αστυνομικός,"policewoman, police officer","полицейская, полицейский",A2,society
 173,άσχημα,badly,плохо,A2,general
@@ -180,7 +180,7 @@
 179,αύγουστος,August,август,A2,time
 180,αυθόρμητος,spontaneous,спонтанный,A2,general
 181,αυλή,yard,двор,A2,home
-182,αϋπνία,insomnia,бессонница,A2,general
+182,αϋπνία,insomnia,бессонница,A2,health
 183,αύριο,tomorrow,завтра,A2,time
 184,Αυστραλία,Australia,Австралия,A2,countries
 185,αυστραλός,Australian,австралийский,A2,countries
@@ -198,8 +198,8 @@
 197,αφρικανικός,African,африканский,A2,countries
 198,αφρικανός,African person,африканец,A2,countries
 199,Αφρική,Africa,Африка,A2,countries
-200,Ανδρέας,Andrew,Эндрю,A2,general
-201,Απόστολος,Apostolos,Апостолос,A2,general
+200,Ανδρέας,Andrew,Эндрю,A2,names
+201,Απόστολος,Apostolos,Апостолос,A2,names
 202,Αργοστόλι,Argostoli,Аргостоли,A2,general
 203,βάζω,to put,ставить,A2,verbs
 204,βάζο,vase,ваза,A2,general
@@ -214,10 +214,10 @@
 213,βάρος,weight,вес,A2,general
 214,βάση,base,основание,A2,general
 215,βασικός,basic,базовый,A2,general
-216,Βασίλης,Vassilis,Василис,A2,general
-217,Βασιλική,Vassiliki,Василики,A2,general
+216,Βασίλης,Vassilis,Василис,A2,names
+217,Βασιλική,Vassiliki,Василики,A2,names
 218,βασιλόπιτα,vasilopita,василопита,A2,general
-219,Βάσω,Vasso,Вассо,A2,general
+219,Βάσω,Vasso,Вассо,A2,names
 220,βάφω,to paint,рисовать,A2,verbs
 221,βγάζω,"to take out, to take off","выносить, снимать",A2,verbs
 222,βγαίνω,to get out,выходить,A2,verbs
@@ -233,19 +233,19 @@
 232,βερίκοκο,apricot,абрикос,A2,general
 233,Βερολίνο,Berlin,Берлин,A2,countries
 234,βήμα,step,шаг,A2,general
-235,βήχας,cough,кашель,A2,general
+235,βήχας,cough,кашель,A2,health
 236,βήχω,to cough,кашлять,A2,verbs
 237,βιβλίο,book,книга,A2,school
 238,βιβλιάριο,booklet,буклет,A2,general
 239,βιβλιοθήκη,library,библиотека,A2,general
 240,Βιέννη,Vienna,Вена,A2,countries
-241,βιολί,violin,скрипка,A2,general
+241,βιολί,violin,скрипка,A2,music
 242,βιτρίνα,shop window,витрина,A2,home
 243,βλέπω,"to see, to look",смотреть,A2,verbs
 244,βοηθάω,to help,помогать,A2,verbs
 245,βοήθεια,help,помощь,A2,general
 246,βοηθητικός,helpful,полезный,A2,general
-247,βόλεϊ,volley ball,волейбол,A2,general
+247,βόλεϊ,volley ball,волейбол,A2,sports
 248,βόλτα,walk,прогулка,A2,general
 249,Βουλγαρία,Bulgaria,Болгария,A2,countries
 250,βουλγαρικός,Bulgarian,болгарский,A2,countries
@@ -268,7 +268,7 @@
 267,βρύση,tap,кран,A2,home
 268,γάιδαρος,donkey,осёл,A2,animals
 269,γάλα,milk,молоко,A2,food
-270,γαλανός,blue,голубой,A2,general
+270,γαλανός,blue,голубой,A2,colors
 271,Γαλλία,France,Франция,A2,countries
 272,γαλλικός,French,французский,A2,countries
 273,γαλλικά,French language,французский язык,A2,language
@@ -294,10 +294,10 @@
 293,γερός,healthy,здоровый,A2,body
 294,γέρος,old man,старик,A2,people
 295,γεύμα,meal,еда,A2,food
-296,γήπεδο,playing field,игровое поле,A2,general
+296,γήπεδο,playing field,игровое поле,A2,sports
 297,για,for,для,A2,basics
 298,γιαγιά,grandmother,бабушка,A2,general
-299,Γιάννης,John,Джон,A2,general
+299,Γιάννης,John,Джон,A2,names
 300,γιαούρτι,yogurt,йогурт,A2,general
 301,γιαπωνέζος,Japanese person,японец,A2,countries
 302,γιασεμί,jasmine,жасмин,A2,general
@@ -306,8 +306,8 @@
 305,γίνομαι,to become,становиться,A2,verbs
 306,γιορτή,"feast, celebration","праздник, торжество",A2,general
 307,γιος,son,сын,A2,general
-308,Γιώργος,George,Джордж,A2,general
-309,γκρι,grey,серый,A2,general
+308,Γιώργος,George,Джордж,A2,names
+309,γκρι,grey,серый,A2,colors
 310,γκρίνια,grumbling,ворчание,A2,general
 311,γλυκό,sweet,сладкий,A2,general
 312,γλυκός́́,sweet,сладкий,A2,general
@@ -332,12 +332,12 @@
 331,γραφή,writing,письмо,A2,communication
 332,γρήγορος,"fast, quick",быстрый,A2,general
 333,γρήγορα,quickly,быстро,A2,general
-334,Γρηγόρης,Gregory,Григорий,A2,general
+334,Γρηγόρης,Gregory,Григорий,A2,names
 335,γυαλιά,glasses,очки,A2,general
 336,γυμνάσιο,high school,средняя школа,A2,school
-337,γυμναστήριο,gym,спортзал,A2,general
-338,γυμναστής,trainer,тренер,A2,general
-339,γυμναστική,gymnastics,гимнастика,A2,general
+337,γυμναστήριο,gym,спортзал,A2,sports
+338,γυμναστής,trainer,тренер,A2,sports
+339,γυμναστική,gymnastics,гимнастика,A2,sports
 340,γυναίκα,woman,женщина,A2,people
 341,γυναικείος,"women's, feminine","женский, женственный",A2,general
 342,γυρίζω,to come back,возвращаться,A2,verbs
@@ -350,14 +350,14 @@
 349,δάφνη,laurel,лавр,A2,general
 350,δείχνω,to show,показывать,A2,verbs
 351,δέκα,ten,десять,A2,time
-352,δεκαεννιά,nineteen,девятнадцать,A2,general
-353,δεκαέξι,sixteen,шестнадцать,A2,general
-354,δεκαεπτά,seventeen,семнадцать,A2,general
-355,δεκαοκτώ,eighteen,восемнадцать,A2,general
-356,δεκαπέντε,fifteen,пятнадцать,A2,general
-357,δεκατέσσερις,fourteen,четырнадцать,A2,general
-358,δέκατος,tenth,десятый,A2,general
-359,δεκατρείς,thirteen,тринадцать,A2,general
+352,δεκαεννιά,nineteen,девятнадцать,A2,time
+353,δεκαέξι,sixteen,шестнадцать,A2,time
+354,δεκαεπτά,seventeen,семнадцать,A2,time
+355,δεκαοκτώ,eighteen,восемнадцать,A2,time
+356,δεκαπέντε,fifteen,пятнадцать,A2,time
+357,δεκατέσσερις,fourteen,четырнадцать,A2,time
+358,δέκατος,tenth,десятый,A2,time
+359,δεκατρείς,thirteen,тринадцать,A2,time
 360,δεκέμβριος,December,декабрь,A2,time
 361,δελφίνι,dolphin,дельфин,A2,general
 362,δέμα,package,пакет,A2,general
@@ -365,8 +365,8 @@
 364,δεξιά,on the right,справа,A2,general
 365,δευτέρα,Monday,понедельник,A2,time
 366,δεύτερος,second,второй,A2,time
-367,Δήμητρα,Dimitra,Димитра,A2,general
-368,Δημήτρης,Dimitris,Димитрис,A2,general
+367,Δήμητρα,Dimitra,Димитра,A2,names
+368,Δημήτρης,Dimitris,Димитрис,A2,names
 369,δημητριακά,cereal,зерно,A2,general
 370,δημιουργώ,to create,создавать,A2,verbs
 371,δημοκρατία,democracy,демократия,A2,general
@@ -427,12 +427,12 @@
 426,δύση,west,запад,A2,general
 427,δύσκολος,difficult,сложный,A2,general
 428,δυστυχώς,unfortunately,к сожалению,A2,general
-429,δώδεκα,twelve,двенадцать,A2,general
+429,δώδεκα,twelve,двенадцать,A2,time
 430,δωμάτιο,room,комната,A2,home
 431,δώρο,present,подарок,A2,general
 432,δωρεάν,free of charge,бесплатно,A2,general
-433,έβδομος,seventh,седьмой,A2,general
-434,εβδομήντα,seventy,семьдесят,A2,general
+433,έβδομος,seventh,седьмой,A2,time
+434,εβδομήντα,seventy,семьдесят,A2,time
 435,εδώ,here,здесь,A2,basics
 436,εικόνα,"picture, image",изображение,A2,general
 437,είκοσι,twenty,двадцать,A2,general
@@ -440,18 +440,18 @@
 439,εκατό,one hundred,сто,A2,time
 440,εκεί,there,там,A2,basics
 441,εκείνος,that,тот,A2,basics
-442,έκτος,sixth,шестой,A2,general
+442,έκτος,sixth,шестой,A2,time
 443,Ελλάδα,Greece,Греция,A2,countries
 444,έλληνας,Greek person,грек,A2,countries
 445,ελληνικός,Greek,греческий,A2,countries
 446,ένας,one,один,A2,time
-447,ένατος,ninth,девятый,A2,general
+447,ένατος,ninth,девятый,A2,time
 448,ενενήντα,ninety,девяносто,A2,time
 449,ενικός αριθμός,singular number,единственное число,A2,time
 450,εννέα,nine,девять,A2,time
-451,έντεκα,eleven,одиннадцать,A2,general
+451,έντεκα,eleven,одиннадцать,A2,time
 452,έξι,six,шесть,A2,time
-453,εξήντα,sixty,шестьдесят,A2,general
+453,εξήντα,sixty,шестьдесят,A2,time
 454,επίθετο,adjective,прилагательный,A2,general
 455,επιθυμώ,to wish,желать,A2,verbs
 456,επιλέγω,to chose,выбирать,A2,verbs
@@ -502,7 +502,7 @@
 501,εφτά,seven,семь,A2,time
 502,εφτακόσιοι,seven hundred,семьсот,A2,time
 503,έχω,to have,иметь,A2,verbs
-504,Ζαΐρ,Zaïr,Заир,A2,general
+504,Ζαΐρ,Zaïr,Заир,A2,names
 505,Ζάκυνθος,"Zakynthos, Zante","Закинтос, Занте",A2,general
 506,ζαμπόν,ham,ветчина,A2,general
 507,ζάρια,dice,кости,A2,general
@@ -529,7 +529,7 @@
 528,ημέρα,day,день,A2,time
 529,ημερολόγιο,calendar,календарь,A2,time
 530,ημερομηνία,date,дата,A2,time
-531,Ηρακλής,Hercules,Геркулес,A2,general
+531,Ηρακλής,Hercules,Геркулес,A2,names
 532,ησυχία,quietness,спокойствие,A2,general
 533,ήσυχος,quiet,тихий,A2,general
 534,ήχος,sound,звук,A2,general
@@ -648,27 +648,27 @@
 647,κεφαλαίο γράμμα,capital letter,заглавная буква,A2,language
 648,κεφάλι,head,голова,A2,body
 649,κήπος,garden,сад,A2,home
-650,κιθάρα,guitar,гитара,A2,general
+650,κιθάρα,guitar,гитара,A2,music
 651,κιλό,kilo,килограмм,A2,general
 652,Κίνα,China,Китай,A2,countries
 653,κινέζος,Chinese person,китаец,A2,countries
 654,κινεζικός,Chinese,китайский,A2,countries
 655,κινηματογράφος,cinema,кино,A2,leisure
 656,κινητό τηλέφωνο,mobile phone,мобильный телефон,A2,communication
-657,κίτρινος,yellow,желтый,A2,general
+657,κίτρινος,yellow,желтый,A2,colors
 658,κλειδί,key,ключ,A2,home
 659,κλείνω,"to close, to shut",закрывать,A2,verbs
 660,κλίμα,climate,климат,A2,general
 661,κόβω,to cut,резать,A2,verbs
 662,κοιλιά,belly,живот,A2,body
 663,κοιμάμαι,to sleep,спать,A2,verbs
-664,κόκκινος,red,красный,A2,general
+664,κόκκινος,red,красный,A2,colors
 665,κόκορας,rooster,петух,A2,general
 666,κολλάω,to stick,клеить,A2,verbs
 667,κολοκυθάκι,zucchini,цуккини,A2,general
 668,κολόνα,column,колонка,A2,general
 669,κολυμπάω,to swim,плавать,A2,verbs
-670,κολύμπι,swimming,плавание,A2,general
+670,κολύμπι,swimming,плавание,A2,sports
 671,κομμάτι,piece,кусок,A2,general
 672,κομμωτήριο,the hair dresser's,парикмахерская,A2,body
 673,κομμωτής,hair dresser,парикмахер,A2,body
@@ -726,7 +726,7 @@
 725,λεξιλόγιο,vocabulary,словарный запас,A2,general
 726,λεπτό,minute,минута,A2,time
 727,λεπτός,thin,тонкий,A2,general
-728,λευκός,white,белый,A2,general
+728,λευκός,white,белый,A2,colors
 729,λέω,to say,говорить,A2,verbs
 730,λεωφορείο,bus,автобус,A2,city
 731,λιακάδα,sunshine,солнечный свет,A2,home
@@ -770,13 +770,13 @@
 769,μαρούλι,lettuce,салат,A2,food
 770,μάρτιος,March,март,A2,time
 771,μάτι,eye,глаз,A2,body
-772,μαύρος,black,черный,A2,general
+772,μαύρος,black,черный,A2,colors
 773,μαχαίρι,knife,нож,A2,food
 774,με,with,с,A2,basics
 775,μεγάλος,"big, large",большой,A2,general
 776,μέγεθος,size,размер,A2,general
 777,μεθαύριο,the day after tomorrow,послезавтра,A2,basics
-778,μελαχρινός,dark haired,темноволосый,A2,general
+778,μελαχρινός,dark haired,темноволосый,A2,colors
 779,μελετάω,"to study, examine",изучать,A2,verbs
 780,μέλη του σώματος,parts of the body,части тела,A2,body
 781,μέλι,honey,мед,A2,food
@@ -799,7 +799,7 @@
 798,μέτρο,meter,метр,A2,general
 799,μετρό,metro,метро,A2,city
 800,μέχρι,"till, until",до,A2,general
-801,μηδέν,zero,ноль,A2,general
+801,μηδέν,zero,ноль,A2,time
 802,μηλιά,apple tree,яблоня,A2,food
 803,μήλο,apple,яблоко,A2,food
 804,μήνας,month,месяц,A2,time
@@ -811,7 +811,7 @@
 810,μισθός,salary,зарплата,A2,general
 811,μισός,half,половина,A2,general
 812,μνήμη,memory,память,A2,general
-813,μοβ,purple,фиолетовый,A2,general
+813,μοβ,purple,фиолетовый,A2,colors
 814,μοιάζω,to look like,выглядеть как,A2,verbs
 815,μοιράζω,"to distribute, to deliver","распределять, доставить",A2,verbs
 816,μόλις,just,"только что, едва",A2,general
@@ -830,7 +830,7 @@
 829,μπαίνω,"to get into, to enter",входить,A2,verbs
 830,μπακάλης,grocer,бакалейщик,A2,general
 831,μπάλα,ball,мяч,A2,general
-832,μπαλέτο,ballet,балет,A2,general
+832,μπαλέτο,ballet,балет,A2,music
 833,μπαλκόνι,balcony,балкон,A2,home
 834,μπαμπάς,father,отец,A2,people
 835,μπανάνα,banana,банан,A2,food
@@ -839,10 +839,10 @@
 838,κάνω μπάνιο,to take a bath,принимать ванну,A2,verbs
 839,μπαρ,bar,бар,A2,general
 840,μπάσκετ,basketball,баскетбол,A2,leisure
-841,μπεζ,beige,бежевый,A2,general
+841,μπεζ,beige,бежевый,A2,colors
 842,μπίρα,beer,пиво,A2,food
 843,μπιφτέκι,burger,бургер,A2,general
-844,μπλε,blue,голубой,A2,general
+844,μπλε,blue,голубой,A2,colors
 845,μπλούζα,blouse,блузка,A2,general
 846,μπορώ,"can, be able to",мочь,A2,general
 847,μπουκάλι,bottle,бутылка,A2,food
@@ -872,7 +872,7 @@
 871,νοσοκομείο,hospital,больница,A2,body
 872,νοσοκόμος,nurse,медсестра,A2,people
 873,νόστιμος,tasty,вкусный,A2,general
-874,νότα,note,примечание,A2,general
+874,νότα,note,примечание,A2,music
 875,νούμερο,number,номер,A2,time
 876,Ντουμπάι,Dubai,Дубай,A2,general
 877,νταντά,nanny,няня,A2,general
@@ -880,14 +880,14 @@
 879,ντόνατ,donut,пончик,A2,general
 880,ντουλάπα,closet,шкаф,A2,general
 881,ντουλάπι,cupboard,шкаф,A2,general
-882,ντραμς,drums,барабаны,A2,general
+882,ντραμς,drums,барабаны,A2,music
 883,ντύνομαι,to get dressed,одеваться,A2,verbs
 884,νυφικό,wedding dress,свадебное платье,A2,clothes
 885,νύχτα,night,ночь,A2,time
 886,νωρίς,early,рано,A2,general
 887,ξάδερφος,cousin,"двоюродный брат, кузен",A2,general
 888,ξανά,again,снова,A2,basics
-889,ξανθός,blond,блондин,A2,general
+889,ξανθός,blond,блондин,A2,colors
 890,ξεκινάω,"to begin, to start",начинать,A2,verbs
 891,ξενοδοχείο,hotel,отель,A2,city
 892,ξενυχτάω,to stay up late,засиживаться допоздна,A2,verbs
@@ -901,8 +901,8 @@
 900,ξύλο,wood,дерево,A2,weather
 901,ξυπνάω,to wake up,просыпаться,A2,verbs
 902,ξύστρα,sharpener,точилка,A2,general
-903,ογδόντα,eighty,восемьдесят,A2,general
-904,όγδοος,eighth,восьмой,A2,general
+903,ογδόντα,eighty,восемьдесят,A2,time
+904,όγδοος,eighth,восьмой,A2,time
 905,οδηγός,guide,руководство,A2,general
 906,οδηγώ,"to drive, to guide","водить, направлять",A2,verbs
 907,οδοντογλυφίδα,toothpick,зубочистка,A2,general
@@ -925,7 +925,7 @@
 924,όμως,"but, however","но, однако",A2,basics
 925,όνειρο,dream,мечта,A2,feelings
 926,όνομα,name,имя,A2,general
-927,όπερα,opera,опера,A2,general
+927,όπερα,opera,опера,A2,music
 928,οποίος,who,кто,A2,basics
 929,όποιος,"whoever, any","кто бы, любой",A2,basics
 930,οποιοσδήποτε,"anyone, any",любой,A2,basics
@@ -948,7 +948,7 @@
 947,παθολόγος,internist,терапевт,A2,general
 948,παιδί,child,ребенок,A2,people
 949,παιδιά,"children, kids",дети,A2,general
-950,παιδίατρος,pediatrician,педиатр,A2,general
+950,παιδίατρος,pediatrician,педиатр,A2,health
 951,παίζω,to play,играть,A2,verbs
 952,παίρνω,to take,принимать,A2,verbs
 953,παιχνίδι,"game, toy","игра, игрушка",A2,leisure
@@ -999,7 +999,7 @@
 998,πεινάω,to be hungry,хотеть есть,A2,verbs
 999,πελάτης,client,клиент,A2,general
 1000,πέμπτη,Thursday,четверг,A2,time
-1001,πέμπτος,fifth,пятый,A2,general
+1001,πέμπτος,fifth,пятый,A2,time
 1002,πενήντα,fifty,пятьдесят,A2,general
 1003,πεντακόσιοι,five hundred,пятьсот,A2,time
 1004,πέντε,five,пять,A2,time
@@ -1016,13 +1016,13 @@
 1015,περπατάω,to walk,ходить,A2,verbs
 1016,πέρσι,last year,прошлый год,A2,time
 1017,πετρέλαιο,oil,нефть,A2,food
-1018,Πέτρος,Peter,Питер,A2,general
+1018,Πέτρος,Peter,Питер,A2,names
 1019,Πετρούπολη,Petersburg,Петербург,A2,countries
 1020,πετσέτα,towel,полотенце,A2,general
 1021,πέφτω,to fall,падать,A2,verbs
 1022,πηγαίνω,to go,идти,A2,verbs
 1023,πια,anymore,больше,A2,general
-1024,πιάνο,piano,пианино,A2,general
+1024,πιάνο,piano,пианино,A2,music
 1025,πιάνω,to touch,касаться,A2,verbs
 1026,πιάτο,"plate, dish","тарелка, блюдо",A2,food
 1027,πιθανός,"probable, possible","вероятный, возможный",A2,general
@@ -1033,7 +1033,7 @@
 1032,πιπέρι,pepper,перец,A2,food
 1033,πιπεριά,pepper,перец,A2,food
 1034,πιρούνι,fork,вилка,A2,food
-1035,πισίνα,swimming pool,бассейн,A2,general
+1035,πισίνα,swimming pool,бассейн,A2,sports
 1036,πιστεύω,to believe,верить,A2,verbs
 1037,πιστωτική κάρτα,credit card,кредитная карта,A2,clothes
 1038,πίσω,behind,позади,A2,general
@@ -1085,7 +1085,7 @@
 1084,πουλί,bird,птица,A2,animals
 1085,πράγμα,thing,вещь,A2,general
 1086,πραγματικότητα,reality,реальность,A2,general
-1087,πράσινο,green,зеленый,A2,general
+1087,πράσινο,green,зеленый,A2,colors
 1088,πρέπει,"must, should","нужно, должен",A2,basics
 1089,πριν (από),before,перед,A2,basics
 1090,πρόβλημα,problem,проблема,A2,general
@@ -1124,7 +1124,7 @@
 1123,ρεπό,day off,выходной,A2,time
 1124,ρεύμα (ηλεκτρικό),electricity,электричество,A2,general
 1125,ρίχνω,to throw,бросать,A2,verbs
-1126,ροζ,pink,розовый,A2,general
+1126,ροζ,pink,розовый,A2,colors
 1127,ρολόι,clock,часы,A2,time
 1128,ρόλος,"role, part","роль, часть",A2,general
 1129,ρούχο,cloth,ткань,A2,general
@@ -1185,7 +1185,7 @@
 1184,σούπερ μάρκετ,super market,супермаркет,A2,clothes
 1185,σπαγγέτι,spaghetti,спагетти,A2,general
 1186,σπανάκι,spinach,шпинат,A2,general
-1187,σπήλαιο,cave,пещера,A2,general
+1187,σπήλαιο,cave,пещера,A2,nature
 1188,σπίτι,house,дом,A2,home
 1189,σπουδάζω,to study,"учиться, изучать",A2,verbs
 1190,σπουδές,"studies, studying","исследования, изучение",A2,general
@@ -1268,11 +1268,11 @@
 1267,τελειώνω,to finish,заканчивать,A2,verbs
 1268,τελευταίος,last,последний,A2,general
 1269,τέλος,end,конец,A2,general
-1270,τένις,tennis,теннис,A2,general
+1270,τένις,tennis,теннис,A2,sports
 1271,τέρμα λεωφορείου,final stop,конечная остановка,A2,general
 1272,τέσσερις,four,четыре,A2,time
 1273,τετάρτη,Wednesday,среда,A2,time
-1274,τέταρτος,fourth,четвертый,A2,general
+1274,τέταρτος,fourth,четвертый,A2,time
 1275,τετράγωνο,square,квадрат,A2,school
 1276,τετράδιο,exercise book,книга упражнений,A2,school
 1277,τετρακόσιοι,four hundred,четыреста,A2,time
@@ -1404,7 +1404,7 @@
 1403,φύλλο,leaf,лист,A2,weather
 1404,φύλο,gender,пол,A2,home
 1405,Φυσάει,It is windy,ветрено,A2,weather
-1406,φύση,nature,природа,A2,general
+1406,φύση,nature,природа,A2,nature
 1407,Φυσικά!,Of course!,Конечно!,A2,school
 1408,φυσικός,natural,природный,A2,general
 1409,φωνάζω,"to yell, to speak out loud","кричать, говорить громко",A2,verbs
@@ -1454,8 +1454,8 @@
 1453,χριστουγεννιάτικο δέντρο,Christmas tree,Рождественская елка,A2,weather
 1454,χρόνος,time,время,A2,time
 1455,Πόσων χρονών είσαι;,How old are you?,Сколько тебе лет?,A2,basics
-1456,χρώμα,colour,цвет,A2,general
-1457,χρωματιστός,colourful,красочный,A2,general
+1456,χρώμα,colour,цвет,A2,colors
+1457,χρωματιστός,colourful,красочный,A2,colors
 1458,χτες,yesterday,вчера,A2,time
 1459,χτυπάω,"to hurt, to hit","болеть, ударить",A2,verbs
 1460,χυμός,juice,сок,A2,general
@@ -1495,19 +1495,19 @@
 1494,αεροπορικό ταξίδι,airplane travel,путешествие самолетом,A2,city
 1495,Αθήνα,Athens,Афины,A2,countries
 1496,άθλημα,sport,спорт,A2,leisure
-1497,αθλητικός,athletic,атлетический,A2,general
-1498,αθλητικά γεγονότα,sports events,спортивные события,A2,general
-1499,αθλητικοί αγώνες,sports games,спортивные игры,A2,general
+1497,αθλητικός,athletic,атлетический,A2,sports
+1498,αθλητικά γεγονότα,sports events,спортивные события,A2,sports
+1499,αθλητικοί αγώνες,sports games,спортивные игры,A2,sports
 1500,αίθουσα,"classroom, hall","аудитория, зал",A2,general
 1501,αισθηματικός,"emotional, sentimental","эмоциональный, чувственный",A2,general
 1502,άκρη,"edge, end","край, конец",A2,general
-1503,Αλέξανδρος,Alexander,Александр,A2,general
-1504,Αλέξανδρος Μέγας,Alexander the Great,Александр Великий,A2,general
+1503,Αλέξανδρος,Alexander,Александр,A2,names
+1504,Αλέξανδρος Μέγας,Alexander the Great,Александр Великий,A2,names
 1505,αληθινά,"really, truly","действительно, по-настоящему",A2,general
 1506,Αληθώς Ανέστη!,He is risen indeed!,Он действительно воскрес!,A2,general
 1507,αμύγδαλο,almond,миндаль,A2,general
-1508,Αννα,Anna,Анна,A2,general
-1509,ανακύκλωση,recycling,переработка,A2,general
+1508,Αννα,Anna,Анна,A2,names
+1509,ανακύκλωση,recycling,переработка,A2,nature
 1510,ανάληψη χρημάτων,withdrawal,снятие,A2,general
 1511,ανάλογα,"depending on, accordingly","в зависимости от, соответственно",A2,general
 1512,αναπαυτικά,comfortably,комфортно,A2,general
@@ -1559,7 +1559,7 @@
 1558,βεβαιώνω,"to confirm, to affirm","подтверждать, утверждать",A2,verbs
 1559,βιβλιάριο τράπεζας,"bankbook, passbook",сберкнижка,A2,general
 1560,βιβλιοπωλείο,"bookstore, bookshop",книжный магазин,A2,clothes
-1561,Βίκυ,Vicky,Вики,A2,general
+1561,Βίκυ,Vicky,Вики,A2,names
 1562,βιογραφικό,"CV, resume",резюме,A2,school
 1563,κάνω βόλτα,to take a walk,прогуляться,A2,verbs
 1564,βόρειος,northern,северный,A2,general
@@ -1571,13 +1571,13 @@
 1570,βρίσκομαι,to be located,находиться,A2,verbs
 1571,βρομιά,dirt,грязь,A2,general
 1572,βρόμικος,dirty,грязный,A2,general
-1573,βυθός,seabed,морское дно,A2,general
+1573,βυθός,seabed,морское дно,A2,nature
 1574,γάζα,gauze,марля,A2,general
 1575,γαλακτοκομικός,dairy,молочный,A2,general
 1576,γαλλικός,French,французский,A2,countries
 1577,γεια,"hi, hello","привет, здравствуй",A2,basics
 1578,γεμάτος,full,полный,A2,general
-1579,Γεράσιμος,Gerasimos,Герасимос,A2,general
+1579,Γεράσιμος,Gerasimos,Герасимос,A2,names
 1580,γερά,"strongly, firmly","сильно, твердо",A2,general
 1581,γεύση,taste,вкус,A2,general
 1582,γι' αυτό,that's why,вот почему,A2,basics
@@ -1587,22 +1587,22 @@
 1586,γλέντι,party,вечеринка,A2,leisure
 1587,γνωριμία,acquaintance,знакомый,A2,general
 1588,γοργός́́,"quick, fast",быстро,A2,general
-1589,γρίπη,flu,грипп,A2,general
+1589,γρίπη,flu,грипп,A2,health
 1590,γυαλί,glass,стекло,A2,food
 1591,γυαλιά ηλίου,sunglasses,солнечные очки,A2,general
 1592,γύρω,around,вокруг,A2,general
 1593,ΔΕΗ (Δημόσια Επιχείρηση Ηλεκτρισμού),public electricity company,государственная электрокомпания,A2,society
 1594,ΔΕΠΑ (Δημόσια Επιχείρηση Αερίου ΑΕ),Natural Gas Supply Companies,Компании-поставщики природного газа,A2,weather
 1595,δερμάτινος,leather,кожаный,A2,general
-1596,Δέσποινα,Despoina,Деспоина,A2,general
+1596,Δέσποινα,Despoina,Деспоина,A2,names
 1597,δηλαδή,"that is, namely",то есть,A2,basics
 1598,Δημαρχείο,"city hall, town hall","мэрия, ратуша",A2,city
 1599,δήμαρχος,mayor,мэр,A2,society
-1600,Δημήτριος,Dimitrios,Димитрий,A2,general
+1600,Δημήτριος,Dimitrios,Димитрий,A2,names
 1601,δήμος,municipality,муниципалитет,A2,general
 1602,δημοτικός,municipal,муниципальный,A2,general
 1603,δηλητηριάζω,to poison,отравить,A2,verbs
-1604,δηλητηρίαση,poisoning,отравление,A2,general
+1604,δηλητηρίαση,poisoning,отравление,A2,health
 1605,δηλώνω,to state,утверждать,A2,verbs
 1606,διάβασμα,"reading, studying","чтение, учеба",A2,general
 1607,διαδοχικός,"successive, consecutive",последовательный,A2,general
@@ -1656,15 +1656,15 @@
 1655,έκπτωση,discount,скидка,A2,general
 1656,εκπτώσεις,sales,продажи,A2,general
 1657,ελαφρύς,light,легкий,A2,home
-1658,Ελένη,Helen,Хелен,A2,general
-1659,Ελίνα,Elina,Элина,A2,general
+1658,Ελένη,Helen,Хелен,A2,names
+1659,Ελίνα,Elina,Элина,A2,names
 1660,ελπίζω,to hope,надеяться,A2,verbs
 1661,ΕΛΤΑ (Ελληνικά Ταχυδρομεία),Hellenic Post,Греческий пост,A2,society
-1662,Έλσα,Elsa,Эльза,A2,general
+1662,Έλσα,Elsa,Эльза,A2,names
 1663,ελαιόλαδο,olive oil,оливковое масло,A2,food
 1664,ελεύθερος,free,свободный,A2,general
 1665,ελεύθερος ελεύθερη,single,"одинокий, свободный",A2,general
-1666,Ελευθερία,Eleftheria,Элефтерия,A2,general
+1666,Ελευθερία,Eleftheria,Элефтерия,A2,names
 1667,εμείς,we,мы,A2,general
 1668,εμένα,me,я,A2,general
 1669,εμπορικό κέντρο,"shopping center, mall",торговый центр,A2,clothes
@@ -1731,18 +1731,18 @@
 1730,ευχαριστημένος,"pleased, content","довольный, удовлетворённый",A2,general
 1731,εφέ,effects,последствия,A2,general
 1732,ζεστός,"warm, hot","теплый, горячий",A2,weather
-1733,Ζήσης,Zisis,Зисис.,A2,general
+1733,Ζήσης,Zisis,Зисис.,A2,names
 1734,να ζήσετε!,congratulations on your wedding!,поздравляю со свадьбой!,A2,general
 1735,ζυμαρικό,pasta,паста,A2,general
 1736,ζωηρός,"naughty, lively","непослушный, живой",A2,general
 1737,ζωντανή μουσική,live music,живая музыка,A2,communication
 1738,ηλεκτρικά είδη,electric devices,электрические устройства,A2,general
-1739,ηλεκτροπληξία,"electrocution, electric shock","удар током, электрический удар",A2,general
+1739,ηλεκτροπληξία,"electrocution, electric shock","удар током, электрический удар",A2,health
 1740,ηλικιωμένoς,"elderly, old","пожилой, старый",A2,people
 1741,έχει ήλιο,it is sunny,солнечно,A2,weather
 1742,ήπιος,"mild, gentle","легкий, нежный",A2,general
 1743,ήρεμος,"calm, peaceful","спокойный, мирный",A2,general
-1744,Θανάσης,Thanassis,Танасси,A2,general
+1744,Θανάσης,Thanassis,Танасси,A2,names
 1745,θεατής,"spectator, audience","зритель, аудитория",A2,general
 1746,θεατρικό έργο,play,пьеса,A2,general
 1747,θέμα,"subject, subject matter","тема, предмет",A2,general
@@ -1751,7 +1751,7 @@
 1750,θήκη,"case, holder",футляр,A2,general
 1751,θρησκευτικά,religion class,урок религии,A2,school
 1752,θυμίζω,to remind,напомнить,A2,verbs
-1753,Θωμαή,Thomais,Томас,A2,general
+1753,Θωμαή,Thomais,Томас,A2,names
 1754,ιδέα,"idea, suggestion","идея, предложение",A2,general
 1755,ιδιαίτερα,"especially, in particular","особенно, в частности",A2,general
 1756,ίδρυμα,"institution, foundation","учреждение, фонд",A2,general
@@ -1778,15 +1778,15 @@
 1777,Καλή Ανάσταση!,Happy Easter!,Счастливой Пасхи!,A2,feelings
 1778,καλή όρεξη!,bon appetit!,приятного аппетита!,A2,general
 1779,καλαμπόκι,corn,кукуруза,A2,general
-1780,Καλλιόπη,Kalliopi,Каллиопи,A2,general
+1780,Καλλιόπη,Kalliopi,Каллиопи,A2,names
 1781,Καμάρα,Galerius arch,Галерийская арка,A2,general
 1782,κανάλι,"channel, TV station","канал, телеканал",A2,city
 1783,να,"any, anybody",любой,A2,basics
 1784,κανονικός,"normal, regular","нормальный, регулярно",A2,general
 1785,κανονικά,"normally, regularly","нормально, регулярно",A2,general
 1786,πόσο κάνει;,how much does it cost?,сколько это стоит?,A2,basics
-1787,καρδιολόγος,cardiologist,кардиолог,A2,general
-1788,Κάρμεν,Carmen,Кармен,A2,general
+1787,καρδιολόγος,cardiologist,кардиолог,A2,health
+1788,Κάρμεν,Carmen,Кармен,A2,names
 1789,καρναβάλι,Carnival,карнавал,A2,leisure
 1790,καρύδι,walnut,грецкий орех,A2,general
 1791,κάστρο,castle,замок,A2,general
@@ -1799,13 +1799,13 @@
 1798,κατάστημα,"store, shop",магазин,A2,clothes
 1799,καταφέρνω,"to manage, to achieve","умудряться, достигать",A2,verbs
 1800,κατεβάζω μουσική,to download music,скачать музыку,A2,verbs
-1801,Κατερίνα,Catherine,Кэтрин,A2,general
+1801,Κατερίνα,Catherine,Кэтрин,A2,names
 1802,κατηγορία,category,категория,A2,general
-1803,Κάτια,Katja,Катя,A2,general
+1803,Κάτια,Katja,Катя,A2,names
 1804,κατσαρόλα,"pot, saucepan","горшок, соус",A2,general
 1805,κέικ,cake,торт,A2,food
 1806,κεφαλαίο γράμμα,capital letter,заглавная буква,A2,language
-1807,καφέ,brown,коричневый,A2,general
+1807,καφέ,brown,коричневый,A2,colors
 1808,κελί,cell,клетка,A2,general
 1809,κεντρικό δελτίο ειδήσεων,news,новости,A2,communication
 1810,ΚΕΠ (Κέντρο Εξυπηρέτησης Πολιτών),Citizen Service Centre,Центр обслуживания граждан,A2,society
@@ -1825,7 +1825,7 @@
 1824,κομμάτι,part,часть,A2,general
 1825,κοινωνικός,social,социальный,A2,general
 1826,κοιτώ,to look,смотреть,A2,verbs
-1827,κολυμβητήριο,swimming pool,бассейн,A2,general
+1827,κολυμβητήριο,swimming pool,бассейн,A2,sports
 1828,Κομοτηνή,Komotimi,Комотими,A2,general
 1829,κορυφή,"top, peak","вершина, пик",A2,general
 1830,κόσμημα,"jewelry, jewellery","украшения, ювелирные изделия",A2,general
@@ -1850,10 +1850,10 @@
 1849,κτίριο,building,здание,A2,city
 1850,κυλικείο,canteen,столовая,A2,general
 1851,κύμα,wave,волна,A2,general
-1852,Κυριάκος,Kyriakos,Кириакос,A2,general
+1852,Κυριάκος,Kyriakos,Кириакос,A2,names
 1853,κωμικός,comic,комикс,A2,general
 1854,Κωνσταντινούπολη,Constantinople/Istanbul,Константинополь/Стамбул,A2,countries
-1855,Κώστας,Kostas,Костас,A2,general
+1855,Κώστας,Kostas,Костас,A2,names
 1856,λάθος,"false, incorrect","ложный, неправильный",A2,general
 1857,λαϊκή μουσική,popular music,популярная музыка,A2,communication
 1858,λαιμός,neck,шея,A2,general
@@ -1869,8 +1869,8 @@
 1868,λήγω,to expire,истекать,A2,verbs
 1869,ληξιαρχείο,registry office,бюро регистрации,A2,school
 1870,λίγο,for a while (σε),на некоторое время (с),A2,basics
-1871,Λίνκον Αβραάμ,Abraham Lincoln,Авраам Линкольн,A2,general
-1872,Λίτσα,Litsa,Литса,A2,general
+1871,Λίνκον Αβραάμ,Abraham Lincoln,Авраам Линкольн,A2,names
+1872,Λίτσα,Litsa,Литса,A2,names
 1873,λιώνω,to melt,таять,A2,verbs
 1874,λόγια,words,слова,A2,general
 1875,λογοτεχνία,literature,литература,A2,general
@@ -1885,15 +1885,15 @@
 1884,μαλακός,"soft, smooth","мягкий, гладкий",A2,general
 1885,μαλώνω,"to quarrel, to argue","ссориться, спорить",A2,verbs
 1886,μαμά,"mom, mum",мама,A2,general
-1887,Μανόλης,Manolis,Манолис,A2,general
+1887,Μανόλης,Manolis,Манолис,A2,names
 1888,μαντεύω,to guess,гадать,A2,verbs
 1889,μαξιλάρι,pillow,подушка,A2,home
-1890,Μαίρη,Mary,Мэри,A2,general
-1891,Μάρθα,Martha,Марта,A2,general
-1892,Μαρία,"Maria, Mary","Мария, Мэри",A2,general
-1893,Μαρίνα,Marina,Марина,A2,general
-1894,Μαριάννα,Marianna,Марианна,A2,general
-1895,Μάριος,Marios,Марио,A2,general
+1890,Μαίρη,Mary,Мэри,A2,names
+1891,Μάρθα,Martha,Марта,A2,names
+1892,Μαρία,"Maria, Mary","Мария, Мэри",A2,names
+1893,Μαρίνα,Marina,Марина,A2,names
+1894,Μαριάννα,Marianna,Марианна,A2,names
+1895,Μάριος,Marios,Марио,A2,names
 1896,μάρκα αυτοκινήτου,model,модель,A2,general
 1897,μάρτυρας,witness,свидетель,A2,general
 1898,μάσκα,mask,маска,A2,general
@@ -1914,8 +1914,8 @@
 1913,μήπως,"whether, if","ли, если",A2,basics
 1914,μηχανικός,"engineer, mechanic","инженер, механик",A2,general
 1915,μικρόφωνο,microphone,микрофон,A2,general
-1916,Μίρκα,Mirka,Мирка,A2,general
-1917,Μιχάλης,Michael,Майкл,A2,general
+1916,Μίρκα,Mirka,Мирка,A2,names
+1917,Μιχάλης,Michael,Майкл,A2,names
 1918,μνημείο,monument,памятник,A2,general
 1919,μόδα,"fashion, trend","мода, тренд",A2,general
 1920,μοναδικός,"unique, one of a kind","уникальный, единственный в своём роде",A2,time
@@ -1925,7 +1925,7 @@
 1924,μουσικό κουτί,music box,музыкальная шкатулка,A2,communication
 1925,μουσικό όργανο,musical instrument,музыкальный инструмент,A2,general
 1926,μπακλαβάς,baklava,баклава,A2,general
-1927,Μπάμπης,Babis,Бабиш,A2,general
+1927,Μπάμπης,Babis,Бабиш,A2,names
 1928,μπερδεύω,"to confuse, to tangle","путать, запутывать",A2,verbs
 1929,μπροστά από,in front of,перед,A2,general
 1930,μπύρα,beer,пиво,A2,food
@@ -1934,16 +1934,16 @@
 1933,ναός,"church, temple","церковь, храм",A2,society
 1934,νέα,news,новости,A2,communication
 1935,νεαρός,young,молодой,A2,general
-1936,Νεκτάριος,Nektarios,Нектарио,A2,general
+1936,Νεκτάριος,Nektarios,Нектарио,A2,names
 1937,νευριάζω,to get angry,"злиться, раздражаться",A2,verbs
 1938,νηπιαγωγείο,kindergarten,детский сад,A2,home
 1939,νησιώτικος,of the island,с острова,A2,weather
-1940,Νίκη,Niki,Ники,A2,general
-1941,Νίκος,Nick,Ник,A2,general
+1940,Νίκη,Niki,Ники,A2,names
+1941,Νίκος,Nick,Ник,A2,names
 1942,νονός,godfather,крестный отец,A2,people
 1943,νονά,godmother,крестная мать,A2,people
 1944,νότιος,southern,южный,A2,general
-1945,Ντίνα,Ntina,Нтина,A2,general
+1945,Ντίνα,Ntina,Нтина,A2,names
 1946,ντοκιμαντέρ,documentary,документальный фильм,A2,leisure
 1947,νυστάζω,to be sleepy,хотеть спать,A2,verbs
 1948,νυχτερινός,"night, nocturnal",ночной,A2,time
@@ -1965,7 +1965,7 @@
 1964,ξηρός καρπός,nut,орех,A2,food
 1965,ξύλινος,wooden,деревянный,A2,general
 1966,ομελέτα,"omelette, scrambled eggs","омлет, скремблированные яйца",A2,general
-1967,οδοντίατρος,dentist,стоматолог,A2,general
+1967,οδοντίατρος,dentist,стоматолог,A2,health
 1968,οδηγία,"instruction, direction","инструкция, направление",A2,general
 1969,οδηγάω,"to drive, to guide","водить, направлять",A2,verbs
 1970,οικογενειακή κατάσταση,marital status,семейное положение,A2,general
@@ -2014,7 +2014,7 @@
 2013,πείθω,"to persuade, to convince",убеждать,A2,verbs
 2014,πειράζει,it matters (δεν),это важно (δεν),A2,general
 2015,περίπτωση,"case, occasion",случай,A2,general
-2016,πεντάγραμμο,pentagram,пентаграмма,A2,general
+2016,πεντάγραμμο,pentagram,пентаграмма,A2,music
 2017,περαστικά!,get well soon!,поправляйся!,A2,general
 2018,περιλαμβάνω,to include,включать,A2,verbs
 2019,περίπου,"about, more or less","о, более или менее",A2,basics
@@ -2027,7 +2027,7 @@
 2026,πλανήτης,planet,планета,A2,general
 2027,πλαστικός,plastic,пластмассовый,A2,general
 2028,πλένω τα πιάτα,to do the washing up,мыть посуду,A2,verbs
-2029,πληγή,"wound, injury","рана, травма",A2,general
+2029,πληγή,"wound, injury","рана, травма",A2,health
 2030,"πληροφορία, πληροφορίες","information, info",информация,A2,general
 2031,πλησιάζω,"to get near, to approach","приближаться, подходить",A2,verbs
 2032,πλούσιος,"rich, wealthy",богатый,A2,general
@@ -2040,7 +2040,7 @@
 2039,πολιτισμός,"civilization, culture","цивилизация, культура",A2,general
 2040,πολιτιστικός,cultural,культурный,A2,general
 2041,πολίτης,"citizen, civilian","гражданин, гражданский",A2,general
-2042,πολύχρωμος,colourful,красочный,A2,general
+2042,πολύχρωμος,colourful,красочный,A2,colors
 2043,πονόδοντος,toothache,зубная боль,A2,body
 2044,πονάει η κοιλιά μου,to have a stomach ache,болит живот,A2,verbs
 2045,πονοκέφαλος,headache,головная боль,A2,body
@@ -2051,7 +2051,7 @@
 2050,πουθενά,nowhere,нигде,A2,general
 2051,πραγματικά,"really, indeed",действительно,A2,general
 2052,πράξη,act,действие,A2,general
-2053,πράσινος,green,зеленый,A2,general
+2053,πράσινος,green,зеленый,A2,colors
 2054,πρεμιέρα,"premiere, opening night","премьера, ночь открытия",A2,time
 2055,πρίζα,socket,гнездо,A2,general
 2056,πριν,before,перед,A2,basics
@@ -2075,15 +2075,15 @@
 2074,ραδιοφωνική εκπομπή,radio program,радиопрограмма,A2,communication
 2075,ραντεβού,"appointment, date","встреча, свидание",A2,school
 2076,ράτσα ζώου,pedigree,родословная,A2,general
-2077,ρεσιτάλ,recital,концерт,A2,general
+2077,ρεσιτάλ,recital,концерт,A2,music
 2078,ρεύμα,electricity,электричество,A2,general
 2079,ρίγανη,oregano,орегано,A2,general
 2080,ροκ μουσική,rock music,рок музыка,A2,communication
-2081,ρυθμός,rhythm,ритм,A2,general
+2081,ρυθμός,rhythm,ритм,A2,music
 2082,Ρωμαίος και Ιουλιέτα,Romeo and Juliet,Ромео и Джульетта,A2,leisure
 2083,σακούλα,plastic bag,пластиковый пакет,A2,clothes
-2084,Σαμ,Sam,Сэм,A2,general
-2085,Σαίξπηρ Ουίλιαμ,Shakespeare William,Шекспир Уильям,A2,general
+2084,Σαμ,Sam,Сэм,A2,names
+2085,Σαίξπηρ Ουίλιαμ,Shakespeare William,Шекспир Уильям,A2,names
 2086,σβήνω τη φωτιά,to put out the fire,тушить огонь,A2,verbs
 2087,σγουρός,curly,кудрявый,A2,general
 2088,η σειρά μου,my turn,моя очередь,A2,general
@@ -2101,8 +2101,8 @@
 2100,σκορπίζω,to scatter,рассеивать,A2,verbs
 2101,σόδα,baking soda,пищевая сода,A2,general
 2102,σούπα,soup,суп,A2,food
-2103,σοπράνο,soprano,сопрано,A2,general
-2104,Σοφία,Sofia,София,A2,general
+2103,σοπράνο,soprano,сопрано,A2,music
+2104,Σοφία,Sofia,София,A2,names
 2105,σπάζω,"to smash, to break","ломать, разбивать",A2,verbs
 2106,σπάνια,"rarely, seldom",редко,A2,general
 2107,είμαι σπίτι,to be at home,быть дома,A2,verbs
@@ -2135,16 +2135,16 @@
 2134,συμφοιτητής,"fellow student, classmate",сокурсник,A2,people
 2135,συναντάω,"to meet, to come across","встречаться, сталкиваться",A2,verbs
 2136,συνάντηση,meeting,встреча,A2,school
-2137,συναυλία,concert,концерт,A2,general
+2137,συναυλία,concert,концерт,A2,music
 2138,συνεργείο,garage,гараж,A2,general
 2139,έχει συννεφιά,it is cloudy,облачно,A2,weather
 2140,παίρνω συνέντευξη,to interview,брать интервью,A2,verbs
 2141,συνήθεια,habit,привычка,A2,general
 2142,συνηθισμένος,usual,обычный,A2,general
-2143,συνθέτης,composer,композитор,A2,general
+2143,συνθέτης,composer,композитор,A2,music
 2144,συμπεριφορά,"behaviour, attitude","поведение, отношение",A2,general
 2145,Πλατεία Συντάγματος,Syntagma Square,площадь Синтагма,A2,city
-2146,συρτάκι,syrtaki,сиртаки,A2,general
+2146,συρτάκι,syrtaki,сиртаки,A2,music
 2147,συστημένος,"introduced, recommended","введенный, рекомендованный",A2,general
 2148,συχνός,"often, frequent","часто, частый",A2,general
 2149,σφιχτός,"tight, close","плотно, близко",A2,general
@@ -2154,11 +2154,11 @@
 2153,πηγαίνω στο σχολείο,to go to school,пойти в школу,A2,verbs
 2154,σχολικός,schooling,школьное обучение,A2,general
 2155,σωστά,"right, correctly",правильно,A2,general
-2156,Σωτηρία,Sotiria,Сотирия,A2,general
-2157,τάγκο,tango,танго,A2,general
-2158,Τάνια,Tania,Таня,A2,general
-2159,Τάσος,Tassos,Тасос,A2,general
-2160,Τασούλα,Tassoula,Тассула,A2,general
+2156,Σωτηρία,Sotiria,Сотирия,A2,names
+2157,τάγκο,tango,танго,A2,music
+2158,Τάνια,Tania,Таня,A2,names
+2159,Τάσος,Tassos,Тасос,A2,names
+2160,Τασούλα,Tassoula,Тассула,A2,names
 2161,ταυτότητα αστυνομική,ID card,удостоверение личности,A2,society
 2162,ταψί,"tray, baking sheet","поднос, пекарский лист",A2,general
 2163,τελικά,"finally, after all","наконец, после того как",A2,basics
@@ -2167,7 +2167,7 @@
 2166,τ.μ.,square metre,квадратный метр,A2,city
 2167,τέχνη,art,искусство,A2,leisure
 2168,τεχνολογικός,technological,технологический,A2,general
-2169,τζάζ,jazz,джаз,A2,general
+2169,τζάζ,jazz,джаз,A2,music
 2170,τηγάνι,pan,сковорода,A2,general
 2171,στην τηλεόραση,on TV,по телевизору,A2,communication
 2172,τηλεφώνημα,"call, phone call","звонок, телефонный звонок",A2,communication
@@ -2178,9 +2178,9 @@
 2177,τόσος,so much,так много,A2,basics
 2178,τουλάχιστον,at least,по крайней мере,A2,general
 2179,τούρτα,birthday cake,праздничный торт,A2,food
-2180,τραγουδιστής,singer,певец,A2,general
+2180,τραγουδιστής,singer,певец,A2,music
 2181,τραπεζομάντιλο,tablecloth,скатерть,A2,general
-2182,τρέξιμο,running,бег,A2,general
+2182,τρέξιμο,running,бег,A2,sports
 2183,πηγαίνω για τρέξιμο,to go running,бежать,A2,verbs
 2184,τρίβω,to rub,втирать,A2,verbs
 2185,Τρίπολη,Tripoli,Триполи,A2,general
@@ -2189,7 +2189,7 @@
 2188,τροχαία,traffic police,полиция дорожного движения,A2,society
 2189,μου φαίνεται,it seems to me,мне кажется,A2,general
 2190,φακή,lentil,чечевица,A2,general
-2191,Φάμπιο,Fabio,Фабио,A2,general
+2191,Φάμπιο,Fabio,Фабио,A2,names
 2192,φανταστικά,wonderfully,чудесно,A2,general
 2193,φασόλι,bean,боб,A2,food
 2194,φέιγ βολάν,"flysheet, leaflet","лист, листовка",A2,general
@@ -2212,7 +2212,7 @@
 2211,φτερό,"feather, wing","перо, крыло",A2,general
 2212,φυλλάδιο,"booklet, leaflet","буклет, листовка",A2,general
 2213,φυσικό αέριο,natural gas,природный газ,A2,weather
-2214,φυτό,plant,растение,A2,general
+2214,φυτό,plant,растение,A2,nature
 2215,φυτεύω,to plant,сажать,A2,verbs
 2216,φυσάω,to blow,дуть,A2,verbs
 2217,φυσικά,"of course, certainly","конечно, безусловно",A2,school
@@ -2229,9 +2229,9 @@
 2228,χαμάμ,Turkish bath,Турецкая баня,A2,leisure
 2229,χαμομήλι,chamomile,ромашка,A2,general
 2230,χάπι,pill,таблетка,A2,general
-2231,Χαράλαμπος,Charalambos,Шараламбо,A2,general
+2231,Χαράλαμπος,Charalambos,Шараламбо,A2,names
 2232,χαρίζω,"to donate, to gift","дарить, преподносить в дар",A2,verbs
-2233,Χαρίκλεια,Chariklia,Чариклия,A2,general
+2233,Χαρίκλεια,Chariklia,Чариклия,A2,names
 2234,χαρτοπετσέτα,napkin,салфетка,A2,general
 2235,χλιαρός,lukewarm,теплый,A2,weather
 2236,ύψιλον υγεία,health,здоровье,A2,body
@@ -2242,7 +2242,7 @@
 2241,υποχρεωτικός,obligatory,обязательный,A2,general
 2242,ύφασμα,"cloth, fabric",ткань,A2,general
 2243,υψηλή θερμοκρασία,"high temperature, fever","высокая температура, жар",A2,body
-2244,χορευτής,dancer,танцор,A2,general
+2244,χορευτής,dancer,танцор,A2,music
 2245,Χριστός Ανέστη!,Christ is risen!,Христос воскрес!,A2,general
 2246,χριστουγεννιάτικος,"Christmas, Christmas-related",рождественский,A2,time
 2247,χρονιά,year,год,A2,time
@@ -2253,11 +2253,11 @@
 2252,λέω ψέματα,to lie,лгать,A2,verbs
 2253,ψητός,"roast, baked","жареный, запеченный",A2,general
 2254,ψιχαλίζει,it drizzles,моросит,A2,general
-2255,ωμέγα ωδείο,conservatory,консерватория,A2,general
+2255,ωδείο,conservatory,консерватория,A2,music
 2256,αγγίζω,to touch,касаться,B1,verbs
 2257,αγελάδα,cow,корова,B1,animals
 2258,αγένεια,"rudeness, impoliteness","грубость, невежливость",B1,general
-2259,αγιόκλημα,honeysuckle,жимолость,B1,general
+2259,αγιόκλημα,honeysuckle,жимолость,B1,nature
 2260,Άγιος Μαυρίκιος,Mauritius,Маврикий,B1,general
 2261,αγκαλιάζω,"to embrace, to hug","обнять, обниматься",B1,verbs
 2262,αγοραπωλησία,"transaction, sale","сделка, продажа",B1,general
@@ -2265,9 +2265,9 @@
 2264,αγοραστής,"buyer, purchaser",покупатель,B1,people
 2265,αγριεύω,"to become wild, anger","свирепеть, злить",B1,verbs
 2266,Αγρίνιο,Agrinio,Агрини,B1,general
-2267,αγρός,field,поле,B1,general
-2268,αγρότης,farmer,фермер,B1,general
-2269,αγροτικός,agricultural,сельскохозяйственный,B1,general
+2267,αγρός,field,поле,B1,nature
+2268,αγρότης,farmer,фермер,B1,nature
+2269,αγροτικός,agricultural,сельскохозяйственный,B1,nature
 2270,αγχωμένος,"stressed, anxious","напряженный, тревожный",B1,general
 2271,αγχώνομαι,to stress out,"нервничать, переживать",B1,verbs
 2272,αγχώνω,to make nervous,заставлять нервничать,B1,verbs
@@ -2283,7 +2283,7 @@
 2282,αθόρυβος,"silent, quiet","молчать, тихий",B1,general
 2283,Αιγόκερως,Capricorn,Козерог,B1,general
 2284,αιμορραγώ,to bleed,кровоточить,B1,verbs
-2285,Αινστάιν,"Einstein, Albert","Эйнштейн, Альберт",B1,general
+2285,Αινστάιν,"Einstein, Albert","Эйнштейн, Альберт",B1,names
 2286,αίσθημα,"feeling, emotion","чувство, эмоция",B1,feelings
 2287,αισθητική,aesthetics,эстетика,B1,general
 2288,αισιοδοξία,optimism,оптимизм,B1,general
@@ -2303,8 +2303,8 @@
 2302,ακρογιαλιά,"seaside, beach","побережье, пляж",B1,weather
 2303,Ακρόπολη,Acropolis,Акрополь,B1,countries
 2304,ακροστιχίδα,"acrostic, acronym","акростический, акроним",B1,general
-2305,ακτινογραφία,X-ray,рентген,B1,general
-2306,ακτινολόγος,radiologist,радиолог,B1,general
+2305,ακτινογραφία,X-ray,рентген,B1,health
+2306,ακτινολόγος,radiologist,радиолог,B1,health
 2307,άκυρος,invalid,недействительный,B1,general
 2308,ακυρώνομαι,to be canceled,отменяться,B1,verbs
 2309,ακυρώνω,"to cancel, to invalidate","отменить, недействительным",B1,verbs
@@ -2318,8 +2318,8 @@
 2317,αλλαγμένος,"turned around, changed","поворачиваться, меняться",B1,general
 2318,αλλάζω γνώμη,to change my mind,изменить свое мнение,B1,verbs
 2319,αλλαντικό,deli meat,мясные деликатесы,B1,food
-2320,αλλεργία,allergy,аллергия,B1,general
-2321,αλλεργικός,allergic,аллергический,B1,general
+2320,αλλεργία,allergy,аллергия,B1,health
+2321,αλλεργικός,allergic,аллергический,B1,health
 2322,άλλωστε,"besides, moreover","помимо, более того",B1,general
 2323,αλμύρα,saltiness,соленость,B1,general
 2324,αλοιφή,"paste, dip","паста, окунать",B1,general
@@ -2348,7 +2348,7 @@
 2347,ανακάλυψη,"discovery, find","открытие, найти",B1,general
 2348,ανακεφαλαίωση,summary,резюме,B1,general
 2349,ανακοινώνω,to announce,объявлять,B1,verbs
-2350,ανακυκλωμένος,recycled,переработанный,B1,general
+2350,ανακυκλωμένος,recycled,переработанный,B1,nature
 2351,ανακυκλώνω,to recycle,перерабатывать,B1,verbs
 2352,αναλαμβάνω,"to take on, undertake","браться за, принимать на себя",B1,verbs
 2353,αναμένω,"to expect, to wait","ожидать, ждать",B1,verbs
@@ -2356,13 +2356,13 @@
 2355,ανάμνηση,memory,память,B1,general
 2356,ανανάς,pineapple,ананас,B1,general
 2357,ανανεώνω,to renew,возобновлять,B1,verbs
-2358,αναπηρία,disability,инвалидность,B1,general
+2358,αναπηρία,disability,инвалидность,B1,health
 2359,ανάπτυξη,"development, growth","развитие, рост",B1,general
 2360,αναπτύσσομαι,"to be developed, to grow","разрабатываться, расти",B1,verbs
 2361,αναπτύσσω,to develop,развивать,B1,verbs
 2362,αναρρώνω,to recover,выздоравливать,B1,verbs
-2363,ανάρρωση,"recovery, recuperation",восстановление,B1,general
-2364,αναρρωτικός,"recuperative, convalescent","восстанавливающий, выздоравливающий",B1,general
+2363,ανάρρωση,"recovery, recuperation",восстановление,B1,health
+2364,αναρρωτικός,"recuperative, convalescent","восстанавливающий, выздоравливающий",B1,health
 2365,αναρωτιέμαι,"to wonder, to ask myself","задаваться вопросом, удивляться",B1,verbs
 2366,αναστατωμένος,upset,"расстроенный, взволнованный",B1,general
 2367,ανατροφή,"upbringing, breeding","воспитание, разведение",B1,general
@@ -2389,7 +2389,7 @@
 2388,ανθοπώλης,florist,флорист,B1,general
 2389,ανθότυρο,a kind of soft cheese,своего рода мягкий сыр,B1,food
 2390,ανθρωπότητα,humanity,человечество,B1,general
-2391,ανθυγιεινός,unhealthy,нездоровый,B1,general
+2391,ανθυγιεινός,unhealthy,нездоровый,B1,health
 2392,ανίκανος,"inefficient, incapable","неэффективный, неспособный",B1,general
 2393,άνοδος,"rise, increase","подъём, рост",B1,general
 2394,άνοιγμα,opening,открытие,B1,general
@@ -2403,7 +2403,7 @@
 2402,ανταύγεια,"glow, highlight","отблеск, блик",B1,general
 2403,αντέχω,"to endure, to bear","терпеть, нести",B1,verbs
 2404,αντί,"instead of, in place of","вместо, взамен",B1,general
-2405,αντιβίωση,antibiotics,антибиотики,B1,general
+2405,αντιβίωση,antibiotics,антибиотики,B1,health
 2406,αντίγραφο,copy,копия,B1,general
 2407,αντιγράφω,to copy,копировать,B1,verbs
 2408,αντίδραση,reaction,реакция,B1,general
@@ -2481,7 +2481,7 @@
 2480,απλότητα,simplicity,простота,B1,general
 2481,απλωμένος,"outstretched, spread out","растянутый, распространять",B1,general
 2482,απλώς,"only, simply","только, просто",B1,basics
-2483,απόβλητο,"waste, sewage","отходы, канализация",B1,general
+2483,απόβλητο,"waste, sewage","отходы, канализация",B1,nature
 2484,απογειώνομαι,to take off,взлетать,B1,verbs
 2485,απογειώνω,to make take off,поднимать в воздух,B1,verbs
 2486,απογείωση,"take-off, lift-off",взлет,B1,general
@@ -2513,12 +2513,12 @@
 2512,απομονώνω,to isolate,изолировать,B1,verbs
 2513,απομόνωση,isolation,изоляция,B1,general
 2514,απορία,"question, query","вопрос, запрос",B1,communication
-2515,απορρίμματα,"garbage, waste","мусор, отходы",B1,general
+2515,απορρίμματα,"garbage, waste","мусор, отходы",B1,nature
 2516,απορώ,to wonder,удивляться,B1,verbs
 2517,αποσκευή,"suitcase, baggage","чемодан, багаж",B1,city
 2518,απόσπασμα,"passage, extract","проход, экстракт",B1,general
 2519,αποστολή,"shipment, dispatch","груз, отправка",B1,general
-2520,Αποστόλης,Apostolis,Апостолы,B1,general
+2520,Αποστόλης,Apostolis,Апостолы,B1,names
 2521,αποτελεσματικός,effective,эффективный,B1,general
 2522,αποτελεσματικά,effectively,эффективно,B1,general
 2523,αποτελούμαι,to consist of,состоять из,B1,verbs
@@ -2543,7 +2543,7 @@
 2542,αργκό,slang,сленг,B1,general
 2543,Άργος,Argos,Аргос,B1,general
 2544,αργότερα,later,позже,B1,general
-2545,αργυροπελεκάνος,Dalmatian pelican,кудрявый пеликан,B1,general
+2545,αργυροπελεκάνος,Dalmatian pelican,кудрявый пеликан,B1,nature
 2546,Άρης,Mars,Марс,B1,general
 2547,αριθμώ,to enumerate,перечислять,B1,verbs
 2548,αριστοκρατικός,"aristocratic, refined","аристократический, изысканный",B1,general
@@ -2554,7 +2554,7 @@
 2553,αρνητικός,negative,отрицательный,B1,general
 2554,αρραβωνιαστικός,"fiancé, fiancée","жених, невеста",B1,general
 2555,αρρωστιάρης,"ill, sick",больной,B1,body
-2556,Άρτεμη,Artemis,Артемида,B1,general
+2556,Άρτεμη,Artemis,Артемида,B1,names
 2557,αρχαίος,ancient,древний,B1,general
 2558,αρχείο,file,файл,B1,general
 2559,αρχές,in the beginning,в начале,B1,general
@@ -2569,8 +2569,8 @@
 2568,αρωματικός,aromatic,ароматический,B1,general
 2569,αρωματισμός,"flavoring, adding aroma",ароматизация,B1,general
 2570,ασήμαντος,"unimportant, insignificant","неважный, незначительный",B1,general
-2571,ασθένεια,"disease, sickness",болезнь,B1,general
-2572,ασθενοφόρο,ambulance,скорая помощь,B1,general
+2571,ασθένεια,"disease, sickness",болезнь,B1,health
+2572,ασθενοφόρο,ambulance,скорая помощь,B1,health
 2573,ασκώ,to use,использовать,B1,verbs
 2574,ασπρομάλλης,white-haired,беловолосый,B1,general
 2575,αστέρι,star,звезда,B1,general
@@ -2669,8 +2669,8 @@
 2668,βιβλιοπώλης,bookseller,книготорговец,B1,general
 2669,βίζα,visa,виза,B1,society
 2670,βίλα,villa,вилла,B1,general
-2671,βιολετής,violet,фиолетовый,B1,general
-2672,βιολετί,violet,фиолетовый,B1,general
+2671,βιολετής,violet,фиолетовый,B1,colors
+2672,βιολετί,violet,фиолетовый,B1,colors
 2673,βιολογικός,biological,биологический,B1,general
 2674,βιομηχανία,industry,промышленность,B1,general
 2675,βιομηχανικός,industrial,промышленный,B1,general
@@ -2691,7 +2691,7 @@
 2690,βούλα,"point, dot",точка,B1,general
 2691,βουλευτής,member of parliament,член парламента,B1,general
 2692,βουρτσίζω,to brush,чистить,B1,verbs
-2693,βουτιά,dive,нырок,B1,general
+2693,βουτιά,dive,нырок,B1,sports
 2694,βουτυρωμένος,buttered,смазанный маслом,B1,food
 2695,βραβείο,"prize, award","приз, награда",B1,general
 2696,βραβεύομαι,to receive an award,получать награду,B1,verbs
@@ -2738,7 +2738,7 @@
 2737,γένος,gender,пол,B1,home
 2738,γεράκι,hawk,ястреб,B1,general
 2739,γεράματα,old age,старость,B1,time
-2740,γεράνι,geranium,герань,B1,general
+2740,γεράνι,geranium,герань,B1,nature
 2741,γερασμένος,old,старый,B1,general
 2742,γέρικoς,old,старый,B1,general
 2743,γερνάω,to get older,стареть,B1,verbs
@@ -2760,10 +2760,10 @@
 2759,γιουβέτσι,giouvetsi,ювеци,B1,general
 2760,γκάμα,"range, variety","диапазон, разнообразие",B1,general
 2761,γκέμι,bridle,уздечка,B1,general
-2762,γκρίζος,grey,серый,B1,general
+2762,γκρίζος,grey,серый,B1,colors
 2763,γκρινιάζω,to nag,ворчать,B1,verbs
 2764,γκρινιάρης,nagging,"нытик, ворчун",B1,general
-2765,γλάστρα,flowerpot,цветочный горшок,B1,general
+2765,γλάστρα,flowerpot,цветочный горшок,B1,nature
 2766,γλεντάω,"to celebrate, to party","праздновать, веселиться",B1,verbs
 2767,γλύκα,sweetness,сладость,B1,general
 2768,γλυκαίνω,to sweeten,подслащивать,B1,verbs
@@ -2796,14 +2796,14 @@
 2795,γυάλινος,"glass, made of glass",стеклянный,B1,food
 2796,γυμνός,"bare, naked",голый,B1,general
 2797,γυμνάζομαι,"to work out, to exercise","тренироваться, заниматься спортом",B1,verbs
-2798,γυναικολόγος,"gynecologist, obstetrician","гинеколог, акушер",B1,general
+2798,γυναικολόγος,"gynecologist, obstetrician","гинеколог, акушер",B1,health
 2799,γωνιακός,situated in a corner,расположенный в углу,B1,general
 2800,δανείζομαι,to borrow,заимствовать,B1,verbs
 2801,δάνειο,loan,кредит,B1,general
 2802,δανεισμός,"borrowing, lending","заимствование, кредитование",B1,general
 2803,δανειστικός,loan,кредит,B1,general
 2804,δαντέλα,lace,кружево,B1,general
-2805,δασικός,woodland,лесистость,B1,general
+2805,δασικός,woodland,лесистость,B1,nature
 2806,δαχτυλίδι,ring,кольцо,B1,general
 2807,δάχτυλο,finger,палец,B1,body
 2808,δείγμα,"sample, specimen",образец,B1,general
@@ -2819,15 +2819,15 @@
 2818,δεξιότητα,skill,умение,B1,general
 2819,δεξίωση,reception,прием,B1,general
 2820,δέρμα,"skin, leather",кожа,B1,general
-2821,δερματολόγος,dermatologist,дерматолог,B1,general
+2821,δερματολόγος,dermatologist,дерматолог,B1,health
 2822,δεσμός,bond,"связь, узы",B1,general
 2823,δέχομαι,to accept,принимать,B1,verbs
 2824,δηλητηριάζομαι,to be poisoned,быть отравленным,B1,verbs
-2825,δηλητηριασμένος,poisoned,отравленный,B1,general
-2826,δηλητήριο,poison,яд,B1,general
+2825,δηλητηριασμένος,poisoned,отравленный,B1,health
+2826,δηλητήριο,poison,яд,B1,health
 2827,Δήλος,Delos,Делос,B1,general
 2828,δήλωση,"statement, report","заявление, доклад",B1,general
-2829,Δημητρός,Dimitros,Димитрос,B1,general
+2829,Δημητρός,Dimitros,Димитрос,B1,names
 2830,δημιουργία,creation,создание,B1,general
 2831,δημιουργικός,creative,творческий,B1,general
 2832,δημιουργός,creator,создатель,B1,general
@@ -2842,7 +2842,7 @@
 2841,διαθέτω,"to possess, to have","обладать, иметь",B1,verbs
 2842,διαίρεση,division,деление,B1,general
 2843,διαιτητικός,dietary,диетический,B1,general
-2844,διαιτολόγος,"dietitian, nutritionist",диетолог,B1,general
+2844,διαιτολόγος,"dietitian, nutritionist",диетолог,B1,health
 2845,διακοπή,"break, interruption","разрыв, прерывание",B1,general
 2846,διακoσιοστός,two hundredth,двухсотый,B1,time
 2847,διακόσμηση,decoration,украшение,B1,general
@@ -2886,7 +2886,7 @@
 2885,διοργάνωση,event,событие,B1,general
 2886,δίπλωμα,license,лицензия,B1,general
 2887,διπλωματικός,diplomatic,дипломатический,B1,general
-2888,δισεκατομμύριο,billion,миллиарды,B1,general
+2888,δισεκατομμύριο,billion,миллиарды,B1,time
 2889,δίχως,without,без,B1,basics
 2890,διώροφος,with two floors,с двумя этажами,B1,basics
 2891,διώχνω,"to send away, drive away","прогонять, отсылать",B1,verbs
@@ -2950,7 +2950,7 @@
 2949,ειλικρινά,"honestly, frankly","честно, откровенно",B1,general
 2950,ειλικρίνεια,honesty,честность,B1,general
 2951,εισαγωγή,introduction,введение,B1,general
-2952,εκατομμύριο,million,миллион,B1,general
+2952,εκατομμύριο,million,миллион,B1,time
 2953,εκατοντάδα,"hundred, hundreds of","сотня, сотни",B1,time
 2954,εκβιάζω,to blackmail,шантажировать,B1,verbs
 2955,εκβιασμός,"blackmail, extortion","шантаж, вымогательство",B1,general
@@ -2984,7 +2984,7 @@
 2983,ελάττωμα,flaw,недостаток,B1,general
 2984,ελαττωματικός,"faulty, defective","неисправный, дефектный",B1,general
 2985,Ελβετία,Switzerland,Швейцария,B1,countries
-2986,Ελεγκάκη,Elegaki,Элегаки,B1,general
+2986,Ελεγκάκη,Elegaki,Элегаки,B1,names
 2987,έλεγχος,"check, inspection","проверка, контроль",B1,general
 2988,ελέγχω,"to check, to inspect",проверять,B1,verbs
 2989,ελευθερώνω,"to free, to release",освобождать,B1,verbs
@@ -2992,7 +2992,7 @@
 2991,ελιά,"mole, olive","родинка, оливковый",B1,general
 2992,έλλειψη,"shortage, lack","дефицит, недостаток",B1,general
 2993,ελληνική γλώσσα,Greek language,греческий язык,B1,language
-2994,Ελπίδα,Elpida,Эльпида,B1,general
+2994,Ελπίδα,Elpida,Эльпида,B1,names
 2995,έμπειρος,"experienced, skilled","опытный, квалифицированный",B1,general
 2996,εμπιστεύομαι,to trust,доверять,B1,verbs
 2997,εμπιστοσύνη,"trust, faith","доверие, вера",B1,general
@@ -3025,7 +3025,7 @@
 3024,εννιάχρονος,nine years old,девятилетний,B1,time
 3025,εννοώ,to mean,означать,B1,verbs
 3026,ενοικιαστής,tenant,арендатор,B1,general
-3027,ενορχήστρωση,instrumentation,инструментарий,B1,general
+3027,ενορχήστρωση,instrumentation,инструментарий,B1,music
 3028,ενοχλητικός,"annoying, disturbing","раздражающий, беспокоящий",B1,general
 3029,ενοχλούμαι,to be annoyed,раздражаться,B1,verbs
 3030,ενοχλώ,"to annoy, to disturb","раздражать, беспокоить",B1,verbs
@@ -3143,7 +3143,7 @@
 3142,ερμηνεία,"acting, interpretation","толкование, интерпретация",B1,general
 3143,ερμηνεύω,"to interpret, to act","интерпретировать, исполнять",B1,verbs
 3144,ερπετό,reptile,рептилия,B1,general
-3145,ερωδιός,heron,цапля,B1,general
+3145,ερωδιός,heron,цапля,B1,nature
 3146,έρωτας,love,любовь,B1,feelings
 3147,ερωτευμένος,in love,влюбленный,B1,feelings
 3148,ερωτεύομαι,to fall in love,влюбляться,B1,verbs
@@ -3162,7 +3162,7 @@
 3161,ευθύνομαι,to be responsible,быть ответственным,B1,verbs
 3162,ευκολία,"ease, convenience","легкость, удобство",B1,general
 3163,ευπρόσδεκτος,welcome,желанный,B1,general
-3164,Ευρυπίδης,Euripides,Еврипид,B1,general
+3164,Ευρυπίδης,Euripides,Еврипид,B1,names
 3165,ευρύχωρος,"spacious, roomy","просторный, вместительный",B1,general
 3166,Ευρωπαϊκή Ενωση,European Union,Европейский Союз,B1,countries
 3167,ευχαρίστηση,pleasure,удовольствие,B1,general
@@ -3216,12 +3216,12 @@
 3215,ηρεμώ,"to calm, to calm down",успокоиться,B1,verbs
 3216,ήρωας,"hero, heroine","герой, героиня",B1,general
 3217,ήσυχα,quietly,тихо,B1,general
-3218,ηφαίστιο,volcano,вулкан,B1,general
+3218,ηφαίστιο,volcano,вулкан,B1,nature
 3219,ηχογραφώ,to record,записывать,B1,verbs
 3220,ηχορύπανση,noise pollution,шумовое загрязнение,B1,general
 3221,θάβω,to bury,хоронить,B1,verbs
 3222,θαλασσής,light blue,голубой,B1,home
-3223,θαλάσσιος,marine,морской,B1,general
+3223,θαλάσσιος,marine,морской,B1,nature
 3224,θαλασσινός,"sea, marine","море, морской",B1,weather
 3225,θαλασσινά,seafood,морепродукты,B1,general
 3226,θαμμένος,buried,погребенный,B1,general
@@ -3233,17 +3233,17 @@
 3232,θέαμα,show,шоу,B1,general
 3233,θεαματικός,spectacular,зрелищный,B1,general
 3234,θέληση,willpower,сила воли,B1,general
-3235,Θεόδωρος,Theodore,Теодор,B1,general
-3236,θεραπεία,treatment,лечение,B1,general
+3235,Θεόδωρος,Theodore,Теодор,B1,names
+3236,θεραπεία,treatment,лечение,B1,health
 3237,θεραπεύομαι,"to be cured, to be healed","вылечиться, исцелиться",B1,verbs
 3238,θέρετρο,resort,курорт,B1,general
 3239,θερίζω,"to decimate, to reap","уничтожать, пожинать",B1,verbs
 3240,θερινός,summertime,летнее время,B1,time
 3241,Θερμαϊκός,Thermaikos bay,Залив Термаикос,B1,general
 3242,θερμαίνω,"to warm, to heat","согревать, нагревать",B1,verbs
-3243,θερμίδα,calorie,калория,B1,general
+3243,θερμίδα,calorie,калория,B1,health
 3244,θερμοκήπιο,greenhouse,теплица,B1,general
-3245,θερμόμετρο,thermometer,термометр,B1,general
+3245,θερμόμετρο,thermometer,термометр,B1,health
 3246,θερμότητα,"warmth, heat",тепло,B1,general
 3247,θετικός,positive,положительный,B1,general
 3248,θεωρητικός,theoretical,теоретический,B1,general
@@ -3267,8 +3267,8 @@
 3266,θύτης,"offender, perpetrator","преступник, исполнитель",B1,general
 3267,Ιανουάριος,January,январь,B1,time
 3268,ιατρείο,doctor's office,кабинет врача,B1,people
-3269,ιατρικός,medical,медицинский,B1,general
-3270,ιβουάρ,ivory,слоновая кость,B1,general
+3269,ιατρικός,medical,медицинский,B1,health
+3270,ιβουάρ,ivory,слоновая кость,B1,colors
 3271,ιδανικά,ideally,идеально,B1,general
 3272,ιδανικός,"ideal, perfect","идеал, совершенный",B1,general
 3273,ιδιαιτερότητα,"peculiarity, distinctiveness","особенность, отличительность",B1,general
@@ -3282,7 +3282,7 @@
 3281,ικανοποιούμαι,to be satisfied,быть удовлетворенным,B1,verbs
 3282,ικανοποιώ,"to satisfy, to fulfill","удовлетворять, выполнять",B1,verbs
 3283,ικανός,"capable, able",способный,B1,general
-3284,ιππασία,horseback riding,верховая езда,B1,general
+3284,ιππασία,horseback riding,верховая езда,B1,sports
 3285,ισότιμος,equivalent,эквивалентный,B1,general
 3286,ιστορικός,historic,исторический,B1,general
 3287,ισχυρός,"strong, severe",сильный,B1,general
@@ -3327,7 +3327,7 @@
 3326,καμπίνα,cabin,кабина,B1,general
 3327,κανάτι,"cruse, pitcher",кувшин,B1,general
 3328,κανέλα,cinnamon,корица,B1,general
-3329,κανό,canoe,каноэ,B1,general
+3329,κανό,canoe,каноэ,B1,sports
 3330,κανονίζω,to arrange,организовывать,B1,verbs
 3331,καντίνα,canteen,столовая,B1,general
 3332,κάνω παιδί,to have a child,иметь ребёнка,B1,verbs
@@ -3339,7 +3339,7 @@
 3338,κάρδαμο,cardamom,кардамон,B1,general
 3339,καρέ,"bobbed hair, bob","каре, стрижка",B1,body
 3340,καριέρα,career,карьера,B1,general
-3341,καρκίνος,cancer,рак,B1,general
+3341,καρκίνος,cancer,рак,B1,health
 3342,καρό,checked,клетчатый,B1,general
 3343,κάρο,wagon,вагон,B1,general
 3344,καρπός,wrist,запястье,B1,general
@@ -3347,7 +3347,7 @@
 3346,καρύκευμα,seasoning,приправа,B1,general
 3347,καρφίτσα,pin,булавка,B1,general
 3348,καστανάς,chestnut seller,продавец жареных каштанов,B1,general
-3349,καστανός,brown,коричневый,B1,general
+3349,καστανός,brown,коричневый,B1,colors
 3350,καταβροχθίζω,to devour,пожирать,B1,verbs
 3351,καταγγελία,"complaint, accusation","жалоба, обвинение",B1,general
 3352,κατάγομαι,"to be descended, descendant","происходить, потомок",B1,verbs
@@ -3363,7 +3363,7 @@
 3362,κατανοώ,"to understand, to comprehend",понимать,B1,verbs
 3363,καταπιέζω,to supress,подавлять,B1,verbs
 3364,καταπίνω,to swallow,глотать,B1,verbs
-3365,καταπράσινος,"bright green, leafy","ярко-зеленый, листовой",B1,general
+3365,καταπράσινος,"bright green, leafy","ярко-зеленый, листовой",B1,colors
 3366,καταριέμαι,to curse,проклинать,B1,verbs
 3367,καταρχήν,in principle,в принципе,B1,general
 3368,κατασκευάζω,"to build, to construct",строить,B1,verbs
@@ -3417,7 +3417,7 @@
 3416,κινητικός,"energetic, kinetic","энергичный, кинетический",B1,general
 3417,κινούμαι,to move,перемещаться,B1,verbs
 3418,κινούμενα σχέδια,cartoons,мультфильмы,B1,general
-3419,κλαδί,branch,ветка,B1,general
+3419,κλαδί,branch,ветка,B1,nature
 3420,κλαίω,"to cry, to shed tears","плакать, рыдать",B1,verbs
 3421,κλάμα,crying,плач,B1,general
 3422,κλαψιάρης,weepy,плачущий,B1,general
@@ -3428,7 +3428,7 @@
 3427,κλιματικός,climatic,климатический,B1,general
 3428,κλιματισμός,air conditioning,кондиционер,B1,weather
 3429,κλιματιστικό,air conditioner,кондиционер,B1,weather
-3430,κλινικός,clinical,клинический,B1,general
+3430,κλινικός,clinical,клинический,B1,health
 3431,κλίνομαι,to be conjugated,спрягаться,B1,verbs
 3432,κλωστή,thread,нить,B1,general
 3433,κοινός,common,общий,B1,general
@@ -3445,8 +3445,8 @@
 3444,κολοκύθι,"zucchini, pumpkin","цуккини, тыква",B1,general
 3445,κολοκυθόπιτα,"zucchini pie, pumpkin pie","кабачковый пирог, тыквенный пирог",B1,general
 3446,κολόνια,"cologne, perfum","одеколон, перфом",B1,general
-3447,κόλπος,gulf,залив,B1,general
-3448,κολύμβηση,swimming,плавание,B1,general
+3447,κόλπος,gulf,залив,B1,nature
+3448,κολύμβηση,swimming,плавание,B1,sports
 3449,κομψός,elegant,изящный,B1,general
 3450,κομψότητα,elegance,элегантность,B1,general
 3451,κονιάκ,brandy,бренди,B1,general
@@ -3455,7 +3455,7 @@
 3454,Κοπεγχάγη,Copenhagen,Копенгаген,B1,countries
 3455,κοπιάζω,"to labor, to toil",трудиться,B1,verbs
 3456,κόπος,effort,усилие,B1,general
-3457,κοραλλί,deep pink,глубокий розовый,B1,general
+3457,κοραλλί,deep pink,глубокий розовый,B1,colors
 3458,κοράλλι,coral,коралл,B1,general
 3459,κορινθιακός,Corinthian,коринфский,B1,general
 3460,κορμί,body,тело,B1,body
@@ -3500,7 +3500,7 @@
 3499,κρεατικά,meats,мясо,B1,food
 3500,κρεατόσουπα,meat soup,мясной суп,B1,food
 3501,κρεβατοκάμαρα,bedroom,спальня,B1,general
-3502,κρεμ,"pale yellow, cream","бледно-желтый, крем",B1,general
+3502,κρεμ,"pale yellow, cream","бледно-желтый, крем",B1,colors
 3503,κρεμαστός,hanging,"висячий, подвесной",B1,general
 3504,κρητικός,Cretan,критский,B1,countries
 3505,κρίνομαι,"to be judged, to be rated","быть судимым, быть оценены",B1,verbs
@@ -3525,7 +3525,7 @@
 3524,κύκνος,swan,лебедь,B1,general
 3525,κυλάω,to flow,течь,B1,verbs
 3526,κυνηγάω,to hunt,охотиться,B1,verbs
-3527,κυνήγι,hunt,охота,B1,general
+3527,κυνήγι,hunt,охота,B1,sports
 3528,κυριαρχώ,to dominate,доминировать,B1,verbs
 3529,κυριεύω,"to overwhelm, to conquer","покорять, овладевать",B1,verbs
 3530,κυριολεκτικά,literally,буквально,B1,general
@@ -3538,7 +3538,7 @@
 3537,κώνος,cone,конус,B1,general
 3538,Κος Κώστας,Kostas,Костас,B1,general
 3539,λαδερά,vegetables cooked in olive oil,"овощи, тушённые в оливковом масле",B1,food
-3540,λαδί,olive,оливковый,B1,general
+3540,λαδί,olive,оливковый,B1,colors
 3541,λαδόκολα,baking paper,бумага для выпечки,B1,school
 3542,λαϊκός,folk,народный,B1,general
 3543,λαίμαργα,greedily,жадно,B1,general
@@ -3550,7 +3550,7 @@
 3549,Λάρνακα,Larnaca,Ларнака,B1,general
 3550,λάστιχο,"tire, hose","шина, шланг",B1,general
 3551,λατρεύω,to adore,любить,B1,verbs
-3552,λαχανί,lime green,зеленый лайм,B1,general
+3552,λαχανί,lime green,зеленый лайм,B1,colors
 3553,λέγoμαι,"to be said, to be named","как говорится, быть названным",B1,verbs
 3554,λειτουργικός,functional,функциональный,B1,general
 3555,λεκάνη,basin,бассейн,B1,general
@@ -3558,15 +3558,15 @@
 3557,λεκτικός,verbal,словесный,B1,general
 3558,λεμονιά,lemon tree,лимонное дерево,B1,food
 3559,λεπτομύτα,slender-billed curlew,тонкоклювый кроншнеп,B1,general
-3560,Λευτέρης,Lefteris,Лефтерис,B1,general
+3560,Λευτέρης,Lefteris,Лефтерис,B1,names
 3561,λήξη,"expiry, expiration",истечение срока,B1,general
 3562,λησμονιέμαι,to be forgotten,быть забытым,B1,verbs
-3563,λιβάδι,meadow,луг,B1,general
+3563,λιβάδι,meadow,луг,B1,nature
 3564,λιγότερος,"less, fewer",меньше,B1,basics
 3565,λικέρ,liqueur,ликер,B1,general
 3566,λιοντάρι,lion,лев,B1,animals
 3567,λιπαρός,"oily, fatty","маслянистый, жирный",B1,general
-3568,λίπασμα,fertilizer,удобрение,B1,general
+3568,λίπασμα,fertilizer,удобрение,B1,nature
 3569,λίπος,fat,жир,B1,general
 3570,λιωμένος,melted,расплавленный,B1,general
 3571,λογαριάζω,to calculate,рассчитывать,B1,verbs
@@ -3577,7 +3577,7 @@
 3576,λούζομαι,to take a shower,принимать душ,B1,verbs
 3577,λουκάνικο,sausage,колбаса,B1,general
 3578,λουκουμάς,doughnut,пончик,B1,general
-3579,Λωξάντρα,Loxandra,Локсандра,B1,general
+3579,Λωξάντρα,Loxandra,Локсандра,B1,names
 3580,μ.μ.,"p.m., after noon","п.м., после полудня",B1,basics
 3581,μαγεία,magic,магия,B1,general
 3582,μαγειρείο,"cookshop, cook house","кулинарная мастерская, кулинарный дом",B1,home
@@ -3607,7 +3607,7 @@
 3606,μανούρι,manouri cheese,сыр манури,B1,food
 3607,μανταλάκι,clothespin,прищепка,B1,general
 3608,μαντίλι,handkerchief,носовой платок,B1,general
-3609,Μαργαρίτα,"Margaret, Marguerite","Маргарет, Маргарита",B1,general
+3609,Μαργαρίτα,"Margaret, Marguerite","Маргарет, Маргарита",B1,names
 3610,μαρκαδόρος,marker,маркер,B1,general
 3611,Μαρόκο,Morocco,Марокко,B1,countries
 3612,μαρτυρία,testimony,свидетельство,B1,general
@@ -3671,8 +3671,8 @@
 3670,μηνιαίος,monthly,ежемесячный,B1,general
 3671,μηχανάκι,motorbike,мотоцикл,B1,city
 3672,μηχανοδηγός,train driver,водитель поезда,B1,people
-3673,μικροβιολόγος,microbiologist,микробиолог,B1,general
-3674,μικροσκόπιο,microscope,микроскоп,B1,general
+3673,μικροβιολόγος,microbiologist,микробиолог,B1,health
+3674,μικροσκόπιο,microscope,микроскоп,B1,health
 3675,μικρόσωμος,"petite, little","мелкий, маленький",B1,general
 3676,μίνι,"very small, miniscule","очень маленький, крошечный",B1,basics
 3677,μίξερ,mixer,смеситель,B1,general
@@ -3685,7 +3685,7 @@
 3684,μοιράζομαι,to share,делиться,B1,verbs
 3685,μοιραίος,fatal,смертельный,B1,general
 3686,μολονότι,"although, though","хотя и, хотя",B1,basics
-3687,μόλυνση,pollution,загрязнение,B1,general
+3687,μόλυνση,pollution,загрязнение,B1,nature
 3688,μολύνω,to pollute,загрязнять,B1,verbs
 3689,μοναδικά,uniquely,уникально,B1,general
 3690,μοναξιά,"loneliness, solitude",одиночество,B1,general
@@ -3708,7 +3708,7 @@
 3707,μούσι,beard,борода,B1,general
 3708,μουστάκι,mustache,усы,B1,general
 3709,μπαγιάτικος,stale,несвежий,B1,general
-3710,μπάντα,band,группа,B1,general
+3710,μπάντα,band,группа,B1,music
 3711,Μπαξέδες,Baxedes,Бакседы,B1,general
 3712,μπαταρία,battery,аккумулятор,B1,general
 3713,μπαχαρικό,spice,специя,B1,general
@@ -3739,8 +3739,8 @@
 3738,μυς,muscle,мышца,B1,general
 3739,μυστήριο,mystery,тайна,B1,general
 3740,μύτι,nose,нос,B1,body
-3741,μωβ,purple,фиолетовый,B1,general
-3742,νανόχηνα,lesser white-fronted goose,меньший белый гусь,B1,general
+3741,μωβ,purple,фиолетовый,B1,colors
+3742,νανόχηνα,lesser white-fronted goose,меньший белый гусь,B1,nature
 3743,ναυάγιο,shipwreck,кораблекрушение,B1,general
 3744,Ναύπακτος,Nafpaktos,Нафпактос,B1,general
 3745,ναύτης,sailor,моряк,B1,general
@@ -3749,14 +3749,14 @@
 3748,νεοκλασικός,neoclassical,неоклассический,B1,general
 3749,νεροχύτης,"sink, wash basin","раковина, мойка",B1,general
 3750,νεύρα,bad temper,плохой нрав,B1,feelings
-3751,νευρικός,"nervous, anxious","нервный, тревожный",B1,general
+3751,νευρικός,"nervous, anxious","нервный, тревожный",B1,health
 3752,νεύρο,nerve,нерв,B1,general
 3753,νεφρίτης,jade,нефрит,B1,general
 3754,νέφωση,cloudy,облачный,B1,weather
 3755,νηπιακός,toddler,малыш,B1,general
 3756,νηστικός,"hungry, starved",голодный,B1,general
 3757,νικάω,to win,побеждать,B1,verbs
-3758,Νικολέτα,Nikoleta,Николетта,B1,general
+3758,Νικολέτα,Nikoleta,Николетта,B1,names
 3759,νιπτήρας,sink,раковина,B1,general
 3760,νοηματικός,"conceptual, notional","концептуальный, условный",B1,general
 3761,νοθεύω,"to adulterate, to falsify","фальсифицировать, подделывать",B1,verbs
@@ -3813,7 +3813,7 @@
 3812,ξεχνιέμαι,to lose track of time,"забываться, терять счёт времени",B1,verbs
 3813,ξεχωρίζω,"to stand out, distinguish","выделяться, различать",B1,verbs
 3814,ξημερώνω,to dawn,рассветать,B1,verbs
-3815,ξηρασία,drought,засуха,B1,general
+3815,ξηρασία,drought,засуха,B1,nature
 3816,ξηρότητα,dryness,сухость,B1,general
 3817,ξινός,"sour, tart","кислый, терпкий",B1,general
 3818,ξυλοδαρμός,beating,избиение,B1,general
@@ -3828,17 +3828,17 @@
 3827,οικιακός,domestic,внутренний,B1,general
 3828,οικογενειακός,family,семья,B1,people
 3829,οικοδεσπότης,"host, homeowner","хозяин, домовладелец",B1,city
-3830,οικολογικός,"ecological, eco-friendly","экологический, экологичный",B1,general
+3830,οικολογικός,"ecological, eco-friendly","экологический, экологичный",B1,nature
 3831,οικονομία,economy,экономика,B1,general
 3832,οικονομικός,"economic, cheap","экономический, дешевый",B1,clothes
 3833,οικονομικά,"economically, financially","экономически, финансово",B1,general
 3834,οίκος,house,дом,B1,home
-3835,Όλγα,Olga,Ольга,B1,general
+3835,Όλγα,Olga,Ольга,B1,names
 3836,ολοκληρωμένος,complete,полный,B1,general
 3837,ολοκληρώνω,"to complete, to finish","завершить, закончить",B1,verbs
 3838,ολοκλήρωση,completion,завершение,B1,general
 3839,ολοφάνερα,noticeably,заметно,B1,general
-3840,ολυμπιακός,olympic,олимпийский,B1,general
+3840,ολυμπιακός,olympic,олимпийский,B1,sports
 3841,ομαδικός,"group, team","группа, команда",B1,general
 3842,ομιλία,speech,речь,B1,general
 3843,ονειρεμένος,dreamy,мечтательный,B1,general
@@ -3856,7 +3856,7 @@
 3855,ορεκτικός,appetizing,аппетитный,B1,general
 3856,όρεξη,"appetite, mood","аппетит, настроение",B1,general
 3857,όρθιος,standing,стоящий,B1,general
-3858,ορθοπεδικός,orthopaedist,ортопед,B1,general
+3858,ορθοπεδικός,orthopaedist,ортопед,B1,health
 3859,ορθοπεταλιά,pedaling,педалирование,B1,general
 3860,οριζόντιος,horizontal,горизонтальный,B1,general
 3861,όριο,limit,предел,B1,general
@@ -3865,7 +3865,7 @@
 3864,οριστικό άρθρο,definite article,определенный артикль,B1,basics
 3865,όρος,term,термин,B1,general
 3866,οροφοδιαμέρισμα,one floor apartment,одноэтажная квартира,B1,home
-3867,ορχήστρα,orchestra,оркестр,B1,general
+3867,ορχήστρα,orchestra,оркестр,B1,music
 3868,όσος,"any, as much as","любой, столько, сколько",B1,basics
 3869,οστό,bone,косточка,B1,general
 3870,οστρακοειδής,shellfish,моллюски,B1,general
@@ -3877,10 +3877,10 @@
 3876,οφείλομαι,to be owed,быть должным,B1,verbs
 3877,οφείλω,to owe,задолжать,B1,verbs
 3878,όφελος,"advantage, benefit","преимущество, выгода",B1,general
-3879,οφθαλμίατρος,ophthalmologist,офтальмолог,B1,general
+3879,οφθαλμίατρος,ophthalmologist,офтальмолог,B1,health
 3880,όχημα,vehicle,транспортное средство,B1,general
 3881,παγάκι,ice cube,кубик льда,B1,general
-3882,παγετώνας,glacier,ледник,B1,general
+3882,παγετώνας,glacier,ледник,B1,nature
 3883,παγκάκι,bench,скамейка,B1,general
 3884,παγκόσμιος,"global, universal","глобальный, универсальный",B1,general
 3885,παγωμένος,frozen,замороженный,B1,general
@@ -3899,7 +3899,7 @@
 3898,παλάτι,palace,дворец,B1,general
 3899,παλέτα,palette,палитра,B1,general
 3900,παλιός,old,старый,B1,general
-3901,Παναγιώτης,Panagiotis,Панагиот,B1,general
+3901,Παναγιώτης,Panagiotis,Панагиот,B1,names
 3902,πανάκριβος,extremely expensive,очень дорогой,B1,clothes
 3903,πανελλαδικός,panhellenic,панэллинический,B1,general
 3904,πανέμορφος,gorgeous,великолепный,B1,general
@@ -3995,16 +3995,16 @@
 3994,περίσταση,occasion,случай,B1,general
 3995,περιστατικό,incident,инцидент,B1,general
 3996,περπάτημα,walking,ходьба,B1,general
-3997,Περσεφόνη,Persephone,Персефона,B1,general
+3997,Περσεφόνη,Persephone,Персефона,B1,names
 3998,περσινός,last year's,прошлогодний,B1,time
 3999,πετιέμαι,to pop out,выскочить,B1,verbs
 4000,πέτρα,"stone, rock","камень, рок",B1,general
 4001,πετράδι,gem,драгоценный камень,B1,general
 4002,πέτρινος,stony,каменный,B1,general
-4003,πετρόλ,teal,цвет морской волны,B1,general
+4003,πετρόλ,teal,цвет морской волны,B1,colors
 4004,πετυχαίνω,to succeed,преуспеть,B1,verbs
 4005,πετυχημένος,successful,успешный,B1,general
-4006,πηγάδι,well,колодец,B1,general
+4006,πηγάδι,well,колодец,B1,nature
 4007,πηγή,"source, spring","источник, родник",B1,weather
 4008,πήλινος,"made of clay, ceramic","сделанный из глины, керамика",B1,general
 4009,πηλός,clay,глина,B1,general
@@ -4018,7 +4018,7 @@
 4017,πίκλα,pickle,соленье,B1,general
 4018,πικρός,bitter,горький,B1,general
 4019,πικραμένος,"bitter, sad","горький, грустный",B1,feelings
-4020,πιλάτες,pilates,пилатес,B1,general
+4020,πιλάτες,pilates,пилатес,B1,sports
 4021,πιλοτή,open ground-floor space,открытое пространство на первом этаже,B1,general
 4022,πιλοτικός,pilot,пилот,B1,general
 4023,πιλότος,pilot,пилот,B1,general
@@ -4059,10 +4059,10 @@
 4058,πνευματικός,intellectual,интеллектуальный,B1,general
 4059,πνευματικό κέντρο,cultural club,культурный клуб,B1,general
 4060,πνεύμονας,lung,лёгкий,B1,general
-4061,πνευμονολόγος,pulmonologist,пульмонолог,B1,general
+4061,πνευμονολόγος,pulmonologist,пульмонолог,B1,health
 4062,πνέω,"to blow, to breath","дуть, дышать",B1,verbs
 4063,ποδαρικό,first-foot luck,счастливый первый гость,B1,people
-4064,ποδηλάτης,cyclist,велосипедист,B1,general
+4064,ποδηλάτης,cyclist,велосипедист,B1,sports
 4065,ποιανού,whose,чей,B1,general
 4066,ποίημα,poem,стих,B1,general
 4067,ποικιλία,"variety, selection","разнообразие, выбор",B1,general
@@ -4301,14 +4301,14 @@
 4300,στάση,"poise, stance","поза, позиция",B1,general
 4301,στάση προσευχής,prayer position,молитвенная позиция,B1,general
 4302,σταφίδα,raisin,изюм,B1,general
-4303,σταχτής,grey in color,серый цвет,B1,general
+4303,σταχτής,grey in color,серый цвет,B1,colors
 4304,στέγη,roof,крыша,B1,home
 4305,στέγνωμα,drying,высушивание,B1,general
 4306,στεγνώνω,to dry,сушить,B1,verbs
 4307,στεγνωτήριο,dryer,сушилка,B1,general
 4308,στέκι,hangout,тусовка,B1,general
 4309,στέκομαι,"to stand, to be standing",стоять,B1,verbs
-4310,Στέλιος,Stelios,Стелиос,B1,general
+4310,Στέλιος,Stelios,Стелиос,B1,names
 4311,στεναχωριέμαι,to worry,беспокоиться,B1,verbs
 4312,στενεύω,"to take in, to narrow","сужать, ушивать",B1,verbs
 4313,στενόχωρος,"poky, small and cramped","тесный, маленький и неудобный",B1,basics
@@ -4426,7 +4426,7 @@
 4425,σωλήνας,"tube, pipe","трубка, труба",B1,general
 4426,σωματικός,physical,физический,B1,general
 4427,σωσίβιο,lifejacket,спасательный жилет,B1,general
-4428,Σωτήρης,Sotiris,Сотирис,B1,general
+4428,Σωτήρης,Sotiris,Сотирис,B1,names
 4429,τ.μ.,"m2 , square metre","м2, квадратный метр",B1,city
 4430,τάβλι,backgammon,нарды,B1,general
 4431,ταγέρ,suit,костюм,B1,general
@@ -4561,7 +4561,7 @@
 4560,φαντάζομαι,to imagine,воображать,B1,verbs
 4561,φαντασία,fantasy,фантазия,B1,general
 4562,φανταστικός,"imaginary, unreal","воображаемый, нереальный",B1,general
-4563,φαράγγι,canyon,каньон,B1,general
+4563,φαράγγι,canyon,каньон,B1,nature
 4564,φάρος,lighthouse,маяк,B1,general
 4565,φάση,"phase, stage","фаза, этап",B1,general
 4566,φασολάδα,bean soup,суп из бобов,B1,food
@@ -4574,7 +4574,7 @@
 4573,φημισμένος,famous,известный,B1,general
 4574,φθινοπωρινός,"fall, autumn",осенний,B1,weather
 4575,φιδάκι,Snakes and Ladders,Змеи и лестницы,B1,basics
-4576,φίλαθλος,sports fan,спортивный фанат,B1,general
+4576,φίλαθλος,sports fan,спортивный фанат,B1,sports
 4577,Φιλανδία,Finland,Финляндия,B1,countries
 4578,φιλενάδα,girlfriend,девушка,B1,general
 4579,φιλία,friendship,дружба,B1,feelings
@@ -4615,8 +4615,8 @@
 4614,φυσιογνωμικός,physiognomic,физиогномический,B1,general
 4615,φυσιολογικός,normal,нормальный,B1,general
 4616,φυσιολογικά,normally,нормально,B1,general
-4617,φυτικός,vegetal,растительный,B1,general
-4618,φυτοφάρμακο,pesticide,пестицид,B1,general
+4617,φυτικός,vegetal,растительный,B1,nature
+4618,φυτοφάρμακο,pesticide,пестицид,B1,nature
 4619,φωλιά,"nest, hole","гнездо, отверстие",B1,general
 4620,φωτεινός,bright,яркий,B1,general
 4621,φωτισμός,lighting,освещение,B1,general
@@ -4627,13 +4627,13 @@
 4626,χαγιάτι,covered veranda,крытая веранда,B1,general
 4627,χαδιάρης,"affectionate, cuddly","ласковый, любящий ласку",B1,general
 4628,χαιρετίσματα,greetings,приветствие,B1,general
-4629,χακί,khaki,хаки,B1,general
+4629,χακί,khaki,хаки,B1,colors
 4630,χαλάζι,hail,град,B1,general
 4631,χαλαρός,"loose, relaxed","свободный, расслабленный",B1,general
 4632,χαλάρωση,relaxation,расслабление,B1,general
 4633,χαλασμένος,"broken, damaged","сломанный, поврежденный",B1,general
 4634,χαλβάς,halva,халва,B1,general
-4635,χαλκόκοτα,glossy ibis,каравайка,B1,general
+4635,χαλκόκοτα,glossy ibis,каравайка,B1,nature
 4636,χαμένος,lost,потерянный,B1,general
 4637,χαμηλά,low,низко,B1,general
 4638,χαμηλώνω,to lower,опускать,B1,verbs
@@ -4655,7 +4655,7 @@
 4654,χειμερινός,winterly,зимний,B1,general
 4655,χειμωνιάτικος,winterly,зимний,B1,general
 4656,χειροτεχνία,crafts,ремесло,B1,general
-4657,χειρουργός,surgeon,хирург,B1,general
+4657,χειρουργός,surgeon,хирург,B1,health
 4658,χελώνα,turtle,черепаха,B1,general
 4659,χημεία,chemistry,химия,B1,general
 4660,χημικός,chemical,химический,B1,general
@@ -4664,30 +4664,30 @@
 4663,χιλιομετρικός,kilometric,километрический,B1,general
 4664,χιμπατζής,chimpanzee,шимпанзе,B1,general
 4665,χιονισμένος,snowy,снежный,B1,weather
-4666,χιονοδρομικός,"ski, skiing",лыжный,B1,general
-4667,χιονοδρομικό κέντρο,ski resort,горнолыжный курорт,B1,general
+4666,χιονοδρομικός,"ski, skiing",лыжный,B1,sports
+4667,χιονοδρομικό κέντρο,ski resort,горнолыжный курорт,B1,sports
 4668,χιονόπτωση,snowfall,снегопад,B1,general
 4669,χιούμορ,humor,юмор,B1,general
 4670,χλωμός,pale,бледный,B1,general
 4671,χοίρος,pig,свинья,B1,animals
 4672,Χονγκ Κονγκ,Hong Kong,Гонконг,B1,countries
-4673,χορογραφία,choreography,хореография,B1,general
-4674,χορογράφος,choreographer,хореограф,B1,general
+4673,χορογραφία,choreography,хореография,B1,music
+4674,χορογράφος,choreographer,хореограф,B1,music
 4675,χορογραφώ,to choreograph,"ставить хореографию, ставить танец",B1,verbs
 4676,χορταίνω,"to feel full, to be satiated","наедаться, насыщаться",B1,verbs
 4677,χορτασμένος,"full, satiated","полный, насыщенный",B1,general
 4678,χορταστικός,filling,сытный,B1,general
 4679,χόρτο,grass,трава,B1,weather
 4680,χόρτα,wild greens,зелень,B1,general
-4681,χορωδία,chorus,хор,B1,general
+4681,χορωδία,chorus,хор,B1,music
 4682,χουβαρντάς,"bighearted, generous","добросердечный, щедрый",B1,general
 4683,χρεώνω,to charge,"взимать плату, начислять",B1,verbs
 4684,χρήμα,money,деньги,B1,money
 4685,χρηματοδοτώ,"to fund, to finance",финансировать,B1,verbs
 4686,χρήσιμος,useful,полезный,B1,general
-4687,Χριστίνα,Christina,Кристина,B1,general
+4687,Χριστίνα,Christina,Кристина,B1,names
 4688,χρονικός,temporal,временной,B1,general
-4689,χρυσός,golden,золотой,B1,general
+4689,χρυσός,golden,золотой,B1,colors
 4690,χρυσάφι,gold,золото,B1,general
 4691,χρωστάω,to owe,задолжать,B1,verbs
 4692,χταπόδι,octopus,осьминог,B1,general
@@ -4704,13 +4704,13 @@
 4703,χωματερή,"rubbish dump, garbage dump",мусорная свалка,B1,general
 4704,χωμάτινος,earthen,земляной,B1,general
 4705,χωμένος,"hidden, nested","скрытый, вложенный",B1,general
-4706,χωράφι,field,поле,B1,general
+4706,χωράφι,field,поле,B1,nature
 4707,χωράω,to fit,"вмещаться, помещаться",B1,verbs
 4708,χωριάτικος,"country, village","деревенский, сельский",B1,city
 4709,χωριστά,separately,отдельно,B1,general
 4710,ψαλίδι,scissors,ножницы,B1,general
-4711,ψαράς,fisherman,рыбак,B1,general
-4712,ψάρεμα,fishing,рыбалка,B1,general
+4711,ψαράς,fisherman,рыбак,B1,sports
+4712,ψάρεμα,fishing,рыбалка,B1,sports
 4713,ψαρικά,"fish dishes, seafood","рыбные блюда, морепродукты",B1,basics
 4714,ψαρόσουπα,fish soup,рыбный суп,B1,food
 4715,ψεύτης,liar,"лгун, лжец",B1,general
@@ -4727,16 +4727,16 @@
 4726,ψυχαγωγικός,entertaining,развлекательный,B1,general
 4727,ψυχαγωγώ,"to entertain, to amuse",развлекать,B1,verbs
 4728,ψυχή,soul,душа,B1,general
-4729,ψυχίατρος,psychiatrist,психиатр,B1,general
-4730,ψυχολογία,psychology,психология,B1,general
-4731,ψυχολογικός,psychological,психологический,B1,general
-4732,ψυχολόγος,psychologist,психолог,B1,general
+4729,ψυχίατρος,psychiatrist,психиатр,B1,health
+4730,ψυχολογία,psychology,психология,B1,health
+4731,ψυχολογικός,psychological,психологический,B1,health
+4732,ψυχολόγος,psychologist,психолог,B1,health
 4733,ψύχος,"cold, coldness","холод, стужа",B1,weather
 4734,ψυχρός,"cold, chilly","холодный, прохладный",B1,weather
 4735,ψύχραιμος,"calm, composed","спокойный, хладнокровный",B1,general
 4736,ψυχραιμία,"calmness, cool","спокойствие, хладнокровие",B1,weather
 4737,ψυχραίνω,"to make cold, to freeze out","охлаждать, делать холодным",B1,verbs
-4738,ωκεανός,ocean,океан,B1,general
+4738,ωκεανός,ocean,океан,B1,nature
 4739,ωμός,raw,сырой,B1,general
 4740,ώμος,shoulder,плечо,A2,general
 4741,ώριμος,mature,зрелый,B1,general
