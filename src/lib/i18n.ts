@@ -2,8 +2,8 @@ import type { NativeLanguage } from '../types';
 
 type Dictionary = Record<string, string>;
 
-const en: Dictionary = {
-  title: 'Kalimera',
+export const en = {
+  title: 'Greek Words',
   subtitle: 'Choose your level and language, then start a short lesson.',
   onboardingTitle: 'Choose your setup',
   onboardingSubtitle: 'Select your main language and your Greek level to start.',
@@ -27,7 +27,8 @@ const en: Dictionary = {
   dontKnow: "Don't know",
   knowIt: 'Mark as learned',
   learnedWords: 'Learned words',
-  weakWords: 'Weak words',
+  weakWords: 'Words to review',
+  newWords: 'New words',
   completedLessons: 'Completed lessons',
   accuracy: 'Accuracy',
   loading: 'Loading words...',
@@ -50,13 +51,37 @@ const en: Dictionary = {
   statsTab: 'Stats',
   settingsTab: 'Settings',
   continueAction: 'Continue',
+  allWords: 'All words',
+  lessonGroup: 'Lesson group',
+  lessonGroups: 'Lessons',
+  insufficientGroupWords: 'There are no words in this lesson group yet.',
   mistakesList: 'Words to review again',
   noMistakes: 'Nice. No mistakes in this lesson.',
   levelProgress: 'Level progress',
-};
+  groupBasics: 'Basics',
+  groupLanguage: 'Language',
+  groupVerbs: 'Verbs',
+  groupPeople: 'People',
+  groupFood: 'Food',
+  groupHome: 'Home',
+  groupBody: 'Body & health',
+  groupClothes: 'Clothes & shopping',
+  groupMoney: 'Money',
+  groupSchool: 'School & work',
+  groupCity: 'City & transport',
+  groupCountries: 'Geography',
+  groupWeather: 'Weather',
+  groupAnimals: 'Animals',
+  groupTime: 'Time & numbers',
+  groupCommunication: 'Communication',
+  groupFeelings: 'Feelings',
+  groupLeisure: 'Leisure',
+  groupSociety: 'Society',
+  groupGeneral: 'General',
+} as const satisfies Dictionary;
 
-const ru: Dictionary = {
-  title: 'Калимера',
+export const ru = {
+  title: 'Греческие слова',
   subtitle: 'Выберите уровень и язык, а затем начните короткий урок.',
   onboardingTitle: 'Выберите настройки',
   onboardingSubtitle: 'Выберите родной язык и уровень греческого.',
@@ -80,7 +105,8 @@ const ru: Dictionary = {
   dontKnow: 'Не знаю',
   knowIt: 'Отметить как изученное',
   learnedWords: 'Изучено слов',
-  weakWords: 'Слабые слова',
+  weakWords: 'Слова для повтора',
+  newWords: 'Новые слова',
   completedLessons: 'Завершено уроков',
   accuracy: 'Точность',
   loading: 'Загрузка слов...',
@@ -103,11 +129,37 @@ const ru: Dictionary = {
   statsTab: 'Статистика',
   settingsTab: 'Настройки',
   continueAction: 'Продолжить',
+  allWords: 'Все слова',
+  lessonGroup: 'Группа урока',
+  lessonGroups: 'Уроки',
+  insufficientGroupWords: 'В этой группе пока нет слов.',
   mistakesList: 'Слова для повтора',
   noMistakes: 'Отлично. В этом уроке не было ошибок.',
   levelProgress: 'Прогресс по уровню',
-};
+  groupBasics: 'База',
+  groupLanguage: 'Язык',
+  groupVerbs: 'Глаголы',
+  groupPeople: 'Люди',
+  groupFood: 'Еда',
+  groupHome: 'Дом',
+  groupBody: 'Тело и здоровье',
+  groupClothes: 'Одежда и покупки',
+  groupMoney: 'Деньги',
+  groupSchool: 'Учеба и работа',
+  groupCity: 'Город и транспорт',
+  groupCountries: 'География',
+  groupWeather: 'Погода',
+  groupAnimals: 'Животные',
+  groupTime: 'Время и числа',
+  groupCommunication: 'Общение',
+  groupFeelings: 'Чувства',
+  groupLeisure: 'Досуг',
+  groupSociety: 'Общество',
+  groupGeneral: 'Общее',
+} as const satisfies Dictionary;
 
-export function t(language: NativeLanguage, key: keyof typeof en): string {
+export type TranslationKey = keyof typeof en;
+
+export function t(language: NativeLanguage, key: TranslationKey): string {
   return (language === 'ru' ? ru : en)[key];
 }

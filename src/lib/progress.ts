@@ -1,31 +1,36 @@
-import type { Level, LevelProgress, LessonAnswer, UserProgress } from '../types';
+import type { Level, LevelStats, LessonAnswer, UserProgress, Word, WordProgress } from '../types';
 
-export const LEVELS: Level[] = ['A1', 'A2', 'B1'];
+export const LEVELS: Level[] = ['A2', 'B1'];
 
-export function createEmptyLevelProgress(): LevelProgress {
+export function createEmptyLevelProgress(): LevelStats {
   return {
-    words: {},
     completedLessons: 0,
     totalCorrect: 0,
     totalWrong: 0,
   };
 }
 
-function normalizeWordProgress(word: LevelProgress['words'][string] | undefined) {
+function normalizeWordProgress(word: WordProgress | undefined): WordProgress {
+  const normalizedLastSeenAt =
+    typeof word?.lastSeenAt === 'string' ? Date.parse(word.lastSeenAt) : word?.lastSeenAt;
+
   return {
     correct: word?.correct ?? 0,
     wrong: word?.wrong ?? 0,
     streak: word?.streak ?? 0,
-    correctDirections: {
-      elToNative: word?.correctDirections?.elToNative ?? false,
-      nativeToEl: word?.correctDirections?.nativeToEl ?? false,
-    },
     learnedByChoice: word?.learnedByChoice ?? false,
-    lastSeenAt: word?.lastSeenAt,
+    lastSeenAt: Number.isFinite(normalizedLastSeenAt) ? normalizedLastSeenAt : undefined,
   };
 }
 
-export function isWordLearned(word: LevelProgress['words'][string] | undefined): boolean {
+function normalizeLevelProgress(level: Partial<LevelStats> | undefined): LevelStats {
+  return {
+    ...createEmptyLevelProgress(),
+    ...level,
+  };
+}
+
+export function isWordLearned(word: WordProgress | undefined): boolean {
   if (!word) {
     return false;
   }
@@ -34,18 +39,18 @@ export function isWordLearned(word: LevelProgress['words'][string] | undefined):
     return true;
   }
 
-  return Boolean(word.correctDirections?.elToNative && word.correctDirections?.nativeToEl);
+  return word.streak >= 2;
 }
 
 export function createDefaultProgress(): UserProgress {
   return {
     settings: {
-      currentLevel: 'A1',
+      currentLevel: 'A2',
       nativeLanguage: 'en',
       hasCompletedOnboarding: false,
     },
+    words: {},
     levels: {
-      A1: createEmptyLevelProgress(),
       A2: createEmptyLevelProgress(),
       B1: createEmptyLevelProgress(),
     },
@@ -59,45 +64,32 @@ export function mergeProgress(rawValue: Partial<UserProgress> | null | undefined
     return base;
   }
 
+  const normalizedWords = Object.fromEntries(
+    Object.entries(rawValue.words ?? {}).map(([wordId, word]) => [wordId, normalizeWordProgress(word)]),
+  );
+
   return {
     settings: {
-      currentLevel: rawValue.settings?.currentLevel ?? base.settings.currentLevel,
+      currentLevel: rawValue.settings?.currentLevel === 'B1' ? 'B1' : base.settings.currentLevel,
       nativeLanguage: rawValue.settings?.nativeLanguage ?? base.settings.nativeLanguage,
-      hasCompletedOnboarding: rawValue.settings?.hasCompletedOnboarding ?? true,
+      hasCompletedOnboarding: rawValue.settings?.hasCompletedOnboarding ?? base.settings.hasCompletedOnboarding,
     },
+    words: normalizedWords,
     levels: {
-      A1: {
-        ...base.levels.A1,
-        ...(rawValue.levels?.A1 ?? {}),
-        words: rawValue.levels?.A1?.words ?? base.levels.A1.words,
-      },
-      A2: {
-        ...base.levels.A2,
-        ...(rawValue.levels?.A2 ?? {}),
-        words: rawValue.levels?.A2?.words ?? base.levels.A2.words,
-      },
-      B1: {
-        ...base.levels.B1,
-        ...(rawValue.levels?.B1 ?? {}),
-        words: rawValue.levels?.B1?.words ?? base.levels.B1.words,
-      },
+      A2: normalizeLevelProgress(rawValue.levels?.A2),
+      B1: normalizeLevelProgress(rawValue.levels?.B1),
     },
   };
 }
 
-export function applyLessonAnswers(
-  previous: UserProgress,
-  level: Level,
-  answers: LessonAnswer[],
-): UserProgress {
+export function applyLessonAnswers(previous: UserProgress, level: Level, answers: LessonAnswer[]): UserProgress {
   const currentLevel = previous.levels[level];
-  const nextWords = { ...currentLevel.words };
+  const nextWords = { ...previous.words };
   let correctCount = 0;
   let wrongCount = 0;
 
   for (const answer of answers) {
     const existing = normalizeWordProgress(nextWords[answer.question.wordId]);
-    const directionKey = answer.question.promptLanguage === 'el' ? 'elToNative' : 'nativeToEl';
 
     if (answer.outcome === 'correct') {
       correctCount += 1;
@@ -105,11 +97,7 @@ export function applyLessonAnswers(
         ...existing,
         correct: existing.correct + 1,
         streak: existing.streak + 1,
-        correctDirections: {
-          ...existing.correctDirections,
-          [directionKey]: true,
-        },
-        lastSeenAt: new Date().toISOString(),
+        lastSeenAt: Date.now(),
       };
     } else if (answer.outcome === 'wrong' || answer.outcome === 'dont_know') {
       wrongCount += 1;
@@ -117,28 +105,25 @@ export function applyLessonAnswers(
         ...existing,
         wrong: existing.wrong + 1,
         streak: 0,
-        lastSeenAt: new Date().toISOString(),
+        lastSeenAt: Date.now(),
       };
     } else if (answer.outcome === 'know_it') {
       nextWords[answer.question.wordId] = {
         ...existing,
+        streak: Math.max(existing.streak, 2),
         learnedByChoice: true,
-        correctDirections: {
-          elToNative: true,
-          nativeToEl: true,
-        },
-        lastSeenAt: new Date().toISOString(),
+        lastSeenAt: Date.now(),
       };
     }
   }
 
   return {
     ...previous,
+    words: nextWords,
     levels: {
       ...previous.levels,
       [level]: {
         ...currentLevel,
-        words: nextWords,
         completedLessons: currentLevel.completedLessons + 1,
         totalCorrect: currentLevel.totalCorrect + correctCount,
         totalWrong: currentLevel.totalWrong + wrongCount,
@@ -148,12 +133,25 @@ export function applyLessonAnswers(
   };
 }
 
-export function getMasteredWordCount(levelProgress: LevelProgress): number {
-  return Object.values(levelProgress.words).filter((word) => isWordLearned(word)).length;
+export function getMasteredWordCount(wordsProgress: Record<string, WordProgress>, words?: Word[]): number {
+  if (!words) {
+    return Object.values(wordsProgress).filter((word) => isWordLearned(word)).length;
+  }
+
+  return words.filter((word) => isWordLearned(wordsProgress[word.id])).length;
 }
 
-export function getWeakWordIds(levelProgress: LevelProgress): string[] {
-  return Object.entries(levelProgress.words)
-    .filter(([, word]) => !isWordLearned(word))
-    .map(([wordId]) => wordId);
+export function getWeakWordIds(wordsProgress: Record<string, WordProgress>, words?: Word[]): string[] {
+  if (!words) {
+    return Object.entries(wordsProgress)
+      .filter(([, word]) => !isWordLearned(word))
+      .map(([wordId]) => wordId);
+  }
+
+  return words
+    .filter((word) => {
+      const progress = wordsProgress[word.id];
+      return Boolean(progress) && !isWordLearned(progress);
+    })
+    .map((word) => word.id);
 }

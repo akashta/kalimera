@@ -106,29 +106,40 @@
 }
 
 .promptCard {
+  --prompt-card-edge: 14px;
+  --prompt-card-top-height: 2.35rem;
   background: linear-gradient(135deg, #fffdf7, #f4ecdb);
   border-radius: 24px;
-  padding: 14px 14px 18px;
+  padding: var(--prompt-card-edge);
   min-height: 118px;
   display: grid;
+  grid-template-rows: var(--prompt-card-top-height) 1fr var(--prompt-card-top-height);
   gap: 10px;
 }
 
 .promptCardTop {
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
+  min-height: var(--prompt-card-top-height);
   gap: 10px;
+}
+
+.promptCard::after {
+  content: '';
+  display: block;
+  min-height: var(--prompt-card-top-height);
 }
 
 .promptText {
   display: grid;
   place-items: center;
+  align-self: stretch;
   text-align: center;
   font-size: clamp(1.8rem, 10vw, 2.8rem);
   font-weight: 700;
   line-height: 1.05;
-  padding: 4px 6px 0;
+  padding: 0 6px;
 }
 
 .choiceGrid {
@@ -184,7 +195,7 @@
   }
 
   .promptCard {
-    padding: 12px 12px 16px;
+    --prompt-card-edge: 12px;
     min-height: 104px;
   }
 

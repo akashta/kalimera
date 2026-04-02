@@ -1,6 +1,30 @@
-export type Level = 'A1' | 'A2' | 'B1';
+export type Level = 'A2' | 'B1';
 export type NativeLanguage = 'en' | 'ru';
 export type LanguageCode = 'el' | NativeLanguage;
+export type LessonGroupId =
+  | 'all'
+  | 'basics'
+  | 'language'
+  | 'verbs'
+  | 'people'
+  | 'food'
+  | 'home'
+  | 'body'
+  | 'clothes'
+  | 'money'
+  | 'school'
+  | 'city'
+  | 'countries'
+  | 'weather'
+  | 'animals'
+  | 'time'
+  | 'communication'
+  | 'feelings'
+  | 'leisure'
+  | 'society'
+  | 'general';
+
+export type WordGroupId = Exclude<LessonGroupId, 'all'>;
 
 export interface Word {
   id: string;
@@ -8,22 +32,18 @@ export interface Word {
   english: string;
   russian?: string;
   level: Level;
+  group: WordGroupId;
 }
 
 export interface WordProgress {
   correct: number;
   wrong: number;
   streak: number;
-  correctDirections?: {
-    elToNative?: boolean;
-    nativeToEl?: boolean;
-  };
   learnedByChoice?: boolean;
-  lastSeenAt?: string;
+  lastSeenAt?: number;
 }
 
-export interface LevelProgress {
-  words: Record<string, WordProgress>;
+export interface LevelStats {
   completedLessons: number;
   totalCorrect: number;
   totalWrong: number;
@@ -38,7 +58,8 @@ export interface UserSettings {
 
 export interface UserProgress {
   settings: UserSettings;
-  levels: Record<Level, LevelProgress>;
+  words: Record<string, WordProgress>;
+  levels: Record<Level, LevelStats>;
 }
 
 export interface LessonQuestion {
@@ -54,6 +75,7 @@ export interface LessonQuestion {
 export interface LessonSession {
   level: Level;
   nativeLanguage: NativeLanguage;
+  groupId: LessonGroupId;
   questions: LessonQuestion[];
 }
 

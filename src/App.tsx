@@ -8,12 +8,13 @@ import Settings from './components/Settings';
 import Stats from './components/Stats';
 import styles from './App.module.css';
 import { playCorrectSound, playLessonFinishedSound, playWrongSound, speakGreek } from './lib/audio';
+import { buildLessonGroupSummaries, getWordsForGroup } from './lib/groups';
 import { t } from './lib/i18n';
 import { buildLessonSession, buildReviewSession } from './lib/lesson';
 import { applyLessonAnswers, createDefaultProgress, getMasteredWordCount, getWeakWordIds } from './lib/progress';
 import { getStorageAdapter } from './lib/storage';
 import { hasCompleteNativeTranslations, wordsByLevel } from './lib/words';
-import type { LessonAnswer, LessonSession, UserProgress } from './types';
+import type { LessonAnswer, LessonGroupId, LessonSession, UserProgress } from './types';
 
 type Screen = 'home' | 'stats' | 'settings' | 'lesson' | 'results';
 
@@ -32,9 +33,13 @@ function App() {
 
   const currentLevel = progress.settings.currentLevel;
   const currentWords = wordsByLevel[currentLevel];
-  const currentLevelProgress = progress.levels[currentLevel];
+  const currentLevelStats = progress.levels[currentLevel];
   const uiLanguage = progress.settings.nativeLanguage;
   const question = activeLesson?.questions[questionIndex] ?? null;
+  const groupSummaries = useMemo(
+    () => buildLessonGroupSummaries(currentWords, progress.words, uiLanguage),
+    [currentWords, progress.words, uiLanguage],
+  );
   const hasRussianTranslations = useMemo(
     () => hasCompleteNativeTranslations(currentWords, progress.settings.nativeLanguage),
     [currentWords, progress.settings.nativeLanguage],
@@ -122,20 +127,45 @@ function App() {
     setScreen('lesson');
   }
 
-  function startLesson() {
-    openLesson(
-      buildLessonSession(
-        currentWords,
-        progress,
-        progress.settings.currentLevel,
-        progress.settings.nativeLanguage,
-      ),
+  function startLessonForGroup(groupId: LessonGroupId) {
+    const groupWords = getWordsForGroup(currentWords, groupId);
+    if (groupWords.length === 0) {
+      return;
+    }
+
+    if (!hasCompleteNativeTranslations(groupWords, progress.settings.nativeLanguage)) {
+      return;
+    }
+
+    const lesson = buildLessonSession(
+      groupWords,
+      progress,
+      progress.settings.currentLevel,
+      progress.settings.nativeLanguage,
+      groupId,
     );
+
+    if (lesson.questions.length === 0) {
+      return;
+    }
+
+    openLesson(lesson);
   }
 
-  function startReview(wordIds?: string[]) {
-    const targetWordIds = wordIds && wordIds.length > 0 ? wordIds : getWeakWordIds(currentLevelProgress);
-    openLesson(buildReviewSession(currentWords, progress.settings.nativeLanguage, targetWordIds));
+  function startReview(wordIds?: string[], groupId: LessonGroupId = 'all') {
+    const reviewWords = getWordsForGroup(currentWords, groupId);
+    const targetWordIds =
+      wordIds && wordIds.length > 0
+        ? wordIds
+        : getWeakWordIds(progress.words, reviewWords);
+    openLesson(
+      buildReviewSession(
+        reviewWords,
+        progress.settings.nativeLanguage,
+        targetWordIds,
+        groupId,
+      ),
+    );
   }
 
   function queueAdvance(nextAnswers: LessonAnswer[]) {
@@ -193,6 +223,17 @@ function App() {
 
     setCurrentResponse(response);
     setAnswers(nextAnswers);
+
+    const greekText = question.answerLanguage === 'el' ? question.correctAnswer : null;
+
+    if (greekText) {
+      void speakGreek(greekText).finally(() => {
+        playWrongSound();
+        queueAdvance(nextAnswers);
+      });
+      return;
+    }
+
     playWrongSound();
     queueAdvance(nextAnswers);
   }
@@ -253,16 +294,18 @@ function App() {
 
   const correctAnswers = answers.filter((answer) => answer.outcome === 'correct').length;
   const scoredAnswers = answers.filter((answer) => answer.outcome !== 'know_it').length;
-  const weakWords = getWeakWordIds(currentLevelProgress).length;
-  const learnedWords = getMasteredWordCount(currentLevelProgress);
+  const weakWords = getWeakWordIds(progress.words, currentWords).length;
+  const learnedWords = getMasteredWordCount(progress.words, currentWords);
   const totalWords = currentWords.length;
   const needsOnboarding = !progress.settings.hasCompletedOnboarding;
-  const learnedPercent = totalWords === 0 ? 0 : Math.min(100, (learnedWords / totalWords) * 100);
-  const reviewPercent = totalWords === 0 ? 0 : Math.min(100 - learnedPercent, (weakWords / totalWords) * 100);
-  const totalAttempts = currentLevelProgress.totalCorrect + currentLevelProgress.totalWrong;
-  const accuracy = totalAttempts === 0 ? 0 : Math.round((currentLevelProgress.totalCorrect / totalAttempts) * 100);
-  const canStartLesson =
-    currentWords.length >= 10 && (progress.settings.nativeLanguage === 'en' || hasRussianTranslations);
+  const newWords = Math.max(0, totalWords - learnedWords - weakWords);
+  const learnedPercent =
+    totalWords === 0 ? 0 : Math.min(100, (learnedWords / totalWords) * 100);
+  const reviewPercent =
+    totalWords === 0 ? 0 : Math.min(100 - learnedPercent, (weakWords / totalWords) * 100);
+  const newPercent = Math.max(0, 100 - learnedPercent - reviewPercent);
+  const totalAttempts = currentLevelStats.totalCorrect + currentLevelStats.totalWrong;
+  const accuracy = totalAttempts === 0 ? 0 : Math.round((currentLevelStats.totalCorrect / totalAttempts) * 100);
   const lessonMistakes = answers
     .filter((answer) => answer.outcome === 'wrong' || answer.outcome === 'dont_know')
     .map((answer) => answer.question.wordId);
@@ -290,20 +333,23 @@ function App() {
           currentLevel={currentLevel}
           learnedWords={learnedWords}
           weakWords={weakWords}
+          newWords={newWords}
           totalWords={totalWords}
           learnedPercent={learnedPercent}
           reviewPercent={reviewPercent}
-          canStartLesson={canStartLesson}
+          newPercent={newPercent}
+          groupSummaries={groupSummaries}
           hasMistakesToReview={hasMistakesToReview}
-          onStartLesson={startLesson}
-          onStartReview={() => startReview()}
+          hasRussianTranslations={hasRussianTranslations}
+          onStartGroupLesson={startLessonForGroup}
+          onStartReview={() => startReview(undefined, 'all')}
         />
       )}
       {!needsOnboarding && screen === 'stats' && (
         <Stats
           uiLanguage={uiLanguage}
           currentLevel={currentLevel}
-          currentLevelProgress={currentLevelProgress}
+          currentLevelStats={currentLevelStats}
           progress={progress}
           learnedWords={learnedWords}
           weakWords={weakWords}
@@ -341,7 +387,8 @@ function App() {
           lessonMistakes={lessonMistakes}
           mistakeAnswers={mistakeAnswers}
           onBack={resetToHome}
-          onStartReview={() => startReview(lessonMistakes)}
+          onContinue={() => startLessonForGroup(activeLesson?.groupId ?? 'all')}
+          onStartReview={() => startReview(lessonMistakes, activeLesson?.groupId ?? 'all')}
         />
       )}
 

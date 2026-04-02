@@ -12,7 +12,7 @@ type OnboardingProps = {
 
 function Onboarding({ onComplete }: OnboardingProps) {
   const [nativeLanguage, setNativeLanguage] = useState<NativeLanguage>('en');
-  const [currentLevel, setCurrentLevel] = useState<Level>('A1');
+  const [currentLevel, setCurrentLevel] = useState<Level>('A2');
 
   const hasRussianTranslations = hasCompleteNativeTranslations(wordsByLevel[currentLevel], nativeLanguage);
   const uiLanguage = nativeLanguage;

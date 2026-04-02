@@ -1,4 +1,4 @@
-import type { LevelProgress, UserProgress, UserSettings } from '../types';
+import type { LevelStats, UserProgress, UserSettings, WordProgress } from '../types';
 import { createDefaultProgress, mergeProgress } from './progress';
 
 export interface AppStorage {
@@ -45,18 +45,18 @@ declare global {
 class TelegramCloudStorageAdapter implements AppStorage {
   async loadProgress(): Promise<UserProgress> {
     const settings = await this.getItem<UserSettings>('settings');
-    const [a1, a2, b1] = await Promise.all([
-      this.getItem<LevelProgress>('progress_A1'),
-      this.getItem<LevelProgress>('progress_A2'),
-      this.getItem<LevelProgress>('progress_B1'),
+    const [words, statsA2, statsB1] = await Promise.all([
+      this.getItem<Record<string, WordProgress>>('progress_words'),
+      this.getItem<LevelStats>('stats_A2'),
+      this.getItem<LevelStats>('stats_B1'),
     ]);
 
     return mergeProgress({
       settings: settings ?? createDefaultProgress().settings,
+      words: words ?? undefined,
       levels: {
-        A1: a1 ?? createDefaultProgress().levels.A1,
-        A2: a2 ?? createDefaultProgress().levels.A2,
-        B1: b1 ?? createDefaultProgress().levels.B1,
+        A2: statsA2 ?? createDefaultProgress().levels.A2,
+        B1: statsB1 ?? createDefaultProgress().levels.B1,
       },
     });
   }
@@ -64,9 +64,9 @@ class TelegramCloudStorageAdapter implements AppStorage {
   async saveProgress(progress: UserProgress): Promise<void> {
     await Promise.all([
       this.setItem('settings', progress.settings),
-      this.setItem('progress_A1', progress.levels.A1),
-      this.setItem('progress_A2', progress.levels.A2),
-      this.setItem('progress_B1', progress.levels.B1),
+      this.setItem('progress_words', progress.words),
+      this.setItem('stats_A2', progress.levels.A2),
+      this.setItem('stats_B1', progress.levels.B1),
     ]);
   }
 

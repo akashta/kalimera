@@ -11,6 +11,7 @@ type ResultsProps = {
   lessonMistakes: string[];
   mistakeAnswers: LessonAnswer[];
   onBack: () => void;
+  onContinue: () => void;
   onStartReview: () => void;
 };
 
@@ -22,6 +23,7 @@ function Results({
   lessonMistakes,
   mistakeAnswers,
   onBack,
+  onContinue,
   onStartReview,
 }: ResultsProps) {
   return (
@@ -51,11 +53,14 @@ function Results({
       </section>
 
       <div className={ui.actions}>
-        <button type="button" className={ui.primaryButton} onClick={onBack}>
-          {t(uiLanguage, 'backToDashboard')}
+        <button type="button" className={ui.primaryButton} onClick={onContinue}>
+          {t(uiLanguage, 'continueAction')}
         </button>
         <button type="button" className={ui.secondaryButton} onClick={onStartReview} disabled={lessonMistakes.length === 0}>
           {t(uiLanguage, 'repeatMistakes')}
+        </button>
+        <button type="button" className={ui.ghostButton} onClick={onBack}>
+          {t(uiLanguage, 'backToDashboard')}
         </button>
       </div>
     </section>

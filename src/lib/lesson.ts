@@ -1,5 +1,6 @@
 import type {
   LanguageCode,
+  LessonGroupId,
   LessonQuestion,
   LessonSession,
   Level,
@@ -27,11 +28,9 @@ function startsWithUppercase(text: string): boolean {
 }
 
 function sortWordsForLesson(words: Word[], progress: UserProgress, level: Level): Word[] {
-  const levelProgress = progress.levels[level];
-
   return [...words].sort((left, right) => {
-    const leftProgress = levelProgress.words[left.id];
-    const rightProgress = levelProgress.words[right.id];
+    const leftProgress = progress.words[left.id];
+    const rightProgress = progress.words[right.id];
 
     const leftLearned = isWordLearned(leftProgress) ? 1 : 0;
     const rightLearned = isWordLearned(rightProgress) ? 1 : 0;
@@ -84,9 +83,9 @@ function createQuestion(
   )
     .map((candidate) => getWordLabel(candidate, answerLanguage))
     .filter((label): label is string => Boolean(label))
-    .slice(0, 3);
+    .slice(0, Math.min(3, Math.max(1, pool.length - 1)));
 
-  if (distractors.length < 3) {
+  if (distractors.length === 0) {
     return null;
   }
 
@@ -103,10 +102,11 @@ function createQuestion(
 
 function pickLessonWords(words: Word[], progress: UserProgress, level: Level): Word[] {
   const orderedWords = sortWordsForLesson(words, progress, level);
-  const weakWordIds = new Set(getWeakWordIds(progress.levels[level]));
-  const unseenWords = orderedWords.filter((word) => !progress.levels[level].words[word.id]);
+  const weakWordIds = new Set(getWeakWordIds(progress.words, words));
+  const unseenWords = orderedWords.filter((word) => !progress.words[word.id]);
   const weakWords = orderedWords.filter((word) => weakWordIds.has(word.id));
-  const seenWords = orderedWords.filter((word) => progress.levels[level].words[word.id] && !weakWordIds.has(word.id));
+  const seenWords = orderedWords.filter((word) => progress.words[word.id] && !weakWordIds.has(word.id));
+  const targetWordCount = Math.min(LESSON_WORD_COUNT, orderedWords.length);
 
   const uniqueTargets: Word[] = [];
   const addWords = (candidates: Word[], limit: number) => {
@@ -120,13 +120,13 @@ function pickLessonWords(words: Word[], progress: UserProgress, level: Level): W
     }
   };
 
-  addWords(unseenWords, 6);
-  addWords(weakWords, 9);
-  addWords(unseenWords, LESSON_WORD_COUNT);
-  addWords(weakWords, LESSON_WORD_COUNT);
-  addWords(seenWords, LESSON_WORD_COUNT);
+  addWords(unseenWords, Math.min(6, targetWordCount));
+  addWords(weakWords, Math.min(9, targetWordCount));
+  addWords(unseenWords, targetWordCount);
+  addWords(weakWords, targetWordCount);
+  addWords(seenWords, targetWordCount);
 
-  return uniqueTargets.slice(0, LESSON_WORD_COUNT);
+  return uniqueTargets.slice(0, targetWordCount);
 }
 
 function buildQuestionsForWords(
@@ -151,14 +151,16 @@ export function buildLessonSession(
   progress: UserProgress,
   level: Level,
   nativeLanguage: NativeLanguage,
+  groupId: LessonGroupId,
 ): LessonSession {
-  const weakWordIds = new Set(getWeakWordIds(progress.levels[level]));
+  const weakWordIds = new Set(getWeakWordIds(progress.words, words));
   const lessonWords = pickLessonWords(words, progress, level);
   const questions = buildQuestionsForWords(lessonWords, words, nativeLanguage, weakWordIds);
 
   return {
     level,
     nativeLanguage,
+    groupId,
     questions,
   };
 }
@@ -167,16 +169,18 @@ export function buildReviewSession(
   words: Word[],
   nativeLanguage: NativeLanguage,
   wordIds: string[],
+  groupId: LessonGroupId,
 ): LessonSession {
   const preferredWords = shuffle(words.filter((word) => wordIds.includes(word.id)));
   const fallbackWords = shuffle(words.filter((word) => !wordIds.includes(word.id)));
-  const targetWords = [...preferredWords, ...fallbackWords].slice(0, LESSON_WORD_COUNT);
+  const targetWords = [...preferredWords, ...fallbackWords].slice(0, Math.min(LESSON_WORD_COUNT, words.length));
   const reviewLookup = new Set(wordIds);
   const questions = buildQuestionsForWords(targetWords, words, nativeLanguage, reviewLookup);
 
   return {
-    level: targetWords[0]?.level ?? 'A1',
+    level: targetWords[0]?.level ?? 'A2',
     nativeLanguage,
+    groupId,
     questions,
   };
 }

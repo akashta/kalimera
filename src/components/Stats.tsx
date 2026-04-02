@@ -1,14 +1,14 @@
 import { t } from '../lib/i18n';
 import { LEVELS, getMasteredWordCount, getWeakWordIds } from '../lib/progress';
 import { wordsByLevel } from '../lib/words';
-import type { Level, NativeLanguage, UserProgress } from '../types';
+import type { Level, LevelStats, NativeLanguage, UserProgress } from '../types';
 import styles from './Stats.module.css';
 import ui from '../styles/ui.module.css';
 
 type StatsProps = {
   uiLanguage: NativeLanguage;
   currentLevel: Level;
-  currentLevelProgress: UserProgress['levels'][Level];
+  currentLevelStats: LevelStats;
   progress: UserProgress;
   learnedWords: number;
   weakWords: number;
@@ -18,7 +18,7 @@ type StatsProps = {
 function Stats({
   uiLanguage,
   currentLevel,
-  currentLevelProgress,
+  currentLevelStats,
   progress,
   learnedWords,
   weakWords,
@@ -42,7 +42,7 @@ function Stats({
           </article>
           <article className={styles.heroCard}>
             <span className={styles.heroLabel}>{t(uiLanguage, 'completedLessons')}</span>
-            <strong className={styles.heroValue}>{currentLevelProgress.completedLessons}</strong>
+            <strong className={styles.heroValue}>{currentLevelStats.completedLessons}</strong>
           </article>
           <article className={styles.heroCard}>
             <span className={styles.heroLabel}>{t(uiLanguage, 'accuracy')}</span>
@@ -53,9 +53,10 @@ function Stats({
 
       <section className={`${ui.panel} ${styles.levelPanel}`}>
         {LEVELS.map((level) => {
-          const levelProgress = progress.levels[level];
-          const levelAttempts = levelProgress.totalCorrect + levelProgress.totalWrong;
-          const levelAccuracy = levelAttempts === 0 ? 0 : Math.round((levelProgress.totalCorrect / levelAttempts) * 100);
+          const levelStats = progress.levels[level];
+          const levelAttempts = levelStats.totalCorrect + levelStats.totalWrong;
+          const levelAccuracy = levelAttempts === 0 ? 0 : Math.round((levelStats.totalCorrect / levelAttempts) * 100);
+          const levelWords = wordsByLevel[level];
 
           return (
             <article
@@ -65,15 +66,15 @@ function Stats({
               <header className={styles.levelHeader}>
                 <h2>{level}</h2>
                 <span className={styles.levelMeta}>
-                  {wordsByLevel[level].length} {t(uiLanguage, 'words')}
+                  {levelWords.length} {t(uiLanguage, 'words')}
                 </span>
               </header>
               <p className={styles.levelCopy}>
-                {getMasteredWordCount(levelProgress)} {t(uiLanguage, 'learned')}, {getWeakWordIds(levelProgress).length}{' '}
+                {getMasteredWordCount(progress.words, levelWords)} {t(uiLanguage, 'learned')}, {getWeakWordIds(progress.words, levelWords).length}{' '}
                 {t(uiLanguage, 'weak')}
               </p>
               <p className={styles.levelCopy}>
-                {levelProgress.completedLessons} {t(uiLanguage, 'lessons')}, {levelAccuracy}%{' '}
+                {levelStats.completedLessons} {t(uiLanguage, 'lessons')}, {levelAccuracy}%{' '}
                 {t(uiLanguage, 'accuracy').toLowerCase()}
               </p>
             </article>
