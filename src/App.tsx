@@ -78,7 +78,7 @@ function App() {
     }
 
     lastAutoSpokenQuestionRef.current = questionKey;
-    void speakGreek(question.prompt);
+    void speakGreek({ wordId: question.wordId, text: question.prompt });
   }, [question, questionIndex, screen, ttsEnabled]);
 
   async function persistProgress(nextProgress: UserProgress) {
@@ -195,7 +195,7 @@ function App() {
     };
 
     if (question.answerLanguage === 'el') {
-      void speakGreek(choice).finally(() => {
+      void speakGreek({ text: choice }).finally(() => {
         playResultSound();
         queueAdvance(nextAnswers);
       });
@@ -223,7 +223,7 @@ function App() {
     const greekText = question.answerLanguage === 'el' ? question.correctAnswer : null;
 
     if (greekText) {
-      void speakGreek(greekText).finally(() => {
+      void speakGreek({ wordId: question.wordId, text: greekText }).finally(() => {
         playWrongSound();
         queueAdvance(nextAnswers);
       });
@@ -368,7 +368,6 @@ function App() {
           questionIndex={questionIndex}
           currentResponse={currentResponse}
           currentPromptLabel={currentPromptLabel}
-          ttsEnabled={ttsEnabled}
           onBack={resetToHome}
           onSubmitChoice={submitChoice}
           onRevealAnswer={revealAnswer}

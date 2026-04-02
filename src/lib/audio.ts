@@ -1,5 +1,60 @@
-export function canSpeakGreek(): boolean {
-  return typeof window !== 'undefined' && 'speechSynthesis' in window;
+type GreekAudioInput =
+  | string
+  | {
+      wordId?: string;
+      text?: string;
+    };
+
+type GreekAudioManifest = {
+  byId: Record<string, string>;
+  byGreek: Record<string, string>;
+};
+
+let currentGreekAudio: HTMLAudioElement | null = null;
+let greekAudioManifestPromise: Promise<GreekAudioManifest | null> | null = null;
+
+function getAppAssetUrl(path: string): string {
+  const base = (import.meta.env.BASE_URL || '/').replace(/\/+$/, '/');
+  const cleanPath = path.replace(/^\/+/, '');
+  return `${base}${cleanPath}`;
+}
+
+async function loadGreekAudioManifest(): Promise<GreekAudioManifest | null> {
+  if (typeof window === 'undefined') {
+    return null;
+  }
+
+  if (!greekAudioManifestPromise) {
+    greekAudioManifestPromise = fetch(getAppAssetUrl('audio/manifest.json'))
+      .then(async (response) => {
+        if (!response.ok) {
+          return null;
+        }
+
+        return (await response.json()) as GreekAudioManifest;
+      })
+      .catch(() => null);
+  }
+
+  return greekAudioManifestPromise;
+}
+
+async function resolveGreekAudioUrl(input: GreekAudioInput): Promise<string | null> {
+  const manifest = await loadGreekAudioManifest();
+  if (!manifest) {
+    return null;
+  }
+
+  if (typeof input === 'string') {
+    const manifestPath = manifest.byGreek[input];
+    return manifestPath ? getAppAssetUrl(manifestPath) : null;
+  }
+
+  const manifestPath =
+    (input.wordId ? manifest.byId[input.wordId] : undefined) ??
+    (input.text ? manifest.byGreek[input.text] : undefined);
+
+  return manifestPath ? getAppAssetUrl(manifestPath) : null;
 }
 
 let audioContext: AudioContext | null = null;
@@ -66,24 +121,25 @@ export function playLessonFinishedSound(): void {
   playTone(1046.5, 0.34, 0.22, 0.1, 'sine');
 }
 
-export function speakGreek(text: string): Promise<void> {
-  if (!canSpeakGreek()) {
+export async function speakGreek(input: GreekAudioInput): Promise<void> {
+  if (typeof window === 'undefined') {
     return Promise.resolve();
   }
 
-  window.speechSynthesis.cancel();
+  const audioUrl = await resolveGreekAudioUrl(input);
+  if (!audioUrl) {
+    return Promise.resolve();
+  }
+
+  if (currentGreekAudio) {
+    currentGreekAudio.pause();
+    currentGreekAudio.currentTime = 0;
+    currentGreekAudio = null;
+  }
+
   return new Promise((resolve) => {
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = 'el-GR';
-    utterance.rate = 0.9;
-
-    const greekVoice = window.speechSynthesis
-      .getVoices()
-      .find((voice) => voice.lang.toLowerCase().startsWith('el'));
-
-    if (greekVoice) {
-      utterance.voice = greekVoice;
-    }
+    const audio = new Audio(audioUrl);
+    currentGreekAudio = audio;
 
     let settled = false;
     const finish = () => {
@@ -91,14 +147,14 @@ export function speakGreek(text: string): Promise<void> {
         return;
       }
       settled = true;
+      if (currentGreekAudio === audio) {
+        currentGreekAudio = null;
+      }
       resolve();
     };
 
-    utterance.onend = finish;
-    utterance.onerror = finish;
-
-    window.speechSynthesis.speak(utterance);
-
-    window.setTimeout(finish, Math.max(900, text.length * 110));
+    audio.onended = finish;
+    audio.onerror = finish;
+    void audio.play().catch(() => finish());
   });
 }
