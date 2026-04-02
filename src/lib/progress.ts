@@ -48,6 +48,7 @@ export function createDefaultProgress(): UserProgress {
       currentLevel: 'A2',
       nativeLanguage: 'en',
       hasCompletedOnboarding: false,
+      ttsEnabled: true,
     },
     words: {},
     levels: {
@@ -73,6 +74,7 @@ export function mergeProgress(rawValue: Partial<UserProgress> | null | undefined
       currentLevel: rawValue.settings?.currentLevel === 'B1' ? 'B1' : base.settings.currentLevel,
       nativeLanguage: rawValue.settings?.nativeLanguage ?? base.settings.nativeLanguage,
       hasCompletedOnboarding: rawValue.settings?.hasCompletedOnboarding ?? base.settings.hasCompletedOnboarding,
+      ttsEnabled: rawValue.settings?.ttsEnabled ?? base.settings.ttsEnabled,
     },
     words: normalizedWords,
     levels: {

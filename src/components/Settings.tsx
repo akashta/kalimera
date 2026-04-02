@@ -46,6 +46,16 @@ function Settings({ uiLanguage, settings, hasRussianTranslations, onUpdateSettin
           </select>
         </label>
 
+        <label className={styles.toggleControl}>
+          <span>{t(uiLanguage, 'ttsEnabled')}</span>
+          <input
+            className={styles.toggleInput}
+            type="checkbox"
+            checked={settings.ttsEnabled}
+            onChange={(event) => onUpdateSettings({ ttsEnabled: event.target.checked })}
+          />
+        </label>
+
         {settings.nativeLanguage === 'ru' && !hasRussianTranslations && <p className={ui.notice}>{t(uiLanguage, 'noRussianData')}</p>}
       </section>
     </>

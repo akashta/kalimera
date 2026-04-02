@@ -54,6 +54,7 @@ export interface UserSettings {
   currentLevel: Level;
   nativeLanguage: NativeLanguage;
   hasCompletedOnboarding: boolean;
+  ttsEnabled: boolean;
 }
 
 export interface UserProgress {

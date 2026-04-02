@@ -12,6 +12,7 @@ type LessonProps = {
   questionIndex: number;
   currentResponse: LessonAnswer | null;
   currentPromptLabel: string;
+  ttsEnabled: boolean;
   onBack: () => void;
   onSubmitChoice: (choice: string) => void;
   onRevealAnswer: () => void;
@@ -40,6 +41,7 @@ function Lesson({
   questionIndex,
   currentResponse,
   currentPromptLabel,
+  ttsEnabled,
   onBack,
   onSubmitChoice,
   onRevealAnswer,
@@ -76,7 +78,9 @@ function Lesson({
               type="button"
               className={styles.audioButton}
               aria-label={t(uiLanguage, 'audio')}
-              onClick={() => speakGreek(question.prompt)}
+              onClick={() => {
+                void speakGreek(question.prompt);
+              }}
             >
               <SpeakerIcon className={styles.speakerIcon} />
             </button>

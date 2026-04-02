@@ -35,6 +35,7 @@ function App() {
   const currentWords = wordsByLevel[currentLevel];
   const currentLevelStats = progress.levels[currentLevel];
   const uiLanguage = progress.settings.nativeLanguage;
+  const ttsEnabled = progress.settings.ttsEnabled;
   const question = activeLesson?.questions[questionIndex] ?? null;
   const groupSummaries = useMemo(
     () => buildLessonGroupSummaries(currentWords, progress.words, uiLanguage),
@@ -72,7 +73,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (screen !== 'lesson' || !question || question.promptLanguage !== 'el') {
+    if (!ttsEnabled || screen !== 'lesson' || !question || question.promptLanguage !== 'el') {
       return;
     }
 
@@ -82,8 +83,8 @@ function App() {
     }
 
     lastAutoSpokenQuestionRef.current = questionKey;
-    speakGreek(question.prompt);
-  }, [question, questionIndex, screen]);
+    void speakGreek(question.prompt);
+  }, [question, questionIndex, screen, ttsEnabled]);
 
   async function persistProgress(nextProgress: UserProgress) {
     setProgress(nextProgress);
@@ -372,6 +373,7 @@ function App() {
           questionIndex={questionIndex}
           currentResponse={currentResponse}
           currentPromptLabel={currentPromptLabel}
+          ttsEnabled={ttsEnabled}
           onBack={resetToHome}
           onSubmitChoice={submitChoice}
           onRevealAnswer={revealAnswer}
