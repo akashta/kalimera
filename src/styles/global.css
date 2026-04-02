@@ -1,10 +1,11 @@
 :root {
+  --app-height: 100vh;
   font-family: "Segoe UI", "Noto Sans", sans-serif;
-  color: #112019;
+  color: var(--tg-text-color, #112019);
   background:
     radial-gradient(circle at top left, rgba(255, 219, 142, 0.55), transparent 28%),
     radial-gradient(circle at top right, rgba(62, 140, 118, 0.2), transparent 24%),
-    linear-gradient(180deg, #fff7e4 0%, #f3efe3 100%);
+    linear-gradient(180deg, var(--tg-bg-color, #fff7e4) 0%, #f3efe3 100%);
   line-height: 1.4;
   font-weight: 400;
   color-scheme: light;
@@ -21,7 +22,7 @@
 body {
   margin: 0;
   min-width: 0;
-  min-height: 100vh;
+  min-height: var(--app-height);
 }
 
 button,
@@ -46,7 +47,7 @@ button:disabled {
 }
 
 #root {
-  min-height: 100vh;
+  min-height: var(--app-height);
 }
 
 h1,

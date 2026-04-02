@@ -1,5 +1,6 @@
 import type { LevelStats, UserProgress, UserSettings, WordProgress } from '../types';
 import { createDefaultProgress, mergeProgress } from './progress';
+import { supportsTelegramCloudStorage } from './telegram';
 
 export interface AppStorage {
   loadProgress(): Promise<UserProgress>;
@@ -24,21 +25,6 @@ class LocalStorageAdapter implements AppStorage {
 
   async saveProgress(progress: UserProgress): Promise<void> {
     window.localStorage.setItem(`${STORAGE_PREFIX}:progress`, JSON.stringify(progress));
-  }
-}
-
-declare global {
-  interface Window {
-    Telegram?: {
-      WebApp?: {
-        ready?: () => void;
-        expand?: () => void;
-        CloudStorage?: {
-          getItem: (key: string, callback: (error: Error | null, value: string | null) => void) => void;
-          setItem: (key: string, value: string, callback?: (error: Error | null, success: boolean) => void) => void;
-        };
-      };
-    };
   }
 }
 
@@ -76,20 +62,24 @@ class TelegramCloudStorageAdapter implements AppStorage {
       return null;
     }
 
-    return new Promise((resolve) => {
-      cloudStorage.getItem(`${STORAGE_PREFIX}:${key}`, (error, value) => {
-        if (error || !value) {
-          resolve(null);
-          return;
-        }
+    try {
+      return await new Promise((resolve) => {
+        cloudStorage.getItem(`${STORAGE_PREFIX}:${key}`, (error, value) => {
+          if (error || !value) {
+            resolve(null);
+            return;
+          }
 
-        try {
-          resolve(JSON.parse(value) as T);
-        } catch {
-          resolve(null);
-        }
+          try {
+            resolve(JSON.parse(value) as T);
+          } catch {
+            resolve(null);
+          }
+        });
       });
-    });
+    } catch {
+      return null;
+    }
   }
 
   private async setItem(key: string, value: unknown): Promise<void> {
@@ -98,12 +88,16 @@ class TelegramCloudStorageAdapter implements AppStorage {
       return;
     }
 
-    return new Promise((resolve) => {
-      cloudStorage.setItem(`${STORAGE_PREFIX}:${key}`, JSON.stringify(value), () => resolve());
-    });
+    try {
+      await new Promise<void>((resolve) => {
+        cloudStorage.setItem(`${STORAGE_PREFIX}:${key}`, JSON.stringify(value), () => resolve());
+      });
+    } catch {
+      return;
+    }
   }
 }
 
 export function getStorageAdapter(): AppStorage {
-  return window.Telegram?.WebApp?.CloudStorage ? new TelegramCloudStorageAdapter() : new LocalStorageAdapter();
+  return supportsTelegramCloudStorage() ? new TelegramCloudStorageAdapter() : new LocalStorageAdapter();
 }

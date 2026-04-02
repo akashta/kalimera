@@ -59,11 +59,6 @@ function App() {
 
     void load();
 
-    if (window.Telegram?.WebApp) {
-      window.Telegram.WebApp.ready?.();
-      window.Telegram.WebApp.expand?.();
-    }
-
     return () => {
       mounted = false;
       if (advanceTimeoutRef.current !== null) {
