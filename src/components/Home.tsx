@@ -92,12 +92,6 @@ function Home({
                 </span>
                 <span className={styles.groupProgress} aria-hidden="true">
                   <span
-                    className={`${styles.segment} ${styles.newSegment}`}
-                    style={{
-                      width: `${group.totalWords === 0 ? 0 : ((group.totalWords - group.learnedWords - group.weakWords) / group.totalWords) * 100}%`,
-                    }}
-                  />
-                  <span
                     className={`${styles.segment} ${styles.learnedSegment}`}
                     style={{
                       width: `${group.totalWords === 0 ? 0 : (group.learnedWords / group.totalWords) * 100}%`,
@@ -107,6 +101,12 @@ function Home({
                     className={`${styles.segment} ${styles.reviewSegment}`}
                     style={{
                       width: `${group.totalWords === 0 ? 0 : (group.weakWords / group.totalWords) * 100}%`,
+                    }}
+                  />
+                  <span
+                    className={`${styles.segment} ${styles.newSegment}`}
+                    style={{
+                      width: `${group.totalWords === 0 ? 0 : ((group.totalWords - group.learnedWords - group.weakWords) / group.totalWords) * 100}%`,
                     }}
                   />
                 </span>
