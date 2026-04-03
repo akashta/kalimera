@@ -1,6 +1,6 @@
 import { t } from '../lib/i18n';
 import { LEVELS } from '../lib/progress';
-import type { Level, NativeLanguage, UserProgress } from '../types';
+import type { AudioMode, Level, NativeLanguage, UserProgress } from '../types';
 import styles from './Home.module.css';
 import ui from '../styles/ui.module.css';
 
@@ -47,13 +47,25 @@ function Settings({ uiLanguage, settings, hasRussianTranslations, onUpdateSettin
         </label>
 
         <label className={styles.toggleControl}>
-          <span>{t(uiLanguage, 'ttsEnabled')}</span>
+          <span>{t(uiLanguage, 'autoPlayAudio')}</span>
           <input
             className={styles.toggleInput}
             type="checkbox"
-            checked={settings.ttsEnabled}
-            onChange={(event) => onUpdateSettings({ ttsEnabled: event.target.checked })}
+            checked={settings.autoPlayAudio}
+            onChange={(event) => onUpdateSettings({ autoPlayAudio: event.target.checked })}
           />
+        </label>
+
+        <label className={styles.fieldLabel}>
+          <span>{t(uiLanguage, 'audioMode')}</span>
+          <select
+            className={styles.selectControl}
+            value={settings.audioMode}
+            onChange={(event) => onUpdateSettings({ audioMode: event.target.value as AudioMode })}
+          >
+            <option value="mp3">{t(uiLanguage, 'audioModeMp3')}</option>
+            <option value="tts">{t(uiLanguage, 'audioModeTts')}</option>
+          </select>
         </label>
 
         {settings.nativeLanguage === 'ru' && !hasRussianTranslations && <p className={ui.notice}>{t(uiLanguage, 'noRussianData')}</p>}

@@ -1,6 +1,6 @@
 import { speakGreek } from '../lib/audio';
 import { t } from '../lib/i18n';
-import type { LessonAnswer, LessonQuestion, LessonSession, NativeLanguage } from '../types';
+import type { AudioMode, LessonAnswer, LessonQuestion, LessonSession, NativeLanguage } from '../types';
 import SpeakerIcon from './SpeakerIcon';
 import styles from './Lesson.module.css';
 import ui from '../styles/ui.module.css';
@@ -12,6 +12,7 @@ type LessonProps = {
   questionIndex: number;
   currentResponse: LessonAnswer | null;
   currentPromptLabel: string;
+  audioMode: AudioMode;
   onBack: () => void;
   onSubmitChoice: (choice: string) => void;
   onRevealAnswer: () => void;
@@ -40,6 +41,7 @@ function Lesson({
   questionIndex,
   currentResponse,
   currentPromptLabel,
+  audioMode,
   onBack,
   onSubmitChoice,
   onRevealAnswer,
@@ -77,7 +79,7 @@ function Lesson({
               className={styles.audioButton}
               aria-label={t(uiLanguage, 'audio')}
               onClick={() => {
-                void speakGreek({ wordId: question.wordId, text: question.prompt });
+                void speakGreek({ wordId: question.wordId, text: question.prompt }, audioMode);
               }}
             >
               <SpeakerIcon className={styles.speakerIcon} />

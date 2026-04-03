@@ -1,6 +1,7 @@
 export type Level = 'A2' | 'B1';
 export type NativeLanguage = 'en' | 'ru';
 export type LanguageCode = 'el' | NativeLanguage;
+export type AudioMode = 'tts' | 'mp3';
 export type LessonGroupId =
   | 'all'
   | 'basics'
@@ -65,7 +66,8 @@ export interface UserSettings {
   currentLevel: Level;
   nativeLanguage: NativeLanguage;
   hasCompletedOnboarding: boolean;
-  ttsEnabled: boolean;
+  autoPlayAudio: boolean;
+  audioMode: AudioMode;
 }
 
 export interface UserProgress {

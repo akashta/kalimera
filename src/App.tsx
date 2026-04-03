@@ -35,7 +35,8 @@ function App() {
   const currentWords = wordsByLevel[currentLevel];
   const currentLevelStats = progress.levels[currentLevel];
   const uiLanguage = progress.settings.nativeLanguage;
-  const ttsEnabled = progress.settings.ttsEnabled;
+  const autoPlayAudio = progress.settings.autoPlayAudio;
+  const audioMode = progress.settings.audioMode;
   const question = activeLesson?.questions[questionIndex] ?? null;
   const groupSummaries = useMemo(
     () => buildLessonGroupSummaries(currentWords, progress.words, uiLanguage),
@@ -68,7 +69,7 @@ function App() {
   }, []);
 
   useEffect(() => {
-    if (!ttsEnabled || screen !== 'lesson' || !question || question.promptLanguage !== 'el') {
+    if (!autoPlayAudio || screen !== 'lesson' || !question || question.promptLanguage !== 'el') {
       return;
     }
 
@@ -78,8 +79,8 @@ function App() {
     }
 
     lastAutoSpokenQuestionRef.current = questionKey;
-    void speakGreek({ wordId: question.wordId, text: question.prompt });
-  }, [question, questionIndex, screen, ttsEnabled]);
+    void speakGreek({ wordId: question.wordId, text: question.prompt }, audioMode);
+  }, [audioMode, autoPlayAudio, question, questionIndex, screen]);
 
   async function persistProgress(nextProgress: UserProgress) {
     setProgress(nextProgress);
@@ -195,7 +196,7 @@ function App() {
     };
 
     if (question.answerLanguage === 'el') {
-      void speakGreek({ text: choice }).finally(() => {
+      void speakGreek({ text: choice }, audioMode).finally(() => {
         playResultSound();
         queueAdvance(nextAnswers);
       });
@@ -223,7 +224,7 @@ function App() {
     const greekText = question.answerLanguage === 'el' ? question.correctAnswer : null;
 
     if (greekText) {
-      void speakGreek({ wordId: question.wordId, text: greekText }).finally(() => {
+      void speakGreek({ wordId: question.wordId, text: greekText }, audioMode).finally(() => {
         playWrongSound();
         queueAdvance(nextAnswers);
       });
@@ -368,6 +369,7 @@ function App() {
           questionIndex={questionIndex}
           currentResponse={currentResponse}
           currentPromptLabel={currentPromptLabel}
+          audioMode={audioMode}
           onBack={resetToHome}
           onSubmitChoice={submitChoice}
           onRevealAnswer={revealAnswer}

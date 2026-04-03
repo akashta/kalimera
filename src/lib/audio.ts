@@ -1,3 +1,5 @@
+import type { AudioMode } from '../types';
+
 type GreekAudioInput =
   | string
   | {
@@ -12,6 +14,7 @@ type GreekAudioManifest = {
 
 let currentGreekAudio: HTMLAudioElement | null = null;
 let greekAudioManifestPromise: Promise<GreekAudioManifest | null> | null = null;
+let currentGreekUtterance: SpeechSynthesisUtterance | null = null;
 
 function getAppAssetUrl(path: string): string {
   const base = (import.meta.env.BASE_URL || '/').replace(/\/+$/, '/');
@@ -55,6 +58,97 @@ async function resolveGreekAudioUrl(input: GreekAudioInput): Promise<string | nu
     (input.text ? manifest.byGreek[input.text] : undefined);
 
   return manifestPath ? getAppAssetUrl(manifestPath) : null;
+}
+
+function getGreekText(input: GreekAudioInput): string | null {
+  if (typeof input === 'string') {
+    return input;
+  }
+
+  return input.text ?? null;
+}
+
+function stopGreekPlayback(): void {
+  if (currentGreekAudio) {
+    currentGreekAudio.pause();
+    currentGreekAudio.currentTime = 0;
+    currentGreekAudio = null;
+  }
+
+  if (typeof window !== 'undefined' && 'speechSynthesis' in window) {
+    window.speechSynthesis.cancel();
+    currentGreekUtterance = null;
+  }
+}
+
+function canUseGreekTts(): boolean {
+  return typeof window !== 'undefined' && 'speechSynthesis' in window && typeof SpeechSynthesisUtterance !== 'undefined';
+}
+
+function speakGreekWithTts(input: GreekAudioInput): Promise<boolean> {
+  const text = getGreekText(input);
+  if (!text || !canUseGreekTts()) {
+    return Promise.resolve(false);
+  }
+
+  stopGreekPlayback();
+
+  return new Promise((resolve) => {
+    const utterance = new SpeechSynthesisUtterance(text);
+    currentGreekUtterance = utterance;
+    utterance.lang = 'el-GR';
+
+    let settled = false;
+    const finish = (didSpeak: boolean) => {
+      if (settled) {
+        return;
+      }
+      settled = true;
+      if (currentGreekUtterance === utterance) {
+        currentGreekUtterance = null;
+      }
+      resolve(didSpeak);
+    };
+
+    utterance.onend = () => finish(true);
+    utterance.onerror = () => finish(false);
+
+    try {
+      window.speechSynthesis.speak(utterance);
+    } catch {
+      finish(false);
+    }
+  });
+}
+
+async function speakGreekWithMp3(input: GreekAudioInput): Promise<void> {
+  const audioUrl = await resolveGreekAudioUrl(input);
+  if (!audioUrl) {
+    return Promise.resolve();
+  }
+
+  stopGreekPlayback();
+
+  return new Promise((resolve) => {
+    const audio = new Audio(audioUrl);
+    currentGreekAudio = audio;
+
+    let settled = false;
+    const finish = () => {
+      if (settled) {
+        return;
+      }
+      settled = true;
+      if (currentGreekAudio === audio) {
+        currentGreekAudio = null;
+      }
+      resolve();
+    };
+
+    audio.onended = finish;
+    audio.onerror = finish;
+    void audio.play().catch(() => finish());
+  });
 }
 
 let audioContext: AudioContext | null = null;
@@ -121,40 +215,17 @@ export function playLessonFinishedSound(): void {
   playTone(1046.5, 0.34, 0.22, 0.1, 'sine');
 }
 
-export async function speakGreek(input: GreekAudioInput): Promise<void> {
+export async function speakGreek(input: GreekAudioInput, mode: AudioMode = 'mp3'): Promise<void> {
   if (typeof window === 'undefined') {
     return Promise.resolve();
   }
 
-  const audioUrl = await resolveGreekAudioUrl(input);
-  if (!audioUrl) {
-    return Promise.resolve();
+  if (mode === 'tts') {
+    const didSpeak = await speakGreekWithTts(input);
+    if (didSpeak) {
+      return;
+    }
   }
 
-  if (currentGreekAudio) {
-    currentGreekAudio.pause();
-    currentGreekAudio.currentTime = 0;
-    currentGreekAudio = null;
-  }
-
-  return new Promise((resolve) => {
-    const audio = new Audio(audioUrl);
-    currentGreekAudio = audio;
-
-    let settled = false;
-    const finish = () => {
-      if (settled) {
-        return;
-      }
-      settled = true;
-      if (currentGreekAudio === audio) {
-        currentGreekAudio = null;
-      }
-      resolve();
-    };
-
-    audio.onended = finish;
-    audio.onerror = finish;
-    void audio.play().catch(() => finish());
-  });
+  return speakGreekWithMp3(input);
 }
