@@ -58,7 +58,7 @@ id,greek,english,russian,level,group
 57,ακτή,beach,пляж,A2,weather
 58,αλάτι,salt,соль,A2,food
 59,Αλβανία,Albania,Албания,A2,countries
-60,αλβανικά,Albanian language,албанский язык,A2,language
+60,αλβανικά,Albanian language,албанский язык,A2,countries
 61,αλβανικός,Albanian,албанский,A2,countries
 62,αλβανός,Albanian person,албанец,A2,countries
 63,Αλεξάνδρα,Alexandra,Александра,A2,names
@@ -153,7 +153,7 @@ id,greek,english,russian,level,group
 152,Αρκτική,Arctic,Арктика,A2,countries
 153,αρκώ,"to suffice, to be enough","хватать, быть достаточным",A2,verbs
 154,Αρμενία,Armenia,Армения,A2,countries
-155,αρμενικά,Armenian language,армянский язык,A2,language
+155,αρμενικά,Armenian language,армянский язык,A2,countries
 156,αρμενικός,Armenian,армянский,A2,countries
 157,αρμένιος,Armenian person,армянин,A2,countries
 158,αρνούμαι,"to say no, to refuse","сказать нет, отказываться",A2,verbs
@@ -249,7 +249,7 @@ id,greek,english,russian,level,group
 248,βόλτα,walk,прогулка,A2,objects
 249,Βουλγαρία,Bulgaria,Болгария,A2,countries
 250,βουλγαρικός,Bulgarian,болгарский,A2,countries
-251,βουλγαρικά,Bulgarian language,болгарский язык,A2,language
+251,βουλγαρικά,Bulgarian language,болгарский язык,A2,countries
 252,βούλγαρος,Bulgarian person,болгарин,A2,countries
 253,βουνό,mountain,гора,A2,weather
 254,βούτυρο,butter,масло,A2,food
@@ -258,7 +258,7 @@ id,greek,english,russian,level,group
 257,βράδυ,evening,вечер,A2,time
 258,Βραζιλία,Brazil,Бразилия,A2,countries
 259,βραζιλιανικός,Brazilian,бразильский,A2,countries
-260,βραζιλιανικά,Brazilian Portuguese,бразильский португальский,A2,language
+260,βραζιλιανικά,Brazilian Portuguese,бразильский португальский,A2,countries
 261,βραζιλιάνος,Brazilian person,бразилец,A2,countries
 262,Βρετανία,Britain,Великобритания,A2,countries
 263,βρέχω,to wet,мочить,A2,verbs
@@ -271,7 +271,7 @@ id,greek,english,russian,level,group
 270,γαλανός,blue,голубой,A2,colors
 271,Γαλλία,France,Франция,A2,countries
 272,γαλλικός,French,французский,A2,countries
-273,γαλλικά,French language,французский язык,A2,language
+273,γαλλικά,French language,французский язык,A2,countries
 274,γάλλος,French person,француз,A2,countries
 275,γάμος,wedding,свадьба,A2,society
 276,γάντι,glove,перчатка,A2,clothes
@@ -311,7 +311,7 @@ id,greek,english,russian,level,group
 310,γκρίνια,grumbling,ворчание,A2,objects
 311,γλυκό,sweet,сладкий,A2,food
 312,γλυκός,sweet,сладкий,A2,food
-313,γλώσσα,language,язык,A2,language
+313,γλώσσα,language,язык,A2,communication
 314,γλώσσα μητρική,mother tongue,родной язык,A2,people
 315,γνώμη,opinion,мнение,A2,concepts
 316,γνωρίζω,to know,знать,A2,verbs
@@ -522,8 +522,8 @@ id,greek,english,russian,level,group
 521,ζωντανός,"alive, living","живой, живущий",A2,concepts
 522,ζώο,animal,животное,A2,animals
 523,ηθοποιός,"actor, actress","актер, актриса",A2,people
-524,ηλεκτρικός,electric,электрический,A2,technology
-525,ηλεκτρονικός,electronic,электронный,A2,technology
+524,ηλεκτρικός,electric,электрический,A2,descriptions
+525,ηλεκτρονικός,electronic,электронный,A2,descriptions
 526,ηλικία,age,возраст,A2,time
 527,ήλιος,sun,солнце,A2,weather
 528,ημέρα,day,день,A2,time
@@ -625,7 +625,7 @@ id,greek,english,russian,level,group
 624,κασκόλ,scarf,шарф,A2,clothes
 625,κατάθεση,deposit,депозит,A2,money
 626,καταλαβαίνω,to understand,понимать,A2,verbs
-627,κατάλογος,catalogue,каталог,A2,shopping
+627,κατάλογος,catalogue,каталог,A2,objects
 628,κατασκήνωση,camp,лагерь,A2,travel
 629,κατάσταση,situation,ситуация,A2,concepts
 630,κατεβαίνω,to get down,спускаться,A2,verbs
@@ -645,7 +645,7 @@ id,greek,english,russian,level,group
 644,κεράσι,cherry,вишня,A2,food
 645,κερδίζω,to win,побеждать,A2,verbs
 646,Κέρκυρα,Corfou,Корфу,A2,countries
-647,κεφαλαίο γράμμα,capital letter,заглавная буква,A2,language
+647,κεφαλαίο γράμμα,capital letter,заглавная буква,A2,communication
 648,κεφάλι,head,голова,A2,body
 649,κήπος,garden,сад,A2,home
 650,κιθάρα,guitar,гитара,A2,music
@@ -970,7 +970,7 @@ id,greek,english,russian,level,group
 969,πάνω σε,"on, onto",на,A2,space
 970,παπούτσι,shoe,обувь,A2,clothes
 971,παππούς,grandfather,дедушка,A2,people
-972,παραγγελία,order,заказ,A2,shopping
+972,παραγγελία,order,заказ,A2,communication
 973,παραγγέλνω,to order,заказывать,A2,verbs
 974,παράδειγμα,example,пример,A2,objects
 975,παραδοσιακός,traditional,традиционный,A2,descriptions
@@ -997,7 +997,7 @@ id,greek,english,russian,level,group
 996,Παύλος,Paul,Пол,A2,home
 997,πεζοδρόμιο,"sidewalk, pavement",тротуар,A2,descriptions
 998,πεινάω,to be hungry,"быть голодным, хотеть есть",A2,verbs
-999,πελάτης,client,клиент,A2,shopping
+999,πελάτης,client,клиент,A2,people
 1000,πέμπτη,Thursday,четверг,A2,time
 1001,πέμπτος,fifth,пятый,A2,time
 1002,πενήντα,fifty,пятьдесят,A2,time
@@ -1010,7 +1010,7 @@ id,greek,english,russian,level,group
 1009,περιμένω,to wait,ждать,A2,verbs
 1010,περιοδικό,magazine,журнал,A2,leisure
 1011,περιοχή,region,регион,A2,city
-1012,περίπτερο,kiosk,киоск,A2,shopping
+1012,περίπτερο,kiosk,киоск,A2,city
 1013,περνάω,to pass,проходить,A2,verbs
 1014,περνάω καλά,to have a good time,хорошо проводить время,A2,verbs
 1015,περπατάω,to walk,ходить,A2,verbs
@@ -1070,7 +1070,7 @@ id,greek,english,russian,level,group
 1069,πορτοκαλής́,orange-colored,оранжевый,A2,food
 1070,πορτοκάλι,orange,апельсин,A2,food
 1071,πορτοκαλιά,orange tree,апельсиновое дерево,A2,food
-1072,πορτοφόλι,wallet,кошелек,A2,shopping
+1072,πορτοφόλι,wallet,кошелек,A2,money
 1073,πόσοι,how many,сколько,A2,basics
 1074,πόσος,how much,сколько,A2,basics
 1075,ποτέ,never,никогда,A2,basics
@@ -1122,7 +1122,7 @@ id,greek,english,russian,level,group
 1121,πώς σε λένε;,what's your name?,как тебя зовут?,A2,basics
 1122,ραδιόφωνο,radio,радио,A2,communication
 1123,ρεπό,day off,выходной,A2,time
-1124,ρεύμα (ηλεκτρικό),electricity,электричество,A2,technology
+1124,ρεύμα (ηλεκτρικό),electricity,электричество,A2,concepts
 1125,ρίχνω,to throw,бросать,A2,verbs
 1126,ροζ,pink,розовый,A2,colors
 1127,ρολόι,clock,часы,A2,time
@@ -1253,7 +1253,7 @@ id,greek,english,russian,level,group
 1252,ταλέντο,talent,талант,A2,concepts
 1253,ταμείο,cash desk,кассовый аппарат,A2,clothes
 1254,Τάμεσης,Thames,Темза,A2,countries
-1255,ταμίας,cashier,кассир,A2,shopping
+1255,ταμίας,cashier,кассир,A2,professions
 1256,τάξη,classroom,класс,A2,school
 1257,ταξί,taxi,такси,A2,city
 1258,ταξιδεύω,to travel,путешествовать,A2,verbs
@@ -1473,10 +1473,10 @@ id,greek,english,russian,level,group
 1472,ψέμα,lie,ложь,A2,concepts
 1473,ψηλά,high,высоко,A2,descriptions
 1474,ψηλός,"tall, high",высокий,A2,descriptions
-1475,ψηφιακός,digital,цифровой,A2,technology
+1475,ψηφιακός,digital,цифровой,A2,descriptions
 1476,ψυγείο,refrigerator,холодильник,A2,home
 1477,ψωμί,bread,хлеб,A2,food
-1478,ψώνια,shopping,покупка,A2,shopping
+1478,ψώνια,shopping,покупка,A2,money
 1479,ψωνίζω,"to shop, to go shopping","делать покупки, ходить по магазинам",A2,verbs
 1480,ώρα,hour,час,A2,time
 1481,Η ώρα είναι τέσσερις,It is four o'clock,Сейчас четыре часа,A2,time
@@ -1536,7 +1536,7 @@ id,greek,english,russian,level,group
 1535,αργός,slow,медленный,A2,descriptions
 1536,αρνητικά,negatively,отрицательно,A2,descriptions
 1537,αρνί,lamb,ягненок,A2,food
-1538,αρχαία ελληνικά,Ancient Greek language,древнегреческий язык,A2,language
+1538,αρχαία ελληνικά,Ancient Greek language,древнегреческий язык,A2,countries
 1539,αρχαιότητα,"antiquity, ancient times","древность, древние времена",A2,concepts
 1540,αρχιτέκτονας,architect,архитектор,A2,professions
 1541,ασθενής άνεμος,mild wind,слабый ветер,A2,weather
@@ -1653,8 +1653,8 @@ id,greek,english,russian,level,group
 1652,εκκλησία,church,церковь,A2,society
 1653,έκπληξη,surprise,сюрприз,A2,objects
 1654,εκπαίδευση,"education, training","образование, обучение",A2,school
-1655,έκπτωση,discount,скидка,A2,shopping
-1656,εκπτώσεις,"discounts, sales",скидки,A2,shopping
+1655,έκπτωση,discount,скидка,A2,money
+1656,εκπτώσεις,"discounts, sales",скидки,A2,money
 1657,ελαφρύς,light,легкий,A2,home
 1658,Ελένη,Helen,Элени,A2,names
 1659,Ελίνα,Elina,Элина,A2,names
@@ -1736,7 +1736,7 @@ id,greek,english,russian,level,group
 1735,ζυμαρικό,pasta,паста,A2,food
 1736,ζωηρός,"naughty, lively","непослушный, живой",A2,descriptions
 1737,ζωντανή μουσική,live music,живая музыка,A2,communication
-1738,ηλεκτρικά είδη,electric devices,электрические устройства,A2,technology
+1738,ηλεκτρικά είδη,electric devices,электрические устройства,A2,objects
 1739,ηλεκτροπληξία,"electrocution, electric shock","удар током, электрический удар",A2,health
 1740,ηλικιωμένος,"elderly, old","пожилой, старый",A2,people
 1741,έχει ήλιο,it is sunny,солнечно,A2,weather
@@ -1804,7 +1804,7 @@ id,greek,english,russian,level,group
 1803,Κάτια,Katja,Катя,A2,names
 1804,κατσαρόλα,"pot, saucepan","горшок, соус",A2,concepts
 1805,κέικ,cake,торт,A2,food
-1806,κεφαλαίο γράμμα,capital letter,заглавная буква,A2,language
+1806,κεφαλαίο γράμμα,capital letter,заглавная буква,A2,communication
 1807,καφέ,brown,коричневый,A2,colors
 1808,κελί,cell,клетка,A2,objects
 1809,κεντρικό δελτίο ειδήσεων,news,новости,A2,communication
@@ -2076,7 +2076,7 @@ id,greek,english,russian,level,group
 2075,ραντεβού,"appointment, date","встреча, свидание",A2,school
 2076,ράτσα ζώου,pedigree,родословная,A2,objects
 2077,ρεσιτάλ,recital,концерт,A2,music
-2078,ρεύμα,electricity,электричество,A2,technology
+2078,ρεύμα,electricity,электричество,A2,concepts
 2079,ρίγανη,oregano,орегано,A2,objects
 2080,ροκ μουσική,rock music,рок музыка,A2,communication
 2081,ρυθμός,rhythm,ритм,A2,music
@@ -2278,7 +2278,7 @@ id,greek,english,russian,level,group
 2277,αέρας,"wind, air","ветер, воздух",B1,weather
 2278,αεροπορικός,"air, aviation","воздух, авиация",B1,weather
 2279,αεροσυνοδός,flight attendant,бортпроводник,B1,professions
-2280,άθληση,"exercise, sports","физические упражнения, спорт",B1,leisure
+2280,άθληση,"exercise, sports","физические упражнения, спорт",B1,sports
 2281,αθλούμαι,"to work out, to exercise","тренироваться, заниматься спортом",B1,verbs
 2282,αθόρυβος,"silent, quiet","молчать, тихий",B1,concepts
 2283,Αιγόκερως,Capricorn,Козерог,B1,objects
@@ -2498,7 +2498,7 @@ id,greek,english,russian,level,group
 2497,αποκαλώ,"to call, to name","называть, обращаться",B1,verbs
 2498,αποκλεισμός,exclusion,исключение,B1,concepts
 2499,αποκλειστικά,exclusively,исключительно,B1,descriptions
-2500,αποκριάτικος,"carnival-related, masquerade","карнавальный, маскарадный",B1,holidays
+2500,αποκριάτικος,"carnival-related, masquerade","карнавальный, маскарадный",B1,society
 2501,απόκτηση,acquisition,приобретение,B1,concepts
 2502,απολαμβάνω,to enjoy,наслаждаться,B1,verbs
 2503,απόλαυση,"enjoyment, pleasure","наслаждение, удовольствие",B1,descriptions
@@ -2539,7 +2539,7 @@ id,greek,english,russian,level,group
 2538,αραιωμένος,diluted,разбавленный,B1,food
 2539,αραχτός,"laid-back, loafing","расслабленный, бездельничающий",B1,concepts
 2540,Αργεντινή,Argentina,Аргентина,B1,countries
-2541,αργία,public holiday,государственный праздник,B1,leisure
+2541,αργία,public holiday,государственный праздник,B1,society
 2542,αργκό,slang,сленг,B1,objects
 2543,Άργος,Argos,Аргос,B1,geography
 2544,αργότερα,later,позже,B1,time
@@ -2552,11 +2552,11 @@ id,greek,english,russian,level,group
 2551,αρμονία,harmony,гармония,B1,objects
 2552,άρνηση,negation,отрицание,B1,concepts
 2553,αρνητικός,negative,отрицательный,B1,descriptions
-2554,αρραβωνιαστικός,"fiancé, fiancée","жених, невеста",B1,holidays
+2554,αρραβωνιαστικός,"fiancé, fiancée","жених, невеста",B1,people
 2555,αρρωστιάρης,"ill, sick",больной,B1,body
 2556,Άρτεμη,Artemis,Артемида,B1,names
 2557,αρχαίος,ancient,древний,B1,descriptions
-2558,αρχείο,file,файл,B1,technology
+2558,αρχείο,file,файл,B1,objects
 2559,αρχές,in the beginning,в начале,B1,objects
 2560,αρχικά,"initially, firstly","первоначально, во-первых",B1,descriptions
 2561,αρχικός,initial,начальный,B1,descriptions
@@ -2720,7 +2720,7 @@ id,greek,english,russian,level,group
 2719,γαλάζιος,light blue,голубой,B1,home
 2720,γαλατάς,milkman,молочник,B1,professions
 2721,γαλήνη,"calm, peace","спокойствие, мир",B1,concepts
-2722,γαλλική γλώσσα,French language,французский язык,B1,language
+2722,γαλλική γλώσσα,French language,французский язык,B1,countries
 2723,γαλοπούλα,turkey (bird),индейка,B1,animals
 2724,γαμπρός,"son-in-law, brotherin-law",зять,B1,people
 2725,γάργαρος,"gurgling, clear","журчание, ясный",B1,concepts
@@ -2755,7 +2755,7 @@ id,greek,english,russian,level,group
 2754,Γιάννενα,Giannena,Янина,B1,geography
 2755,γιαουρτάς,man who sells yoghurt,"человек, который продает йогурт",B1,basics
 2756,γίδι,goat,коза,B1,animals
-2757,γιορταστικός,festive,праздничный,B1,holidays
+2757,γιορταστικός,festive,праздничный,B1,descriptions
 2758,γιουβαρλάκια,meatball soup,суп с фрикадельками,B1,food
 2759,γιουβέτσι,giouvetsi,ювеци,B1,objects
 2760,γκάμα,"range, variety","диапазон, разнообразие",B1,concepts
@@ -2817,7 +2817,7 @@ id,greek,english,russian,level,group
 2816,δένω,to tie,связывать,B1,verbs
 2817,δεξιός,right,правый,B1,space
 2818,δεξιότητα,skill,умение,B1,objects
-2819,δεξίωση,reception,прием,B1,holidays
+2819,δεξίωση,reception,прием,B1,society
 2820,δέρμα,"skin, leather",кожа,B1,concepts
 2821,δερματολόγος,dermatologist,дерматолог,B1,health
 2822,δεσμός,bond,"связь, узы",B1,objects
@@ -2873,7 +2873,7 @@ id,greek,english,russian,level,group
 2872,διδάκτορας,"doctor, Ph.D.",доктор наук,B1,people
 2873,δίδυμος,twin,близнец,B1,objects
 2874,διεθνής,international,международный,B1,society
-2875,διήγημα,short story,короткая история,B1,leisure
+2875,διήγημα,short story,короткая история,B1,music
 2876,διηγούμαι,to narrate,рассказывать,B1,verbs
 2877,δικαίωμα,"right, entitlement",право,B1,space
 2878,δικαστήριο,court of law,суд,B1,society
@@ -2991,7 +2991,7 @@ id,greek,english,russian,level,group
 2990,ελέφαντας,elephant,слон,B1,descriptions
 2991,ελιά,"mole, olive","родинка, оливковый",B1,descriptions
 2992,έλλειψη,"shortage, lack","дефицит, недостаток",B1,descriptions
-2993,ελληνική γλώσσα,Greek language,греческий язык,B1,language
+2993,ελληνική γλώσσα,Greek language,греческий язык,B1,countries
 2994,Ελπίδα,Elpida,Эльпида,B1,names
 2995,έμπειρος,"experienced, skilled","опытный, квалифицированный",B1,descriptions
 2996,εμπιστεύομαι,to trust,доверять,B1,verbs
@@ -3199,11 +3199,11 @@ id,greek,english,russian,level,group
 3198,ζωντανεύω,to bring to life,оживить,B1,verbs
 3199,ηθοποιός,"actor, actress","актер, актриса",B1,people
 3200,ήθος,morals,мораль,B1,objects
-3201,ηλεκτρική ενέργεια,electricity,электричество,B1,technology
-3202,ηλεκτρική συσκευή,electric device,электрическое устройство,B1,technology
-3203,ηλεκτρικό ρεύμα,"electric current, electricity","электрический ток, электричество",B1,technology
-3204,ηλεκτρισμός,electricity,электричество,B1,technology
-3205,ηλεκτρολογικός,electrical,электрический,B1,technology
+3201,ηλεκτρική ενέργεια,electricity,электричество,B1,concepts
+3202,ηλεκτρική συσκευή,electric device,электрическое устройство,B1,objects
+3203,ηλεκτρικό ρεύμα,"electric current, electricity","электрический ток, электричество",B1,concepts
+3204,ηλεκτρισμός,electricity,электричество,B1,concepts
+3205,ηλεκτρολογικός,electrical,электрический,B1,descriptions
 3206,ηλεκτρολόγος,electrician,электрик,B1,professions
 3207,ηλεκτρονικός υπολογιστής,personal computer,персональный компьютер,B1,school
 3208,ηλιακός,solar,солнечный,B1,weather
@@ -3258,7 +3258,7 @@ id,greek,english,russian,level,group
 3257,θράσος,"nerve, audacity","наглость, дерзость",B1,concepts
 3258,θρεπτικός,nutritious,питательный,B1,food
 3259,θρησκευτικός,religious,религиозный,B1,descriptions
-3260,θρίλερ,"thriller, horror movie",триллер,B1,leisure
+3260,θρίλερ,"thriller, horror movie",триллер,B1,music
 3261,θύμα,victim,жертва,B1,objects
 3262,θυμός,anger,гнев,B1,objects
 3263,θυμωμένος,angry,"злой, сердитый",B1,feelings
@@ -3719,7 +3719,7 @@ id,greek,english,russian,level,group
 3718,μπογιά,paint,краска,B1,objects
 3719,μπολ,bowl,чаша,B1,food
 3720,μπόλικος,plenty,много,B1,objects
-3721,μπομπονιέρα,"jordan almonds, wedding favor","свадебный сувенир, бонбоньерка",B1,holidays
+3721,μπομπονιέρα,"jordan almonds, wedding favor","свадебный сувенир, бонбоньерка",B1,objects
 3722,μπότα,boot,ботинок,B1,clothes
 3723,μποτιλιάρισμα,traffic jam,пробка,B1,city
 3724,μπουκέτο,"bouquet, a bunch of flowers",букет,B1,concepts
@@ -3925,7 +3925,7 @@ id,greek,english,russian,level,group
 3924,παραδεισένιος,heavenly,небесный,B1,descriptions
 3925,παραδέχομαι,"to admit, to accept","признавать, принимать",B1,verbs
 3926,παραδίδω,to deliver,доставить,B1,verbs
-3927,παράδοση,"tradition, delivery","традиция, доставка",B1,holidays
+3927,παράδοση,"tradition, delivery","традиция, доставка",B1,society
 3928,παρακάνω,"to overdo, to go too far","переусердствовать, зайти слишком далеко",B1,verbs
 3929,παραλαβή,"receipt, pickup","получение, пикап",B1,shopping
 3930,παραλαμβάνω,to receive,получать,B1,verbs
@@ -3987,7 +3987,7 @@ id,greek,english,russian,level,group
 3986,περιθώριο,"margin, leeway","поле, запас",B1,concepts
 3987,περίοδος,"period, time","период, время",B1,time
 3988,περιορισμένος,"confined, limited",ограниченный,B1,descriptions
-3989,περιπέτεια,"action movie, adventure","боевик, приключение",B1,leisure
+3989,περιπέτεια,"action movie, adventure","боевик, приключение",B1,music
 3990,περιπετειώδηςς,adventurous,предприимчивый,B1,descriptions
 3991,περιποιούμαι,to look after,ухаживать за,B1,verbs
 3992,περιπτεράς,man who works in a kiosk,"человек, который работает в киоске",B1,basics
@@ -4149,7 +4149,7 @@ id,greek,english,russian,level,group
 4148,προσωρινός,temporary,временный,B1,descriptions
 4149,προτέρημα,virtue,добродетель,B1,objects
 4150,προτίμηση,preference,предпочтение,B1,concepts
-4151,προφίλ,profile,профиль,B1,technology
+4151,προφίλ,profile,профиль,B1,communication
 4152,προφορικός,oral,устный,B1,descriptions
 4153,προφορικές εξετάσεις,oral exams,устные экзамены,B1,objects
 4154,προφυλάσσω,to protect,защищать,B1,verbs
@@ -4178,7 +4178,7 @@ id,greek,english,russian,level,group
 4177,ράφτιγκ,rafting,рафтинг,B1,travel
 4178,ράψιμο,sewing,шитье,B1,objects
 4179,ρεβανί,revani cake,пирог ревани,B1,food
-4180,ρεβεγιόν,celebration,празднование,B1,holidays
+4180,ρεβεγιόν,celebration,празднование,B1,society
 4181,ρεβίθι,chickpea,нут,B1,food
 4182,ρεκόρ,record,рекорд,B1,objects
 4183,ρεμπέτικο,rebetiko song,песня ребетико,B1,communication
@@ -4276,7 +4276,7 @@ id,greek,english,russian,level,group
 4275,σοδειά,crop,урожай,B1,objects
 4276,σοκολατί,chocolate brown,шоколадный коричневый,B1,food
 4277,σολομός,salmon,лосось,B1,food
-4278,σουηδική γλώσσα,Swedish language,шведский язык,B1,language
+4278,σουηδική γλώσσα,Swedish language,шведский язык,B1,countries
 4279,σοφιστικέ,sophisticated,сложный,B1,descriptions
 4280,σοφίτα,attic,чердак,B1,descriptions
 4281,σπανακόπιτα,"spanakopita, a spinach pie","спанакопита, пирог со шпинатом",B1,food
@@ -4431,7 +4431,7 @@ id,greek,english,russian,level,group
 4430,τάβλι,backgammon,нарды,B1,objects
 4431,ταγέρ,suit,костюм,B1,objects
 4432,Ταϊλάνδη,Thailand,Таиланд,B1,countries
-4433,ταινία μικρού μήκος,short film,короткометражный фильм,B1,leisure
+4433,ταινία μικρού μήκος,short film,короткометражный фильм,B1,music
 4434,τακούνι,heel,каблук,B1,objects
 4435,τακτοποιώ,"to settle, to arrange","урегулировать, организовывать",B1,verbs
 4436,ταλαιπωρούμαι,to have a rough time,"мучиться, тяжело переносить",B1,verbs
@@ -4457,7 +4457,7 @@ id,greek,english,russian,level,group
 4456,τετραώροφος,with four floors,с четырьмя этажами,B1,basics
 4457,τεχνικός,technical,технический,B1,descriptions
 4458,τεχνίτης,"handyman, craftsman","мастер, ремесленник",B1,concepts
-4459,τεχνολογία,technology,технология,B1,technology
+4459,τεχνολογία,technology,технология,B1,concepts
 4460,τζακούζι,jacuzzi,джакузи,B1,objects
 4461,τζατζίκι,tzatziki,дзадзики,B1,food
 4462,τζιτζίκι,cicada,цикада,B1,objects
