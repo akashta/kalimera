@@ -2,11 +2,12 @@ export type Level = 'A2' | 'B1';
 export type NativeLanguage = 'en' | 'ru';
 export type LanguageCode = 'el' | NativeLanguage;
 export type AudioMode = 'tts' | 'mp3';
-export type Mp3Voice = 'aoede' | 'charon';
+export type Mp3Voice = 'aoede' | 'charon' | 'standard-b';
 export type LessonGroupId =
   | 'all'
   | 'basics'
   | 'language'
+  | 'technology'
   | 'verbs'
   | 'people'
   | 'names'
@@ -27,6 +28,10 @@ export type LessonGroupId =
   | 'sports'
   | 'music'
   | 'communication'
+  | 'space'
+  | 'objects'
+  | 'descriptions'
+  | 'concepts'
   | 'feelings'
   | 'leisure'
   | 'society'
