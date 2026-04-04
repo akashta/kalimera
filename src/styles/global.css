@@ -1,7 +1,7 @@
 :root {
   --app-height: 100vh;
   font-family: "Segoe UI", "Noto Sans", sans-serif;
-  color: var(--tg-text-color, #112019);
+  color: #112019;
   background:
     radial-gradient(circle at top left, rgba(255, 219, 142, 0.55), transparent 28%),
     radial-gradient(circle at top right, rgba(62, 140, 118, 0.2), transparent 24%),
