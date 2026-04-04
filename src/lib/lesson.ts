@@ -72,6 +72,7 @@ function createQuestion(
   nativeLanguage: NativeLanguage,
   isReview: boolean,
   preferredChoiceWordIds: string[] = [],
+  preserveChoiceOrder = false,
 ): LessonQuestion | null {
   if (nativeLanguage === 'ru' && !word.russian) {
     return null;
@@ -139,7 +140,15 @@ function createQuestion(
     return null;
   }
 
-  const choiceEntries = shuffle([{ wordId: word.id, label: correctAnswer }, ...distractors]);
+  const allChoiceEntries = [{ wordId: word.id, label: correctAnswer }, ...distractors];
+  const choiceEntries = preserveChoiceOrder && preferredChoiceWordIds.length > 0
+    ? [
+        ...preferredChoiceWordIds
+          .map((wordId) => allChoiceEntries.find((entry) => entry.wordId === wordId))
+          .filter((entry): entry is { wordId: string; label: string } => Boolean(entry)),
+        ...allChoiceEntries.filter((entry) => !preferredChoiceWordIds.includes(entry.wordId)),
+      ]
+    : shuffle(allChoiceEntries);
 
   return {
     wordId: word.id,
@@ -259,6 +268,7 @@ function remapQuestion(
     nativeLanguage,
     question.isReview,
     preferredChoiceWordIds,
+    true,
   );
 }
 
