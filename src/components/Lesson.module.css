@@ -3,6 +3,8 @@
   gap: 12px;
   align-content: start;
   padding-top: 12px;
+  padding-bottom: 56px;
+  position: relative;
   overflow: hidden;
 }
 
@@ -94,12 +96,14 @@
 }
 
 .reportButton {
-  width: 2.35rem;
-  min-width: 2.35rem;
-  min-height: 2.35rem;
-  padding: 0;
-  display: inline-grid;
-  place-items: center;
+  min-width: 0;
+  min-height: 0;
+  padding: 6px 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.78rem;
+  line-height: 1;
   border-radius: 999px;
   background: #f7e8cc;
   color: #92571b;
@@ -116,8 +120,16 @@
 }
 
 .reportIcon {
-  width: 1rem;
-  height: 1rem;
+  width: 0.9rem;
+  height: 0.9rem;
+  flex: 0 0 auto;
+}
+
+.reportButtonLabel {
+  font-size: inherit;
+  font-weight: 600;
+  line-height: inherit;
+  white-space: nowrap;
 }
 
 .promptLabel {
@@ -151,12 +163,6 @@
   display: inline-flex;
   align-items: center;
   gap: 8px;
-}
-
-.promptCard::after {
-  content: '';
-  display: block;
-  min-height: var(--prompt-card-top-height);
 }
 
 .promptText {
@@ -201,6 +207,14 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 8px;
+}
+
+.lessonFooter {
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
+  left: 18px;
+  bottom: 18px;
 }
 
 .dangerButton {

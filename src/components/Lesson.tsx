@@ -94,7 +94,7 @@ function Lesson({
 }: LessonProps) {
   const showAudioButton = question.promptLanguage === 'el';
   const selectedChoice = currentResponse?.selectedAnswer ?? null;
-  const reportIssueLabel = uiLanguage === 'ru' ? '\u0421\u043e\u043e\u0431\u0449\u0438\u0442\u044c \u043e \u043f\u0440\u043e\u0431\u043b\u0435\u043c\u0435' : 'Report issue';
+  const reportIssueLabel = uiLanguage === 'ru' ? '\u0421\u043e\u043e\u0431\u0449\u0438\u0442\u044c \u043e\u0431 \u043e\u0448\u0438\u0431\u043a\u0435' : 'Report issue';
   const reportedIssueLabel = uiLanguage === 'ru' ? '\u041e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e' : 'Reported';
   const [isReportSent, setIsReportSent] = useState(hasReportedIssue);
 
@@ -126,19 +126,6 @@ function Lesson({
             {question.isReview ? t(uiLanguage, 'reviewHint') : t(uiLanguage, 'newHint')}
           </span>
           <div className={styles.promptCardControls}>
-            <button
-              type="button"
-              className={isReportSent ? `${styles.reportButton} ${styles.reportButtonSent}` : styles.reportButton}
-              aria-label={isReportSent ? reportedIssueLabel : reportIssueLabel}
-              title={isReportSent ? reportedIssueLabel : reportIssueLabel}
-              onClick={() => {
-                onReportIssue();
-                setIsReportSent(true);
-              }}
-              disabled={isReportSent}
-            >
-              <ReportIcon sent={isReportSent} />
-            </button>
             {showAudioButton && (
               <button
                 type="button"
@@ -194,6 +181,23 @@ function Lesson({
         </button>
         <button type="button" className={styles.successButton} onClick={onMarkKnown} disabled={currentResponse !== null}>
           {t(uiLanguage, 'knowIt')}
+        </button>
+      </div>
+
+      <div className={styles.lessonFooter}>
+        <button
+          type="button"
+          className={isReportSent ? `${styles.reportButton} ${styles.reportButtonSent}` : styles.reportButton}
+          aria-label={isReportSent ? reportedIssueLabel : reportIssueLabel}
+          title={isReportSent ? reportedIssueLabel : reportIssueLabel}
+          onClick={() => {
+            onReportIssue();
+            setIsReportSent(true);
+          }}
+          disabled={isReportSent}
+        >
+          <ReportIcon sent={isReportSent} />
+          <span className={styles.reportButtonLabel}>{isReportSent ? reportedIssueLabel : reportIssueLabel}</span>
         </button>
       </div>
     </section>
