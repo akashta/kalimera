@@ -22,6 +22,7 @@ type Screen = 'home' | 'stats' | 'settings' | 'lesson' | 'results';
 const storage = getStorageAdapter();
 const FAST_ADVANCE_DELAY_MS = 850;
 const SLOW_ADVANCE_DELAY_MS = 3000;
+const FEEDBACK_SOUND_DELAY_MS = 320;
 
 function getQuestionReportKey(question: LessonSession['questions'][number]): string {
   return `${question.wordId}:${question.promptLanguage}:${question.answerLanguage}`;
@@ -261,10 +262,16 @@ function App() {
     };
 
     if (question.answerLanguage === 'el') {
-      void speakGreek({ text: choice }, audioMode, audioVoice).finally(() => {
-        playResultSound();
-        queueAdvance(nextAnswers, isCorrect ? FAST_ADVANCE_DELAY_MS : SLOW_ADVANCE_DELAY_MS);
-      });
+      const greekAudioInput = isCorrect
+        ? { text: choice }
+        : { wordId: question.wordId, text: question.correctAnswer };
+
+      playResultSound();
+      window.setTimeout(() => {
+        void speakGreek(greekAudioInput, audioMode, audioVoice).finally(() => {
+          queueAdvance(nextAnswers, isCorrect ? FAST_ADVANCE_DELAY_MS : SLOW_ADVANCE_DELAY_MS);
+        });
+      }, FEEDBACK_SOUND_DELAY_MS);
       return;
     }
 
@@ -289,10 +296,12 @@ function App() {
     const greekText = question.answerLanguage === 'el' ? question.correctAnswer : null;
 
     if (greekText) {
-      void speakGreek({ wordId: question.wordId, text: greekText }, audioMode, audioVoice).finally(() => {
-        playWrongSound();
-        queueAdvance(nextAnswers, SLOW_ADVANCE_DELAY_MS);
-      });
+      playWrongSound();
+      window.setTimeout(() => {
+        void speakGreek({ wordId: question.wordId, text: greekText }, audioMode, audioVoice).finally(() => {
+          queueAdvance(nextAnswers, SLOW_ADVANCE_DELAY_MS);
+        });
+      }, FEEDBACK_SOUND_DELAY_MS);
       return;
     }
 
