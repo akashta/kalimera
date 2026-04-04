@@ -1,6 +1,6 @@
 import { t } from '../lib/i18n';
 import { LEVELS } from '../lib/progress';
-import type { AudioMode, Level, NativeLanguage, UserProgress } from '../types';
+import type { AudioMode, Level, Mp3Voice, NativeLanguage, UserProgress } from '../types';
 import styles from './Home.module.css';
 import ui from '../styles/ui.module.css';
 
@@ -65,6 +65,18 @@ function Settings({ uiLanguage, settings, hasRussianTranslations, onUpdateSettin
           >
             <option value="mp3">{t(uiLanguage, 'audioModeMp3')}</option>
             <option value="tts">{t(uiLanguage, 'audioModeTts')}</option>
+          </select>
+        </label>
+
+        <label className={styles.fieldLabel}>
+          <span>{t(uiLanguage, 'audioVoice')}</span>
+          <select
+            className={styles.selectControl}
+            value={settings.audioVoice}
+            onChange={(event) => onUpdateSettings({ audioVoice: event.target.value as Mp3Voice })}
+          >
+            <option value="aoede">{t(uiLanguage, 'audioVoiceAoede')}</option>
+            <option value="charon">{t(uiLanguage, 'audioVoiceCharon')}</option>
           </select>
         </label>
 

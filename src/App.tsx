@@ -37,6 +37,7 @@ function App() {
   const uiLanguage = progress.settings.nativeLanguage;
   const autoPlayAudio = progress.settings.autoPlayAudio;
   const audioMode = progress.settings.audioMode;
+  const audioVoice = progress.settings.audioVoice;
   const question = activeLesson?.questions[questionIndex] ?? null;
   const groupSummaries = useMemo(
     () => buildLessonGroupSummaries(currentWords, progress.words, uiLanguage),
@@ -79,8 +80,8 @@ function App() {
     }
 
     lastAutoSpokenQuestionRef.current = questionKey;
-    void speakGreek({ wordId: question.wordId, text: question.prompt }, audioMode);
-  }, [audioMode, autoPlayAudio, question, questionIndex, screen]);
+    void speakGreek({ wordId: question.wordId, text: question.prompt }, audioMode, audioVoice);
+  }, [audioMode, audioVoice, autoPlayAudio, question, questionIndex, screen]);
 
   async function persistProgress(nextProgress: UserProgress) {
     setProgress(nextProgress);
@@ -196,7 +197,7 @@ function App() {
     };
 
     if (question.answerLanguage === 'el') {
-      void speakGreek({ text: choice }, audioMode).finally(() => {
+      void speakGreek({ text: choice }, audioMode, audioVoice).finally(() => {
         playResultSound();
         queueAdvance(nextAnswers);
       });
@@ -224,7 +225,7 @@ function App() {
     const greekText = question.answerLanguage === 'el' ? question.correctAnswer : null;
 
     if (greekText) {
-      void speakGreek({ wordId: question.wordId, text: greekText }, audioMode).finally(() => {
+      void speakGreek({ wordId: question.wordId, text: greekText }, audioMode, audioVoice).finally(() => {
         playWrongSound();
         queueAdvance(nextAnswers);
       });
@@ -370,6 +371,7 @@ function App() {
           currentResponse={currentResponse}
           currentPromptLabel={currentPromptLabel}
           audioMode={audioMode}
+          audioVoice={audioVoice}
           onBack={resetToHome}
           onSubmitChoice={submitChoice}
           onRevealAnswer={revealAnswer}

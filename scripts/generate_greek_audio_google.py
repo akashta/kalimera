@@ -21,10 +21,10 @@ from google.cloud import texttospeech
 
 
 DEFAULT_WORDS_CSV = Path("words.csv")
-DEFAULT_OUTPUT_DIR = Path("audio") / "charon"
+DEFAULT_OUTPUT_DIR = Path("audio") / "aoede"
 DEFAULT_MANIFEST_PATH = DEFAULT_OUTPUT_DIR / "manifest.json"
 DEFAULT_LANGUAGE_CODE = "el-GR"
-DEFAULT_VOICE_NAME = "el-GR-Chirp3-HD-Charon"
+DEFAULT_VOICE_NAME = "el-GR-Chirp3-HD-Aoede"
 DEFAULT_SPEAKING_RATE = 0.95
 DEFAULT_REQUEST_INTERVAL = 1.0
 DEFAULT_MAX_RETRIES = 6

@@ -2,6 +2,7 @@ export type Level = 'A2' | 'B1';
 export type NativeLanguage = 'en' | 'ru';
 export type LanguageCode = 'el' | NativeLanguage;
 export type AudioMode = 'tts' | 'mp3';
+export type Mp3Voice = 'aoede' | 'charon';
 export type LessonGroupId =
   | 'all'
   | 'basics'
@@ -68,6 +69,7 @@ export interface UserSettings {
   hasCompletedOnboarding: boolean;
   autoPlayAudio: boolean;
   audioMode: AudioMode;
+  audioVoice: Mp3Voice;
 }
 
 export interface UserProgress {

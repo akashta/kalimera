@@ -50,6 +50,7 @@ export function createDefaultProgress(): UserProgress {
       hasCompletedOnboarding: false,
       autoPlayAudio: true,
       audioMode: 'mp3',
+      audioVoice: 'aoede',
     },
     words: {},
     levels: {
@@ -77,6 +78,7 @@ export function mergeProgress(rawValue: Partial<UserProgress> | null | undefined
       hasCompletedOnboarding: rawValue.settings?.hasCompletedOnboarding ?? base.settings.hasCompletedOnboarding,
       autoPlayAudio: rawValue.settings?.autoPlayAudio ?? base.settings.autoPlayAudio,
       audioMode: rawValue.settings?.audioMode === 'tts' ? 'tts' : base.settings.audioMode,
+      audioVoice: rawValue.settings?.audioVoice === 'charon' ? 'charon' : base.settings.audioVoice,
     },
     words: normalizedWords,
     levels: {

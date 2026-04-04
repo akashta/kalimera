@@ -1,4 +1,4 @@
-import type { AudioMode } from '../types';
+import type { AudioMode, Mp3Voice } from '../types';
 
 type GreekAudioInput =
   | string
@@ -12,10 +12,10 @@ type GreekAudioManifest = {
   byGreek: Record<string, string>;
 };
 
-const DEFAULT_MP3_VOICE = 'charon';
+const DEFAULT_MP3_VOICE: Mp3Voice = 'aoede';
 
 let currentGreekAudio: HTMLAudioElement | null = null;
-let greekAudioManifestPromise: Promise<GreekAudioManifest | null> | null = null;
+const greekAudioManifestPromises = new Map<Mp3Voice, Promise<GreekAudioManifest | null>>();
 let currentGreekUtterance: SpeechSynthesisUtterance | null = null;
 
 function getAppAssetUrl(path: string): string {
@@ -24,13 +24,17 @@ function getAppAssetUrl(path: string): string {
   return `${base}${cleanPath}`;
 }
 
-async function loadGreekAudioManifest(): Promise<GreekAudioManifest | null> {
+async function loadGreekAudioManifest(voice: Mp3Voice): Promise<GreekAudioManifest | null> {
   if (typeof window === 'undefined') {
     return null;
   }
 
-  if (!greekAudioManifestPromise) {
-    greekAudioManifestPromise = fetch(getAppAssetUrl(`audio/${DEFAULT_MP3_VOICE}/manifest.json`))
+  const selectedVoice = voice || DEFAULT_MP3_VOICE;
+
+  if (!greekAudioManifestPromises.has(selectedVoice)) {
+    greekAudioManifestPromises.set(
+      selectedVoice,
+      fetch(getAppAssetUrl(`audio/${selectedVoice}/manifest.json`))
       .then(async (response) => {
         if (!response.ok) {
           return null;
@@ -38,14 +42,15 @@ async function loadGreekAudioManifest(): Promise<GreekAudioManifest | null> {
 
         return (await response.json()) as GreekAudioManifest;
       })
-      .catch(() => null);
+      .catch(() => null),
+    );
   }
 
-  return greekAudioManifestPromise;
+  return greekAudioManifestPromises.get(selectedVoice) ?? null;
 }
 
-async function resolveGreekAudioUrl(input: GreekAudioInput): Promise<string | null> {
-  const manifest = await loadGreekAudioManifest();
+async function resolveGreekAudioUrl(input: GreekAudioInput, voice: Mp3Voice): Promise<string | null> {
+  const manifest = await loadGreekAudioManifest(voice);
   if (!manifest) {
     return null;
   }
@@ -123,8 +128,8 @@ function speakGreekWithTts(input: GreekAudioInput): Promise<boolean> {
   });
 }
 
-async function speakGreekWithMp3(input: GreekAudioInput): Promise<void> {
-  const audioUrl = await resolveGreekAudioUrl(input);
+async function speakGreekWithMp3(input: GreekAudioInput, voice: Mp3Voice): Promise<void> {
+  const audioUrl = await resolveGreekAudioUrl(input, voice);
   if (!audioUrl) {
     return Promise.resolve();
   }
@@ -217,7 +222,11 @@ export function playLessonFinishedSound(): void {
   playTone(1046.5, 0.34, 0.22, 0.1, 'sine');
 }
 
-export async function speakGreek(input: GreekAudioInput, mode: AudioMode = 'mp3'): Promise<void> {
+export async function speakGreek(
+  input: GreekAudioInput,
+  mode: AudioMode = 'mp3',
+  voice: Mp3Voice = DEFAULT_MP3_VOICE,
+): Promise<void> {
   if (typeof window === 'undefined') {
     return Promise.resolve();
   }
@@ -229,5 +238,5 @@ export async function speakGreek(input: GreekAudioInput, mode: AudioMode = 'mp3'
     }
   }
 
-  return speakGreekWithMp3(input);
+  return speakGreekWithMp3(input, voice);
 }
