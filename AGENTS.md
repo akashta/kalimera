@@ -56,6 +56,29 @@ print(row["russian"].encode("unicode_escape").decode())
 - JSON manifests containing Greek must be written with `encoding="utf-8"`.
 - If terminal output shows `????`, verify file contents with a UTF-8-aware reader before regenerating assets.
 
+## Audio Generation
+
+- Use `scripts/generate_greek_audio_google.py` for the main Google batch workflow.
+- Store production MP3 files in `audio/<voice>/`.
+- Keep filenames ID-based: `audio/<voice>/<id>.mp3`.
+- Keep a matching manifest at `audio/<voice>/manifest.json`.
+- Current supported production voices are folder-based, for example:
+  - `audio/aoede/`
+  - `audio/charon/`
+- Default full-batch usage:
+
+```powershell
+.\.venv-tts\Scripts\python.exe scripts\generate_greek_audio_google.py --voice-name el-GR-Chirp3-HD-Aoede --output-dir audio\aoede --manifest audio\aoede\manifest.json
+```
+
+- Regenerate only specific IDs when possible instead of the full library.
+- For one-off Google voice comparisons, write samples under `public/audio/voice-review/`.
+- When generating one-off Greek samples from a shell script, do not pass raw Greek text through PowerShell literals; use Unicode escapes and decode inside Python first.
+- After generating audio, verify:
+  - the MP3 files exist in the expected voice folder
+  - `manifest.json` contains valid Greek text, not `????`
+  - the app can resolve the files by ID
+
 ## Required Checks After Data Changes
 
 - Reopen the modified rows and verify the actual stored text.
