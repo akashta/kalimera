@@ -20,6 +20,8 @@ import type { LessonAnswer, LessonGroupId, LessonSession, UserProgress } from '.
 type Screen = 'home' | 'stats' | 'settings' | 'lesson' | 'results';
 
 const storage = getStorageAdapter();
+const FAST_ADVANCE_DELAY_MS = 850;
+const SLOW_ADVANCE_DELAY_MS = 3000;
 
 function getQuestionReportKey(question: LessonSession['questions'][number]): string {
   return `${question.wordId}:${question.promptLanguage}:${question.answerLanguage}`;
@@ -228,10 +230,10 @@ function App() {
     );
   }
 
-  function queueAdvance(nextAnswers: LessonAnswer[]) {
+  function queueAdvance(nextAnswers: LessonAnswer[], delayMs: number) {
     advanceTimeoutRef.current = window.setTimeout(() => {
       void moveToNextQuestion(nextAnswers);
-    }, 850);
+    }, delayMs);
   }
 
   function submitChoice(choice: string) {
@@ -261,13 +263,13 @@ function App() {
     if (question.answerLanguage === 'el') {
       void speakGreek({ text: choice }, audioMode, audioVoice).finally(() => {
         playResultSound();
-        queueAdvance(nextAnswers);
+        queueAdvance(nextAnswers, isCorrect ? FAST_ADVANCE_DELAY_MS : SLOW_ADVANCE_DELAY_MS);
       });
       return;
     }
 
     playResultSound();
-    queueAdvance(nextAnswers);
+    queueAdvance(nextAnswers, isCorrect ? FAST_ADVANCE_DELAY_MS : SLOW_ADVANCE_DELAY_MS);
   }
 
   function revealAnswer() {
@@ -289,13 +291,13 @@ function App() {
     if (greekText) {
       void speakGreek({ wordId: question.wordId, text: greekText }, audioMode, audioVoice).finally(() => {
         playWrongSound();
-        queueAdvance(nextAnswers);
+        queueAdvance(nextAnswers, SLOW_ADVANCE_DELAY_MS);
       });
       return;
     }
 
     playWrongSound();
-    queueAdvance(nextAnswers);
+    queueAdvance(nextAnswers, SLOW_ADVANCE_DELAY_MS);
   }
 
   function markKnown() {
@@ -312,7 +314,7 @@ function App() {
     setCurrentResponse(response);
     setAnswers(nextAnswers);
     playCorrectSound();
-    queueAdvance(nextAnswers);
+    queueAdvance(nextAnswers, FAST_ADVANCE_DELAY_MS);
   }
 
   async function moveToNextQuestion(nextAnswersArg?: LessonAnswer[]) {
