@@ -3,6 +3,18 @@ export type NativeLanguage = 'en' | 'ru';
 export type LanguageCode = 'el' | NativeLanguage;
 export type AudioMode = 'tts' | 'mp3';
 export type Mp3Voice = 'aoede' | 'charon' | 'standard-b';
+export type WordType =
+  | 'noun'
+  | 'verb'
+  | 'adjective'
+  | 'adverb'
+  | 'pronoun'
+  | 'preposition'
+  | 'conjunction'
+  | 'numeral'
+  | 'interjection'
+  | 'particle'
+  | 'phrase';
 export type LessonGroupId =
   | 'all'
   | 'basics'
@@ -51,6 +63,7 @@ export interface Word {
   russian?: string;
   level: Level;
   group: WordGroupId;
+  type: WordType;
 }
 
 export interface WordProgress {

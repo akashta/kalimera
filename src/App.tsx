@@ -202,6 +202,7 @@ function App() {
 
     const lesson = buildLessonSession(
       groupWords,
+      currentWords,
       progress,
       progress.settings.currentLevel,
       progress.settings.nativeLanguage,
@@ -224,6 +225,7 @@ function App() {
     openLesson(
       buildReviewSession(
         reviewWords,
+        currentWords,
         progress.settings.nativeLanguage,
         targetWordIds,
         groupId,
@@ -477,7 +479,12 @@ function App() {
             }
 
             const lessonWords = getWordsForGroup(wordsByLevel[activeLesson.level], activeLesson.groupId);
-            const nextLesson = remapLessonSession(activeLesson, lessonWords, language);
+            const nextLesson = remapLessonSession(
+              activeLesson,
+              lessonWords,
+              wordsByLevel[activeLesson.level],
+              language,
+            );
             if (!nextLesson) {
               return;
             }

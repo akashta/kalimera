@@ -67,7 +67,7 @@ function sortWordsForLesson(words: Word[], progress: UserProgress): Word[] {
 
 function createQuestion(
   word: Word,
-  pool: Word[],
+  choicePool: Word[],
   promptLanguage: LanguageCode,
   nativeLanguage: NativeLanguage,
   isReview: boolean,
@@ -87,18 +87,22 @@ function createQuestion(
   }
 
   const requireUppercase = startsWithUppercase(correctAnswer);
-  const maxDistractors = Math.min(3, Math.max(1, pool.length - 1));
+  const maxDistractors = 3;
   const usedLabels = new Set<string>([correctAnswer]);
   const usedWordIds = new Set<string>([word.id]);
   const distractors: { wordId: string; label: string }[] = [];
 
-  const tryAddDistractor = (candidate: Word) => {
+  const tryAddDistractor = (candidate: Word, enforceUppercase = true) => {
     if (usedWordIds.has(candidate.id)) {
       return;
     }
 
     const label = getWordLabel(candidate, answerLanguage);
-    if (!label || usedLabels.has(label) || startsWithUppercase(label) !== requireUppercase) {
+    if (!label || usedLabels.has(label)) {
+      return;
+    }
+
+    if (enforceUppercase && startsWithUppercase(label) !== requireUppercase) {
       return;
     }
 
@@ -107,12 +111,31 @@ function createQuestion(
     distractors.push({ wordId: candidate.id, label });
   };
 
+  const fillFromBatch = (candidates: Word[], enforceUppercase = true) => {
+    for (const candidate of shuffle(candidates)) {
+      if (candidate.id === word.id) {
+        continue;
+      }
+
+      tryAddDistractor(candidate, enforceUppercase);
+      if (distractors.length >= maxDistractors) {
+        return;
+      }
+    }
+  };
+
+  const sameGroupAndType = choicePool.filter(
+    (candidate) => candidate.group === word.group && candidate.type === word.type,
+  );
+  const sameType = choicePool.filter((candidate) => candidate.type === word.type);
+  const sameGroup = choicePool.filter((candidate) => candidate.group === word.group);
+
   for (const preferredWordId of preferredChoiceWordIds) {
     if (preferredWordId === word.id) {
       continue;
     }
 
-    const preferredWord = pool.find((candidate) => candidate.id === preferredWordId);
+    const preferredWord = choicePool.find((candidate) => candidate.id === preferredWordId);
     if (!preferredWord) {
       continue;
     }
@@ -124,19 +147,34 @@ function createQuestion(
   }
 
   if (distractors.length < maxDistractors) {
-    for (const candidate of shuffle(pool)) {
-      if (candidate.id === word.id) {
-        continue;
-      }
-
-      tryAddDistractor(candidate);
-      if (distractors.length >= maxDistractors) {
-        break;
-      }
-    }
+    fillFromBatch(sameGroupAndType);
   }
 
-  if (distractors.length === 0) {
+  if (distractors.length < maxDistractors) {
+    fillFromBatch(sameType);
+  }
+
+  if (distractors.length < maxDistractors) {
+    fillFromBatch(sameGroup);
+  }
+
+  if (distractors.length < maxDistractors) {
+    fillFromBatch(choicePool);
+  }
+
+  if (distractors.length < maxDistractors) {
+    fillFromBatch(sameType, false);
+  }
+
+  if (distractors.length < maxDistractors) {
+    fillFromBatch(sameGroup, false);
+  }
+
+  if (distractors.length < maxDistractors) {
+    fillFromBatch(choicePool, false);
+  }
+
+  if (distractors.length < maxDistractors) {
     return null;
   }
 
@@ -200,16 +238,16 @@ function pickLessonWords(words: Word[], progress: UserProgress): Word[] {
 
 function buildQuestionsForWords(
   words: Word[],
-  pool: Word[],
+  choicePool: Word[],
   nativeLanguage: NativeLanguage,
   isReviewLookup: Set<string>,
 ): LessonQuestion[] {
   const greekToNative = words
-    .map((word) => createQuestion(word, pool, 'el', nativeLanguage, isReviewLookup.has(word.id)))
+    .map((word) => createQuestion(word, choicePool, 'el', nativeLanguage, isReviewLookup.has(word.id)))
     .filter((question): question is LessonQuestion => Boolean(question));
 
   const nativeToGreek = words
-    .map((word) => createQuestion(word, pool, nativeLanguage, nativeLanguage, isReviewLookup.has(word.id)))
+    .map((word) => createQuestion(word, choicePool, nativeLanguage, nativeLanguage, isReviewLookup.has(word.id)))
     .filter((question): question is LessonQuestion => Boolean(question));
 
   return [...greekToNative, ...nativeToGreek];
@@ -247,10 +285,11 @@ function inferChoiceWordIds(question: LessonQuestion, pool: Word[], correctWordI
 
 function remapQuestion(
   question: LessonQuestion,
-  pool: Word[],
+  targetPool: Word[],
+  choicePool: Word[],
   nativeLanguage: NativeLanguage,
 ): LessonQuestion | null {
-  const targetWord = pool.find((word) => word.id === question.wordId);
+  const targetWord = targetPool.find((word) => word.id === question.wordId);
   if (!targetWord) {
     return null;
   }
@@ -259,11 +298,11 @@ function remapQuestion(
   const preferredChoiceWordIds =
     question.choiceWordIds.length > 0
       ? question.choiceWordIds
-      : inferChoiceWordIds(question, pool, targetWord.id) ?? [];
+      : inferChoiceWordIds(question, choicePool, targetWord.id) ?? [];
 
   return createQuestion(
     targetWord,
-    pool,
+    choicePool,
     promptLanguage,
     nativeLanguage,
     question.isReview,
@@ -274,6 +313,7 @@ function remapQuestion(
 
 export function buildLessonSession(
   words: Word[],
+  choicePool: Word[],
   progress: UserProgress,
   level: Level,
   nativeLanguage: NativeLanguage,
@@ -281,7 +321,7 @@ export function buildLessonSession(
 ): LessonSession {
   const weakWordIds = new Set(getWeakWordIds(progress.words, words));
   const lessonWords = pickLessonWords(words, progress);
-  const questions = buildQuestionsForWords(lessonWords, words, nativeLanguage, weakWordIds);
+  const questions = buildQuestionsForWords(lessonWords, choicePool, nativeLanguage, weakWordIds);
 
   return {
     level,
@@ -293,6 +333,7 @@ export function buildLessonSession(
 
 export function buildReviewSession(
   words: Word[],
+  choicePool: Word[],
   nativeLanguage: NativeLanguage,
   wordIds: string[],
   groupId: LessonGroupId,
@@ -301,7 +342,7 @@ export function buildReviewSession(
   const fallbackWords = shuffle(words.filter((word) => !wordIds.includes(word.id)));
   const targetWords = [...preferredWords, ...fallbackWords].slice(0, Math.min(LESSON_WORD_COUNT, words.length));
   const reviewLookup = new Set(wordIds);
-  const questions = buildQuestionsForWords(targetWords, words, nativeLanguage, reviewLookup);
+  const questions = buildQuestionsForWords(targetWords, choicePool, nativeLanguage, reviewLookup);
 
   return {
     level: targetWords[0]?.level ?? 'A2',
@@ -313,11 +354,12 @@ export function buildReviewSession(
 
 export function remapLessonSession(
   session: LessonSession,
-  pool: Word[],
+  targetPool: Word[],
+  choicePool: Word[],
   nativeLanguage: NativeLanguage,
 ): LessonSession | null {
   const questions = session.questions
-    .map((question) => remapQuestion(question, pool, nativeLanguage));
+    .map((question) => remapQuestion(question, targetPool, choicePool, nativeLanguage));
 
   if (questions.some((question) => !question)) {
     return null;

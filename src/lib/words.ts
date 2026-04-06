@@ -1,9 +1,10 @@
 import csvText from '../../words.csv?raw';
-import type { Level, NativeLanguage, Word, WordGroupId } from '../types';
+import type { Level, NativeLanguage, Word, WordGroupId, WordType } from '../types';
 import { parseCsv } from './csv';
 
 const SUPPORTED_LEVELS: Level[] = ['A2', 'B1'];
 const MIN_GROUP_WORDS = 10;
+const DEFAULT_WORD_TYPE: WordType = 'noun';
 const SUPPORTED_GROUPS: WordGroupId[] = [
   'basics',
   'language',
@@ -42,6 +43,19 @@ const SUPPORTED_GROUPS: WordGroupId[] = [
   'holidays',
   'general',
 ];
+const SUPPORTED_WORD_TYPES: WordType[] = [
+  'noun',
+  'verb',
+  'adjective',
+  'adverb',
+  'pronoun',
+  'preposition',
+  'conjunction',
+  'numeral',
+  'interjection',
+  'particle',
+  'phrase',
+];
 
 function pickHeaderIndex(headers: string[], candidates: string[]): number {
   const lowerHeaders = headers.map((header) => header.trim().toLowerCase());
@@ -61,6 +75,7 @@ function parseWords(): Word[] {
   const levelIndex = pickHeaderIndex(headerRow, ['level']);
   const idIndex = pickHeaderIndex(headerRow, ['id']);
   const groupIndex = pickHeaderIndex(headerRow, ['group']);
+  const typeIndex = pickHeaderIndex(headerRow, ['type', 'word_type']);
 
   if (greekIndex === -1 || englishIndex === -1 || levelIndex === -1 || groupIndex === -1) {
     throw new Error('words.csv must contain greek, english, level, and group columns.');
@@ -76,6 +91,7 @@ function parseWords(): Word[] {
     const english = row[englishIndex]?.trim();
     const russian = russianIndex >= 0 ? row[russianIndex]?.trim() : undefined;
     const group = row[groupIndex]?.trim().toLowerCase() as WordGroupId | undefined;
+    const type = row[typeIndex]?.trim().toLowerCase() as WordType | undefined;
 
     if (!greek || !english) {
       return words;
@@ -90,6 +106,7 @@ function parseWords(): Word[] {
       russian: russian || undefined,
       level: levelValue as Level,
       group: SUPPORTED_GROUPS.includes(group as WordGroupId) ? (group as WordGroupId) : 'general',
+      type: SUPPORTED_WORD_TYPES.includes(type as WordType) ? (type as WordType) : DEFAULT_WORD_TYPE,
     });
 
     return words;
