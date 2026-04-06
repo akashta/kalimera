@@ -8,14 +8,14 @@ id,greek,english,russian,level,group,type
 7,η Αγγελική,Angelica,Анжелика,A2,names,noun
 8,ο Άγγελος,Angelo,Ангелос,A2,names,noun
 9,η Αγγλία,England,Англия,A2,countries,noun
-10,άγγλος,English person,"англичанин, англичанка",A2,people,noun
+10,ο άγγλος,English person,"англичанин, англичанка",A2,people,noun
 11,το αγγούρι,cucumber,огурец,A2,food,noun
 12,άγιος,saint,святой,A2,people,adjective
 13,η αγκαλιά,"hug, hugging","объятие, объятия",A2,concepts,noun
 14,η αγκινάρα,artichoke,артишок,A2,food,noun
 15,το αγκίστρι,hook,крюк,A2,home,noun
 16,η άγκυρα,anchor,якорь,A2,objects,noun
-17,άγνωστος,"unknown, stranger","неизвестный, незнакомец",A2,descriptions,noun
+17,ο άγνωστος,"unknown, stranger","неизвестный, незнакомец",A2,descriptions,noun
 18,η αγορά,"market, marketplace",рынок,A2,clothes,noun
 19,αγοράζω,to buy,покупать,A2,verbs,verb
 20,το αγόρι,boy,мальчик,A2,people,noun
@@ -23,8 +23,8 @@ id,greek,english,russian,level,group,type
 22,ο αγώνας,"match, game","матч, игра",A2,leisure,noun
 23,η άδεια,"leave, day off","отпуск, выходной",A2,time,noun
 24,αδειάζω,to empty,опустошать,A2,verbs,verb
-25,αδερφή,sister,сестра,A2,people,noun
-26,αδερφός,brother,брат,A2,people,noun
+25,η αδερφή,sister,сестра,A2,people,noun
+26,ο αδερφός,brother,брат,A2,people,noun
 27,η αδυναμία,weakness,слабость,A2,concepts,noun
 28,αδυνατίζω,"to get thin, to get slim",худеть,A2,verbs,verb
 29,αδύνατος,"thin, slim","худой, стройный",A2,concepts,adjective
@@ -33,12 +33,12 @@ id,greek,english,russian,level,group,type
 32,το αεροπλάνο,airplane,самолет,A2,travel,noun
 33,η Αθανασία,Athanassia,Афанасия,A2,names,noun
 34,η Αθηνά,Athina,Афина,A2,names,noun
-35,αθλητής,athlete,спортсмен,A2,sports,noun
+35,ο αθλητής,athlete,спортсмен,A2,sports,noun
 36,ο αθλητισμός,sports,спорт,A2,leisure,noun
 37,το Αιγαίο πέλαγος,the Aegean Sea,эгейское море,A2,weather,noun
 38,η Αίγινα,Aegina,Эгина,A2,countries,noun
 39,η Αίγυπτος,Egypt,Египет,A2,countries,noun
-40,αιγύπτιος,Egyptian,египетский,A2,countries,noun
+40,ο αιγύπτιος,Egyptian,египетский,A2,countries,noun
 41,αιγυπτιακός,Egyptian,египетский,A2,countries,adjective
 42,η Αιθιοπία,Ethiopia,Эфиопия,A2,countries,noun
 43,το αίμα,blood,кровь,A2,body,noun
@@ -47,7 +47,7 @@ id,greek,english,russian,level,group,type
 46,η Αϊτή,Haiti,Гаити,A2,countries,noun
 47,η αίτηση,"application, application form","заявление, анкета",A2,concepts,noun
 48,η αιτία,"cause, reason",причина,A2,society,noun
-49,Άιφελ Πύργος,Eiffel Τower,Эйфелева башня,A2,geography,noun
+49,ο Άιφελ Πύργος,Eiffel Τower,Эйфелева башня,A2,geography,noun
 50,ακολουθώ,to follow,следовать,A2,verbs,verb
 51,ακόμη,"even, more","еще, даже",A2,basics,adverb
 52,το ακορντεόν,accordion,аккордеон,A2,music,noun
@@ -58,9 +58,9 @@ id,greek,english,russian,level,group,type
 57,η ακτή,beach,пляж,A2,weather,noun
 58,το αλάτι,salt,соль,A2,food,noun
 59,η Αλβανία,Albania,Албания,A2,countries,noun
-60,αλβανικά,Albanian language,албанский язык,A2,countries,noun
+60,τα αλβανικά,Albanian language,албанский язык,A2,countries,noun
 61,αλβανικός,Albanian,албанский,A2,countries,adjective
-62,αλβανός,Albanian person,албанец,A2,countries,noun
+62,ο αλβανός,Albanian person,албанец,A2,countries,noun
 63,η Αλεξάνδρα,Alexandra,Александра,A2,names,noun
 64,η Αλεξάνδρεια,Alexandria,Александрия,A2,countries,noun
 65,η Αλεξανδρούπολη,Alexandroupoli,Александруполи,A2,countries,noun
@@ -77,9 +77,9 @@ id,greek,english,russian,level,group,type
 76,το άλογο,horse,лошадь,A2,animals,noun
 77,το αλφάβητο,alphabet,алфавит,A2,objects,noun
 78,αμερικανικός,American,американский,A2,countries,adjective
-79,αμερικανός,American,американец,A2,countries,noun
-80,Αμερική (ΗΠΑ),United States of America,Соединённые Штаты Америки,A2,countries,noun
-81,αμέσως,"immediately, right away",немедленно,A2,space,noun
+79,ο αμερικανός,American,американец,A2,countries,noun
+80,η Αμερική (ΗΠΑ),United States of America,Соединённые Штаты Америки,A2,countries,noun
+81,αμέσως,"immediately, right away",немедленно,A2,space,adverb
 82,το αμπέλι,vineyard,виноградник,A2,nature,noun
 83,το Άμστερνταμ,Amsterdam,Амстердам,A2,countries,noun
 84,αν,if,если,A2,basics,conjunction
@@ -106,7 +106,7 @@ id,greek,english,russian,level,group,type
 105,η Άννα,Anna,Анна,A2,names,noun
 106,ανοίγω,to open,открывать,A2,verbs,verb
 107,η άνοιξη,spring,весна,A2,weather,noun
-108,ανοιχτά,open,открытый,A2,objects,noun
+108,ανοιχτά,open,открытый,A2,objects,adjective
 109,ο ανταγωνισμός,"contest, competition","конкурс, конкуренция",A2,concepts,noun
 110,η Αντιγόνη,Antigone,Антигона,A2,names,noun
 111,αντίθετος,opposite,противоположный,A2,space,adjective
@@ -120,7 +120,7 @@ id,greek,english,russian,level,group,type
 119,ο Αντρέας,Andrew,Андреас,A2,names,noun
 120,αντρικός,"male, man's",мужской,A2,people,adjective
 121,ο Αντώνης,Anthony,Антонис,A2,names,noun
-122,αόριστος,past tense,прошлое время,A2,time,noun
+122,ο αόριστος,past tense,прошлое время,A2,time,noun
 123,η απάντηση,"answer, response",ответ,A2,communication,noun
 124,απαντώ,"to answer, to respond",отвечать,A2,verbs,verb
 125,απαραίτητος,necessary,необходимый,A2,feelings,adjective
@@ -137,25 +137,25 @@ id,greek,english,russian,level,group,type
 136,η απόφαση,decision,решение,A2,concepts,noun
 137,αποφασίζω,to decide,решать,A2,verbs,verb
 138,αποφεύγω,to avoid,избегать,A2,verbs,verb
-139,απόφοιτος,graduate,выпускник,A2,objects,noun
-140,απρίλιος,April,апрель,A2,time,noun
+139,ο απόφοιτος,graduate,выпускник,A2,objects,noun
+140,ο απρίλιος,April,апрель,A2,time,noun
 141,η Αραβία,Saudi Arabia,Саудовская Аравия,A2,countries,noun
 142,ο αρακάς,pea,горох,A2,food,noun
-143,αργά,late,поздно,A2,objects,noun
+143,αργά,late,поздно,A2,objects,adverb
 144,αργώ,to be late,опаздывать,A2,verbs,verb
 145,αρέσει,to like,нравиться,A2,verbs,verb
 146,το άρθρο,article,статья,A2,communication,noun
 147,ο αριθμός,number,номер,A2,time,noun
-148,αριστερά,on the left,слева,A2,space,noun
+148,αριστερά,on the left,слева,A2,space,adverb
 149,αριστερός,left,левый,A2,space,adjective
 150,άριστος,"best, excellent","лучший, отличный",A2,feelings,adjective
 151,αρκετός,enough,достаточно,A2,objects,adjective
 152,η Αρκτική,Arctic,Арктика,A2,countries,noun
 153,αρκώ,"to suffice, to be enough","хватать, быть достаточным",A2,verbs,verb
 154,η Αρμενία,Armenia,Армения,A2,countries,noun
-155,αρμενικά,Armenian language,армянский язык,A2,countries,noun
+155,τα αρμενικά,Armenian language,армянский язык,A2,countries,noun
 156,αρμενικός,Armenian,армянский,A2,countries,adjective
-157,αρμένιος,Armenian person,армянин,A2,countries,noun
+157,ο αρμένιος,Armenian person,армянин,A2,countries,noun
 158,αρνούμαι,"to say no, to refuse","сказать нет, отказываться",A2,verbs,verb
 159,αρρωσταίνω,to get sick,заболевать,A2,verbs,verb
 160,η αρρώστια,"sickness, illness",болезнь,A2,health,noun
@@ -177,16 +177,16 @@ id,greek,english,russian,level,group,type
 176,η ατζέντα,"agenda, datebook","повестка дня, ежедневник",A2,concepts,noun
 177,το άτομο,person,человек,A2,people,noun
 178,το ατύχημα,accident,несчастный случай,A2,descriptions,noun
-179,αύγουστος,August,август,A2,time,noun
+179,ο αύγουστος,August,август,A2,time,noun
 180,αυθόρμητος,spontaneous,спонтанный,A2,descriptions,adjective
 181,η αυλή,yard,двор,A2,home,noun
 182,η αϋπνία,insomnia,бессонница,A2,health,noun
 183,το αύριο,tomorrow,завтра,A2,time,noun
 184,η Αυστραλία,Australia,Австралия,A2,countries,noun
-185,αυστραλός,Australian,австралиец,A2,countries,noun
+185,ο αυστραλός,Australian,австралиец,A2,countries,noun
 186,αυστραλιανός,Australian,австралийский,A2,countries,adjective
 187,η Αυστρία,Austria,Австрия,A2,countries,noun
-188,αυστριακός́,Austrian,Австрийский,A2,countries,noun
+188,αυστριακός,Austrian,Австрийский,A2,countries,adjective
 189,αυστριακός,Austrian,Австрийский,A2,countries,adjective
 190,το αυτί,ear,ухо,A2,body,noun
 191,το αυτοκίνητο,car,автомобиль,A2,city,noun
@@ -196,7 +196,7 @@ id,greek,english,russian,level,group,type
 195,η αφίσα,poster,плакат,A2,communication,noun
 196,αφού,after,после,A2,basics,conjunction
 197,αφρικανικός,African,африканский,A2,countries,adjective
-198,αφρικανός,African person,африканец,A2,countries,noun
+198,ο αφρικανός,African person,африканец,A2,countries,noun
 199,η Αφρική,Africa,Африка,A2,countries,noun
 200,ο Ανδρέας,Andrew,Андреас,A2,names,noun
 201,ο Απόστολος,Apostolos,Апостолос,A2,names,noun
@@ -221,11 +221,11 @@ id,greek,english,russian,level,group,type
 220,βάφω,to paint,"красить, окрашивать",A2,verbs,verb
 221,βγάζω,"to take out, to take off","выносить, снимать",A2,verbs,verb
 222,βγαίνω,to get out,выходить,A2,verbs,verb
-223,εβδομάδα,week,неделя,A2,time,noun
+223,η εβδομάδα,week,неделя,A2,time,noun
 224,βέβαια,"of course, certainly","конечно, безусловно",A2,school,adverb
 225,το Βέλγιο,Belgium,Бельгия,A2,countries,noun
 226,βελγικός,Belgian,бельгийский,A2,countries,adjective
-227,βέλγος,Belgian person,бельгиец,A2,countries,noun
+227,ο βέλγος,Belgian person,бельгиец,A2,countries,noun
 228,το Βελιγράδι,Belgrade,Белград,A2,countries,noun
 229,βελούδινος,velvet,бархатный,A2,objects,adjective
 230,η Βενεζουέλα,Venezuela,Венесуэла,A2,countries,noun
@@ -249,8 +249,8 @@ id,greek,english,russian,level,group,type
 248,η βόλτα,walk,прогулка,A2,objects,noun
 249,η Βουλγαρία,Bulgaria,Болгария,A2,countries,noun
 250,βουλγαρικός,Bulgarian,болгарский,A2,countries,adjective
-251,βουλγαρικά,Bulgarian language,болгарский язык,A2,countries,noun
-252,βούλγαρος,Bulgarian person,болгарин,A2,countries,noun
+251,τα βουλγαρικά,Bulgarian language,болгарский язык,A2,countries,noun
+252,ο βούλγαρος,Bulgarian person,болгарин,A2,countries,noun
 253,το βουνό,mountain,гора,A2,weather,noun
 254,το βούτυρο,butter,масло,A2,food,noun
 255,η βραδιά,night,ночь,A2,time,noun
@@ -258,21 +258,21 @@ id,greek,english,russian,level,group,type
 257,το βράδυ,evening,вечер,A2,time,noun
 258,η Βραζιλία,Brazil,Бразилия,A2,countries,noun
 259,βραζιλιανικός,Brazilian,бразильский,A2,countries,adjective
-260,βραζιλιανικά,Brazilian Portuguese,бразильский португальский,A2,countries,noun
-261,βραζιλιάνος,Brazilian person,бразилец,A2,countries,noun
+260,τα βραζιλιανικά,Brazilian Portuguese,бразильский португальский,A2,countries,noun
+261,ο βραζιλιάνος,Brazilian person,бразилец,A2,countries,noun
 262,η Βρετανία,Britain,Великобритания,A2,countries,noun
 263,βρέχω,to wet,мочить,A2,verbs,verb
 264,βρίσκω,to find,находить,A2,verbs,verb
 265,η βροχή,rain,дождь,A2,weather,noun
-266,Βρυξέλλες,Brussels,Брюссель,A2,countries,noun
+266,οι Βρυξέλλες,Brussels,Брюссель,A2,countries,noun
 267,η βρύση,tap,кран,A2,home,noun
 268,ο/το γάιδαρος,donkey,осёл,A2,animals,noun
 269,το γάλα,milk,молоко,A2,food,noun
 270,γαλανός,blue,голубой,A2,colors,adjective
 271,η Γαλλία,France,Франция,A2,countries,noun
 272,γαλλικός,French,французский,A2,countries,adjective
-273,γαλλικά,French language,французский язык,A2,countries,noun
-274,γάλλος,French person,француз,A2,countries,noun
+273,τα γαλλικά,French language,французский язык,A2,countries,noun
+274,ο γάλλος,French person,француз,A2,countries,noun
 275,ο γάμος,wedding,свадьба,A2,society,noun
 276,το γάντι,glove,перчатка,A2,clothes,noun
 277,το γαριδάκι,"chip, crisp",чипс,A2,food,noun
@@ -290,7 +290,7 @@ id,greek,english,russian,level,group,type
 289,η γέννηση,birth,рождение,A2,concepts,noun
 290,η Γερμανία,Germany,Германия,A2,countries,noun
 291,γερμανικός,German,немецкий,A2,countries,adjective
-292,γερμανός,German person,немец,A2,countries,noun
+292,ο γερμανός,German person,немец,A2,countries,noun
 293,γερός,healthy,здоровый,A2,body,adjective
 294,ο γέρος,old man,старик,A2,people,noun
 295,το γεύμα,meal,еда,A2,food,noun
@@ -299,7 +299,7 @@ id,greek,english,russian,level,group,type
 298,η γιαγιά,grandmother,бабушка,A2,people,noun
 299,ο Γιάννης,John,Яннис,A2,names,noun
 300,το γιαούρτι,yogurt,йогурт,A2,food,noun
-301,γιαπωνέζος,Japanese person,японец,A2,countries,noun
+301,ο γιαπωνέζος,Japanese person,японец,A2,countries,noun
 302,το γιασεμί,jasmine,жасмин,A2,nature,noun
 303,γιατί,why,почему,A2,basics,adverb
 304,ο/η γιατρός,doctor,врач,A2,people,noun
@@ -312,12 +312,12 @@ id,greek,english,russian,level,group,type
 311,το γλυκό,sweet,сладкий,A2,food,noun
 312,γλυκός,sweet,сладкий,A2,food,adjective
 313,η γλώσσα,language,язык,A2,communication,noun
-314,γλώσσα μητρική,mother tongue,родной язык,A2,people,noun
+314,η γλώσσα μητρική,mother tongue,родной язык,A2,people,noun
 315,η γνώμη,opinion,мнение,A2,concepts,noun
 316,γνωρίζω,to know,знать,A2,verbs,verb
 317,η γνώση,knowledge,знание,A2,concepts,noun
 318,γνωστός,known,известный,A2,descriptions,adjective
-319,γονείς,parents,родители,A2,objects,noun
+319,οι γονείς,parents,родители,A2,objects,noun
 320,το γουρούνι,pig,свинья,A2,animals,noun
 321,η γραβάτα,tie,галстук,A2,objects,noun
 322,το γράμμα,"letter, character","буква, письмо",A2,communication,noun
@@ -334,9 +334,9 @@ id,greek,english,russian,level,group,type
 333,γρήγορα,quickly,быстро,A2,descriptions,adverb
 334,ο Γρηγόρης,Gregory,Григорис,A2,names,noun
 335,τα γυαλιά,glasses,очки,A2,objects,noun
-336,γυμνάσιο,high school,средняя школа,A2,school,noun
+336,το γυμνάσιο,high school,средняя школа,A2,school,noun
 337,το γυμναστήριο,gym,спортзал,A2,sports,noun
-338,γυμναστής,trainer,тренер,A2,sports,verb
+338,ο γυμναστής,trainer,тренер,A2,sports,noun
 339,η γυμναστική,gymnastics,гимнастика,A2,sports,noun
 340,η γυναίκα,woman,женщина,A2,people,noun
 341,γυναικείος,"women's, feminine","женский, женственный",A2,concepts,adjective
@@ -345,7 +345,7 @@ id,greek,english,russian,level,group,type
 344,η γωνία,corner,угол,A2,space,noun
 345,δανέζικος,Danish,датский,A2,countries,adjective
 346,η Δανία,Denmark,Дания,A2,countries,noun
-347,δάσκαλος,teacher,учитель,A2,people,verb
+347,ο δάσκαλος,teacher,учитель,A2,people,noun
 348,το δάσος,forest,лес,A2,weather,noun
 349,η δάφνη,laurel,лавр,A2,nature,noun
 350,δείχνω,to show,показывать,A2,verbs,verb
@@ -358,12 +358,12 @@ id,greek,english,russian,level,group,type
 357,δεκατέσσερις,fourteen,четырнадцать,A2,time,numeral
 358,δέκατος,tenth,десятый,A2,time,numeral
 359,δεκατρείς,thirteen,тринадцать,A2,time,numeral
-360,δεκέμβριος,December,декабрь,A2,time,noun
+360,ο δεκέμβριος,December,декабрь,A2,time,noun
 361,το δελφίνι,dolphin,дельфин,A2,animals,noun
 362,το δέμα,package,пакет,A2,home,noun
 363,το δέντρο,tree,дерево,A2,weather,noun
-364,δεξιά,on the right,справа,A2,space,noun
-365,δευτέρα,Monday,понедельник,A2,time,noun
+364,δεξιά,on the right,справа,A2,space,adverb
+365,η δευτέρα,Monday,понедельник,A2,time,noun
 366,δεύτερος,second,второй,A2,time,numeral
 367,η Δήμητρα,Dimitra,Димитра,A2,names,noun
 368,ο Δημήτρης,Dimitris,Димитрис,A2,names,noun
@@ -372,17 +372,17 @@ id,greek,english,russian,level,group,type
 371,η δημοκρατία,democracy,демократия,A2,society,noun
 372,δημόσιος,public,публичный,A2,society,adjective
 373,ο/η δημοσιογράφος,journalist,журналист,A2,professions,noun
-374,δημοτικό σχολείο,elementary school,начальная школа,A2,school,noun
+374,το δημοτικό σχολείο,elementary school,начальная школа,A2,school,noun
 375,διαβάζω,to read,читать,A2,verbs,verb
 376,το διαβατήριο,passport,паспорт,A2,society,noun
 377,το διάγραμμα,"diagram, chart","схема, график",A2,concepts,noun
 378,διαγράφω,"to delete, to erase","удалять, стирать",A2,verbs,verb
-379,διαγώνια,diagonally,диагонально,A2,space,noun
+379,διαγώνια,diagonally,диагонально,A2,space,adverb
 380,το διαγώνισμα,test,испытание,A2,school,noun
 381,το διαδίκτυο,internet,интернет,A2,communication,noun
 382,η διαδρομή,"route, path","маршрут, путь",A2,space,noun
 383,διαθέσιμος,available,доступный,A2,descriptions,adjective
-384,διακοπές,"vacation, holiday","отпуск, праздник",A2,leisure,noun
+384,οι διακοπές,"vacation, holiday","отпуск, праздник",A2,leisure,noun
 385,διακόσιοι,two hundred,две сотни,A2,time,numeral
 386,διακρίνω,to distinguish,различать,A2,verbs,verb
 387,διαλέγω,to choose,выбирать,A2,verbs,verb
@@ -402,7 +402,7 @@ id,greek,english,russian,level,group,type
 401,η διδασκαλία,teaching,преподавание,A2,school,noun
 402,διεθνής,international,международный,A2,society,adjective
 403,η διεύθυνση,address,адрес,A2,clothes,noun
-404,διευθυντής,"manager, director","менеджер, директор",A2,professions,verb
+404,ο διευθυντής,"manager, director","менеджер, директор",A2,professions,noun
 405,δίκαιος,"just, fair","справедливый, честный",A2,descriptions,adjective
 406,ο/η δικηγόρος,lawyer,адвокат,A2,professions,noun
 407,το δίκλινο,double room,двухместный номер,A2,home,noun
@@ -424,13 +424,13 @@ id,greek,english,russian,level,group,type
 423,δυνατά,strongly,сильно,A2,descriptions,adverb
 424,δύο,two,два,A2,time,numeral
 425,δυόμισι,two and a half,два с половиной,A2,basics,numeral
-426,δύση,west,запад,A2,objects,noun
+426,η δύση,west,запад,A2,objects,noun
 427,δύσκολος,difficult,сложный,A2,objects,adjective
 428,δυστυχώς,unfortunately,к сожалению,A2,descriptions,adverb
 429,δώδεκα,twelve,двенадцать,A2,time,numeral
 430,το δωμάτιο,room,комната,A2,home,noun
 431,το δώρο,present,подарок,A2,objects,noun
-432,δωρεάν,free of charge,бесплатно,A2,money,noun
+432,δωρεάν,free of charge,бесплатно,A2,money,adverb
 433,έβδομος,seventh,седьмой,A2,time,numeral
 434,εβδομήντα,seventy,семьдесят,A2,time,numeral
 435,εδώ,here,здесь,A2,basics,adverb
@@ -442,7 +442,7 @@ id,greek,english,russian,level,group,type
 441,εκείνος,that,тот,A2,basics,adjective
 442,έκτος,sixth,шестой,A2,time,numeral
 443,η Ελλάδα,Greece,Греция,A2,countries,noun
-444,έλληνας,Greek person,грек,A2,countries,noun
+444,ο έλληνας,Greek person,грек,A2,countries,noun
 445,ελληνικός,Greek,греческий,A2,countries,adjective
 446,ένας,one,один,A2,time,numeral
 447,ένατος,ninth,девятый,A2,time,numeral
@@ -457,7 +457,7 @@ id,greek,english,russian,level,group,type
 456,επιλέγω,to chose,выбирать,A2,verbs,verb
 457,η επιλογή,choice,выбор,A2,concepts,noun
 458,το επίπεδο,level,уровень,A2,objects,noun
-459,επιπλέον,plus,плюс,A2,objects,noun
+459,επιπλέον,plus,плюс,A2,objects,adverb
 460,το έπιπλο,furniture,мебель,A2,home,noun
 461,επίσης,"also, too","также, тоже",A2,basics,adverb
 462,η επίσκεψη,visit,посещение,A2,objects,noun
@@ -483,11 +483,11 @@ id,greek,english,russian,level,group,type
 482,έτοιμος,ready,готовый,A2,objects,adjective
 483,το έτος,year,год,A2,time,noun
 484,ευγενικός,"kind, polite","добрый, вежливый",A2,concepts,adjective
-485,ευκαιρία,"chance, opportunity","шанс, возможность",A2,concepts,noun
+485,η ευκαιρία,"chance, opportunity","шанс, возможность",A2,concepts,noun
 486,εύκολος,easy,легко,A2,objects,adjective
 487,το ευρώ,euro,евро,A2,money,noun
 488,ευρωπαϊκός,European,европейский,A2,countries,adjective
-489,ευρωπαίος,European person,европеец,A2,countries,noun
+489,ο ευρωπαίος,European person,европеец,A2,countries,noun
 490,η Ευρώπη,Europe,Европа,A2,countries,noun
 491,η ευτυχία,happiness,счастье,A2,concepts,noun
 492,ευτυχισμένος,happy,счастливый,A2,feelings,adjective
@@ -495,14 +495,14 @@ id,greek,english,russian,level,group,type
 494,ευχαριστώ,to thank,благодарить,A2,verbs,verb
 495,ευχαριστώ!,thanks! / thank you!,спасибо!,A2,basics,interjection
 496,η ευχή,wish,желание,A2,feelings,noun
-497,έφηβος,teenager,подросток,A2,objects,noun
+497,ο έφηβος,teenager,подросток,A2,objects,noun
 498,η εφημερίδα,newspaper,газета,A2,communication,noun
-499,εφορία,tax collection agency,агентство по сбору налогов,A2,society,noun
+499,η εφορία,tax collection agency,агентство по сбору налогов,A2,society,noun
 500,εφόσον,since,с тех пор,A2,basics,conjunction
 501,εφτά,seven,семь,A2,time,numeral
 502,εφτακόσιοι,seven hundred,семьсот,A2,time,numeral
 503,έχω,to have,иметь,A2,verbs,verb
-504,το Ζαΐρ,Zaïr,Заир,A2,names,noun
+504,το Ζαΐρ,Zaïr,Заир,A2,names,noun
 505,η Ζάκυνθος,"Zakynthos, Zante","Закинтос, Занте",A2,geography,noun
 506,το ζαμπόν,ham,ветчина,A2,food,noun
 507,τα ζάρια,dice,кости,A2,objects,noun
@@ -512,7 +512,7 @@ id,greek,english,russian,level,group,type
 511,κάνει ζέστη,it is hot,жарко,A2,weather,phrase
 512,το ζευγάρι,"pair, couple","пара, супруги",A2,space,noun
 513,η Ζηλανδία,New Zealand,Новая Зеландия,A2,countries,noun
-514,ζηλανδός́,New Zealander,новозеландец,A2,countries,noun
+514,ο ζηλανδός,New Zealander,новозеландец,A2,countries,noun
 515,ζητάω,to ask,"просить, искать",A2,verbs,verb
 516,η Ζυρίχη,Zurich,Цюрих,A2,geography,noun
 517,ζω,to live,жить,A2,verbs,verb
@@ -526,10 +526,10 @@ id,greek,english,russian,level,group,type
 525,ηλεκτρονικός,electronic,электронный,A2,descriptions,adjective
 526,η ηλικία,age,возраст,A2,time,noun
 527,ο ήλιος,sun,солнце,A2,weather,noun
-528,ημέρα,day,день,A2,time,noun
+528,η ημέρα,day,день,A2,time,noun
 529,το ημερολόγιο,calendar,календарь,A2,time,noun
 530,η ημερομηνία,date,дата,A2,time,noun
-531,Ηρακλής,Hercules,Ираклис,A2,names,noun
+531,ο Ηρακλής,Hercules,Ираклис,A2,names,noun
 532,η ησυχία,quietness,спокойствие,A2,concepts,noun
 533,ήσυχος,quiet,тихий,A2,objects,adjective
 534,ο ήχος,sound,звук,A2,objects,noun
@@ -550,7 +550,7 @@ id,greek,english,russian,level,group,type
 549,ο θόρυβος,noise,шум,A2,objects,noun
 550,το θρανίο,desk,стол,A2,home,noun
 551,θυμάμαι,to remember,помнить,A2,verbs,verb
-552,ιανουάριος,January,январь,A2,time,noun
+552,ο ιανουάριος,January,январь,A2,time,noun
 553,η Ιαπωνία,Japan,Япония,A2,countries,noun
 554,ιαπωνικός,Japanese,японский,A2,countries,adjective
 555,η ιατρική,medicine,медицина,A2,body,noun
@@ -558,30 +558,30 @@ id,greek,english,russian,level,group,type
 557,ίδιος,the same,то же самое,A2,basics,adjective
 558,η ικανότητα,"ability, capability",способность,A2,concepts,noun
 559,το ίντερνετ,internet,интернет,A2,communication,noun
-560,ιούλιος,July,июль,A2,time,noun
-561,ιούνιος,June,июнь,A2,time,noun
+560,ο ιούλιος,July,июль,A2,time,noun
+561,ο ιούνιος,June,июнь,A2,time,noun
 562,η Ιρλανδία,Ireland,Ирландия,A2,countries,noun
 563,ιρλανδικός,Irish,ирландский,A2,countries,adjective
-564,ιρλανδός,Irish person,ирландец,A2,countries,noun
+564,ο ιρλανδός,Irish person,ирландец,A2,countries,noun
 565,η Ισλανδία,Iceland,Исландия,A2,countries,noun
 566,ισλανδικός,Icelandic,исландский,A2,countries,adjective
-567,ισλανδός,Icelander,исландец,A2,countries,noun
+567,ο ισλανδός,Icelander,исландец,A2,countries,noun
 568,το ισόγειο,ground floor,первый этаж,A2,home,noun
 569,η Ισπανία,Spain,Испания,A2,countries,noun
 570,ισπανικός,Spanish,испанский,A2,countries,adjective
-571,ισπανός,Spanish person,испанец,A2,countries,noun
+571,ο ισπανός,Spanish person,испанец,A2,countries,noun
 572,το Ισραήλ,Israel,Израиль,A2,countries,noun
 573,ισραηλινός,Israeli,израильский,A2,countries,adjective
 574,η ιστορία,"history, story",история,A2,leisure,noun
 575,ίσως,"maybe, perhaps","может быть, возможно",A2,basics,adverb
 576,η Ιταλία,Italy,Италия,A2,countries,noun
 577,ιταλικός,Italian,итальянский,A2,countries,adjective
-578,ιταλός,Italian person,итальянец,A2,countries,noun
+578,ο ιταλός,Italian person,итальянец,A2,countries,noun
 579,καθαρίζω,to clean,очищать,A2,verbs,verb
 580,καθαρός,clean,чистый,A2,descriptions,adjective
 581,κάθε,every,каждый,A2,basics,adjective
 582,καθένας,"every, everyone","каждый, все",A2,basics,pronoun
-583,κάθετα,across,поперек,A2,objects,noun
+583,η κάθετα,across,поперек,A2,objects,noun
 584,ο/η καθηγητής,teacher,"преподаватель, профессор",A2,people,noun
 585,καθόλου,"any, at all","совсем, вовсе",A2,basics,particle
 586,κάθομαι,to sit,сидеть,A2,verbs,verb
@@ -589,16 +589,16 @@ id,greek,english,russian,level,group,type
 588,η καθυστέρηση,delay,задержка,A2,concepts,noun
 589,καθώς,while,пока,A2,basics,conjunction
 590,και,and,и,A2,basics,conjunction
-591,καινούριος,new,новый,A2,descriptions,noun
+591,καινούριος,new,новый,A2,descriptions,adjective
 592,ο καιρός,weather,погода,A2,weather,noun
 593,τι καιρό κάνει;,what's the weather like?,какая погода?,A2,weather,phrase
 594,κακός,bad,плохой,A2,feelings,adjective
-595,καλημέρα,goodmorning,доброе утро,A2,time,noun
-596,καληνύχτα,goodnight,доброй ночи,A2,time,noun
-597,καλησπέρα,good afternoon,добрый день,A2,time,noun
+595,η καλημέρα,goodmorning,доброе утро,A2,time,noun
+596,η καληνύχτα,goodnight,доброй ночи,A2,time,noun
+597,η καλησπέρα,good afternoon,добрый день,A2,time,noun
 598,το καλοκαίρι,summer,лето,A2,weather,noun
 599,το καλοριφέρ,heater,нагреватель,A2,home,noun
-600,καλός́,good,хороший,A2,feelings,adjective
+600,καλός,good,хороший,A2,feelings,adjective
 601,η κάλτσα,sock,носок,A2,clothes,noun
 602,καλύπτω,to cover,покрывать,A2,verbs,verb
 603,καλύτερος,better,лучше,A2,feelings,adjective
@@ -607,7 +607,7 @@ id,greek,english,russian,level,group,type
 606,το κάμπιγκ,camping,кемпинг,A2,travel,noun
 607,ο Καναδάς,Canada,Канада,A2,countries,noun
 608,καναδικός,Canadian,канадский,A2,countries,adjective
-609,καναδός,Canadian person,канадец,A2,countries,noun
+609,ο καναδός,Canadian person,канадец,A2,countries,noun
 610,ο καναπές,sofa,диван,A2,home,noun
 611,κανένας,"no, no one","никто, никакой",A2,basics,pronoun
 612,ο κανόνας,rule,правило,A2,society,noun
@@ -632,9 +632,9 @@ id,greek,english,russian,level,group,type
 631,η κατεύθυνση,direction,направление,A2,concepts,noun
 632,κάτι,something,что-то,A2,basics,pronoun
 633,η κατοικία,"residence, home","место жительства, дом",A2,home,noun
-634,κάτοικος,"resident, inhabitant",житель,A2,descriptions,noun
+634,ο/η κάτοικος,"resident, inhabitant",житель,A2,descriptions,noun
 635,η κατσίκα,goat,коза,A2,animals,noun
-636,κάτω,down,вниз,A2,space,noun
+636,κάτω,down,вниз,A2,space,adverb
 637,κάτω από,under,под,A2,space,preposition
 638,ο καφές,coffee,кофе,A2,food,noun
 639,η καφετέρια,"cafeteria, coffee shop","кафетерий, кофейня",A2,food,noun
@@ -645,13 +645,13 @@ id,greek,english,russian,level,group,type
 644,το κεράσι,cherry,вишня,A2,food,noun
 645,κερδίζω,to win,побеждать,A2,verbs,verb
 646,η Κέρκυρα,Corfou,Корфу,A2,countries,noun
-647,κεφαλαίο γράμμα,capital letter,заглавная буква,A2,communication,noun
+647,το κεφαλαίο γράμμα,capital letter,заглавная буква,A2,communication,noun
 648,το κεφάλι,head,голова,A2,body,noun
 649,ο κήπος,garden,сад,A2,home,noun
 650,η κιθάρα,guitar,гитара,A2,music,noun
 651,το κιλό,kilo,килограмм,A2,time,noun
 652,η Κίνα,China,Китай,A2,countries,noun
-653,κινέζος,Chinese person,китаец,A2,countries,noun
+653,ο κινέζος,Chinese person,китаец,A2,countries,noun
 654,κινεζικός,Chinese,китайский,A2,countries,adjective
 655,ο κινηματογράφος,cinema,кино,A2,leisure,noun
 656,το κινητό τηλέφωνο,mobile phone,мобильный телефон,A2,communication,noun
@@ -671,12 +671,12 @@ id,greek,english,russian,level,group,type
 670,το κολύμπι,swimming,плавание,A2,sports,noun
 671,το κομμάτι,piece,кусок,A2,concepts,noun
 672,το κομμωτήριο,the hair dresser's,парикмахерская,A2,body,noun
-673,κομμωτής,hair dresser,парикмахер,A2,body,noun
-674,κοντά,close,близко,A2,space,noun
+673,ο κομμωτής,hair dresser,парикмахер,A2,body,noun
+674,κοντά,close,близко,A2,space,adverb
 675,κοντός,short,короткий,A2,descriptions,adjective
 676,η κοπέλα,girl,девочка,A2,people,noun
 677,η Κορέα,Korea,Корея,A2,countries,noun
-678,κορεάτης,Korean person,кореец,A2,countries,noun
+678,ο κορεάτης,Korean person,кореец,A2,countries,noun
 679,κορεατικός,Korean,корейский,A2,countries,adjective
 680,η κόρη,daughter,дочь,A2,people,noun
 681,το κορίτσι,girl,девочка,A2,people,noun
@@ -684,7 +684,7 @@ id,greek,english,russian,level,group,type
 683,το κορόιδο,sucker,сосунок,A2,objects,noun
 684,ο κόσμος,"people, crowd","люди, толпа",A2,people,noun
 685,το κοστούμι,costume,костюм,A2,money,noun
-686,το/η κοτόπουλο,chicken,курица,A2,animals,noun
+686,το το/η κοτόπουλο,chicken,курица,A2,animals,noun
 687,η κουβέρτα,blanket,одеяло,A2,home,noun
 688,το κουδούνι,bell,колокол,A2,objects,noun
 689,η κουζίνα,kitchen,кухня,A2,food,noun
@@ -698,10 +698,10 @@ id,greek,english,russian,level,group,type
 697,το κρεμμύδι,onion,лук,A2,food,noun
 698,το κρεοπωλείο,the butcher's,"мясная лавка, мясной магазин",A2,professions,noun
 699,ο κρεοπώλης,butcher,мясник,A2,professions,noun
-700,Κρήτη,Crete,Крит,A2,geography,noun
+700,η Κρήτη,Crete,Крит,A2,geography,noun
 701,κρίμα!,What a pity!,Какая жалость!,A2,feelings,interjection
 702,κρίνω,to judge,судить,A2,verbs,verb
-703,Κροατία,Croatia,Хорватия,A2,countries,noun
+703,η Κροατία,Croatia,Хорватия,A2,countries,noun
 704,κρύβω,to hide,прятать,A2,verbs,verb
 705,κρυμμένος,hidden,скрытый,A2,descriptions,adjective
 706,κρύος,cold,холодный,A2,weather,adjective
@@ -709,7 +709,7 @@ id,greek,english,russian,level,group,type
 708,ο κύκλος,circle,круг,A2,objects,noun
 709,κυκλώνω,to circle,кружить,A2,verbs,verb
 710,η κυρία,"lady, madam","леди, мадам",A2,people,noun
-711,κυριακή,Sunday,воскресенье,A2,time,noun
+711,η κυριακή,Sunday,воскресенье,A2,time,noun
 712,ο κύριος,"sir, mister","сэр, мистер",A2,people,noun
 713,ο λαβύρινθος,labyrinth,лабиринт,A2,objects,noun
 714,ο λαγός,hare,заяц,A2,animals,noun
@@ -741,7 +741,7 @@ id,greek,english,russian,level,group,type
 740,το Λονδίνο,London,Лондон,A2,countries,noun
 741,το λουλούδι,flower,цветок,A2,weather,noun
 742,το Λουξεμβούργο,Luxembourg,Люксембург,A2,countries,noun
-743,λύκειο,high school,средняя школа,A2,school,noun
+743,το λύκειο,high school,средняя школа,A2,school,noun
 744,ο λύκος,wolf,волк,A2,animals,noun
 745,λύνω,to solve,решать,A2,verbs,verb
 746,λυπάμαι,to be sorry,сожалеть,A2,verbs,verb
@@ -752,30 +752,30 @@ id,greek,english,russian,level,group,type
 751,μαγειρεύω,to cook,готовить,A2,verbs,verb
 752,μαγικός,magic,магический,A2,descriptions,adjective
 753,το μαγιό,bathing suit,купальник,A2,objects,noun
-754,μαζεύω,gather,собирать,A2,objects,noun
+754,μαζεύω,gather,собирать,A2,objects,verb
 755,μαζί,together,вместе,A2,basics,adverb
 756,μαθαίνω,to learn,учиться,A2,verbs,verb
 757,το μάθημα,"subject, lesson","предмет, урок",A2,school,noun
-758,μαθήματα για το σπίτι,homework,домашняя работа,A2,school,noun
-759,μαθηματικά,mathematics,математика,A2,school,noun
+758,το μαθήματα για το σπίτι,homework,домашняя работа,A2,school,noun
+759,τα μαθηματικά,mathematics,математика,A2,school,noun
 760,ο/η μαθητής,"pupil, student","ученик, студент",A2,people,noun
-761,μάιος,May,май,A2,time,noun
-762,μακαρόνια,"macaroni, spaghetti","макароны, спагетти",A2,food,noun
-763,μακριά,"far, away","далеко, прочь",A2,space,noun
+761,ο μάιος,May,май,A2,time,noun
+762,η μακαρόνια,"macaroni, spaghetti","макароны, спагетти",A2,food,noun
+763,μακριά,"far, away","далеко, прочь",A2,space,adverb
 764,μακρύς,long,длинный,A2,objects,adjective
 765,τα μαλλιά,hair,волосы,A2,body,noun
 766,μάλλον,"maybe, perhaps","может быть, возможно",A2,basics,adverb
 767,ο μανάβης,grocer,бакалейщик,A2,professions,noun
 768,το μανάβικο,the grocery's,"овощная лавка, бакалея",A2,professions,noun
 769,το μαρούλι,lettuce,салат,A2,food,noun
-770,μάρτιος,March,март,A2,time,noun
+770,ο μάρτιος,March,март,A2,time,noun
 771,το μάτι,eye,глаз,A2,body,noun
 772,μαύρος,black,черный,A2,colors,adjective
 773,το μαχαίρι,knife,нож,A2,food,noun
 774,με,with,с,A2,basics,preposition
 775,μεγάλος,"big, large",большой,A2,descriptions,adjective
 776,το μέγεθος,size,размер,A2,objects,noun
-777,μεθαύριο,the day after tomorrow,послезавтра,A2,time,preposition
+777,μεθαύριο,the day after tomorrow,послезавтра,A2,time,adverb
 778,μελαχρινός,dark haired,темноволосый,A2,colors,adjective
 779,μελετάω,"to study, examine",изучать,A2,verbs,verb
 780,τα μέλη του σώματος,parts of the body,части тела,A2,body,noun
@@ -785,8 +785,8 @@ id,greek,english,russian,level,group,type
 784,η μέρα,day,день,A2,time,noun
 785,μερικοί,some,некоторые,A2,basics,adjective
 786,το μέρος,"part, place","часть, место",A2,concepts,noun
-787,μέσα,"indoors, inside","внутри, в помещении",A2,concepts,noun
-788,μέσασε,in,в,A2,objects,noun
+787,μέσα,"indoors, inside","внутри, в помещении",A2,concepts,adverb
+788,μέσασε,in,в,A2,objects,preposition
 789,τα μέσα μεταφοράς,means of transport,транспорт,A2,city,noun
 790,η μέση,waist,талия,A2,body,noun
 791,το μεσημέρι,noon,полдень,A2,time,noun
@@ -844,15 +844,15 @@ id,greek,english,russian,level,group,type
 843,το μπιφτέκι,burger,бургер,A2,food,noun
 844,μπλε,blue,голубой,A2,colors,adjective
 845,η μπλούζα,blouse,блузка,A2,clothes,noun
-846,μπορώ,"can, be able to",мочь,A2,concepts,noun
+846,μπορώ,"can, be able to",мочь,A2,concepts,verb
 847,το μπουκάλι,bottle,бутылка,A2,food,noun
 848,το μπουφάν,"jacket, coat","куртка, пальто",A2,clothes,noun
 849,μπράβο!,well done!,молодец!,A2,basics,interjection
 850,η μπριζόλα,steak,"стейк, отбивная",A2,food,noun
 851,το μπρόκολο,broccoli,брокколи,A2,food,noun
-852,μπροστά,"ahead, in front of","впереди, перед",A2,space,noun
+852,μπροστά,"ahead, in front of","впереди, перед",A2,space,adverb
 853,το μυαλό,mind,разум,A2,concepts,noun
-854,Μύκονος,Mykonos,Миконос,A2,geography,noun
+854,ο Μύκονος,Mykonos,Миконос,A2,geography,noun
 855,μυρίζω,to smell,"пахнуть, нюхать",A2,verbs,verb
 856,η μύτη,nose,нос,A2,body,noun
 857,το μωρό,baby,ребенок,A2,people,noun
@@ -860,21 +860,21 @@ id,greek,english,russian,level,group,type
 859,νέος,young,молодой,A2,descriptions,adjective
 860,το νερό,water,вода,A2,food,noun
 861,το νησί,island,остров,A2,weather,noun
-862,νικητής,winner,победитель,A2,sports,noun
+862,ο νικητής,winner,победитель,A2,sports,noun
 863,νιώθω,to feel,чувствовать,A2,verbs,verb
-864,νοέμβριος,November,ноябрь,A2,time,noun
+864,ο νοέμβριος,November,ноябрь,A2,time,noun
 865,το νόημα,"meaning, sense","смысл, значение",A2,concepts,noun
 866,νοικιάζω,to rent,"снимать, арендовать",A2,verbs,verb
 867,νομίζω,to think,думать,A2,verbs,verb
 868,η Νορβηγία,Norway,Норвегия,A2,countries,noun
-869,νορβηγός,Norwegian person,норвежец,A2,countries,noun
+869,ο νορβηγός,Norwegian person,норвежец,A2,countries,noun
 870,νορβηγικός,Norwegian,норвежский,A2,countries,adjective
 871,το νοσοκομείο,hospital,больница,A2,body,noun
 872,ο/η νοσοκόμος,nurse,медсестра,A2,people,noun
 873,νόστιμος,tasty,вкусный,A2,descriptions,adjective
 874,η νότα,note,примечание,A2,music,noun
 875,το νούμερο,number,номер,A2,time,noun
-876,Ντουμπάι,Dubai,Дубай,A2,geography,noun
+876,το Ντουμπάι,Dubai,Дубай,A2,geography,noun
 877,η νταντά,nanny,няня,A2,objects,noun
 878,η ντομάτα,tomato,томат,A2,food,noun
 879,το ντόνατ,donut,пончик,A2,food,noun
@@ -911,9 +911,9 @@ id,greek,english,russian,level,group,type
 910,το οικογενειακό δέντρο,family tree,семейное дерево,A2,people,noun
 911,η οικοδομή,building,здание,A2,city,noun
 912,οκτώχτώ,eight,восемь,A2,time,numeral
-913,οκτώβριος,October,октябрь,A2,time,noun
+913,ο οκτώβριος,October,октябрь,A2,time,noun
 914,η Ολλανδία,Holland,Голландия,A2,countries,noun
-915,ολλανδός,Dutch person,голландец,A2,countries,noun
+915,ο ολλανδός,Dutch person,голландец,A2,countries,noun
 916,ολλανδικός,Dutch,голландский,A2,countries,adjective
 917,όλοι,"all, every","все, каждый",A2,basics,adjective
 918,ο Όλυμπος,Mount Olympus,Гора Олимп,A2,weather,noun
@@ -931,8 +931,8 @@ id,greek,english,russian,level,group,type
 930,οποιοσδήποτε,"anyone, any",любой,A2,basics,pronoun
 931,όποτε,whenever,когда,A2,basics,particle
 932,όπου,"where, wherever","где, где бы то ни было",A2,basics,adverb
-933,όπως,"like, as",как,A2,feelings,noun
-934,ορθογώνιο,rectangle,прямоугольник,A2,objects,noun
+933,όπως,"like, as",как,A2,feelings,conjunction
+934,το ορθογώνιο,rectangle,прямоугольник,A2,objects,noun
 935,ορίστε!,here you are!,"вот, пожалуйста!",A2,basics,interjection
 936,ο όροφος,floor,этаж,A2,home,noun
 937,όταν,when,когда,A2,basics,adverb
@@ -966,7 +966,7 @@ id,greek,english,russian,level,group,type
 965,η παντομίμα,pantomime,пантомима,A2,music,noun
 966,η παντόφλα,slipper,тапочка,A2,clothes,noun
 967,παντρεύομαι,to get married,жениться,A2,verbs,verb
-968,πάνω,up,вверх,A2,space,noun
+968,πάνω,up,вверх,A2,space,adverb
 969,πάνω σε,"on, onto",на,A2,space,preposition
 970,το παπούτσι,shoe,обувь,A2,clothes,noun
 971,ο παππούς,grandfather,дедушка,A2,people,noun
@@ -977,13 +977,13 @@ id,greek,english,russian,level,group,type
 976,το παράθυρο,window,окно,A2,home,noun
 977,παρακαλώ,"to ask, to beg",просить,A2,verbs,verb
 978,σας παρακαλώ!,please!,пожалуйста!,A2,basics,interjection
-979,παρακάτω,below,ниже,A2,space,noun
+979,παρακάτω,below,ниже,A2,space,adverb
 980,παρακολουθώ,to watch,смотреть,A2,verbs,verb
 981,η παραλία,beach,пляж,A2,weather,noun
 982,το παραμύθι,fairy tale,сказка,A2,objects,noun
-983,παραπάνω,above,выше,A2,space,noun
+983,παραπάνω,above,выше,A2,space,adverb
 984,περισσότερο,more,больше,A2,basics,adverb
-985,παρασκευή,Friday,Пятница,A2,time,noun
+985,η παρασκευή,Friday,Пятница,A2,time,noun
 986,παρατηρώ,to observe,наблюдать,A2,verbs,verb
 987,το Παρίσι,Paris,Париж,A2,countries,noun
 988,το πάρκιγκ,parking,парковка,A2,city,noun
@@ -998,7 +998,7 @@ id,greek,english,russian,level,group,type
 997,το πεζοδρόμιο,"sidewalk, pavement",тротуар,A2,descriptions,noun
 998,πεινάω,to be hungry,"быть голодным, хотеть есть",A2,verbs,verb
 999,ο/η πελάτης,client,клиент,A2,people,noun
-1000,πέμπτη,Thursday,четверг,A2,time,noun
+1000,η πέμπτη,Thursday,четверг,A2,time,noun
 1001,πέμπτος,fifth,пятый,A2,time,numeral
 1002,πενήντα,fifty,пятьдесят,A2,time,numeral
 1003,πεντακόσιοι,five hundred,пятьсот,A2,time,numeral
@@ -1014,7 +1014,7 @@ id,greek,english,russian,level,group,type
 1013,περνάω,to pass,проходить,A2,verbs,verb
 1014,περνάω καλά,to have a good time,хорошо проводить время,A2,verbs,verb
 1015,περπατάω,to walk,ходить,A2,verbs,verb
-1016,πέρσι,last year,прошлый год,A2,time,noun
+1016,το πέρσι,last year,прошлый год,A2,time,noun
 1017,το πετρέλαιο,oil,нефть,A2,food,noun
 1018,ο Πέτρος,Peter,Петрос,A2,names,noun
 1019,η Πετρούπολη,Petersburg,Петербург,A2,countries,noun
@@ -1036,19 +1036,19 @@ id,greek,english,russian,level,group,type
 1035,η πισίνα,swimming pool,бассейн,A2,sports,noun
 1036,πιστεύω,to believe,верить,A2,verbs,verb
 1037,η πιστωτική κάρτα,credit card,кредитная карта,A2,clothes,noun
-1038,πίσω,behind,позади,A2,space,noun
-1039,πιτζάμες,pyjamas,пижама,A2,clothes,noun
+1038,πίσω,behind,позади,A2,space,adverb
+1039,οι πιτζάμες,pyjamas,пижама,A2,clothes,noun
 1040,η πίτσα,pizza,пицца,A2,food,noun
-1041,πλάι,beside,рядом,A2,space,noun
+1041,πλάι,beside,рядом,A2,space,adverb
 1042,η πλατεία,"square, plaza",площадь,A2,city,noun
 1043,πλένω,to wash,"мыть, стирать",A2,verbs,verb
 1044,ο πληθυντικός,plural,множественное число,A2,time,noun
-1045,πληροφορία,"information, info",информация,A2,concepts,noun
+1045,η πληροφορία,"information, info",информация,A2,concepts,noun
 1046,πληρώνω,to pay,платить,A2,verbs,verb
 1047,το πλοίο,ship,судно,A2,city,noun
 1048,το πλυντήριο,washing machine,стиральная машина,A2,city,noun
 1049,το ποδήλατο,bicycle,велосипед,A2,city,noun
-1050,πόδι,"leg, foot","нога, ступня",A2,body,noun
+1050,το πόδι,"leg, foot","нога, ступня",A2,body,noun
 1051,το ποδόσφαιρο,football,футбол,A2,leisure,noun
 1052,τίνος,whose,чей,A2,basics,pronoun
 1053,ποιος,which,который,A2,basics,pronoun
@@ -1064,10 +1064,10 @@ id,greek,english,russian,level,group,type
 1063,ο πόνος,pain,боль,A2,body,noun
 1064,η πόρτα,door,дверь,A2,home,noun
 1065,η Πορτογαλία,Portugal,Португалия,A2,countries,noun
-1066,πορτογάλος,Portuguese person,португалец,A2,countries,noun
+1066,ο πορτογάλος,Portuguese person,португалец,A2,countries,noun
 1067,πορτογαλικός,Portuguese,португальский,A2,countries,adjective
 1068,η πορτοκαλάδα,orange juice,апельсиновый сок,A2,food,noun
-1069,πορτοκαλής́,orange-colored,оранжевый,A2,food,verb
+1069,πορτοκαλής,orange-colored,оранжевый,A2,food,adjective
 1070,το πορτοκάλι,orange,апельсин,A2,food,noun
 1071,η πορτοκαλιά,orange tree,апельсиновое дерево,A2,food,noun
 1072,το πορτοφόλι,wallet,кошелек,A2,money,noun
@@ -1076,7 +1076,7 @@ id,greek,english,russian,level,group,type
 1075,ποτέ,never,никогда,A2,basics,adverb
 1076,πότε,when,когда,A2,basics,adverb
 1077,το ποτήρι,drinking glass,стакан,A2,food,noun
-1078,ποτίζω,water,поливать,A2,food,noun
+1078,ποτίζω,water,поливать,A2,food,verb
 1079,το ποτό,drink,напиток,A2,food,noun
 1080,που,"who, that","кто, который",A2,basics,pronoun
 1081,πού,where,где,A2,basics,adverb
@@ -1086,7 +1086,7 @@ id,greek,english,russian,level,group,type
 1085,το πράγμα,thing,вещь,A2,objects,noun
 1086,η πραγματικότητα,reality,реальность,A2,concepts,noun
 1087,πράσινο,green,зеленый,A2,colors,adjective
-1088,πρέπει,"must, should","нужно, должен",A2,basics,particle
+1088,πρέπει,"must, should","нужно, должен",A2,basics,verb
 1089,πριν (από),before,перед,A2,basics,preposition
 1090,το πρόβλημα,problem,проблема,A2,society,noun
 1091,το πρόγραμμα,"schedule, program","расписание, программа",A2,society,noun
@@ -1095,7 +1095,7 @@ id,greek,english,russian,level,group,type
 1094,προηγούμενος,previous,предыдущий,A2,descriptions,adjective
 1095,το προϊόν,product,продукт,A2,society,noun
 1096,ο προορισμός,destination,пункт назначения,A2,travel,noun
-1097,προς,"to, towards","к, по направлению к",A2,verbs,verb
+1097,προς,"to, towards","к, по направлению к",A2,verbs,preposition
 1098,προσεκτικά,carefully,тщательно,A2,descriptions,adverb
 1099,προσέχω,to pay attention to,обращать внимание на,A2,verbs,verb
 1100,προσκαλώ,to invite,приглашать,A2,verbs,verb
@@ -1117,7 +1117,7 @@ id,greek,english,russian,level,group,type
 1116,η Πρωτοχρονιά,New Year's Eve,Новогодняя ночь,A2,time,noun
 1117,ο πύργος,tower,башня,A2,home,noun
 1118,ο πυρετός,fever,жар,A2,body,noun
-1119,πωλητής,"salesperson, shop assistant","продавец, ассистент магазина",A2,clothes,noun
+1119,ο πωλητής,"salesperson, shop assistant","продавец, ассистент магазина",A2,clothes,noun
 1120,πώς,how,как,A2,basics,adverb
 1121,πώς σε λένε;,what's your name?,как тебя зовут?,A2,communication,phrase
 1122,το ραδιόφωνο,radio,радио,A2,communication,noun
@@ -1131,18 +1131,18 @@ id,greek,english,russian,level,group,type
 1130,το ρύζι,rice,рис,A2,food,noun
 1131,η Ρώμη,Rome,Рим,A2,countries,noun
 1132,η Ρωσία,Russia,Россия,A2,countries,noun
-1133,ρώσσος,Russian person,русский,A2,countries,noun
+1133,ο ρώσσος,Russian person,русский,A2,countries,noun
 1134,ρωσσικός,Russian,русский,A2,countries,adjective
 1135,ρωτάω,to ask,спрашивать,A2,verbs,verb
-1136,σάββατο,Saturday,суббота,A2,time,noun
-1137,σαββατοκύριακο,weekend,выходные,A2,time,noun
+1136,η σάββατο,Saturday,суббота,A2,time,noun
+1137,το σαββατοκύριακο,weekend,выходные,A2,time,noun
 1138,το σακάκι,"jacket, blazer","жакет, блейзер",A2,clothes,noun
 1139,το σαλάμι,salami,салями,A2,food,noun
 1140,η σαλάτα,salad,салат,A2,food,noun
 1141,το σαλόνι,living room,гостиная,A2,home,noun
 1142,η σαμπάνια,champagne,шампанское,A2,food,noun
 1143,το σαμπουάν,shampoo,шампунь,A2,home,noun
-1144,σαν,like,как,A2,feelings,noun
+1144,σαν,like,как,A2,feelings,preposition
 1145,το σάντουιτς,sandwich,бутерброд,A2,food,noun
 1146,το σαπούνι,soap,мыло,A2,home,noun
 1147,σαράντα,forty,сорок,A2,time,numeral
@@ -1150,10 +1150,10 @@ id,greek,english,russian,level,group,type
 1149,η σβήστρα,eraser,ластик,A2,school,noun
 1150,σε,"at, to","в, то",A2,basics,preposition
 1151,η σειρά,"order, sequence","порядок, очередь",A2,concepts,noun
-1152,σελίδα,page,страница,A2,school,noun
+1152,η σελίδα,page,страница,A2,school,noun
 1153,το σενάριο,scenario,сценарий,A2,school,noun
 1154,το σεντόνι,sheet,лист,A2,home,noun
-1155,σεπτέμβριος,September,сентябрь,A2,time,noun
+1155,ο σεπτέμβριος,September,сентябрь,A2,time,noun
 1156,η Σερβία,Serbia,Сербия,A2,countries,noun
 1157,σερβίρω,to serve,подавать,A2,verbs,verb
 1158,ο σερβιτόρος,waiter,официант,A2,people,noun
@@ -1161,18 +1161,18 @@ id,greek,english,russian,level,group,type
 1160,σημαντικός,"important, significant","важный, значительный",A2,feelings,adjective
 1161,το σημείωμα,"note, memo","примечание, записка",A2,school,noun
 1162,σημειώνω,"to note, to make a note","отмечать, записывать",A2,verbs,verb
-1163,σήμερα,today,сегодня,A2,time,noun
+1163,η σήμερα,today,сегодня,A2,time,noun
 1164,σίγουρα,"surely, certainly","воистину, безусловно",A2,descriptions,adverb
 1165,σίγουρος,"sure, certain","уверен, определенный",A2,descriptions,adjective
 1166,το Σίδνεϋ,Sydney,Сидней,A2,geography,noun
 1167,το σινεμά,"cinema, movies","кино, фильмы",A2,leisure,noun
 1168,η σκάλα,staircase,лестница,A2,home,noun
-1169,σκάλες,stairs,лестница,A2,home,noun
+1169,οι σκάλες,stairs,лестница,A2,home,noun
 1170,σκέφτομαι,to think,думать,A2,verbs,verb
 1171,το σκίτσο,"sketch, drawing","набросок, рисунок",A2,leisure,noun
 1172,η σκόνη,dust,пыль,A2,objects,noun
 1173,σκουπίζω,to sweep,подметать,A2,verbs,verb
-1174,σκούφος,"beanie, hat","беани, шляпа",A2,clothes,noun
+1174,ο σκούφος,"beanie, hat","беани, шляпа",A2,clothes,noun
 1175,ο σκύλος,dog,собака,A2,animals,noun
 1176,σοβαρά,seriously,серьезно,A2,descriptions,adverb
 1177,σοβαρός,serious,серьезный,A2,descriptions,adjective
@@ -1181,14 +1181,14 @@ id,greek,english,russian,level,group,type
 1180,το σουβλάκι,souvlaki,сувлаки,A2,food,noun
 1181,η Σουηδία,Sweden,Швеция,A2,countries,noun
 1182,σουηδικός,Swedish,шведский,A2,countries,adjective
-1183,σουηδός,Swedish person,швед,A2,countries,noun
+1183,ο σουηδός,Swedish person,швед,A2,countries,noun
 1184,το σούπερ μάρκετ,super market,супермаркет,A2,clothes,noun
-1185,σπαγγέτι,spaghetti,спагетти,A2,food,noun
+1185,το σπαγγέτι,spaghetti,спагетти,A2,food,noun
 1186,το σπανάκι,spinach,шпинат,A2,food,noun
-1187,σπήλαιο,cave,пещера,A2,nature,noun
+1187,το σπήλαιο,cave,пещера,A2,nature,noun
 1188,το σπίτι,house,дом,A2,home,noun
 1189,σπουδάζω,to study,"учиться, изучать",A2,verbs,verb
-1190,σπουδές,"studies, studying","учеба, обучение",A2,school,noun
+1190,οι σπουδές,"studies, studying","учеба, обучение",A2,school,noun
 1191,σταματάω,to stop,"останавливать, прекращать",A2,verbs,verb
 1192,η στάση λεωφορείου,bus stop,автобусная остановка,A2,city,noun
 1193,το σταυρόλεξο,crossword,кроссворд,A2,leisure,noun
@@ -1201,7 +1201,7 @@ id,greek,english,russian,level,group,type
 1200,στολίζω,to decorate,украшать,A2,verbs,verb
 1201,στολισμένος,decorated,украшенный,A2,holidays,adjective
 1202,συγνώμη!,"sorry, excuse me","извините, прошу прощения",A2,communication,interjection
-1203,συγνώμη,apology,извинение,A2,communication,noun
+1203,η συγνώμη,apology,извинение,A2,communication,noun
 1204,ο συγγραφέας,author,автор,A2,professions,noun
 1205,συγκρίνω,to compare,сравнивать,A2,verbs,verb
 1206,η σύγκριση,comparison,сравнение,A2,concepts,noun
@@ -1226,25 +1226,25 @@ id,greek,english,russian,level,group,type
 1225,συνεχίζω,"to continue, to go on",продолжать,A2,verbs,verb
 1226,συνήθως,usually,обычно,A2,descriptions,adverb
 1227,το σύννεφο,cloud,облако,A2,weather,noun
-1228,συνολικά,in total,в целом,A2,concepts,noun
+1228,συνολικά,in total,в целом,A2,concepts,adverb
 1229,η συνταγή,recipe,рецепт,A2,food,noun
-1230,σύντομα,soon,скоро,A2,time,noun
+1230,το σύντομα,soon,скоро,A2,time,noun
 1231,σύντομος,"brief, short","краткий, короткий",A2,descriptions,adjective
 1232,συνώνυμος,synonymous,синонимичный,A2,school,adjective
 1233,το συρτάρι,drawer,ящик,A2,objects,noun
 1234,η συσκευή,device,устройство,A2,objects,noun
 1235,το συστημένο γράμμα,registered letter,зарегистрированное письмо,A2,communication,noun
 1236,συστήνω,"to introduce, to recomend","представлять, рекомендовать",A2,verbs,verb
-1237,συχνά,often,часто,A2,objects,noun
+1237,συχνά,often,часто,A2,objects,adverb
 1238,σφουγγαρίζω,to mop,мыть полы,A2,verbs,verb
 1239,η σφραγίδα,"seal, stamp",печать,A2,communication,noun
 1240,το σχεδιάγραμμα,"sketch, diagram","эскиз, схема",A2,leisure,noun
 1241,σχεδιάζω,to plan,планировать,A2,verbs,verb
 1242,η σχέση,relation,отношение,A2,concepts,noun
-1243,το/η σχολείο,school,школа,A2,school,noun
+1243,το το/η σχολείο,school,школа,A2,school,noun
 1244,η σχολική χρονιά,school year,учебный год,A2,school,noun
 1245,το σώμα,body,тело,A2,body,noun
-1246,σωρό,a lot of,много,A2,objects,noun
+1246,ο σωρό,a lot of,много,A2,objects,noun
 1247,σωστός,"right, correct",правильный,A2,space,adjective
 1248,η ταβέρνα,tavern,таверна,A2,food,noun
 1249,η ταινία,"movie, film",фильм,A2,leisure,noun
@@ -1262,7 +1262,7 @@ id,greek,english,russian,level,group,type
 1261,η ταράτσα,rooftop,крыша,A2,home,noun
 1262,ταυτόχρονα,at the same time,одновременно,A2,time,adjective
 1263,το ταχυδρομείο,post office,почтовое отделение,A2,school,noun
-1264,τέλεια,perfect,совершенный,A2,descriptions,noun
+1264,τέλεια,perfect,совершенный,A2,descriptions,adjective
 1265,η τελεία,"full stop, period",точка,A2,concepts,noun
 1266,τέλειος,perfect,совершенный,A2,descriptions,adjective
 1267,τελειώνω,to finish,заканчивать,A2,verbs,verb
@@ -1271,7 +1271,7 @@ id,greek,english,russian,level,group,type
 1270,το τένις,tennis,теннис,A2,sports,noun
 1271,το τέρμα λεωφορείου,final stop,конечная остановка,A2,city,noun
 1272,τέσσερις,four,четыре,A2,time,numeral
-1273,τετάρτη,Wednesday,среда,A2,time,noun
+1273,η τετάρτη,Wednesday,среда,A2,time,noun
 1274,τέταρτος,fourth,четвертый,A2,time,numeral
 1275,το τετράγωνο,square,квадрат,A2,school,noun
 1276,το τετράδιο,exercise book,книга упражнений,A2,school,noun
@@ -1279,7 +1279,7 @@ id,greek,english,russian,level,group,type
 1278,το τζάκι,fireplace,камин,A2,weather,noun
 1279,το τζαμί,mosque,мечеть,A2,society,noun
 1280,το τζάμι,window,окно,A2,home,noun
-1281,τζάμπα,"free, for nothing","бесплатно, даром",A2,money,pronoun
+1281,τζάμπα,"free, for nothing","бесплатно, даром",A2,money,adverb
 1282,το τζιν,jeans,джинсы,A2,clothes,noun
 1283,τηγανητός,fried,жареный,A2,food,adjective
 1284,τηγανίζω,to fry,жарить,A2,verbs,verb
@@ -1299,12 +1299,12 @@ id,greek,english,russian,level,group,type
 1298,τότε,then,затем,A2,basics,adverb
 1299,η τουαλέτα,toilet,туалет,A2,home,noun
 1300,ο τουρισμός,tourism,туризм,A2,travel,noun
-1301,τουρίστας,tourist,турист,A2,travel,noun
+1301,ο τουρίστας,tourist,турист,A2,travel,noun
 1302,τουριστικός,touristic,туристический,A2,travel,adjective
 1303,η Τουρκία,Turkey,Турция,A2,countries,noun
-1304,τούρκος,Turkish person,турок,A2,countries,noun
+1304,ο τούρκος,Turkish person,турок,A2,countries,noun
 1305,τουρκικός,Turkish,турецкий,A2,countries,adjective
-1306,τούρτα γενεθλίων,birthday cake,праздничный торт,A2,food,noun
+1306,η τούρτα γενεθλίων,birthday cake,праздничный торт,A2,food,noun
 1307,τραγουδάω,to sing,петь,A2,verbs,verb
 1308,το τραγούδι,song,песня,A2,communication,noun
 1309,τρακάρω,to crash,разбиться,A2,verbs,verb
@@ -1322,7 +1322,7 @@ id,greek,english,russian,level,group,type
 1321,η τριανταφυλλιά,rose bush,розовый куст,A2,objects,noun
 1322,τριγυρνάω,to wander,бродить,A2,verbs,verb
 1323,το τρίγωνο,triangle,треугольник,A2,objects,noun
-1324,τρίτη,Tuesday,вторник,A2,time,noun
+1324,η τρίτη,Tuesday,вторник,A2,time,noun
 1325,τρίτος,third,третий,A2,time,numeral
 1326,ο τρόπος,"way, manner","способ, образ",A2,concepts,noun
 1327,τα τρόφιμα,food,пища,A2,food,noun
@@ -1345,7 +1345,7 @@ id,greek,english,russian,level,group,type
 1344,υπεύθυνος,"in charge, responsible",ответственный,A2,society,adjective
 1345,η υπηρεσία,service,обслуживание,A2,society,noun
 1346,ο ύπνος,sleep,сон,A2,health,noun
-1347,υπογραμμίζω,underline,подчеркивать,A2,space,noun
+1347,υπογραμμίζω,underline,подчеркивать,A2,space,verb
 1348,υπογραμμισμένος,underlined,подчёркнутый,A2,space,adjective
 1349,η υπογραφή,signature,подпись,A2,objects,noun
 1350,υπογράφω,to sign,подписывать,A2,verbs,verb
@@ -1353,8 +1353,8 @@ id,greek,english,russian,level,group,type
 1352,η υπομονή,patience,терпение,A2,objects,noun
 1353,υπόσχομαι,to promise,обещать,A2,verbs,verb
 1354,το υπουργείο,ministry,министерство,A2,society,noun
-1355,υποψήφιος,candidate,кандидат,A2,people,verb
-1356,ύστερα,later,позже,A2,time,noun
+1355,ο υποψήφιος,candidate,кандидат,A2,people,noun
+1356,η ύστερα,later,позже,A2,time,noun
 1357,το ύψος,height,высота,A2,objects,noun
 1358,το φαγητό,food,пища,A2,food,noun
 1359,φαίνομαι,"to look like, to appear","казаться, выглядеть",A2,verbs,verb
@@ -1364,25 +1364,25 @@ id,greek,english,russian,level,group,type
 1363,φαρδύς,wide,широкий,A2,descriptions,adjective
 1364,το φαρμακείο,drug store,аптека,A2,clothes,noun
 1365,το φάρμακο,"medicine, drug","медицина, наркотик",A2,body,noun
-1366,φαρμακοποιός,pharmacist,фармацевт,A2,objects,noun
+1366,ο/η φαρμακοποιός,pharmacist,фармацевт,A2,objects,noun
 1367,η φασαρία,fuss,суета,A2,concepts,noun
 1368,το φασολάκι,green bean,зеленый боб,A2,food,noun
-1369,φεβρουάριος,February,февраль,A2,time,noun
+1369,ο φεβρουάριος,February,февраль,A2,time,noun
 1370,φέρνω,to bring,приносить,A2,verbs,verb
 1371,η φέτα,feta cheese,сыр фета,A2,food,noun
-1372,φέτος,this year,в этом году,A2,time,noun
+1372,ο φέτος,this year,в этом году,A2,time,noun
 1373,φεύγω,to leave,уходить,A2,verbs,verb
 1374,η φήμη,rumor,слух,A2,communication,noun
 1375,το φθινόπωρο,autumn,осень,A2,time,noun
 1376,ο φθόγγος,sound,звук,A2,objects,noun
 1377,το φιλί,kiss,поцелуй,A2,communication,noun
-1378,φιλικά,kind regards,любезность,A2,communication,noun
+1378,φιλικά,kind regards,любезность,A2,communication,adverb
 1379,φιλικός,friendly,дружелюбный,A2,concepts,adjective
 1380,ο Φίλιππος,Philip,Филипп,A2,names,noun
 1381,ο/η φίλος,friend,друг,A2,people,noun
 1382,η Φινλανδία,Finland,Финляндия,A2,countries,noun
 1383,φινλανδικός,Finnish,финский,A2,countries,adjective
-1384,φινλανδός,Finnish person,финн,A2,countries,noun
+1384,ο φινλανδός,Finnish person,финн,A2,countries,noun
 1385,φοβάμαι,to be afraid of,бояться,A2,verbs,verb
 1386,ο/η φοιτητής,student,студент,A2,people,noun
 1387,η φορά,time,время,A2,time,noun
@@ -1390,18 +1390,18 @@ id,greek,english,russian,level,group,type
 1389,το φόρεμα,dress,платье,A2,clothes,noun
 1390,η φόρμα,tracksuit,спортивный костюм,A2,clothes,noun
 1391,το φορτίο,"burden, load","бремя, груз",A2,concepts,noun
-1392,φούρναρης,baker,пекарь,A2,food,noun
+1392,ο φούρναρης,baker,пекарь,A2,food,noun
 1393,ο φούρνος,"the baker's, bakery","пекарь, пекарня",A2,food,noun
 1394,η φούστα,skirt,юбка,A2,clothes,noun
 1395,η φράση,phrase,фраза,A2,objects,noun
-1396,φρέσκος,fresh,свежий,A2,descriptions,verb
-1397,φροντιστήριο,private school,частная школа,A2,school,noun
+1396,φρέσκος,fresh,свежий,A2,descriptions,adjective
+1397,το φροντιστήριο,private school,частная школа,A2,school,noun
 1398,το φρούτο,fruit,фрукты,A2,food,noun
 1399,φτάνω,to arrive,прибыть,A2,verbs,verb
 1400,φτηνά,cheaply,дешево,A2,descriptions,adverb
 1401,φτηνός,cheap,дешевый,A2,clothes,adjective
 1402,φτιάχνω,to make,делать,A2,verbs,verb
-1403,φύλλο,leaf,лист,A2,weather,noun
+1403,το φύλλο,leaf,лист,A2,weather,noun
 1404,το φύλο,gender,пол,A2,home,noun
 1405,Φυσάει,It is windy,ветрено,A2,weather,phrase
 1406,η φύση,nature,природа,A2,nature,noun
@@ -1413,11 +1413,11 @@ id,greek,english,russian,level,group,type
 1412,η φωτογραφία,picture,изображение,A2,objects,noun
 1413,η φωτογραφική μηχανή,camera,камера,A2,objects,noun
 1414,χαιρετάω,to say hello,поздороваться,A2,verbs,verb
-1415,χαιρετισμοί,"regards, greetings","приветствия, поздравления",A2,communication,noun
+1415,οι χαιρετισμοί,"regards, greetings","приветствия, поздравления",A2,communication,noun
 1416,χαίρομαι,"to be happy, to be pleased","быть счастливым, быть довольным",A2,verbs,verb
 1417,χαλαρώνω,to relax,расслабляться,A2,verbs,verb
 1418,χαλάω,"to break, to break down","ломать, портить",A2,verbs,verb
-1419,χάλια,"in bad condition, a mess","в плохом состоянии, беспорядок",A2,feelings,noun
+1419,η χάλια,"in bad condition, a mess","в плохом состоянии, беспорядок",A2,feelings,noun
 1420,η Χαλκιδική,Chalkidiki,Халкидики,A2,geography,noun
 1421,το χαμόγελο,smile,улыбка,A2,feelings,noun
 1422,τα Χανιά,Chania,Ханья,A2,geography,noun
@@ -1452,11 +1452,11 @@ id,greek,english,russian,level,group,type
 1451,ο χρήστης,user,пользователь,A2,people,noun
 1452,τα Χριστούγεννα,Christmas,Рождество,A2,holidays,noun
 1453,το χριστουγεννιάτικο δέντρο,Christmas tree,Рождественская елка,A2,weather,noun
-1454,χρόνος,time,время,A2,time,noun
+1454,ο χρόνος,time,время,A2,time,noun
 1455,Πόσων χρονών είσαι;,How old are you?,Сколько тебе лет?,A2,basics,phrase
 1456,το χρώμα,colour,цвет,A2,colors,noun
 1457,χρωματιστός,colourful,красочный,A2,colors,adjective
-1458,χτες,yesterday,вчера,A2,time,noun
+1458,οι χτες,yesterday,вчера,A2,time,noun
 1459,χτυπάω,"to hurt, to hit","болеть, ударить",A2,verbs,verb
 1460,ο χυμός,juice,сок,A2,food,noun
 1461,η χώρα,country,страна,A2,countries,noun
@@ -1482,7 +1482,7 @@ id,greek,english,russian,level,group,type
 1481,Η ώρα είναι τέσσερις,It is four o'clock,Сейчас четыре часа,A2,time,phrase
 1482,Η ώρα είναι τεσσερισήμισι,It is half past four,Сейчас половина пятого,A2,time,phrase
 1483,ωραίος,"nice, beautiful","милый, красивый",A2,feelings,adjective
-1484,ωραία,nice,милый,A2,objects,noun
+1484,η ωραία,nice,милый,A2,objects,noun
 1485,το ωράριο,"schedule, working hours","расписание, рабочее время",A2,time,noun
 1486,ως,"until, till",до,A2,basics,preposition
 1487,ώστε,"in order to, so that","для того чтобы, так что",A2,basics,conjunction
@@ -1491,30 +1491,30 @@ id,greek,english,russian,level,group,type
 1490,άγριος,wild,дикий,A2,descriptions,adjective
 1491,η αγωνία,"stress, anxiety","стресс, беспокойство",A2,feelings,noun
 1492,άδειος,"empty, vacant","пустой, вакантный",A2,descriptions,adjective
-1493,ΑΕΙ (Ανώτατο Εκπαιδευτικό Ίδρυμα),higher education institution,высшее учебное заведение,A2,school,noun
+1493,το ΑΕΙ (Ανώτατο Εκπαιδευτικό Ίδρυμα),higher education institution,высшее учебное заведение,A2,school,noun
 1494,το αεροπορικό ταξίδι,airplane travel,путешествие самолетом,A2,city,noun
 1495,η Αθήνα,Athens,Афины,A2,countries,noun
 1496,το άθλημα,sport,спорт,A2,leisure,noun
 1497,αθλητικός,athletic,атлетический,A2,sports,adjective
 1498,τα αθλητικά γεγονότα,sports events,спортивные события,A2,sports,noun
-1499,αθλητικοί αγώνες,sports games,спортивные игры,A2,sports,noun
+1499,οι αθλητικοί αγώνες,sports games,спортивные игры,A2,sports,noun
 1500,η αίθουσα,"classroom, hall","аудитория, зал",A2,home,noun
 1501,αισθηματικός,"emotional, sentimental","эмоциональный, чувственный",A2,descriptions,adjective
 1502,η άκρη,"edge, end","край, конец",A2,space,noun
 1503,ο Αλέξανδρος,Alexander,Александрос,A2,names,noun
-1504,Αλέξανδρος Μέγας,Alexander the Great,Александр Великий,A2,names,noun
+1504,ο Αλέξανδρος Μέγας,Alexander the Great,Александр Великий,A2,names,noun
 1505,αληθινά,"really, truly","действительно, по-настоящему",A2,descriptions,adverb
 1506,Αληθώς Ανέστη!,He is risen indeed!,Он действительно воскрес!,A2,holidays,phrase
 1507,το αμύγδαλο,almond,миндаль,A2,food,noun
 1508,η Αννα,Anna,Анна,A2,names,noun
 1509,η ανακύκλωση,recycling,переработка,A2,nature,noun
 1510,η ανάληψη χρημάτων,withdrawal,снятие,A2,descriptions,noun
-1511,ανάλογα,"depending on, accordingly","в зависимости от, соответственно",A2,concepts,noun
-1512,αναπαυτικά,comfortably,комфортно,A2,concepts,noun
+1511,ανάλογα,"depending on, accordingly","в зависимости от, соответственно",A2,concepts,adverb
+1512,αναπαυτικά,comfortably,комфортно,A2,concepts,adverb
 1513,η αναπνοή,"breath, breathing",дыхание,A2,concepts,noun
 1514,ανατολικός,eastern,восточный,A2,objects,adjective
 1515,το αναψυκτικό,"refreshment, beverage","освежающий, напиток",A2,food,noun
-1516,ανεβαίνει μια θεατρική παράσταση,a play is put on,пьеса поставлена на,A2,leisure,noun
+1516,η ανεβαίνει μια θεατρική παράσταση,a play is put on,пьеса поставлена на,A2,leisure,noun
 1517,ο ανιψιός,nephew,племянник,A2,people,noun
 1518,η ανιψιά,niece,племянница,A2,people,noun
 1519,ανακατεμένος,"mixed, blended","смесь, смешанный",A2,descriptions,adjective
@@ -1524,15 +1524,15 @@ id,greek,english,russian,level,group,type
 1523,το αξιοθέατο,"sight, attraction","вид, привлекательность",A2,travel,noun
 1524,ανοιχτός,open,открытый,A2,objects,adjective
 1525,απαντάω,"to answer, to respond",отвечать,A2,verbs,verb
-1526,απλό εισιτήριο,one way ticket,билет в одну сторону,A2,city,noun
+1526,το απλό εισιτήριο,one way ticket,билет в одну сторону,A2,city,noun
 1527,απλώνω,to spread,намазывать,A2,verbs,verb
 1528,από μέσα,from inside,изнутри,A2,basics,preposition
 1529,από τότε,since then,с тех пор,A2,basics,adverb
 1530,απογευματινός,"afternoon, evening",послеполуденный,A2,time,adjective
 1531,η αποθήκη,storage room,складское помещение,A2,home,noun
 1532,αποκτώ,"to have, to obtain","иметь, приобретать",A2,verbs,verb
-1533,Απόκριες,Carnival,карнавал,A2,leisure,noun
-1534,απορρυπαντικό,detergent,моющее средство,A2,home,noun
+1533,οι Απόκριες,Carnival,карнавал,A2,leisure,noun
+1534,το απορρυπαντικό,detergent,моющее средство,A2,home,noun
 1535,αργός,slow,медленный,A2,descriptions,adjective
 1536,αρνητικά,negatively,отрицательно,A2,descriptions,adverb
 1537,το αρνί,lamb,ягненок,A2,food,noun
@@ -1542,7 +1542,7 @@ id,greek,english,russian,level,group,type
 1541,ο ασθενής άνεμος,mild wind,слабый ветер,A2,weather,noun
 1542,αστείος,funny,смешной,A2,descriptions,adjective
 1543,αστράφτω,to sparkle,сверкать,A2,verbs,verb
-1544,αστράφτει,it's lightning,"сверкает, сверкает молния",A2,nature,noun
+1544,αστράφτει,it's lightning,"сверкает, сверкает молния",A2,nature,verb
 1545,η ασφάλεια,"safety, security",безопасность,A2,concepts,noun
 1546,το Εκπαιδευτικό ‘Ιδρυμα,Educational Institution,образовательное учреждение,A2,concepts,noun
 1547,το ΑΤΜ (Αυτόματο Μηχάνημα Ανάλη),ATM,банкомат,A2,money,noun
@@ -1590,9 +1590,9 @@ id,greek,english,russian,level,group,type
 1589,η γρίπη,flu,грипп,A2,health,noun
 1590,το γυαλί,glass,стекло,A2,food,noun
 1591,τα γυαλιά ηλίου,sunglasses,солнечные очки,A2,objects,noun
-1592,γύρω,around,вокруг,A2,objects,noun
-1593,ΔΕΗ (Δημόσια Επιχείρηση Ηλεκτρισμού),public electricity company,государственная электрокомпания,A2,society,noun
-1594,ΔΕΠΑ (Δημόσια Επιχείρηση Αερίου ΑΕ),Natural Gas Supply Companies,Компании-поставщики природного газа,A2,weather,noun
+1592,γύρω,around,вокруг,A2,objects,adverb
+1593,η ΔΕΗ (Δημόσια Επιχείρηση Ηλεκτρισμού),public electricity company,государственная электрокомпания,A2,society,noun
+1594,η ΔΕΠΑ (Δημόσια Επιχείρηση Αερίου ΑΕ),Natural Gas Supply Companies,Компании-поставщики природного газа,A2,weather,noun
 1595,δερμάτινος,leather,кожаный,A2,objects,adjective
 1596,η Δέσποινα,Despoina,Деспоина,A2,names,noun
 1597,δηλαδή,"that is, namely",то есть,A2,basics,adverb
@@ -1606,7 +1606,7 @@ id,greek,english,russian,level,group,type
 1605,δηλώνω,to state,утверждать,A2,verbs,verb
 1606,το διάβασμα,"reading, studying","чтение, учеба",A2,school,noun
 1607,διαδοχικός,"successive, consecutive",последовательный,A2,concepts,adjective
-1608,διαδοχικά,"successively, consecutively",последовательно,A2,concepts,noun
+1608,διαδοχικά,"successively, consecutively",последовательно,A2,concepts,adverb
 1609,η διαδρομή,"route, path","маршрут, путь",A2,space,noun
 1610,η διαδικασία,"process, procedure","процесс, процедура",A2,concepts,noun
 1611,η διάθεση,mood,настроение,A2,objects,noun
@@ -1632,13 +1632,13 @@ id,greek,english,russian,level,group,type
 1631,το έγγραφο,document,документ,A2,society,noun
 1632,εγώ,I,Я,A2,objects,pronoun
 1633,εδώ γύρω,around here,вокруг,A2,basics,adverb
-1634,εδώ και πολύ καιρό,for a long time,долгое время,A2,basics,preposition
+1634,εδώ και πολύ καιρό,for a long time,долгое время,A2,basics,phrase
 1635,το έθιμο,"custom, tradition","обычай, традиция",A2,holidays,noun
 1636,η εθνικότητα,nationality,гражданство,A2,concepts,noun
 1637,η ειδοποίηση,"notice, notification",уведомление,A2,concepts,noun
 1638,η εκτίμηση,"esteem, respect",уважение,A2,concepts,noun
 1639,ο/η ειδικός,"expert, specialist","эксперт, специалист",A2,school,noun
-1640,ειδήσεις,news,новости,A2,communication,noun
+1640,οι ειδήσεις,news,новости,A2,communication,noun
 1641,το είδος,"kind, type","вид, тип",A2,concepts,noun
 1642,είμαι,to be,быть,A2,verbs,verb
 1643,η ειρήνη,peace,мир,A2,society,noun
@@ -1648,45 +1648,45 @@ id,greek,english,russian,level,group,type
 1647,η εκδήλωση,"event, show","событие, шоу",A2,concepts,noun
 1648,η εκδρομή,excursion,экскурсия,A2,travel,noun
 1649,η εκπομπή,"show, program","шоу, программа",A2,society,noun
-1650,εκείνη,her,она,A2,objects,noun
-1651,εκείνον,him,его,A2,objects,noun
+1650,η εκείνη,her,она,A2,objects,noun
+1651,εκείνον,him,его,A2,objects,pronoun
 1652,η εκκλησία,church,церковь,A2,society,noun
 1653,η έκπληξη,surprise,сюрприз,A2,objects,noun
 1654,η εκπαίδευση,"education, training","образование, обучение",A2,school,noun
 1655,η έκπτωση,discount,скидка,A2,money,noun
-1656,εκπτώσεις,"discounts, sales",скидки,A2,money,noun
+1656,οι εκπτώσεις,"discounts, sales",скидки,A2,money,noun
 1657,ελαφρύς,light,легкий,A2,home,adjective
 1658,η Ελένη,Helen,Элени,A2,names,noun
 1659,η Ελίνα,Elina,Элина,A2,names,noun
 1660,ελπίζω,to hope,надеяться,A2,verbs,verb
-1661,ΕΛΤΑ (Ελληνικά Ταχυδρομεία),Hellenic Post,Почта Греции,A2,society,noun
+1661,τα ΕΛΤΑ (Ελληνικά Ταχυδρομεία),Hellenic Post,Почта Греции,A2,society,noun
 1662,η Έλσα,Elsa,Эльза,A2,names,noun
 1663,το ελαιόλαδο,olive oil,оливковое масло,A2,food,noun
 1664,ελεύθερος,free,свободный,A2,objects,adjective
-1665,ελεύθερος ελεύθερη,single,"неженатый, незамужняя",A2,objects,noun
+1665,ελεύθερος ελεύθερη,single,"неженатый, незамужняя",A2,objects,adjective
 1666,η Ελευθερία,Eleftheria,Элефтерия,A2,names,noun
 1667,εμείς,we,мы,A2,objects,pronoun
-1668,εμένα,me,я,A2,objects,noun
+1668,η εμένα,me,я,A2,objects,noun
 1669,το εμπορικό κέντρο,"shopping center, mall",торговый центр,A2,clothes,noun
 1670,η εμπειρία,experience,опыт,A2,concepts,noun
 1671,η εμφάνιση,"appearance, look","внешний вид, смотреть",A2,concepts,noun
 1672,ενδιαφέρομαι,to be interested in,быть заинтересованным в,A2,verbs,verb
 1673,το ενδιαφέρον,interest,интерес,A2,objects,noun
-1674,ενδιαφέρων,interesting,интересный,A2,feelings,noun
+1674,το ενδιαφέρων,interesting,интересный,A2,feelings,noun
 1675,ενημερώνω,"to inform, to notify","информировать, уведомлять",A2,verbs,verb
 1676,ενθουσιάζω,to excite,возбуждать,A2,verbs,verb
 1677,η ενότητα,unit,единица,A2,objects,noun
 1678,το ενοίκιο,rent,аренда,A2,home,noun
 1679,η ενοικίαση,"renting, leasing","аренда, прокат",A2,concepts,noun
 1680,ενώνω,to join,соединять,A2,verbs,verb
-1681,εξετάσεις,"examinations, exams",экзамены,A2,school,noun
+1681,οι εξετάσεις,"examinations, exams",экзамены,A2,school,noun
 1682,εξηγώ,to explain,объяснять,A2,verbs,verb
 1683,η έξοδος,"outing, night out","выход в свет, прогулка",A2,time,noun
 1684,η εξοχή,countryside,сельская местность,A2,objects,noun
 1685,η εξυπηρέτηση,"service, support","обслуживание, поддержка",A2,society,noun
 1686,εξυπηρετώ,to serve,обслуживать,A2,verbs,verb
-1687,έξω,"outside, out","снаружи, на улице",A2,objects,noun
-1688,έξω από,outside,"снаружи, на улице",A2,objects,noun
+1687,έξω,"outside, out","снаружи, на улице",A2,objects,adverb
+1688,έξω από,outside,"снаружи, на улице",A2,objects,preposition
 1689,το εξωτερικό,"overseas, abroad",за границей,A2,leisure,noun
 1690,το επάγγελμα,"profession, job","профессия, работа",A2,school,noun
 1691,επαγγελματικός,professional,профессиональный,A2,descriptions,adjective
@@ -1695,17 +1695,17 @@ id,greek,english,russian,level,group,type
 1694,δικοί του,"his people, his family","его близкие, его семья",A2,descriptions,adjective
 1695,δικοί σας,"your people, your family","ваши близкие, ваша семья",A2,people,adjective
 1696,δίνομαι,to be given,быть предоставленным,A2,verbs,verb
-1697,ΔΟΥ (Δημόσια Οικονομική Υπηρεσία),tax office,налоговая служба,A2,school,noun
-1698,δουλειές σπιτιούι,housework,работа по дому,A2,school,noun
+1697,η ΔΟΥ (Δημόσια Οικονομική Υπηρεσία),tax office,налоговая служба,A2,school,noun
+1698,οι δουλειές σπιτιούι,housework,работа по дому,A2,school,noun
 1699,η Δράμα,Drama,драма,A2,geography,noun
 1700,δραματικός,dramatic,драматический,A2,descriptions,adjective
 1701,η δραματική ταινία,drama,драма,A2,objects,noun
 1702,το δρομολόγιο,timetable,расписание,A2,city,noun
 1703,το δυάρι,two bedrooms appartment,двухкомнатная квартира,A2,home,noun
 1704,η δυνατότητα,"possibility, potential","возможность, потенциал",A2,descriptions,noun
-1705,δύο φορές,twice,дважды,A2,objects,noun
-1706,και οι δύο,both,оба,A2,basics,particle
-1707,δύσκολα,"hardly, barely","почти, едва",A2,objects,noun
+1705,δύο φορές,twice,дважды,A2,objects,phrase
+1706,και οι δύο,both,оба,A2,basics,pronoun
+1707,δύσκολα,"hardly, barely","почти, едва",A2,objects,adverb
 1708,η δυσκολία,"difficulty, trouble","трудность, неприятности",A2,concepts,noun
 1709,επικίνδυνος,"dangerous, risky","опасный, рискованный",A2,concepts,adjective
 1710,επικοινωνώ,"to contact, communicate","связываться, общаться",A2,verbs,verb
@@ -1713,7 +1713,7 @@ id,greek,english,russian,level,group,type
 1712,επίσημος,"official, formal","официальный, формальный",A2,descriptions,adjective
 1713,επίσημα,"officially, formally","официально, формально",A2,descriptions,adverb
 1714,επισκέπτομαι,to visit,посетить,A2,verbs,verb
-1715,εισιτήριο με επιστροφή,return ticket,обратный билет,A2,city,noun
+1715,το εισιτήριο με επιστροφή,return ticket,обратный билет,A2,city,noun
 1716,επιτέλους,"at last, finally",наконец,A2,descriptions,adverb
 1717,καλή επιτυχία!,good luck!,удачи!,A2,feelings,phrase
 1718,επώνυμος,"famous, celebrity","известный, знаменитость",A2,concepts,adjective
@@ -1723,8 +1723,8 @@ id,greek,english,russian,level,group,type
 1722,εσένα,you,ты,A2,basics,pronoun
 1723,η εταιρεία,"company, firm","компания, фирма",A2,society,noun
 1724,έτσι,"this way, thus",таким образом,A2,basics,adverb
-1725,ΕΥΑΘ (Εταιρεία Ύδρευσης και Αποχέτευσης Θεσσαλονίκης),Thessaloniki Water and Sewerage Company,компания водоснабжения и канализации Салоник,A2,society,noun
-1726,ΕΥΔΑΠ (Εταιρεία Ύδρευσης και Αποχέτευσης Πρωτεύουσας),Athens Water and Sewerage Company,Афинская компания водоснабжения и канализации,A2,society,noun
+1725,η ΕΥΑΘ (Εταιρεία Ύδρευσης και Αποχέτευσης Θεσσαλονίκης),Thessaloniki Water and Sewerage Company,компания водоснабжения и канализации Салоник,A2,society,noun
+1726,η ΕΥΔΑΠ (Εταιρεία Ύδρευσης και Αποχέτευσης Πρωτεύουσας),Athens Water and Sewerage Company,Афинская компания водоснабжения и канализации,A2,society,noun
 1727,εύκολα,easily,легко,A2,descriptions,adverb
 1728,ευτυχισμένος ο καινούριος χρόνος!,happy new year!,с Новым годом!,A2,time,interjection
 1729,ευτυχώς,"luckily, fortunately",к счастью,A2,descriptions,adverb
@@ -1736,9 +1736,9 @@ id,greek,english,russian,level,group,type
 1735,το ζυμαρικό,pasta,паста,A2,food,noun
 1736,ζωηρός,"naughty, lively","непослушный, живой",A2,descriptions,adjective
 1737,η ζωντανή μουσική,live music,живая музыка,A2,communication,noun
-1738,ηλεκτρικά είδη,electric devices,электрические устройства,A2,objects,noun
+1738,η ηλεκτρικά είδη,electric devices,электрические устройства,A2,objects,noun
 1739,η ηλεκτροπληξία,"electrocution, electric shock","удар током, электрический удар",A2,health,noun
-1740,ηλικιωμένος,"elderly, old","пожилой, старый",A2,people,noun
+1740,ο ηλικιωμένος,"elderly, old","пожилой, старый",A2,people,noun
 1741,έχει ήλιο,it is sunny,солнечно,A2,weather,phrase
 1742,ήπιος,"mild, gentle","легкий, нежный",A2,concepts,adjective
 1743,ήρεμος,"calm, peaceful","спокойный, мирный",A2,descriptions,adjective
@@ -1749,24 +1749,24 @@ id,greek,english,russian,level,group,type
 1748,η θερμοκρασία,temperature,температура,A2,body,noun
 1749,θετικά,positively,положительно,A2,descriptions,adverb
 1750,η θήκη,"case, holder",футляр,A2,descriptions,noun
-1751,θρησκευτικά,religion class,урок религии,A2,school,noun
+1751,τα θρησκευτικά,religion class,урок религии,A2,school,noun
 1752,θυμίζω,to remind,напомнить,A2,verbs,verb
 1753,η Θωμαή,Thomais,Томаи,A2,names,noun
 1754,η ιδέα,"idea, suggestion","идея, предложение",A2,concepts,noun
-1755,ιδιαίτερα,"especially, in particular","особенно, в частности",A2,descriptions,noun
+1755,ιδιαίτερα,"especially, in particular","особенно, в частности",A2,descriptions,adverb
 1756,το ίδρυμα,"institution, foundation","учреждение, фонд",A2,concepts,noun
 1757,ιερός,"holy, sacred",святой,A2,people,adjective
 1758,ίσιος,straight,прямой,A2,objects,adjective
 1759,η ιστοσελίδα,webpage,веб-страница,A2,school,noun
-1760,ευκαιρία,"opportunity, chance","возможность, шанс",A2,concepts,noun
+1760,η ευκαιρία,"opportunity, chance","возможность, шанс",A2,concepts,noun
 1761,η ιστορία,history class,урок истории,A2,school,noun
 1762,το κάδρο,"frame, picture frame","рамка, картинная рамка",A2,concepts,noun
 1763,το κάγκελο,"bar, railing","решётка, перила",A2,objects,noun
 1764,το καθαριστικό,"detergent, cleanser","моющее средство, очиститель",A2,home,noun
 1765,καθημερινά,"daily, every day","ежедневно, каждый день",A2,time,adjective
-1766,αυτόν τον καιρό,at the moment,на данный момент,A2,descriptions,noun
+1766,αυτόν τον καιρό,at the moment,на данный момент,A2,descriptions,phrase
 1767,καίω,to burn,гореть,A2,verbs,verb
-1768,καλά,"good, well","хороший, хорошо",A2,feelings,noun
+1768,καλά,"good, well","хороший, хорошо",A2,feelings,adverb
 1769,τα κάλαντα,carols,колядки,A2,holidays,noun
 1770,καλεσμένος,invited,приглашенный,A2,descriptions,adjective
 1771,ο/η καλλιτέχνης,artist,художник,A2,people,noun
@@ -1804,10 +1804,10 @@ id,greek,english,russian,level,group,type
 1803,η Κάτια,Katja,Катя,A2,names,noun
 1804,η κατσαρόλα,"pot, saucepan","горшок, соус",A2,concepts,noun
 1805,το κέικ,cake,торт,A2,food,noun
-1806,κεφαλαίο γράμμα,capital letter,заглавная буква,A2,communication,noun
+1806,το κεφαλαίο γράμμα,capital letter,заглавная буква,A2,communication,noun
 1807,καφέ,brown,коричневый,A2,colors,adjective
 1808,το κελί,cell,клетка,A2,objects,noun
-1809,κεντρικό δελτίο ειδήσεων,news,новости,A2,communication,noun
+1809,το κεντρικό δελτίο ειδήσεων,news,новости,A2,communication,noun
 1810,το ΚΕΠ (Κέντρο Εξυπηρέτησης Πολιτών),Citizen Service Centre,Центр обслуживания граждан,A2,society,noun
 1811,ο κεραυνός,thunder,гром,A2,space,noun
 1812,ο κίνδυνος,"danger, risk","опасность, риск",A2,concepts,noun
@@ -1819,7 +1819,7 @@ id,greek,english,russian,level,group,type
 1818,κλείνω,to reserve,резервировать,A2,verbs,verb
 1819,κλεισμένος,"closed, shut",закрытый,A2,space,adjective
 1820,κλειστός,"shut, closed","закрытый, запертый",A2,space,adjective
-1821,κλέφτης,"thief, robber","вор, грабитель",A2,concepts,noun
+1821,ο κλέφτης,"thief, robber","вор, грабитель",A2,concepts,noun
 1822,η κλοπή,"theft, robbery","кража, ограбление",A2,concepts,noun
 1823,ο κλόουν,clown,клоун,A2,objects,noun
 1824,το κομμάτι,part,часть,A2,objects,noun
@@ -1842,7 +1842,7 @@ id,greek,english,russian,level,group,type
 1841,η κουρτίνα,curtain,шторка,A2,home,noun
 1842,κρατικός,"national, of state","национальный, государства",A2,concepts,adjective
 1843,η κρέμα,cream,крем,A2,objects,noun
-1844,κρητικός,Cretan,критский,A2,countries,noun
+1844,ο κρητικός,Cretan,критский,A2,countries,noun
 1845,το κριθάρι,barley,ячмень,A2,food,noun
 1846,το κρύο,cold,холод,A2,weather,noun
 1847,κάνει,it is cold,холодно,A2,body,phrase
@@ -1868,7 +1868,7 @@ id,greek,english,russian,level,group,type
 1867,τα λεφτά,money,деньги,A2,money,noun
 1868,λήγω,to expire,истекать,A2,verbs,verb
 1869,το ληξιαρχείο,registry office,бюро регистрации,A2,school,noun
-1870,λίγο,for a while (σε),немного,A2,time,preposition
+1870,λίγο,for a while (σε),немного,A2,time,adverb
 1871,ο Λίνκον Αβραάμ,Abraham Lincoln,Авраам Линкольн,A2,names,noun
 1872,η Λίτσα,Litsa,Литса,A2,names,noun
 1873,λιώνω,to melt,таять,A2,verbs,verb
@@ -1876,7 +1876,7 @@ id,greek,english,russian,level,group,type
 1875,η λογοτεχνία,literature,литература,A2,music,noun
 1876,το Λούβρο,Louvre,Лувр,A2,geography,noun
 1877,η λύση,"solution, answer","решение, ответ",A2,communication,noun
-1878,μ.μ.,after noon,после полудня,A2,time,preposition
+1878,μ.μ.,after noon,после полудня,A2,time,phrase
 1879,μα,but,но,A2,basics,conjunction
 1880,η μαγειρική,cooking,кулинария,A2,food,noun
 1881,μαζεύω από κάτω,to pick,выбирать,A2,verbs,verb
@@ -1895,7 +1895,7 @@ id,greek,english,russian,level,group,type
 1894,η Μαριάννα,Marianna,Марианна,A2,names,noun
 1895,ο Μάριος,Marios,Марио,A2,names,noun
 1896,η μάρκα αυτοκινήτου,model,модель,A2,objects,noun
-1897,μάρτυρας,witness,свидетель,A2,concepts,noun
+1897,ο/η μάρτυρας,witness,свидетель,A2,concepts,noun
 1898,η μάσκα,mask,маска,A2,objects,noun
 1899,η μάσκα ομορφιάς,beauty mask,маска красоты,A2,objects,noun
 1900,με λένε,my name is,меня зовут,A2,people,phrase
@@ -1972,7 +1972,7 @@ id,greek,english,russian,level,group,type
 1971,το οινόπνευμα,"alcohol, spirit","алкоголь, дух",A2,concepts,noun
 1972,όλος,the whole,в целом,A2,objects,adjective
 1973,ολόκληρος,"whole, entire","целое, целиком",A2,concepts,adjective
-1974,ομιλητής,"speaker, lecturer","оратор, преподаватель",A2,concepts,noun
+1974,ο ομιλητής,"speaker, lecturer","оратор, преподаватель",A2,concepts,noun
 1975,η ομίχλη,"mist, fog",туман,A2,concepts,noun
 1976,η ομορφιά,beauty,красота,A2,objects,noun
 1977,ονειρεύομαι,to dream,мечтать,A2,verbs,verb
@@ -1980,25 +1980,25 @@ id,greek,english,russian,level,group,type
 1979,το οξυγόνο,oxygen,кислород,A2,objects,noun
 1980,οριζόντια,horizontally,горизонтально,A2,descriptions,adverb
 1981,όσα,all that,"все, что",A2,basics,pronoun
-1982,Τηλεπικοινωνιών Ελλάδος,Hellenic Telecommunications Organization,Организация телекоммуникаций Греции,A2,concepts,noun
+1982,ο Τηλεπικοινωνιών Ελλάδος,Hellenic Telecommunications Organization,Организация телекоммуникаций Греции,A2,concepts,noun
 1983,το Όσκαρ βραβείο,Oscar award,"Премия ""Оскар""",A2,objects,noun
 1984,το όσπριο,legume,бобовые,A2,food,noun
 1985,ότι,that,что,A2,basics,conjunction
 1986,το ουζερί,greek tavern,греческая таверна,A2,food,noun
-1987,π.μ.,before noon,до полудня,A2,basics,preposition
+1987,π.μ.,before noon,до полудня,A2,basics,phrase
 1988,τα τρία πόδια Χαλκιδικής,three peninsulas of Chalkidiki,три полуострова Халкидики,A2,time,noun
 1989,ο πάγος,ice,лед,A2,objects,noun
 1990,η παγωνιά,freezing cold,"мороз, сильный холод",A2,body,noun
 1991,παθαίνω,"to undergo, to have happen","переносить, испытывать",A2,verbs,verb
 1992,παιδικός,for children,детский,A2,people,adjective
-1993,παλιά,"in the past, once","в прошлом, один раз",A2,time,noun
+1993,παλιά,"in the past, once","в прошлом, один раз",A2,time,adverb
 1994,πανεπιστημιακός,of university,университетский,A2,school,adjective
 1995,η πανσέληνος,full moon,полнолуние,A2,objects,noun
-1996,παντρεμένος,married,женатый,A2,descriptions,noun
+1996,παντρεμένος,married,женатый,A2,descriptions,adjective
 1997,παντρεύω,to marry,жениться,A2,verbs,verb
 1998,το πάπλωμα,blanket,одеяло,A2,home,noun
-1999,παραγωγή γραπτού λόγου,writing,письменная речь,A2,communication,noun
-2000,παραγωγή προφορικού λόγου,speaking,устная речь,A2,communication,noun
+1999,η παραγωγή γραπτού λόγου,writing,письменная речь,A2,communication,noun
+2000,η παραγωγή προφορικού λόγου,speaking,устная речь,A2,communication,noun
 2001,παραγγέλλω,to order,заказывать,A2,verbs,verb
 2002,σας παρακαλώ!,please!,пожалуйста!,A2,basics,interjection
 2003,η παραμονή,"eve, the day before","канун, день накануне",A2,time,noun
@@ -2012,15 +2012,15 @@ id,greek,english,russian,level,group,type
 2011,το πάτωμα,floor,этаж,A2,home,noun
 2012,πεθαίνω,"to die, pass away","умирать, скончаться",A2,verbs,verb
 2013,πείθω,"to persuade, to convince",убеждать,A2,verbs,verb
-2014,πειράζει,it matters (δεν),"мешать, беспокоить",A2,objects,noun
+2014,πειράζει,it matters (δεν),"мешать, беспокоить",A2,objects,verb
 2015,η περίπτωση,"case, occasion",случай,A2,concepts,noun
 2016,το πεντάγραμμο,pentagram,пентаграмма,A2,music,noun
 2017,περαστικά!,get well soon!,поправляйся!,A2,health,interjection
 2018,περιλαμβάνω,to include,включать,A2,verbs,verb
-2019,περίπου,"about, more or less","примерно, около",A2,basics,preposition
+2019,περίπου,"about, more or less","примерно, около",A2,basics,adverb
 2020,περισσότερος,more,больше,A2,basics,adjective
 2021,πετάω,to fly,летать,A2,verbs,verb
-2022,μου πηγαίνει,it suits me,мне идёт,A2,objects,noun
+2022,το μου πηγαίνει,it suits me,мне идёт,A2,objects,noun
 2023,η πιάτσα ταξί,"taxi rank, taxi stand","ранг такси, стоянка такси",A2,city,noun
 2024,το πιστοποιητικό,certificate,сертификат,A2,objects,noun
 2025,θα είμαι πίσω,I'll be back,Я вернусь,A2,body,phrase
@@ -2028,7 +2028,7 @@ id,greek,english,russian,level,group,type
 2027,πλαστικός,plastic,пластмассовый,A2,descriptions,adjective
 2028,πλένω τα πιάτα,to do the washing up,мыть посуду,A2,verbs,verb
 2029,η πληγή,"wound, injury","рана, травма",A2,health,noun
-2030,"πληροφορία, πληροφορίες","information, info",информация,A2,concepts,noun
+2030,"οι πληροφορία, πληροφορίες","information, info",информация,A2,concepts,noun
 2031,πλησιάζω,"to get near, to approach","приближаться, подходить",A2,verbs,verb
 2032,πλούσιος,"rich, wealthy",богатый,A2,money,adjective
 2033,βάζω πλυντήριο,to do the laundry,стирать,A2,verbs,verb
@@ -2040,7 +2040,7 @@ id,greek,english,russian,level,group,type
 2039,ο πολιτισμός,"civilization, culture","цивилизация, культура",A2,concepts,noun
 2040,πολιτιστικός,cultural,культурный,A2,descriptions,adjective
 2041,ο πολίτης,"citizen, civilian","гражданин, гражданский",A2,concepts,noun
-2042,πολύχρωμος,colourful,красочный,A2,colors,noun
+2042,πολύχρωμος,colourful,красочный,A2,colors,adjective
 2043,ο πονόδοντος,toothache,зубная боль,A2,body,noun
 2044,πονάει η κοιλιά μου,to have a stomach ache,болит живот,A2,verbs,verb
 2045,ο πονοκέφαλος,headache,головная боль,A2,body,noun
@@ -2055,7 +2055,7 @@ id,greek,english,russian,level,group,type
 2054,η πρεμιέρα,"premiere, opening night","премьера, ночь открытия",A2,time,noun
 2055,η πρίζα,socket,гнездо,A2,clothes,noun
 2056,πριν,before,перед,A2,basics,preposition
-2057,πριν από λίγο,a while ago,некоторое время назад,A2,time,conjunction
+2057,πριν από λίγο,a while ago,некоторое время назад,A2,time,phrase
 2058,η προβολή,screening,скрининг,A2,objects,noun
 2059,προγραμματισμένος,"planned, scheduled",запланированный,A2,descriptions,adjective
 2060,η πρόκληση,challenge,вызов,A2,objects,noun
@@ -2066,8 +2066,8 @@ id,greek,english,russian,level,group,type
 2065,προτιμάω,to prefer,предпочитать,A2,verbs,verb
 2066,η πτήση,flight,полет,A2,travel,noun
 2067,πρωινός,"morning, early","утром, ранний",A2,time,adjective
-2068,πρώτες βοήθειες,first aid,первая помощь,A2,time,noun
-2069,πυραμίδα,pyramid,пирамида,A2,objects,noun
+2068,οι πρώτες βοήθειες,first aid,первая помощь,A2,time,noun
+2069,η πυραμίδα,pyramid,пирамида,A2,objects,noun
 2070,ο Πύργος του Άιφελ,Eiffel Tower,Эйфелева башня,A2,geography,noun
 2071,η πυροσβεστική,fire department,пожарная служба,A2,weather,noun
 2072,πώς σε λένε;,what's your name?,как тебя зовут?,A2,basics,phrase
@@ -2080,14 +2080,14 @@ id,greek,english,russian,level,group,type
 2079,η ρίγανη,oregano,орегано,A2,objects,noun
 2080,η ροκ μουσική,rock music,рок музыка,A2,communication,noun
 2081,ο ρυθμός,rhythm,ритм,A2,music,noun
-2082,Ρωμαίος και Ιουλιέτα,Romeo and Juliet,Ромео и Джульетта,A2,leisure,noun
+2082,η Ρωμαίος και Ιουλιέτα,Romeo and Juliet,Ромео и Джульетта,A2,leisure,noun
 2083,η σακούλα,plastic bag,пластиковый пакет,A2,clothes,noun
 2084,ο Σαμ,Sam,Сэм,A2,names,noun
 2085,ο Σαίξπηρ Ουίλιαμ,Shakespeare William,Уильям Шекспир,A2,names,noun
 2086,σβήνω τη φωτιά,to put out the fire,тушить огонь,A2,verbs,verb
 2087,σγουρός,curly,кудрявый,A2,descriptions,adjective
 2088,η σειρά μου,my turn,моя очередь,A2,objects,noun
-2089,σερβιτόρος σερβιτόρα,waiter,"официант, официантка",A2,people,noun
+2089,ο/η σερβιτόρος σερβιτόρα,waiter,"официант, официантка",A2,people,noun
 2090,η σημασία,meaning,значение,A2,concepts,noun
 2091,η σημείωση,"note, memo","примечание, записка",A2,school,noun
 2092,η σκέψη,thought,мысль,A2,objects,noun
@@ -2104,7 +2104,7 @@ id,greek,english,russian,level,group,type
 2103,η σοπράνο,soprano,сопрано,A2,music,noun
 2104,η Σοφία,Sofia,София,A2,names,noun
 2105,σπάζω,"to smash, to break","ломать, разбивать",A2,verbs,verb
-2106,σπάνια,"rarely, seldom",редко,A2,concepts,noun
+2106,σπάνια,"rarely, seldom",редко,A2,concepts,adverb
 2107,είμαι σπίτι,to be at home,быть дома,A2,verbs,verb
 2108,μένω σπίτι,to stay indoors,оставаться дома,A2,verbs,verb
 2109,σπιτικός,home-made,самодельный,A2,home,adjective
@@ -2132,7 +2132,7 @@ id,greek,english,russian,level,group,type
 2131,συμπαθώ,to like,любить,A2,verbs,verb
 2132,συμπαθητικός,"nice, charming","милый, очаровательный",A2,concepts,adjective
 2133,συμφωνώ,to agree,соглашаться,A2,verbs,verb
-2134,συμφοιτητής,"fellow student, classmate",сокурсник,A2,people,noun
+2134,ο συμφοιτητής,"fellow student, classmate",сокурсник,A2,people,noun
 2135,συναντάω,"to meet, to come across","встречаться, сталкиваться",A2,verbs,verb
 2136,η συνάντηση,meeting,встреча,A2,school,noun
 2137,η συναυλία,concert,концерт,A2,music,noun
@@ -2148,12 +2148,12 @@ id,greek,english,russian,level,group,type
 2147,συστημένος,"introduced, recommended","введенный, рекомендованный",A2,concepts,adjective
 2148,συχνός,"often, frequent","часто, частый",A2,descriptions,adjective
 2149,σφιχτός,"tight, close","плотно, близко",A2,space,adjective
-2150,σχεδόν,almost,почти,A2,objects,noun
-2151,σε σχέση με,relating to,относящийся к,A2,objects,noun
-2152,σχετικά,"concerning, regarding",относительно,A2,concepts,noun
+2150,σχεδόν,almost,почти,A2,objects,adverb
+2151,σε σχέση με,relating to,относящийся к,A2,objects,preposition
+2152,σχετικά,"concerning, regarding",относительно,A2,concepts,adverb
 2153,πηγαίνω στο σχολείο,to go to school,пойти в школу,A2,verbs,verb
 2154,σχολικός,schooling,школьное обучение,A2,school,adjective
-2155,σωστά,"right, correctly",правильно,A2,space,noun
+2155,σωστά,"right, correctly",правильно,A2,space,adverb
 2156,η Σωτηρία,Sotiria,Сотирия,A2,names,noun
 2157,το τάγκο,tango,танго,A2,music,noun
 2158,η Τάνια,Tania,Таня,A2,names,noun
@@ -2164,21 +2164,21 @@ id,greek,english,russian,level,group,type
 2163,τελικά,"finally, after all","наконец, после того как",A2,basics,adverb
 2164,τεράστιος,"huge, enormous",огромный,A2,descriptions,adjective
 2165,τέτοιος,such,такой,A2,objects,adjective
-2166,τ.μ.,square metre,квадратный метр,A2,city,noun
+2166,τ.μ.,square metre,квадратный метр,A2,city,phrase
 2167,η τέχνη,art,искусство,A2,leisure,noun
 2168,τεχνολογικός,technological,технологический,A2,descriptions,adjective
 2169,η τζάζ,jazz,джаз,A2,music,noun
 2170,το τηγάνι,pan,сковорода,A2,objects,noun
-2171,στην τηλεόραση,on TV,по телевизору,A2,communication,noun
+2171,στην τηλεόραση,on TV,по телевизору,A2,communication,phrase
 2172,το τηλεφώνημα,"call, phone call","звонок, телефонный звонок",A2,communication,noun
 2173,το τμήμα αστυνομικό,police station,полицейский участок,A2,society,noun
 2174,τονισμένος,stressed,напряженный,A2,descriptions,adjective
 2175,ο τόπος,"place, area","место, район",A2,concepts,noun
 2176,η τοποθεσία,location,местоположение,A2,concepts,noun
 2177,τόσος,so much,так много,A2,basics,adjective
-2178,τουλάχιστον,at least,по крайней мере,A2,objects,noun
+2178,τουλάχιστον,at least,по крайней мере,A2,objects,adverb
 2179,η τούρτα,birthday cake,праздничный торт,A2,food,noun
-2180,τραγουδιστής,singer,певец,A2,music,noun
+2180,ο τραγουδιστής,singer,певец,A2,music,noun
 2181,το τραπεζομάντιλο,tablecloth,скатерть,A2,clothes,noun
 2182,το τρέξιμο,running,бег,A2,sports,noun
 2183,πηγαίνω για τρέξιμο,to go running,бежать,A2,verbs,verb
@@ -2186,8 +2186,8 @@ id,greek,english,russian,level,group,type
 2185,η Τρίπολη,Tripoli,Триполи,A2,geography,noun
 2186,η τροφή,food,пища,A2,food,noun
 2187,τρυφερός,"tender, gentle","нежный, ласковый",A2,concepts,adjective
-2188,τροχαία,traffic police,полиция дорожного движения,A2,society,noun
-2189,μου φαίνεται,it seems to me,мне кажется,A2,objects,noun
+2188,η τροχαία,traffic police,полиция дорожного движения,A2,society,noun
+2189,το μου φαίνεται,it seems to me,мне кажется,A2,objects,noun
 2190,η φακή,lentil,чечевица,A2,food,noun
 2191,ο Φάμπιο,Fabio,Фабио,A2,names,noun
 2192,φανταστικά,wonderfully,чудесно,A2,descriptions,adverb
@@ -2197,14 +2197,14 @@ id,greek,english,russian,level,group,type
 2196,φετινός,of this year,"этого года, нынешний",A2,basics,adjective
 2197,φθηνός,cheap,дешевый,A2,clothes,adjective
 2198,φιλάω,to kiss,целоваться,A2,verbs,verb
-2199,φίλος φίλη,friend,друг,A2,people,noun
+2199,ο/η φίλος φίλη,friend,друг,A2,people,noun
 2200,η φιλολογία,"literature, philology","литература, филология",A2,music,noun
 2201,φιλοξενώ,to host,принимать у себя,A2,verbs,verb
 2202,το φλιτζάνι,cup,чашка,A2,food,noun
-2203,φοιτητής φοτήτρια,student,"студент, студентка",A2,people,noun
-2204,φοιτητική εστία,student residence,студенческий дом,A2,people,noun
+2203,ο/η φοιτητής φοτήτρια,student,"студент, студентка",A2,people,noun
+2204,η φοιτητική εστία,student residence,студенческий дом,A2,people,noun
 2205,φοιτώ,to attend school/university,"учиться, посещать занятия",A2,verbs,verb
-2206,μία φορά,once,один раз,A2,time,noun
+2206,μία φορά,once,один раз,A2,time,phrase
 2207,το φουντούκι,hazelnut,фундук,A2,objects,noun
 2208,το φουστάνι,dress,платье,A2,clothes,noun
 2209,φροντίζω,to take care of,заботиться о,A2,verbs,verb
@@ -2241,19 +2241,19 @@ id,greek,english,russian,level,group,type
 2240,ο υπολογιστής,computer,компьютер,A2,school,noun
 2241,υποχρεωτικός,obligatory,обязательный,A2,objects,adjective
 2242,το ύφασμα,"cloth, fabric",ткань,A2,clothes,noun
-2243,υψηλή θερμοκρασία,"high temperature, fever","высокая температура, жар",A2,body,noun
-2244,χορευτής,dancer,танцор,A2,music,noun
+2243,η υψηλή θερμοκρασία,"high temperature, fever","высокая температура, жар",A2,body,noun
+2244,ο χορευτής,dancer,танцор,A2,music,noun
 2245,Χριστός Ανέστη!,Christ is risen!,Христос воскрес!,A2,holidays,phrase
 2246,χριστουγεννιάτικος,"Christmas, Christmas-related",рождественский,A2,time,adjective
 2247,η χρονιά,year,год,A2,time,noun
 2248,χρόνια πολλά!,merry Christmas!,с Рождеством!,A2,holidays,interjection
 2249,χτυπάει το τηλέφωνο,the phone is ringing,телефон звонит,A2,communication,phrase
-2250,χωρισμένος,"separated, divorced","разделенный, разведенный",A2,descriptions,noun
-2251,ψι ψάρι,fish,рыба,A2,food,noun
+2250,χωρισμένος,"separated, divorced","разделенный, разведенный",A2,descriptions,adjective
+2251,τα ψι ψάρι,fish,рыба,A2,food,noun
 2252,λέω ψέματα,to lie,лгать,A2,verbs,verb
 2253,ψητός,"roast, baked","жареный, запеченный",A2,descriptions,adjective
-2254,ψιχαλίζει,it drizzles,моросит,A2,objects,noun
-2255,ωδείο,conservatory,консерватория,A2,music,noun
+2254,ψιχαλίζει,it drizzles,моросит,A2,objects,verb
+2255,το ωδείο,conservatory,консерватория,A2,music,noun
 2256,αγγίζω,to touch,касаться,B1,verbs,verb
 2257,η αγελάδα,cow,корова,B1,animals,noun
 2258,η αγένεια,"rudeness, impoliteness","грубость, невежливость",B1,concepts,noun
@@ -2281,9 +2281,9 @@ id,greek,english,russian,level,group,type
 2280,η άθληση,"exercise, sports","физические упражнения, спорт",B1,sports,noun
 2281,αθλούμαι,"to work out, to exercise","тренироваться, заниматься спортом",B1,verbs,verb
 2282,αθόρυβος,"silent, quiet","молчать, тихий",B1,concepts,adjective
-2283,Αιγόκερως,Capricorn,Козерог,B1,objects,noun
+2283,ο/η Αιγόκερως,Capricorn,Козерог,B1,objects,noun
 2284,αιμορραγώ,to bleed,кровоточить,B1,verbs,verb
-2285,Αινστάιν,"Einstein, Albert","Эйнштейн, Альберт",B1,names,noun
+2285,ο Αινστάιν,"Einstein, Albert","Эйнштейн, Альберт",B1,names,noun
 2286,το αίσθημα,"feeling, emotion","чувство, эмоция",B1,feelings,noun
 2287,η αισθητική,aesthetics,эстетика,B1,objects,noun
 2288,η αισιοδοξία,optimism,оптимизм,B1,concepts,noun
@@ -2320,12 +2320,12 @@ id,greek,english,russian,level,group,type
 2319,το αλλαντικό,deli meat,мясные деликатесы,B1,food,noun
 2320,η αλλεργία,allergy,аллергия,B1,health,noun
 2321,αλλεργικός,allergic,аллергический,B1,health,adjective
-2322,άλλωστε,"besides, moreover","помимо, более того",B1,space,noun
+2322,άλλωστε,"besides, moreover","помимо, более того",B1,space,adverb
 2323,η αλμύρα,saltiness,соленость,B1,food,noun
 2324,η αλοιφή,"paste, dip","паста, окунать",B1,food,noun
 2325,το αλουμίνιο,aluminum,алюминий,B1,objects,noun
 2326,το αλουμινόχαρτο,aluminum foil,алюминиевая фольга,B1,objects,noun
-2327,αλώβητα,"untouched, unscathed","нетронутый, невредимый",B1,descriptions,noun
+2327,η αλώβητα,"untouched, unscathed","нетронутый, невредимый",B1,descriptions,noun
 2328,η αμαξοστοιχία,train,поезд,B1,city,noun
 2329,η Αμερική,"America, USA","Америка, США",B1,countries,noun
 2330,άμεσα,"promptly, directly","быстро, непосредственно",B1,descriptions,adverb
@@ -2340,7 +2340,7 @@ id,greek,english,russian,level,group,type
 2339,αναγκαίος,"necessary, essential",необходимый,B1,feelings,adjective
 2340,αναγκαστικός,"forced, obligatory","вынужденный, обязательный",B1,concepts,adjective
 2341,το αναγνωστήριο,reading room,читальный зал,B1,home,noun
-2342,ο αναγνώστης,reader,читатель,B1,verbs,verb
+2342,ο αναγνώστης,reader,читатель,B1,verbs,noun
 2343,αναίσθητος,"insensitive, unconscious","бесчувственный, бессознательный",B1,descriptions,adjective
 2344,η ανακαίνιση,"renovation, restoration","ремонт, восстановление",B1,home,noun
 2345,ανακαινισμένος,"renovated, restored","отремонтированный, восстановленный",B1,home,adjective
@@ -2374,7 +2374,7 @@ id,greek,english,russian,level,group,type
 2373,ανεκτίμητος,"priceless, invaluable",бесценный,B1,money,adjective
 2374,ο ανεμοστρόβιλος,tornado,смерч,B1,objects,noun
 2375,η ανεργία,unemployment,безработица,B1,society,noun
-2376,άνετα,comfortably,комфортно,B1,concepts,noun
+2376,άνετα,comfortably,комфортно,B1,concepts,adverb
 2377,άνετος,"comfortable, comfy","комфортный, удобный",B1,concepts,adjective
 2378,ανεύθυνος,irresponsible,безответственный,B1,society,adjective
 2379,η ανευθυνότητα,irresponsibility,безответственность,B1,concepts,noun
@@ -2411,7 +2411,7 @@ id,greek,english,russian,level,group,type
 2410,αντιδρώ,to react,реагировать,B1,verbs,verb
 2411,το αντιηλιακό,"sun block, sunscreen","солнечный блок, солнцезащитный крем",B1,weather,noun
 2412,η αντίθεση,"contradiction, contrast","противоречие, контраст",B1,concepts,noun
-2413,αντίθετα,on the contrary,наоборот,B1,descriptions,noun
+2413,η αντίθετα,on the contrary,наоборот,B1,descriptions,noun
 2414,η αντικαταβολή,payment upon delivery,оплата при доставке,B1,shopping,noun
 2415,η αντικατάσταση,"replacement, substitution",замена,B1,concepts,noun
 2416,η αντικειμενικότητα,"objectivity, impartiality","объективность, беспристрастность",B1,concepts,noun
@@ -2425,7 +2425,7 @@ id,greek,english,russian,level,group,type
 2424,αντιπαθητικός,"obnoxious, disagreeable","отвратительный, неприятный",B1,descriptions,adjective
 2425,αντίπαλος,opponent,противник,B1,descriptions,adjective
 2426,αντιπροσωπεύω,to represent,представлять,B1,verbs,verb
-2427,αντιπρόσωπος,representative,представитель,B1,objects,noun
+2427,ο/η αντιπρόσωπος,representative,представитель,B1,objects,noun
 2428,η αντίρρηση,objection,возражение,B1,concepts,noun
 2429,αντίστοιχα,accordingly,соответственно,B1,descriptions,adverb
 2430,αντιστοιχώ,to correspond,соответствовать,B1,verbs,verb
@@ -2433,16 +2433,16 @@ id,greek,english,russian,level,group,type
 2432,ο αντίχειρας,thumb,большой палец,B1,body,noun
 2433,η αντοχή,"endurance, durability","выносливость, долговечность",B1,concepts,noun
 2434,η αντωνυμία,pronoun,местоимение,B1,school,noun
-2435,Άνω Πορόια,Ano Poroia,Ано Пороя,B1,geography,noun
+2435,η Άνω Πορόια,Ano Poroia,Ано Пороя,B1,geography,noun
 2436,το ανώι,first floor,первый этаж,B1,home,noun
-2437,άνω κάτω,in a mess,в беспорядке,B1,objects,noun
+2437,άνω κάτω,in a mess,в беспорядке,B1,objects,phrase
 2438,ανώνυμος,anonymous,анонимный,B1,descriptions,adjective
 2439,ανώριμος,immature,незрелый,B1,objects,adjective
 2440,η ανωριμότητα,immaturity,незрелость,B1,concepts,noun
 2441,ανώτερος,"superior, higher","превосходящий, выше",B1,space,adjective
 2442,ανώφελος,"fruitless, pointless","бесплодный, бессмысленный",B1,descriptions,adjective
 2443,αξέχαστος,unforgettable,незабываемый,B1,descriptions,adjective
-2444,αξέχαστα,"unforgotten, unforgettable","незабытый, незабываемый",B1,descriptions,noun
+2444,αξέχαστα,"unforgotten, unforgettable","незабытый, незабываемый",B1,descriptions,adjective
 2445,άξιος,"worthy, capable","достойный, способный",B1,descriptions,adjective
 2446,η αξία,"value, worth",ценность,B1,concepts,noun
 2447,αξίζω,to be worth,быть достойным,B1,verbs,verb
@@ -2450,7 +2450,7 @@ id,greek,english,russian,level,group,type
 2449,η αξιολόγηση,"evaluation, assessment",оценка,B1,school,noun
 2450,η αξιοποίηση,utilization,использование,B1,concepts,noun
 2451,αξιοποιώ,to utilize,использовать с пользой,B1,verbs,verb
-2452,αόριστο άρθρο,indefinite article,неопределённый артикль,B1,school,noun
+2452,το αόριστο άρθρο,indefinite article,неопределённый артикль,B1,school,noun
 2453,αόριστα,indefinitely,неопределённо,B1,descriptions,adverb
 2454,απαγορευμένος,"prohibited, forbidden",запрещенный,B1,concepts,adjective
 2455,απαγορεύω,to forbid,запрещать,B1,verbs,verb
@@ -2467,7 +2467,7 @@ id,greek,english,russian,level,group,type
 2466,η απάτη,"fraud, scam","мошенничество, обман",B1,concepts,noun
 2467,η απειλή,threat,угроза,B1,objects,noun
 2468,απειλητικός,threatening,угрожающий,B1,objects,adjective
-2469,απειλητικά,in a threatening way,угрожающим образом,B1,concepts,noun
+2469,απειλητικά,in a threatening way,угрожающим образом,B1,concepts,adverb
 2470,απειλούμαι,to be threatened,быть под угрозой,B1,verbs,verb
 2471,απειλώ,to threaten,угрожать,B1,verbs,verb
 2472,άπειρος,inexperienced,неопытный,B1,descriptions,adjective
@@ -2513,7 +2513,7 @@ id,greek,english,russian,level,group,type
 2512,απομονώνω,to isolate,изолировать,B1,verbs,verb
 2513,η απομόνωση,isolation,изоляция,B1,concepts,noun
 2514,η απορία,"question, query","вопрос, запрос",B1,communication,noun
-2515,απορρίμματα,"garbage, waste","мусор, отходы",B1,nature,noun
+2515,η απορρίμματα,"garbage, waste","мусор, отходы",B1,nature,noun
 2516,απορώ,to wonder,удивляться,B1,verbs,verb
 2517,η αποσκευή,"suitcase, baggage","чемодан, багаж",B1,city,noun
 2518,το απόσπασμα,"passage, extract","проход, экстракт",B1,concepts,noun
@@ -2531,7 +2531,7 @@ id,greek,english,russian,level,group,type
 2530,αποφασιστικός,decisive,решительный,B1,descriptions,adjective
 2531,αποχαιρετώ,to say goodbye,прощаться,B1,verbs,verb
 2532,η απόχρωση,"hue, tint",оттенок,B1,concepts,noun
-2533,απόψε,tonight,сегодня вечером,B1,time,noun
+2533,απόψε,tonight,сегодня вечером,B1,time,adverb
 2534,η άποψη,opinion,мнение,B1,concepts,noun
 2535,απρόθυμος,reluctant,неохотный,B1,descriptions,adjective
 2536,απρόσεκτος,careless,беспечный,B1,descriptions,adjective
@@ -2542,7 +2542,7 @@ id,greek,english,russian,level,group,type
 2541,η αργία,public holiday,государственный праздник,B1,society,noun
 2542,η αργκό,slang,сленг,B1,objects,noun
 2543,το Άργος,Argos,Аргос,B1,geography,noun
-2544,αργότερα,later,позже,B1,time,noun
+2544,η αργότερα,later,позже,B1,time,noun
 2545,ο αργυροπελεκάνος,Dalmatian pelican,кудрявый пеликан,B1,nature,noun
 2546,ο Άρης,Mars,Марс,B1,objects,noun
 2547,αριθμώ,to enumerate,перечислять,B1,verbs,verb
@@ -2557,7 +2557,7 @@ id,greek,english,russian,level,group,type
 2556,η Άρτεμη,Artemis,Артемида,B1,names,noun
 2557,αρχαίος,ancient,древний,B1,descriptions,adjective
 2558,το αρχείο,file,файл,B1,objects,noun
-2559,αρχές,in the beginning,в начале,B1,objects,noun
+2559,αρχές,in the beginning,в начале,B1,objects,phrase
 2560,αρχικά,"initially, firstly","первоначально, во-первых",B1,descriptions,adverb
 2561,αρχικός,initial,начальный,B1,descriptions,adjective
 2562,αρχιτεκτονικός,architectural,архитектурный,B1,descriptions,adjective
@@ -2580,7 +2580,7 @@ id,greek,english,russian,level,group,type
 2579,ο αστράγαλος,ankle,лодыжка,B1,body,noun
 2580,η αστραπή,lightning,молния,B1,nature,noun
 2581,αστραφτερός,"sparkling, shiny","сверкающий, блестящий",B1,concepts,adjective
-2582,αστροφυσικός,astrophysicist,астрофизик,B1,objects,noun
+2582,ο/η αστροφυσικός,astrophysicist,астрофизик,B1,objects,noun
 2583,η Αστυπάλαια,Astypalaia,Астипалайя,B1,geography,noun
 2584,ασφαλίζω,to secure,охранять,B1,verbs,verb
 2585,ασφαλισμένος,insured,застрахованный,B1,descriptions,adjective
@@ -2628,7 +2628,7 @@ id,greek,english,russian,level,group,type
 2627,αχυρένιος,made of straw,сделанный из соломы,B1,nature,adjective
 2628,το άχυρο,straw,солома,B1,nature,noun
 2629,αχώριστος,inseparable,неразлучный,B1,descriptions,adjective
-2630,βαγόνι,"railway car, carriage",железнодорожный вагон,B1,city,noun
+2630,το βαγόνι,"railway car, carriage",железнодорожный вагон,B1,city,noun
 2631,η βαθμίδα,"level, grade","уровень, ступень",B1,school,noun
 2632,η βαθμολογία,"grading, marks","оценивание, оценки",B1,concepts,noun
 2633,βαθμολογώ,"to grade, to mark",оценивать,B1,verbs,verb
@@ -2653,7 +2653,7 @@ id,greek,english,russian,level,group,type
 2652,βέβαιος,certain,определенный,B1,objects,adjective
 2653,η βεβαιότητα,certainty,определенность,B1,objects,noun
 2654,η βεγγέρα,"dinner party, evening visit","званый ужин, вечерний визит",B1,food,noun
-2655,βέλγος,Belgian person,бельгиец,B1,countries,noun
+2655,ο βέλγος,Belgian person,бельгиец,B1,countries,noun
 2656,η βελόνα,needle,игла,B1,objects,noun
 2657,βελτιώνομαι,"to get better, to improve","улучшаться, становиться лучше",B1,verbs,verb
 2658,βελτιώνω,"to improve, to make better","улучшать, совершенствовать",B1,verbs,verb
@@ -2683,8 +2683,8 @@ id,greek,english,russian,level,group,type
 2682,το βοήθημα,textbook,учебник,B1,school,noun
 2683,βολεύω,"to arrange, make convenient","устраивать, делать удобным",B1,verbs,verb
 2684,βολικός,"comfortable, convenient","комфортный, удобный",B1,concepts,adjective
-2685,βόρεια,"north, to the north","север, к северу",B1,concepts,noun
-2686,βορειοδυτικά,northwest,северо-запад,B1,objects,noun
+2685,η βόρεια,"north, to the north","север, к северу",B1,concepts,noun
+2686,βορειοδυτικά,northwest,северо-запад,B1,objects,adverb
 2687,ο βοριάς,northerly wind,северный ветер,B1,weather,noun
 2688,το βότανο,herb,трава,B1,weather,noun
 2689,το βουβάλι,buffalo,буйвол,B1,objects,noun
@@ -2696,7 +2696,7 @@ id,greek,english,russian,level,group,type
 2695,το βραβείο,"prize, award","приз, награда",B1,concepts,noun
 2696,βραβεύομαι,to receive an award,получать награду,B1,verbs,verb
 2697,βραβεύω,to award,награждать,B1,verbs,verb
-2698,βραδιάζει,it's getting dark,становится темно,B1,objects,noun
+2698,βραδιάζει,it's getting dark,становится темно,B1,objects,verb
 2699,βραδινός,evening,вечерний,B1,time,adjective
 2700,το βράσιμο,boiling,кипящий,B1,objects,noun
 2701,το βραχιόλι,bracelet,браслет,B1,clothes,noun
@@ -2713,7 +2713,7 @@ id,greek,english,russian,level,group,type
 2712,η βροντή,thunder,гром,B1,space,noun
 2713,βροχερός,rainy,дождливый,B1,weather,adjective
 2714,βωβός,"silent, mute","молчать, немой",B1,concepts,adjective
-2715,γάβρος,anchovy,анчоус,B1,objects,noun
+2715,ο γάβρος,anchovy,анчоус,B1,objects,noun
 2716,γαζώνω,to sew,шить,B1,verbs,verb
 2717,το γαϊδουράκι,small donkey,маленький осел,B1,animals,noun
 2718,το γαϊτάνι,a decorative cord edging,декоративная шнуровая окантовка,B1,objects,noun
@@ -2728,7 +2728,7 @@ id,greek,english,russian,level,group,type
 2727,γειτονικός,neighboring,соседний,B1,city,adjective
 2728,το γέλιο,laugh,смех,B1,feelings,noun
 2729,τα γεμιστά,stuffed vegetables,фаршированные овощи,B1,food,noun
-2730,γεμιστές πιπεριές,stuffed peppers,фаршированные перцы,B1,food,noun
+2730,οι γεμιστές πιπεριές,stuffed peppers,фаршированные перцы,B1,food,noun
 2731,η γενιά,generation,поколение,B1,concepts,noun
 2732,γενικός,general,общий,B1,descriptions,adjective
 2733,η γενική,genitive case,родительный падеж,B1,objects,noun
@@ -2740,7 +2740,7 @@ id,greek,english,russian,level,group,type
 2739,τα γεράματα,old age,старость,B1,time,noun
 2740,το γεράνι,geranium,герань,B1,nature,noun
 2741,γερασμένος,old,старый,B1,descriptions,adjective
-2742,γέρικος,old,старый,B1,descriptions,noun
+2742,γέρικος,old,старый,B1,descriptions,adjective
 2743,γερνάω,to get older,стареть,B1,verbs,verb
 2744,γευματίζω,to have a meal,обедать,B1,verbs,verb
 2745,γεύομαι,to taste,пробовать на вкус,B1,verbs,verb
@@ -2767,8 +2767,8 @@ id,greek,english,russian,level,group,type
 2766,γλεντάω,"to celebrate, to party","праздновать, веселиться",B1,verbs,verb
 2767,η γλύκα,sweetness,сладость,B1,food,noun
 2768,γλυκαίνω,to sweeten,подслащивать,B1,verbs,verb
-2769,γλυκό του κουταλιού,"spoon sweets, preserves","ложка сладостей, консервы",B1,food,noun
-2770,γλυκό του ταψιού,baked tray dessert,сладкая выпечка на противне,B1,food,noun
+2769,το γλυκό του κουταλιού,"spoon sweets, preserves","ложка сладостей, консервы",B1,food,noun
+2770,το γλυκό του ταψιού,baked tray dessert,сладкая выпечка на противне,B1,food,noun
 2771,γλυκός,"sweet, cute","сладкий, милый",B1,food,adjective
 2772,η γλυπτική,sculpture,скульптура,B1,music,noun
 2773,το γνώρισμα,feature,особенность,B1,objects,noun
@@ -2789,7 +2789,7 @@ id,greek,english,russian,level,group,type
 2788,γραμματικός,grammatical,грамматический,B1,descriptions,adjective
 2789,γραμμένος,written,написанный,B1,objects,adjective
 2790,τα γραπτά,written exam papers,письменные работы,B1,school,noun
-2791,γραπτές εξετάσεις,written exams,письменные экзамены,B1,objects,noun
+2791,οι γραπτές εξετάσεις,written exams,письменные экзамены,B1,objects,noun
 2792,γραφικός,picturesque,живописный,B1,objects,adjective
 2793,ο γραφίστας,graphic designer,графический дизайнер,B1,professions,noun
 2794,γρουσούζης,jinx,"человек, приносящий несчастье",B1,objects,adjective
@@ -2830,7 +2830,7 @@ id,greek,english,russian,level,group,type
 2829,ο Δημητρός,Dimitros,Димитрос,B1,names,noun
 2830,η δημιουργία,creation,создание,B1,concepts,noun
 2831,δημιουργικός,creative,творческий,B1,descriptions,adjective
-2832,δημιουργός,creator,создатель,B1,objects,noun
+2832,ο/η δημιουργός,creator,создатель,B1,objects,noun
 2833,δημιουργούμαι,to be created,быть созданным,B1,verbs,verb
 2834,η δημοσιοποίηση,publication,публикация,B1,society,noun
 2835,δημοφιλής,"popular, famous","популярный, известный",B1,descriptions,adjective
@@ -2877,7 +2877,7 @@ id,greek,english,russian,level,group,type
 2876,διηγούμαι,to narrate,рассказывать,B1,verbs,verb
 2877,το δικαίωμα,"right, entitlement",право,B1,space,noun
 2878,το δικαστήριο,court of law,суд,B1,society,noun
-2879,δικαστής,judge,судья,B1,objects,noun
+2879,ο/η δικαστής,judge,судья,B1,objects,noun
 2880,η δίκη,"trial, court case","суд, судебный процесс",B1,society,noun
 2881,το δίκιο,"right, justice","правда, правота",B1,feelings,noun
 2882,το δίκτυο,network,сеть,B1,objects,noun
@@ -2921,7 +2921,7 @@ id,greek,english,russian,level,group,type
 2920,δυσκολεύομαι,to have difficulty,испытывать трудности,B1,verbs,verb
 2921,δυσκολεύω,to make harder,усложнять,B1,verbs,verb
 2922,η δυστυχία,"misfortune, unhappiness","неудача, несчастье",B1,concepts,noun
-2923,δυτικά,west,запад,B1,objects,noun
+2923,δυτικά,west,запад,B1,objects,adverb
 2924,δυτικός,western,западный,B1,objects,adjective
 2925,δύω,to set,устанавливать,B1,verbs,verb
 2926,τα Δωδεκάνησα,Dodekanisa,Додеканиса,B1,geography,noun
@@ -2929,7 +2929,7 @@ id,greek,english,russian,level,group,type
 2928,δωρίζω,"to donate, to offer","пожертвовать, предлагать",B1,verbs,verb
 2929,ο Έβρος,Evros,Эврос,B1,geography,noun
 2930,η εγγραφή,registration,регистрация,B1,concepts,noun
-2931,εγκαίρως,in time,вовремя,B1,time,noun
+2931,εγκαίρως,in time,вовремя,B1,time,adverb
 2932,εγκαταλείπω,"to abandon, to leave","отказываться, уходить",B1,verbs,verb
 2933,η εγκατάσταση,establishment,создание,B1,descriptions,noun
 2934,ο εγκέφαλος,brain,мозг,B1,body,noun
@@ -2943,7 +2943,7 @@ id,greek,english,russian,level,group,type
 2942,ο εθελοντής,volunteer,добровольец,B1,society,noun
 2943,εθελοντικός,voluntary,добровольный,B1,society,adjective
 2944,η εθνότητα,ethnicity,этническая принадлежность,B1,concepts,noun
-2945,ειδικά,"especially, specifically","особенно, конкретно",B1,communication,noun
+2945,ειδικά,"especially, specifically","особенно, конкретно",B1,communication,adverb
 2946,ειδικευμένος,"skilled, trained","квалифицированный, обученный",B1,descriptions,adjective
 2947,ο/η ειδικός,"expert, specialist","эксперт, специалист",B1,school,noun
 2948,εικονικός,virtual,виртуальный,B1,descriptions,adjective
@@ -2961,7 +2961,7 @@ id,greek,english,russian,level,group,type
 2960,η έκδοση,publication,публикация,B1,society,noun
 2961,το εκδοτήριο,ticket office,билетная касса,B1,school,noun
 2962,εκδοτικός,"publishing, issuing",издательский,B1,concepts,adjective
-2963,έκθεση,essay writing,написание эссе,B1,objects,noun
+2963,η έκθεση,essay writing,написание эссе,B1,objects,noun
 2964,η εκλογή,election,выборы,B1,society,noun
 2965,εκμεταλλεύομαι,to take advantage of,"пользоваться, эксплуатировать",B1,verbs,verb
 2966,το Εκουαδόρ,Ecuador,Эквадор,B1,countries,noun
@@ -2971,7 +2971,7 @@ id,greek,english,russian,level,group,type
 2970,εκπληκτικός,"amazing, astonishing",удивительный,B1,concepts,adjective
 2971,εκπτωτικός,"cut-rate, discount","пониженная ставка, скидка",B1,shopping,adjective
 2972,η έκταση,"area, range","район, диапазон",B1,concepts,noun
-2973,εκτός,besides,помимо,B1,space,noun
+2973,εκτός,besides,помимо,B1,space,adverb
 2974,εκτυπώνω,to print,печатать,B1,verbs,verb
 2975,ο εκτυπωτής,printer,принтер,B1,objects,noun
 2976,εκφοβίζω,"to bully, to intimidate","запугивать, устрашать",B1,verbs,verb
@@ -3003,7 +3003,7 @@ id,greek,english,russian,level,group,type
 3002,εμπορεύομαι,"to trade, to sell","торговать, продавать",B1,verbs,verb
 3003,εμπορικός,commercial,коммерческий,B1,shopping,adjective
 3004,το εμπόριο,"trade, commerce",торговля,B1,shopping,noun
-3005,έμπορος,"trader, merchant",торговец,B1,shopping,noun
+3005,ο/η έμπορος,"trader, merchant",торговец,B1,shopping,noun
 3006,εμφανίζομαι,to appear,появляться,B1,verbs,verb
 3007,η έμφαση,emphasis,акцент,B1,concepts,noun
 3008,εμφιαλωμένος,bottled,бутилированный,B1,descriptions,adjective
@@ -3029,7 +3029,7 @@ id,greek,english,russian,level,group,type
 3028,ενοχλητικός,"annoying, disturbing","раздражающий, беспокоящий",B1,concepts,adjective
 3029,ενοχλούμαι,to be annoyed,раздражаться,B1,verbs,verb
 3030,ενοχλώ,"to annoy, to disturb","раздражать, беспокоить",B1,verbs,verb
-3031,εντάξει,"okay, all right","хорошо, ладно",B1,basics,particle
+3031,εντάξει,"okay, all right","хорошо, ладно",B1,basics,interjection
 3032,η ένταση,tension,напряжение,B1,concepts,noun
 3033,εντελώς,"totally, completely",полностью,B1,basics,adverb
 3034,έντονος,intense,сильный,B1,objects,adjective
@@ -3061,7 +3061,7 @@ id,greek,english,russian,level,group,type
 3060,ο εξεταστής,examiner,экзаменатор,B1,school,noun
 3061,εξεταστικός,examining,изучение,B1,objects,adjective
 3062,εξηγούμαι,to explain myself,объясняться,B1,verbs,verb
-3063,εξής,the following,следующий,B1,objects,noun
+3063,ο εξής,the following,следующий,B1,objects,noun
 3064,το έξοδο,"expense, cost","расходы, стоимость",B1,money,noun
 3065,η εξοικονόμηση,saving,экономия,B1,objects,noun
 3066,εξοικονομώ,to save,"экономить, сберегать",B1,verbs,verb
@@ -3090,7 +3090,7 @@ id,greek,english,russian,level,group,type
 3089,επηρεάζομαι,to be influenced,подпадать под влияние,B1,verbs,verb
 3090,επηρεάζω,"to affect, to influence",влиять,B1,verbs,verb
 3091,επιβάλλω,to impose,навязывать,B1,verbs,verb
-3092,επιβάτης,passenger,пассажир,B1,objects,noun
+3092,ο/η επιβάτης,passenger,пассажир,B1,objects,noun
 3093,επιβιβάζομαι,to board,подниматься на борт,B1,verbs,verb
 3094,η επιδερμίδα,"skin, complexion","кожа, комплекс",B1,concepts,noun
 3095,επιδιορθώνω,"to fix, to mend",исправлять,B1,verbs,verb
@@ -3114,7 +3114,7 @@ id,greek,english,russian,level,group,type
 3113,ο επισκέπτης,"visitor, guest","посетитель, гость",B1,people,noun
 3114,επισκευάζω,"to repair, to fix","ремонтировать, исправлять",B1,verbs,verb
 3115,η επισκευή,"repair, fix","ремонт, исправлять",B1,concepts,noun
-3116,επιστήμονας,scientist,ученый,B1,objects,noun
+3116,ο/η επιστήμονας,scientist,ученый,B1,objects,noun
 3117,επιστημονικός,scientific,научный,B1,descriptions,adjective
 3118,η επιστολή,letter,письмо,B1,communication,noun
 3119,η επιστροφή,return,возвращение,B1,objects,noun
@@ -3125,9 +3125,9 @@ id,greek,english,russian,level,group,type
 3124,επιτυχημένος,successful,успешный,B1,concepts,adjective
 3125,η επιφάνεια,surface,поверхность,B1,objects,noun
 3126,το επιχείρημα,"argument, point","аргумент, довод",B1,concepts,noun
-3127,επιχειρηματίας,"businessman, businesswoman","бизнесмен, предпринимательница",B1,concepts,noun
+3127,ο/η επιχειρηματίας,"businessman, businesswoman","бизнесмен, предпринимательница",B1,concepts,noun
 3128,η επιχείρηση,"business, company","бизнес, компания",B1,society,noun
-3129,επομένως,"thus, therefore","таким образом, поэтому",B1,concepts,noun
+3129,επομένως,"thus, therefore","таким образом, поэтому",B1,concepts,adverb
 3130,εποχιακός,seasonal,сезонный,B1,nature,adjective
 3131,εργάζομαι,to work,работать,B1,verbs,verb
 3132,ο εργαζόμενος,"employee, worker","работник, рабочий",B1,school,noun
@@ -3174,7 +3174,7 @@ id,greek,english,russian,level,group,type
 3173,ο εφιάλτης,nightmare,кошмар,B1,time,noun
 3174,εχθρικός,hostile,враждебный,B1,objects,adjective
 3175,ο εχθρός,enemy,враг,B1,objects,noun
-3176,ζακέτα,"sweater, jacket","свитер, куртка",B1,clothes,noun
+3176,η ζακέτα,"sweater, jacket","свитер, куртка",B1,clothes,noun
 3177,η ζάλη,dizziness,головокружение,B1,health,noun
 3178,ζαλίζομαι,"to feel dizzy, to get dizzy",испытывать головокружение,B1,verbs,verb
 3179,ζαλισμένος,dizzy,головокружение,B1,health,adjective
@@ -3264,7 +3264,7 @@ id,greek,english,russian,level,group,type
 3263,θυμωμένος,angry,"злой, сердитый",B1,feelings,adjective
 3264,θυμώνω,"to become angry, to get mad","злиться, сердиться",B1,verbs,verb
 3265,η θυρίδα,"locker, box","ячейка, бокс",B1,home,noun
-3266,θύτης,"offender, perpetrator","преступник, исполнитель",B1,concepts,noun
+3266,ο/η θύτης,"offender, perpetrator","преступник, исполнитель",B1,concepts,noun
 3267,ο Ιανουάριος,January,январь,B1,time,noun
 3268,το ιατρείο,doctor's office,кабинет врача,B1,people,noun
 3269,ιατρικός,medical,медицинский,B1,health,adjective
@@ -3286,8 +3286,8 @@ id,greek,english,russian,level,group,type
 3285,ισότιμος,equivalent,эквивалентный,B1,descriptions,adjective
 3286,ιστορικός,historic,исторический,B1,descriptions,adjective
 3287,ισχυρός,"strong, severe",сильный,B1,concepts,adjective
-3288,κάβα,"wine cellar, liquor store","винный погреб, винный магазин",B1,food,noun
-3289,καβγάς,"fight, argument","ссора, спор",B1,descriptions,noun
+3288,η κάβα,"wine cellar, liquor store","винный погреб, винный магазин",B1,food,noun
+3289,ο καβγάς,"fight, argument","ссора, спор",B1,descriptions,noun
 3290,ο κάδος,"bucket, bin","ведро, контейнер",B1,home,noun
 3291,το κάδρο,"frame, picture frame","рамка, картинная рамка",B1,concepts,noun
 3292,καημένος,poor thing,бедняжка,B1,objects,adjective
@@ -3304,7 +3304,7 @@ id,greek,english,russian,level,group,type
 3303,καθυστερώ,"to be late, to delay","опоздать, откладывать",B1,verbs,verb
 3304,το Κάιρο,Cairo,Каир,B1,countries,noun
 3305,το δελτίο καιρού,weather forecast,прогноз погоды,B1,weather,noun
-3306,σε λίγο καιρό,in a while,через некоторое время,B1,time,conjunction
+3306,σε λίγο καιρό,in a while,через некоторое время,B1,time,phrase
 3307,η κακοκαιρία,bad weather,плохая погода,B1,weather,noun
 3308,το καλάθι,"basket, bin",корзина,B1,concepts,noun
 3309,το καλαμαράκι,squid,кальмар,B1,food,noun
@@ -3323,7 +3323,7 @@ id,greek,english,russian,level,group,type
 3322,το καλούπι,"mold, cast","форма, литейная форма",B1,descriptions,noun
 3323,το κάλυμμα,"cover, top","крышка, вершина",B1,concepts,noun
 3324,καλυτερεύω,"to improve, to get better","улучшаться, становиться лучше",B1,verbs,verb
-3325,καμπάνα,bell,колокол,B1,objects,noun
+3325,η καμπάνα,bell,колокол,B1,objects,noun
 3326,η καμπίνα,cabin,кабина,B1,objects,noun
 3327,το κανάτι,"cruse, pitcher",кувшин,B1,society,noun
 3328,η κανέλα,cinnamon,корица,B1,objects,noun
@@ -3335,12 +3335,12 @@ id,greek,english,russian,level,group,type
 3334,καπνίζω,to smoke,курить,B1,verbs,verb
 3335,το κάπνισμα,smoking,курение,B1,objects,noun
 3336,ο καπνός,smoke,дым,B1,objects,noun
-3337,κάπου,somewhere,где-то,B1,objects,noun
+3337,κάπου,somewhere,где-то,B1,objects,adverb
 3338,το κάρδαμο,cardamom,кардамон,B1,food,noun
 3339,το καρέ,"bobbed hair, bob","каре, стрижка",B1,body,noun
 3340,η καριέρα,career,карьера,B1,objects,noun
 3341,ο καρκίνος,cancer,рак,B1,health,noun
-3342,καρό,checked,клетчатый,B1,descriptions,noun
+3342,καρό,checked,клетчатый,B1,descriptions,adjective
 3343,το κάρο,wagon,вагон,B1,objects,noun
 3344,ο καρπός,wrist,запястье,B1,body,noun
 3345,η καρύδα,coconut,кокосовый,B1,food,noun
@@ -3365,7 +3365,7 @@ id,greek,english,russian,level,group,type
 3364,καταπίνω,to swallow,глотать,B1,verbs,verb
 3365,καταπράσινος,"bright green, leafy","ярко-зеленый, листовой",B1,colors,adjective
 3366,καταριέμαι,to curse,проклинать,B1,verbs,verb
-3367,καταρχήν,in principle,в принципе,B1,objects,noun
+3367,καταρχήν,in principle,в принципе,B1,objects,adverb
 3368,κατασκευάζω,"to build, to construct",строить,B1,verbs,verb
 3369,κατασκευασμένος,"built, constructed",построенный,B1,descriptions,adjective
 3370,κατασκευαστικός,constructional,строительный,B1,descriptions,adjective
@@ -3375,15 +3375,15 @@ id,greek,english,russian,level,group,type
 3374,η καταστροφή,destruction,разрушение,B1,concepts,noun
 3375,καταστροφικός,destructive,разрушительный,B1,descriptions,adjective
 3376,το κατάστρωμα,deck,палуба,B1,objects,noun
-3377,κατατεθέν,registered trademark,зарегистрированный товарный знак,B1,objects,noun
+3377,το κατατεθέν,registered trademark,зарегистрированный товарный знак,B1,objects,noun
 3378,το καταφύγιο,shelter,убежище,B1,objects,noun
 3379,η κατάψυξη,freezer,морозильник,B1,objects,noun
 3380,κατεβάζω,to lower,опускать,B1,verbs,verb
-3381,κατηγορώ,"accuse, blame","обвинять, винить",B1,society,noun
+3381,κατηγορώ,"accuse, blame","обвинять, винить",B1,society,verb
 3382,κατοικημένος,inhabited,населенный,B1,descriptions,adjective
 3383,το κατοικίδιο,pet,питомец,B1,objects,noun
 3384,κατοικούμαι,to be lived in,быть обитаемым,B1,verbs,verb
-3385,κατοικώ,"inhabit, live","населять, жить",B1,descriptions,noun
+3385,κατοικώ,"inhabit, live","населять, жить",B1,descriptions,verb
 3386,η κάτοψη,floor plan,план этажа,B1,home,noun
 3387,το κατώι,"cellar, lower floor","подвал, нижний этаж",B1,home,noun
 3388,κατώτερος,lower,ниже,B1,objects,adjective
@@ -3393,10 +3393,10 @@ id,greek,english,russian,level,group,type
 3392,καυτός,hot,горячий,B1,weather,adjective
 3393,το καφενείο,coffee shop,"кафе, кофейня",B1,food,noun
 3394,ο καφετζής,"coffee seller, barista","кофевар, бариста",B1,food,noun
-3395,Κελσίου (βαθμοί),degrees Celsius,градусы Цельсия,B1,objects,noun
+3395,Κελσίου (βαθμοί),degrees Celsius,градусы Цельсия,B1,objects,phrase
 3396,κεντάω,to embroider,вышивать,B1,verbs,verb
 3397,το κέντημα,embroidery,вышивка,B1,objects,noun
-3398,κεντρικά,centrally,централизованно,B1,space,noun
+3398,κεντρικά,centrally,централизованно,B1,space,adverb
 3399,η κεραία,antenna,антенна,B1,objects,noun
 3400,το κεραμίδι,roof tile,черепица,B1,home,noun
 3401,το κέρασμα,treat,угощение,B1,objects,noun
@@ -3475,7 +3475,7 @@ id,greek,english,russian,level,group,type
 3474,κουβεντιάζω,"to chat, to have a talk","болтать, разговаривать",B1,verbs,verb
 3475,η κουκούλα,hood,капюшон,B1,concepts,noun
 3476,το κουλούρι,bagel,бублик,B1,objects,noun
-3477,κουλούρι σουσαμένιο,sesame bagel,кунжутный бублик,B1,objects,noun
+3477,το κουλούρι σουσαμένιο,sesame bagel,кунжутный бублик,B1,objects,noun
 3478,ο κουλουρτζής,man who sells bagels,"человек, который продает бублики",B1,professions,noun
 3479,η κουλτούρα,culture,культура,B1,objects,noun
 3480,το κουμπί,button,кнопка,B1,clothes,noun
@@ -3488,7 +3488,7 @@ id,greek,english,russian,level,group,type
 3487,το κουσκούσι,cous cous,кус-кус,B1,food,noun
 3488,η κουτάλα,ladle,ковш,B1,objects,noun
 3489,το κουτάλι,spoon,ложка,B1,food,noun
-3490,κουταλάκι του γλυκού,teaspoon,чайная ложка,B1,food,noun
+3490,το κουταλάκι του γλυκού,teaspoon,чайная ложка,B1,food,noun
 3491,κουτός,"dumb, foolish","тупой, глупый",B1,descriptions,adjective
 3492,το κουτσομπολιό,gossip,сплетни,B1,objects,noun
 3493,το κούφωμα,door or window frame,дверная или оконная рама,B1,home,noun
@@ -3502,11 +3502,11 @@ id,greek,english,russian,level,group,type
 3501,η κρεβατοκάμαρα,bedroom,спальня,B1,home,noun
 3502,κρεμ,"pale yellow, cream","бледно-желтый, крем",B1,colors,adjective
 3503,κρεμαστός,hanging,"висячий, подвесной",B1,objects,adjective
-3504,κρητικός,Cretan,критский,B1,countries,noun
+3504,ο κρητικός,Cretan,критский,B1,countries,noun
 3505,κρίνομαι,"to be judged, to be rated","быть судимым, быть оценены",B1,verbs,verb
 3506,η κρίση,"judgement, decision",решение,B1,concepts,noun
 3507,το κριτήριο,criterion,критерий,B1,objects,noun
-3508,κριτής,judge,судья,B1,objects,noun
+3508,ο/η κριτής,judge,судья,B1,objects,noun
 3509,κριτικός,"critic, critical","критика, критический",B1,descriptions,adjective
 3510,η κριτική,criticism,критика,B1,concepts,noun
 3511,το κροκάδι,yolk,желток,B1,food,noun
@@ -3517,7 +3517,7 @@ id,greek,english,russian,level,group,type
 3516,το κρύωμα,"cold, flu","холодный, грипп",B1,body,noun
 3517,η κυβέρνηση,government,правительство,B1,society,noun
 3518,ο κύβος,cube,куб,B1,objects,noun
-3519,Κυκλάδες,Cyclades,Киклады,B1,geography,noun
+3519,οι Κυκλάδες,Cyclades,Киклады,B1,geography,noun
 3520,κυκλικός,"round, circular","круглый, круговой",B1,concepts,adjective
 3521,η κυκλοφορία,"circulation, traffic","циркуляция, трафик",B1,city,noun
 3522,κυκλοφοριακός,traffic,трафик,B1,city,adjective
@@ -3573,12 +3573,12 @@ id,greek,english,russian,level,group,type
 3572,λογικός,"sensible, reasonable",разумный,B1,concepts,adjective
 3573,λογιών λογιών,of all sorts,всех видов,B1,basics,particle
 3574,λογοτεχνικός,literary,литературный,B1,music,adjective
-3575,λοιπόν,"so, well","так, хорошо",B1,concepts,noun
+3575,λοιπόν,"so, well","так, хорошо",B1,concepts,particle
 3576,λούζομαι,to take a shower,принимать душ,B1,verbs,verb
 3577,το λουκάνικο,sausage,колбаса,B1,food,noun
 3578,ο λουκουμάς,doughnut,пончик,B1,food,noun
 3579,η Λωξάντρα,Loxandra,Локсандра,B1,names,noun
-3580,μ.μ.,"p.m., after noon",после полудня,B1,basics,preposition
+3580,μ.μ.,"p.m., after noon",после полудня,B1,basics,phrase
 3581,η μαγεία,magic,магия,B1,descriptions,noun
 3582,το μαγειρείο,"cookshop, cook house","кулинарная мастерская, кулинарный дом",B1,home,noun
 3583,μαγειρεμένος,cooked,приготовленный,B1,food,adjective
@@ -3660,10 +3660,10 @@ id,greek,english,russian,level,group,type
 3659,η μετατροπή,"change, modification","изменение, модификация",B1,concepts,noun
 3660,η μεταφορά,"transfer, transport","передача, транспорт",B1,city,noun
 3661,μεταφορικός,transport,транспортный,B1,city,adjective
-3662,μεταφορικά,"metaphorically, figuratively","метафорически, образно",B1,communication,noun
-3663,ο μεταφραστής,translator,переводчик,B1,verbs,verb
+3662,μεταφορικά,"metaphorically, figuratively","метафорически, образно",B1,communication,adverb
+3663,ο μεταφραστής,translator,переводчик,B1,verbs,noun
 3664,μετεωρολογικός,meteorological,метеорологический,B1,descriptions,adjective
-3665,μετεωρολόγος,meteorologist,метеоролог,B1,objects,noun
+3665,ο/η μετεωρολόγος,meteorologist,метеоролог,B1,objects,noun
 3666,η μέτρηση,measurement,измерение,B1,descriptions,noun
 3667,μετρητός,"calculable, countable","поддающийся исчислению, исчисляемый",B1,descriptions,adjective
 3668,το μέτωπο,forehead,лоб,B1,body,noun
@@ -3674,10 +3674,10 @@ id,greek,english,russian,level,group,type
 3673,ο/η μικροβιολόγος,microbiologist,микробиолог,B1,health,noun
 3674,το μικροσκόπιο,microscope,микроскоп,B1,health,noun
 3675,μικρόσωμος,"petite, little","мелкий, маленький",B1,concepts,adjective
-3676,μίνι,"very small, miniscule","очень маленький, крошечный",B1,descriptions,noun
+3676,μίνι,"very small, miniscule","очень маленький, крошечный",B1,descriptions,adjective
 3677,το μίξερ,mixer,смеситель,B1,home,noun
 3678,το μίσος,hate,ненависть,B1,feelings,noun
-3679,μισοτιμής,"at half price, very cheap","половину цены, очень дешево",B1,money,noun
+3679,ο μισοτιμής,"at half price, very cheap","половину цены, очень дешево",B1,money,noun
 3680,μισώ,to hate,ненавидеть,B1,verbs,verb
 3681,η Μογγολία,Mongolia,Монголия,B1,countries,noun
 3682,ο μόδιστρος,"fashion designer, tailor","модный дизайнер, портной",B1,professions,noun
@@ -3709,7 +3709,7 @@ id,greek,english,russian,level,group,type
 3708,το μουστάκι,mustache,усы,B1,body,noun
 3709,μπαγιάτικος,stale,несвежий,B1,objects,adjective
 3710,η μπάντα,band,группа,B1,music,noun
-3711,Μπαξέδες,Baxedes,Бакседы,B1,geography,noun
+3711,οι Μπαξέδες,Baxedes,Бакседы,B1,geography,noun
 3712,η μπαταρία,battery,аккумулятор,B1,objects,noun
 3713,το μπαχαρικό,spice,специя,B1,food,noun
 3714,το μπέικιν πάουντερ,baking powder,порошок для выпечки,B1,food,noun
@@ -3740,7 +3740,7 @@ id,greek,english,russian,level,group,type
 3739,το μυστήριο,mystery,тайна,B1,objects,noun
 3740,η μύτι,nose,нос,B1,body,noun
 3741,μωβ,purple,фиолетовый,B1,colors,adjective
-3742,νανόχηνα,lesser white-fronted goose,меньший белый гусь,B1,nature,noun
+3742,η νανόχηνα,lesser white-fronted goose,меньший белый гусь,B1,nature,noun
 3743,το ναυάγιο,shipwreck,кораблекрушение,B1,objects,noun
 3744,η Ναύπακτος,Nafpaktos,Нафпактос,B1,geography,noun
 3745,ο ναύτης,sailor,моряк,B1,professions,noun
@@ -3774,7 +3774,7 @@ id,greek,english,russian,level,group,type
 3773,η νοστιμιά,flavor,вкус,B1,food,noun
 3774,νοτιανατολικός,southeast,юго-восточный,B1,objects,adjective
 3775,ο ντάκος,dakos,дакос,B1,food,noun
-3776,ντάλα,"right in the middle of, in full blaze","прямо посреди, в самый разгар",B1,space,noun
+3776,η ντάλα,"right in the middle of, in full blaze","прямо посреди, в самый разгар",B1,space,noun
 3777,το ντεκολτέ,cleavage,декольте,B1,clothes,noun
 3778,ο ντολμάς,dolma,долма,B1,food,noun
 3779,ντόπιος,local,местный,B1,descriptions,adjective
@@ -3801,11 +3801,11 @@ id,greek,english,russian,level,group,type
 3800,ξεκουράζω,"to rest, to relax","отдыхать, расслабляться",B1,verbs,verb
 3801,η ξεκούραση,rest,отдых,B1,objects,noun
 3802,ξεκούραστος,"relaxed, rested","расслабленный, отдохнувший",B1,descriptions,adjective
-3803,ξεναγός,tour guide,экскурсовод,B1,travel,noun
+3803,ο/η ξεναγός,tour guide,экскурсовод,B1,travel,noun
 3804,το ξενύχτι,"staying out late, allnighter","опаздывать, всю ночь",B1,time,noun
 3805,ξεπερνάω,to overcome,преодолевать,B1,verbs,verb
 3806,ξερός,"dry, stale","сухой, несвежий",B1,concepts,adjective
-3807,ξεσπάω,burst,взрыв,B1,objects,noun
+3807,ξεσπάω,burst,взрыв,B1,objects,verb
 3808,το ξεφάντωμα,"revelry, fun","разгул, веселье",B1,concepts,noun
 3809,ξεφλουδίζω,to peel,очищать,B1,verbs,verb
 3810,ξεφουσκωμένος,deflated,спущенный,B1,descriptions,adjective
@@ -3820,7 +3820,7 @@ id,greek,english,russian,level,group,type
 3819,το ξύπνημα,awakening,пробуждение,B1,objects,noun
 3820,ξυρίζομαι,to shave,бриться,B1,verbs,verb
 3821,το ξύσμα,"peel, zest","цедра, кожура",B1,food,noun
-3822,όμικρον ο,the,тот,B1,objects,noun
+3822,το όμικρον ο,the,тот,B1,objects,noun
 3823,η οδήγηση,driving,вождение,B1,people,noun
 3824,οδικός,road,дорога,B1,city,adjective
 3825,η οθόνη,screen,экран,B1,objects,noun
@@ -3831,7 +3831,7 @@ id,greek,english,russian,level,group,type
 3830,οικολογικός,"ecological, eco-friendly","экологический, экологичный",B1,nature,adjective
 3831,η οικονομία,economy,экономика,B1,objects,noun
 3832,οικονομικός,"economic, cheap","экономический, дешевый",B1,clothes,adjective
-3833,οικονομικά,"economically, financially","экономически, финансово",B1,communication,noun
+3833,οικονομικά,"economically, financially","экономически, финансово",B1,communication,adverb
 3834,ο οίκος,house,дом,B1,home,noun
 3835,η Όλγα,Olga,Ольга,B1,names,noun
 3836,ολοκληρωμένος,complete,полный,B1,descriptions,adjective
@@ -3862,7 +3862,7 @@ id,greek,english,russian,level,group,type
 3861,το όριο,limit,предел,B1,objects,noun
 3862,ορισμένος,certain,определенный,B1,objects,adjective
 3863,ο ορισμός,definition,определение,B1,concepts,noun
-3864,οριστικό άρθρο,definite article,определенный артикль,B1,school,noun
+3864,το οριστικό άρθρο,definite article,определенный артикль,B1,school,noun
 3865,ο όρος,term,термин,B1,objects,noun
 3866,το οροφοδιαμέρισμα,one floor apartment,одноэтажная квартира,B1,home,noun
 3867,η ορχήστρα,orchestra,оркестр,B1,music,noun
@@ -3879,7 +3879,7 @@ id,greek,english,russian,level,group,type
 3878,το όφελος,"advantage, benefit","преимущество, выгода",B1,concepts,noun
 3879,ο/η οφθαλμίατρος,ophthalmologist,офтальмолог,B1,health,noun
 3880,το όχημα,vehicle,транспортное средство,B1,city,noun
-3881,παγάκι,ice cube,кубик льда,B1,objects,noun
+3881,το παγάκι,ice cube,кубик льда,B1,objects,noun
 3882,ο παγετώνας,glacier,ледник,B1,nature,noun
 3883,το παγκάκι,bench,скамейка,B1,home,noun
 3884,παγκόσμιος,"global, universal","глобальный, универсальный",B1,descriptions,adjective
@@ -3915,13 +3915,13 @@ id,greek,english,russian,level,group,type
 3914,ο παπάς,priest,священник,B1,objects,noun
 3915,το παπί,soaking wet,мокрый,B1,objects,noun
 3916,η πάπια,duck,утка,B1,animals,noun
-3917,παροχή,"benefit, service","льгота, услуга",B1,concepts,noun
+3917,η παροχή,"benefit, service","льгота, услуга",B1,concepts,noun
 3918,παράγομαι,to be produced,быть произведенным,B1,verbs,verb
 3919,ο παράγοντας,"factor, agent","фактор, агент",B1,descriptions,noun
 3920,η παράγραφος,paragraph,"параграф, абзац",B1,objects,noun
 3921,παράγω,to produce,производить,B1,verbs,verb
 3922,η παραγωγή,production,производство,B1,society,noun
-3923,παραγωγικός,productive,продуктивный,B1,society,noun
+3923,ο παραγωγικός,productive,продуктивный,B1,society,noun
 3924,παραδεισένιος,heavenly,небесный,B1,descriptions,adjective
 3925,παραδέχομαι,"to admit, to accept","признавать, принимать",B1,verbs,verb
 3926,παραδίδω,to deliver,доставить,B1,verbs,verb
@@ -3930,7 +3930,7 @@ id,greek,english,russian,level,group,type
 3929,η παραλαβή,"receipt, pickup","получение, пикап",B1,shopping,noun
 3930,παραλαμβάνω,to receive,получать,B1,verbs,verb
 3931,τα παράλια,coastline,береговая линия,B1,travel,noun
-3932,παράλληλα,"meanwhile, parallelly","между тем, параллельно",B1,basics,particle
+3932,παράλληλα,"meanwhile, parallelly","между тем, параллельно",B1,basics,adverb
 3933,παραμένω,"to remain, to stay",оставаться,B1,verbs,verb
 3934,παράνομος,illegal,незаконный,B1,society,adjective
 3935,παράξενος,"strange, odd",странный,B1,concepts,adjective
@@ -3954,7 +3954,7 @@ id,greek,english,russian,level,group,type
 3953,πασπαλίζω,to sprinkle,посыпать,B1,verbs,verb
 3954,το παστίτσιο,pastitsio,пастицио,B1,objects,noun
 3955,η πατατοσαλάτα,potato salad,картофельный салат,B1,food,noun
-3956,πατάω,step,"наступать, топать",B1,objects,noun
+3956,πατάω,step,"наступать, топать",B1,objects,verb
 3957,το πατίνι,"ice-skate, roller-skate","конёк, ролик",B1,concepts,noun
 3958,η πατρίδα,homeland,родина,B1,home,noun
 3959,πατρικός,paternal,отцовский,B1,descriptions,adjective
@@ -4014,7 +4014,7 @@ id,greek,english,russian,level,group,type
 4013,πιεστικός,"pressing, pushing","настойчивый, давящий",B1,concepts,adjective
 4014,η πιέτα,pleat,складка,B1,objects,noun
 4015,η πιθανότητα,possibility,возможность,B1,concepts,noun
-4016,πικάντικη,politiki salad,салат политики,B1,food,noun
+4016,η πικάντικη,politiki salad,салат политики,B1,food,noun
 4017,η πίκλα,pickle,соленье,B1,food,noun
 4018,πικρός,bitter,горький,B1,food,adjective
 4019,πικραμένος,"bitter, sad","горький, грустный",B1,feelings,adjective
@@ -4048,7 +4048,7 @@ id,greek,english,russian,level,group,type
 4047,η πλευρά,side,сторона,B1,objects,noun
 4048,πληκτρολογώ,to type,печатать,B1,verbs,verb
 4049,η πλημμύρα,flood,наводнение,B1,objects,noun
-4050,πλήρης,complete,полный,B1,descriptions,noun
+4050,πλήρης,complete,полный,B1,descriptions,adjective
 4051,πληροφοριακός,informative,познавательный,B1,descriptions,adjective
 4052,πληροφορώ,to inform,информировать,B1,verbs,verb
 4053,η πληρωμή,payment,платеж,B1,money,noun
@@ -4057,13 +4057,13 @@ id,greek,english,russian,level,group,type
 4056,ο πλούτος,wealth,богатство,B1,money,noun
 4057,το πλύσιμο,washing,стирка,B1,objects,noun
 4058,πνευματικός,intellectual,интеллектуальный,B1,descriptions,adjective
-4059,πνευματικό κέντρο,cultural club,культурный клуб,B1,objects,noun
+4059,το πνευματικό κέντρο,cultural club,культурный клуб,B1,objects,noun
 4060,ο πνεύμονας,lung,лёгкий,B1,body,noun
 4061,ο/η πνευμονολόγος,pulmonologist,пульмонолог,B1,health,noun
 4062,πνέω,"to blow, to breath","дуть, дышать",B1,verbs,verb
 4063,το ποδαρικό,first-foot luck,счастливый первый гость,B1,people,noun
 4064,ο ποδηλάτης,cyclist,велосипедист,B1,sports,noun
-4065,ποιανού,whose,чей,B1,basics,verb
+4065,ποιανού,whose,чей,B1,basics,pronoun
 4066,το ποίημα,poem,стих,B1,music,noun
 4067,η ποικιλία,"variety, selection","разнообразие, выбор",B1,concepts,noun
 4068,ο πόλεμος,war,война,B1,society,noun
@@ -4073,7 +4073,7 @@ id,greek,english,russian,level,group,type
 4072,η πολιτική,politics,политика,B1,objects,noun
 4073,ο πόλος,pole,полюс,B1,objects,noun
 4074,πολύξερος,"knowledgeable, know-it-all","обладающий знаниями, всезнайка",B1,descriptions,adjective
-4075,πολυταξιδευμένος,who has travelled extensively,кто много путешествовал,B1,travel,pronoun
+4075,πολυταξιδευμένος,who has travelled extensively,кто много путешествовал,B1,travel,adjective
 4076,η πολυτέλεια,luxury,роскошь,B1,objects,noun
 4077,πολυτελής,luxurious,роскошный,B1,descriptions,adjective
 4078,πολύτιμος,"precious, valuable","драгоценный, ценный",B1,descriptions,adjective
@@ -4081,7 +4081,7 @@ id,greek,english,russian,level,group,type
 4080,η ποπ μουσική,pop music,поп-музыка,B1,communication,noun
 4081,η Πόπη,Popi,Попи,B1,objects,noun
 4082,η πορεία,route,маршрут,B1,space,noun
-4083,πορτοκαλί,orange,оранжевый,B1,food,noun
+4083,πορτοκαλί,orange,оранжевый,B1,food,adjective
 4084,το πορτρέτο,portrait,портрет,B1,objects,noun
 4085,το ποσοστό,percentage,процент,B1,objects,noun
 4086,η ποσότητα,quantity,количество,B1,concepts,noun
@@ -4108,8 +4108,8 @@ id,greek,english,russian,level,group,type
 4107,προετοιμάζομαι,to prepare myself,подготовить себя,B1,verbs,verb
 4108,η πρόθεση,"preposition, intention","предлог, намерение",B1,school,noun
 4109,πρόθυμος,willing,желающий,B1,objects,adjective
-4110,ο προϊστάμενος,"supervisor, manager","руководитель, начальник",B1,verbs,verb
-4111,πρόκειται,"it's going to, it's about to","собираться, быть намеренным",B1,concepts,noun
+4110,ο προϊστάμενος,"supervisor, manager","руководитель, начальник",B1,verbs,noun
+4111,πρόκειται,"it's going to, it's about to","собираться, быть намеренным",B1,concepts,verb
 4112,προκλητικός,provocative,провокационный,B1,descriptions,adjective
 4113,η προκοπή,"prosperity, hard work","процветание, тяжелая работа",B1,school,noun
 4114,το προξενιό,matchmaking,сватовство,B1,objects,noun
@@ -4151,12 +4151,12 @@ id,greek,english,russian,level,group,type
 4150,η προτίμηση,preference,предпочтение,B1,concepts,noun
 4151,το προφίλ,profile,профиль,B1,communication,noun
 4152,προφορικός,oral,устный,B1,descriptions,adjective
-4153,προφορικές εξετάσεις,oral exams,устные экзамены,B1,objects,noun
+4153,οι προφορικές εξετάσεις,oral exams,устные экзамены,B1,objects,noun
 4154,προφυλάσσω,to protect,защищать,B1,verbs,verb
-4155,πρόχειρα,"casually, makeshift","наспех, временно",B1,concepts,noun
-4156,προχθές,the day before yesterday,за день до вчерашнего дня,B1,time,preposition
+4155,η πρόχειρα,"casually, makeshift","наспех, временно",B1,concepts,noun
+4156,προχθές,the day before yesterday,за день до вчерашнего дня,B1,time,adverb
 4157,προχωράω,"to move forward, to proceed","двигаться вперед, продолжать",B1,verbs,verb
-4158,πρώην,"ex, former",бывший,B1,concepts,noun
+4158,ο/η πρώην,"ex, former",бывший,B1,concepts,noun
 4159,ο πρωταγωνιστής,"protagonist, leading person","главный герой, протагонист",B1,people,noun
 4160,πρωταγωνιστικός,leading,ведущий,B1,objects,adjective
 4161,πρωταγωνιστώ,to play a leading part,играть ведущую роль,B1,verbs,verb
@@ -4171,7 +4171,7 @@ id,greek,english,russian,level,group,type
 4170,ράβω,to sew,шить,B1,verbs,verb
 4171,ραδιοφωνικός,radio,радио,B1,communication,adjective
 4172,η ρακή,raki,раки,B1,food,noun
-4173,ρακόμελο,raki with honey,раки с мёдом,B1,food,preposition
+4173,το ρακόμελο,raki with honey,раки с мёдом,B1,food,noun
 4174,η ραπ μουσική,rap music,рэп музыка,B1,communication,noun
 4175,το ράφι,shelf,полка,B1,home,noun
 4176,ο ράφτης,"tailor, seamstress","портной, швея",B1,professions,noun
@@ -4183,7 +4183,7 @@ id,greek,english,russian,level,group,type
 4182,το ρεκόρ,record,рекорд,B1,objects,noun
 4183,το ρεμπέτικο,rebetiko song,песня ребетико,B1,communication,noun
 4184,το ρετιρέ,penthouse,пентхаус,B1,home,noun
-4185,ρήμα,verb,глагол,B1,objects,noun
+4185,το ρήμα,verb,глагол,B1,objects,noun
 4186,η ρίγα,stripe,"полоска, штрих",B1,objects,noun
 4187,το ριγέ,striped,полосатый,B1,descriptions,noun
 4188,η ρίζα,root,корень,B1,objects,noun
@@ -4195,7 +4195,7 @@ id,greek,english,russian,level,group,type
 4194,ο ροδοπελεκάνος,great white pelican,большой белый пеликан,B1,objects,noun
 4195,η ρόκα,arugula,аругула,B1,food,noun
 4196,το ροκφόρ,roquefort cheese,сыр рокфор,B1,food,noun
-4197,ρολόι τοίχου,wall clock,настенные часы,B1,home,noun
+4197,το ρολόι τοίχου,wall clock,настенные часы,B1,home,noun
 4198,ρομαντικός,romantic,романтичный,B1,descriptions,adjective
 4199,η ρόμπα,robe,халат,B1,clothes,noun
 4200,το ρουζ,"rouge, blush",румяна,B1,concepts,noun
@@ -4221,7 +4221,7 @@ id,greek,english,russian,level,group,type
 4220,το σαρίκι,turban,тюрбан,B1,clothes,noun
 4221,το σαφάρι,safari,сафари,B1,travel,noun
 4222,σβησμένος,"extinct, deleted","вымерший, удаленный",B1,descriptions,adjective
-4223,σγουρομάλλης,curly haired,"кудрявый, с вьющимися волосами",B1,descriptions,noun
+4223,σγουρομάλλης,curly haired,"кудрявый, с вьющимися волосами",B1,descriptions,adjective
 4224,ο σεβασμός,respect,уважение,B1,objects,noun
 4225,σέβομαι,to respect,уважать,B1,verbs,verb
 4226,η σεζόν,season,сезон,B1,nature,noun
@@ -4244,7 +4244,7 @@ id,greek,english,russian,level,group,type
 4243,το σιδέρωμα,ironing,глажка,B1,objects,noun
 4244,σιδερώνω,to iron,гладить,B1,verbs,verb
 4245,σιδηροδρομικός,"railway, rail",железнодорожный,B1,city,adjective
-4246,σιέλ,arctic blue,арктический синий,B1,objects,noun
+4246,σιέλ,arctic blue,арктический синий,B1,objects,adjective
 4247,σιτεύω,to age meat after butchering,состарить мясо после разделки,B1,verbs,verb
 4248,σκάζω,to chap,"трескаться, лопаться",B1,verbs,verb
 4249,το σκαλί,stair step,ступенька лестницы,B1,objects,noun
@@ -4261,7 +4261,7 @@ id,greek,english,russian,level,group,type
 4260,η σκιά,shade,тень,B1,objects,noun
 4261,σκίζω,to tear,рвать,B1,verbs,verb
 4262,σκισμένος,torn,порванный,B1,objects,adjective
-4263,σκληρά,"roughly, hard","жёстко, сурово",B1,concepts,noun
+4263,σκληρά,"roughly, hard","жёстко, сурово",B1,concepts,adverb
 4264,το σκοινί,rope,веревка,B1,objects,noun
 4265,σκοπεύω,"to intend, to aim","намереваться, стремиться",B1,verbs,verb
 4266,σκοτεινός,dark,темный,B1,objects,adjective
@@ -4274,10 +4274,10 @@ id,greek,english,russian,level,group,type
 4273,το σμήνος,flock,стадо,B1,objects,noun
 4274,η Σμύρνη,Smyrna,Смирна,B1,geography,noun
 4275,η σοδειά,crop,урожай,B1,objects,noun
-4276,σοκολατί,chocolate brown,шоколадный коричневый,B1,food,noun
+4276,σοκολατί,chocolate brown,шоколадный коричневый,B1,food,adjective
 4277,ο σολομός,salmon,лосось,B1,food,noun
 4278,η σουηδική γλώσσα,Swedish language,шведский язык,B1,countries,noun
-4279,σοφιστικέ,sophisticated,сложный,B1,descriptions,noun
+4279,σοφιστικέ,sophisticated,сложный,B1,descriptions,adjective
 4280,η σοφίτα,attic,чердак,B1,descriptions,noun
 4281,η σπανακόπιτα,"spanakopita, a spinach pie","спанакопита, пирог со шпинатом",B1,food,noun
 4282,το σπανακόρυζο,spinach with rice,шпинат с рисом,B1,food,noun
@@ -4290,7 +4290,7 @@ id,greek,english,russian,level,group,type
 4289,η σπατάλη,waste,"расточительство, транжирство",B1,objects,noun
 4290,το σπιτοκαλυβάκι,very small house,очень маленький дом,B1,home,noun
 4291,το σπορ,casual,"спортивный, повседневный",B1,descriptions,noun
-4292,Σποράδες,Sporades,Спорады,B1,geography,noun
+4292,οι Σποράδες,Sporades,Спорады,B1,geography,noun
 4293,ο σπόρος,seed,семя,B1,descriptions,noun
 4294,το σπρώξιμο,push,толчок,B1,objects,noun
 4295,σπρώχνω,to push,толкать,B1,verbs,verb
@@ -4299,7 +4299,7 @@ id,greek,english,russian,level,group,type
 4298,η στάθμευση,parking,парковка,B1,city,noun
 4299,σταματημένος,"at a standstill, stopped","в режиме ожидания, остановленный",B1,descriptions,adjective
 4300,η στάση,"poise, stance","поза, позиция",B1,concepts,noun
-4301,στάση προσευχής,prayer position,молитвенная позиция,B1,space,noun
+4301,ο στάση προσευχής,prayer position,молитвенная позиция,B1,space,noun
 4302,η σταφίδα,raisin,изюм,B1,food,noun
 4303,σταχτής,grey in color,серый цвет,B1,colors,adjective
 4304,η στέγη,roof,крыша,B1,home,noun
@@ -4337,10 +4337,10 @@ id,greek,english,russian,level,group,type
 4336,το στρες,"stress, anxiety","стресс, беспокойство",B1,feelings,noun
 4337,στρογγυλός,round,круглый,B1,objects,adjective
 4338,στύβω,to squeeze,сжимать,B1,verbs,verb
-4339,συγγενής,relative,родственник,B1,descriptions,noun
+4339,ο/η συγγενής,relative,родственник,B1,descriptions,noun
 4340,συγγενικός,"kindred, related","родственный, связанный",B1,descriptions,adjective
 4341,συγκεκριμένος,specific,конкретный,B1,descriptions,adjective
-4342,συγκεκριμένα,specifically,конкретно,B1,communication,noun
+4342,συγκεκριμένα,specifically,конкретно,B1,communication,adverb
 4343,συγκεντρωμένος,focused,сосредоточенный,B1,society,adjective
 4344,συγκεντρώνω,"to gather, to collect",собирать,B1,verbs,verb
 4345,η συγκέντρωση,gathering,"сбор, концентрация",B1,objects,noun
@@ -4362,13 +4362,13 @@ id,greek,english,russian,level,group,type
 4361,το σύμβολο,symbol,символ,B1,objects,noun
 4362,συμβουλεύομαι,to consult,консультироваться,B1,verbs,verb
 4363,συμβουλευτικός,advisory,консультативный,B1,objects,adjective
-4364,σύμβουλος,"consultant, advisor","консультант, советник",B1,concepts,noun
+4364,ο/η σύμβουλος,"consultant, advisor","консультант, советник",B1,concepts,noun
 4365,η συμμαχία,alliance,союз,B1,concepts,noun
 4366,συμμαχικός,allied,союзнический,B1,concepts,adjective
 4367,η συμπάθεια,liking,симпатия,B1,feelings,noun
 4368,η συμπαράσταση,support,поддержка,B1,space,noun
 4369,το συμπέρασμα,conclusion,заключение,B1,concepts,noun
-4370,συμπερασματικά,in conclusion,в заключение,B1,concepts,noun
+4370,συμπερασματικά,in conclusion,в заключение,B1,concepts,adverb
 4371,συμπεριλαμβάνομαι,to be included,быть включенным,B1,verbs,verb
 4372,συμπεριφέρομαι,to behave,вести себя,B1,verbs,verb
 4373,συμπληρωμένος,"filled out, completed","заполненный, завершено",B1,descriptions,adjective
@@ -4382,7 +4382,7 @@ id,greek,english,russian,level,group,type
 4381,συνδυάζω,to combine,объединять,B1,verbs,verb
 4382,ο συνδυασμός,combination,сочетание,B1,concepts,noun
 4383,η συνέπεια,"consequence, consistency","последствия, согласованность",B1,concepts,noun
-4384,στη συνέχεια,"afterwards, after that","после, после этого",B1,time,preposition
+4384,στη συνέχεια,"afterwards, after that","после, после этого",B1,time,phrase
 4385,συνεχίζομαι,to be continued,быть продолжен,B1,verbs,verb
 4386,συνεχώς,constantly,постоянно,B1,descriptions,adverb
 4387,συνηθίζω,to get used to,привыкать,B1,verbs,verb
@@ -4400,13 +4400,13 @@ id,greek,english,russian,level,group,type
 4399,το σύνολο,"whole, total","целое, общая сумма",B1,descriptions,noun
 4400,η συνομιλία,conversation,разговор,B1,concepts,noun
 4401,το σύνορο,border,граница,B1,city,noun
-4402,συνταξιούχος,retired,пенсионер,B1,descriptions,noun
+4402,ο/η συνταξιούχος,retired,пенсионер,B1,descriptions,noun
 4403,ο συντελεστής,"factor, coefficient","фактор, коэффициент",B1,descriptions,noun
 4404,συντηρητικός,"conservative, preservative","консервативный, консервант",B1,descriptions,adjective
 4405,συντροφεύω,"to keep company, accompany","составлять компанию, сопровождать",B1,verbs,verb
 4406,η συντροφιά,company,компания,B1,society,noun
 4407,η συντροφικότητα,"companionship, camaraderie",товарищество,B1,concepts,noun
-4408,σύντροφος,"companion, comrade","спутник, товарищ",B1,concepts,noun
+4408,ο/η σύντροφος,"companion, comrade","спутник, товарищ",B1,concepts,noun
 4409,η Συρία,Syria,Сирия,B1,countries,noun
 4410,η συσκευασία,packaging,упаковка,B1,objects,noun
 4411,το συστατικό,ingredient,ингредиент,B1,descriptions,noun
@@ -4427,11 +4427,11 @@ id,greek,english,russian,level,group,type
 4426,σωματικός,physical,физический,B1,descriptions,adjective
 4427,το σωσίβιο,lifejacket,спасательный жилет,B1,clothes,noun
 4428,ο Σωτήρης,Sotiris,Сотирис,B1,names,noun
-4429,τ.μ.,"m2 , square metre","м2, квадратный метр",B1,city,noun
+4429,τ.μ.,"m2 , square metre","м2, квадратный метр",B1,city,phrase
 4430,το τάβλι,backgammon,нарды,B1,objects,noun
 4431,το ταγέρ,suit,костюм,B1,objects,noun
 4432,η Ταϊλάνδη,Thailand,Таиланд,B1,countries,noun
-4433,ταινία μικρού μήκος,short film,короткометражный фильм,B1,music,noun
+4433,ο ταινία μικρού μήκος,short film,короткометражный фильм,B1,music,noun
 4434,το τακούνι,heel,каблук,B1,objects,noun
 4435,τακτοποιώ,"to settle, to arrange","урегулировать, организовывать",B1,verbs,verb
 4436,ταλαιπωρούμαι,to have a rough time,"мучиться, тяжело переносить",B1,verbs,verb
@@ -4484,9 +4484,9 @@ id,greek,english,russian,level,group,type
 4483,τούρκικος,Turkish,турецкий,B1,countries,adjective
 4484,τραγικός,tragic,трагический,B1,descriptions,adjective
 4485,η τραπεζαρία,dining room,столовая,B1,home,noun
-4486,τραυματίας,"injured, wounded",раненый,B1,descriptions,noun
+4486,ο/η τραυματίας,"injured, wounded",раненый,B1,descriptions,noun
 4487,τρείς,three,три,B1,time,numeral
-4488,τρεμοσβήνω,flicker,мерцать,B1,objects,noun
+4488,τρεμοσβήνω,flicker,мерцать,B1,objects,verb
 4489,τρέμω,to shiver,дрожать,B1,verbs,verb
 4490,τρέφομαι,"to be fed, to be nourished","питаться, кормиться",B1,verbs,verb
 4491,το τριαντάφυλλο,rose,роза,B1,objects,noun
@@ -4505,7 +4505,7 @@ id,greek,english,russian,level,group,type
 4504,ο τσαγκάρης,"shoemaker, cobbler",сапожник,B1,clothes,noun
 4505,η τσέπη,pocket,карман,B1,clothes,noun
 4506,τσιγκούνης,"stingy, miserly","скупой, жадный",B1,descriptions,adjective
-4507,τσιμέντο,"cement, concrete","цемент, бетон",B1,concepts,noun
+4507,το τσιμέντο,"cement, concrete","цемент, бетон",B1,concepts,noun
 4508,τσιμπάω,to pinch,щипать,B1,verbs,verb
 4509,το τσίμπημα,"pinch, sting","щипок, укус",B1,concepts,noun
 4510,το τσίπουρο,tsipouro,ципуро,B1,objects,noun
@@ -4600,7 +4600,7 @@ id,greek,english,russian,level,group,type
 4599,ο φόρος,tax,налог,B1,society,noun
 4600,φορτώνω,to load,загружать,B1,verbs,verb
 4601,ο φούρνος μικροκυμάτων,microwave oven,микроволновая печь,B1,home,noun
-4602,του φούρνου,food cooked in the oven,"пища, приготовленная в духовке",B1,food,noun
+4602,του φούρνου,food cooked in the oven,"пища, приготовленная в духовке",B1,food,phrase
 4603,φουσκώνω,"to expand, to inflate","расширять, раздувать",B1,verbs,verb
 4604,το φράγμα,dam,плотина,B1,objects,noun
 4605,η φράουλα,strawberry,клубника,B1,food,noun
@@ -4624,7 +4624,7 @@ id,greek,english,russian,level,group,type
 4623,φωτογραφικός,photographic,фотографический,B1,descriptions,adjective
 4624,φωτοτυπικός,photocopying,фотокопирование,B1,objects,adjective
 4625,φωτοτυπώ,to photocopy,ксерокопировать,B1,verbs,verb
-4626,χαγιάτι,covered veranda,крытая веранда,B1,home,noun
+4626,το χαγιάτι,covered veranda,крытая веранда,B1,home,noun
 4627,χαδιάρης,"affectionate, cuddly","ласковый, любящий ласку",B1,descriptions,adjective
 4628,τα χαιρετίσματα,greetings,приветствие,B1,communication,noun
 4629,χακί,khaki,хаки,B1,colors,adjective
@@ -4635,12 +4635,12 @@ id,greek,english,russian,level,group,type
 4634,ο χαλβάς,halva,халва,B1,food,noun
 4635,η χαλκόκοτα,glossy ibis,каравайка,B1,nature,noun
 4636,χαμένος,lost,потерянный,B1,objects,adjective
-4637,χαμηλά,low,низко,B1,objects,noun
+4637,χαμηλά,low,низко,B1,objects,adverb
 4638,χαμηλώνω,to lower,опускать,B1,verbs,verb
 4639,χαμογελαστός,smiling,улыбающийся,B1,objects,adjective
 4640,χαμογελάω,to smile,улыбаться,B1,verbs,verb
 4641,ο χαμός,"a bit of a mess, commotion","беспорядок, суматоха",B1,concepts,noun
-4642,χάνι,"inn, hostel","гостиница, общежитие",B1,concepts,noun
+4642,το χάνι,"inn, hostel","гостиница, общежитие",B1,concepts,noun
 4643,χαρακτηριστικός,"typical, characteristic","типичный, характерный",B1,society,adjective
 4644,η χάρη,favor,"одолжение, услуга",B1,objects,noun
 4645,ο χάρος,death,смерть,B1,objects,noun
@@ -4648,7 +4648,7 @@ id,greek,english,russian,level,group,type
 4647,χάρτινος,"papery, made of paper","бумажный, изготовленный из бумаги",B1,school,adjective
 4648,ο χασάπης,butcher,мясник,B1,objects,noun
 4649,το χάσιμο,loss,потеря,B1,objects,noun
-4650,χάσιμο χρόνου,a waste of time,трата времени,B1,time,noun
+4650,το χάσιμο χρόνου,a waste of time,трата времени,B1,time,noun
 4651,χασμουριέμαι,to yawn,зевать,B1,verbs,verb
 4652,το χασομέρι,"wasting time, idling","пустая трата времени, безделье",B1,concepts,noun
 4653,το χείλι,lip,губа,B1,objects,noun
@@ -4685,7 +4685,7 @@ id,greek,english,russian,level,group,type
 4684,το χρήμα,money,деньги,B1,money,noun
 4685,χρηματοδοτώ,"to fund, to finance",финансировать,B1,verbs,verb
 4686,χρήσιμος,useful,полезный,B1,society,adjective
-4687,Χριστίνα,Christina,Христина,B1,names,noun
+4687,η Χριστίνα,Christina,Христина,B1,names,noun
 4688,χρονικός,temporal,временной,B1,descriptions,adjective
 4689,χρυσός,golden,золотой,B1,colors,adjective
 4690,το χρυσάφι,gold,золото,B1,descriptions,noun
@@ -4699,7 +4699,7 @@ id,greek,english,russian,level,group,type
 4698,ο χτίστης,builder,строитель,B1,professions,noun
 4699,το χτύπημα,hit,удар,B1,objects,noun
 4700,ο χυλός,porridge,каша,B1,food,noun
-4701,χύμα,"loose, in bulk","россыпью, без упаковки",B1,concepts,noun
+4701,χύμα,"loose, in bulk","россыпью, без упаковки",B1,concepts,adverb
 4702,το χώμα,"soil, earth","почва, земля",B1,weather,noun
 4703,η χωματερή,"rubbish dump, garbage dump",мусорная свалка,B1,concepts,noun
 4704,χωμάτινος,earthen,земляной,B1,descriptions,adjective
