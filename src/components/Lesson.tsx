@@ -95,6 +95,7 @@ function Lesson({
   onChangeUiLanguage,
 }: LessonProps) {
   const showAudioButton = question.promptLanguage === 'el';
+  const showPromptExample = question.promptLanguage === 'el' && Boolean(question.example);
   const selectedChoice = currentResponse?.selectedAnswer ?? null;
   const reportIssueLabel = uiLanguage === 'ru' ? '\u0421\u043e\u043e\u0431\u0449\u0438\u0442\u044c \u043e\u0431 \u043e\u0448\u0438\u0431\u043a\u0435' : 'Report issue';
   const reportedIssueLabel = uiLanguage === 'ru' ? '\u041e\u0442\u043f\u0440\u0430\u0432\u043b\u0435\u043d\u043e' : 'Reported';
@@ -148,7 +149,7 @@ function Lesson({
         </div>
         <div className={styles.promptText}>
           <span className={styles.promptMain}>{question.prompt}</span>
-          {question.example && <span className={styles.promptExample}>{question.example}</span>}
+          {showPromptExample && <span className={styles.promptExample}>{question.example}</span>}
         </div>
       </div>
       <p className={styles.promptLabel}>{currentPromptLabel}</p>
