@@ -146,7 +146,10 @@ function Lesson({
             )}
           </div>
         </div>
-        <div className={styles.promptText}>{question.prompt}</div>
+        <div className={styles.promptText}>
+          <span className={styles.promptMain}>{question.prompt}</span>
+          {question.example && <span className={styles.promptExample}>{question.example}</span>}
+        </div>
       </div>
       <p className={styles.promptLabel}>{currentPromptLabel}</p>
 

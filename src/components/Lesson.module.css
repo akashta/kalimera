@@ -170,10 +170,22 @@
   place-items: center;
   align-self: stretch;
   text-align: center;
+  gap: 8px;
+  padding: 0 6px;
+}
+
+.promptMain {
   font-size: clamp(1.8rem, 10vw, 2.8rem);
   font-weight: 700;
   line-height: 1.05;
-  padding: 0 6px;
+}
+
+.promptExample {
+  font-size: clamp(0.92rem, 3.8vw, 1.05rem);
+  line-height: 1.35;
+  font-weight: 500;
+  color: #4e6156;
+  max-width: min(100%, 28rem);
 }
 
 .choiceGrid {
@@ -267,7 +279,15 @@
   }
 
   .promptText {
+    gap: 6px;
+  }
+
+  .promptMain {
     font-size: clamp(1.6rem, 9vw, 2.3rem);
+  }
+
+  .promptExample {
+    font-size: 0.9rem;
   }
 
   .choiceButton {

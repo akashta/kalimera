@@ -194,6 +194,7 @@ function createQuestion(
     promptLanguage,
     answerLanguage,
     correctAnswer,
+    example: word.example,
     choices: choiceEntries.map((entry) => entry.label),
     choiceWordIds: choiceEntries.map((entry) => entry.wordId),
     isReview,

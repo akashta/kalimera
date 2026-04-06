@@ -64,6 +64,7 @@ export interface Word {
   level: Level;
   group: WordGroupId;
   type: WordType;
+  example?: string;
 }
 
 export interface WordProgress {
@@ -102,6 +103,7 @@ export interface LessonQuestion {
   promptLanguage: LanguageCode;
   answerLanguage: LanguageCode;
   correctAnswer: string;
+  example?: string;
   choices: string[];
   choiceWordIds: string[];
   isReview: boolean;
