@@ -190,7 +190,7 @@ id,greek,english,russian,level,group,type,example
 189,αυστριακός,Austrian,Австрийский,A2,countries,adjective,Ο αυστριακός πολιτισμός είναι πλούσιος και ιδιαίτερος.
 190,το αυτί,ear,ухо,A2,body,noun,Με πονάει το αυτί μου από χθες.
 191,το αυτοκίνητο,car,автомобиль,A2,city,noun,Πήγα στη δουλειά με το αυτοκίνητο.
-192,αυτός,"he, she","он, она",A2,basics,pronoun,Αυτός είναι ο καλύτερος φίλος μου.
+192,αυτός,he,он,A2,basics,pronoun,Αυτός είναι ο καλύτερος φίλος μου.
 193,το αφεντικό,boss,босс,A2,school,noun,Το αφεντικό μου είναι πολύ απαιτητικό.
 194,αφήνω,"to leave, to let","оставлять, позволять",A2,verbs,verb,Αφήνω τα κλειδιά μου πάντα στο τραπέζι.
 195,η αφίσα,poster,плакат,A2,communication,noun,Κόλλησα μια αφίσα στον τοίχο του δωματίου μου.
@@ -1781,7 +1781,7 @@ id,greek,english,russian,level,group,type,example
 1780,η Καλλιόπη,Kalliopi,Каллиопи,A2,names,noun,η Καλλιόπη μένει κοντά μας.
 1781,η Καμάρα,Galerius arch,Галерийская арка,A2,geography,noun,η Καμάρα είναι όμορφη.
 1782,το κανάλι,"channel, TV station","канал, телеканал",A2,city,noun,το κανάλι είναι όμορφο.
-1783,να,"any, anybody",любой,A2,basics,particle,Να το κλειδί σου.
+1783,να,"let, to","пусть, чтобы",A2,basics,particle,Να το κλειδί σου.
 1784,κανονικός,"normal, regular","нормальный, регулярно",A2,concepts,adjective,Ο τρόπος είναι κανονικός.
 1785,κανονικά,"normally, regularly","нормально, регулярно",A2,descriptions,adverb,Μιλάει κανονικά.
 1786,πόσο κάνει;,how much does it cost?,сколько это стоит?,A2,money,phrase,Πόσο κάνει αυτό;
@@ -2334,7 +2334,7 @@ id,greek,english,russian,level,group,type,example
 2333,η Αμοργός,Amorgos,Аморгос,B1,geography,noun,η Αμοργός είναι όμορφη.
 2334,αμυγδαλωτός,almondshaped,миндалевидный,B1,food,adjective,Ο καφές είναι αμυγδαλωτός.
 2335,η άμυνα,defence,оборона,B1,concepts,noun,η άμυνα είναι σημαντική.
-2336,αν και,"although, even though","хотя и, даже если",B1,basics,conjunction,"Αν και κουρασμένος, συνέχισε."
+2336,αν και,"although, even though","хотя, несмотря на то что",B1,basics,conjunction,"Αν και κουρασμένος, συνέχισε."
 2337,αναγκάζομαι,"to be forced, to be obliged","быть вынужденным, быть обязанным",B1,verbs,verb,Τώρα αναγκάζομαι λίγο.
 2338,αναγκάζω,"to force, to oblige","принуждать, обязывать",B1,verbs,verb,Τώρα αναγκάζω λίγο.
 2339,αναγκαίος,"necessary, essential",необходимый,B1,feelings,adjective,Ο τρόπος είναι αναγκαίος.
