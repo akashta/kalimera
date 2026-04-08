@@ -109,6 +109,10 @@ function Lesson({
     setIsReportSent(hasReportedIssue);
   }, [hasReportedIssue, question.answerLanguage, question.promptLanguage, question.wordId]);
 
+  const answeredQuestions = questionIndex + (currentResponse ? 1 : 0);
+  const progressPercent =
+    activeLesson.questions.length === 0 ? 0 : (answeredQuestions / activeLesson.questions.length) * 100;
+
   return (
     <section className={`${ui.panel} ${styles.lessonPanel} ${styles.lessonScreen}`}>
       <div className={styles.lessonHeader}>
@@ -121,10 +125,10 @@ function Lesson({
           <BackIcon />
         </button>
         <div className={styles.progressTrack}>
-          <span className={styles.progressFill} style={{ width: `${((questionIndex + 1) / activeLesson.questions.length) * 100}%` }} />
+          <span className={styles.progressFill} style={{ width: `${progressPercent}%` }} />
         </div>
         <span className={styles.progressText}>
-          {questionIndex + 1} / {activeLesson.questions.length}
+          {answeredQuestions} / {activeLesson.questions.length}
         </span>
       </div>
       <div className={styles.promptCard}>
